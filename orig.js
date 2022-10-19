@@ -7584,16 +7584,20 @@ content.body.objects.forEach(async el => {
     }
   }
 
-  // if (el.id == 'template_texture') {
-  //   const htmlObj = findHtmlObj('template_texture');
-  //   el.src = removeHtmlUrl(htmlObj.dataValue.src);
-  //   if (htmlObj.dataValue.src !== el.src) {
-  //     const imgObj = await getDimensions(el.src);
-  //     setStyles(el, imgObj);
-  //   }
-  // }
-
   if (el.type == 'textbox') {
+    if (
+      el.id.includes('general_information_text_') ||
+      el.id.includes('additional_information_text_')
+    ) {
+      const matchID = el.id.match(/\d/gm);
+      const container = findHtmlObj(`table_item_${matchID.join('')}`);
+
+      for (let i = 0; i < 20; i++) {
+        el.visible = true
+          ? container.styles.display === ''
+          : container.styles.display === 'none';
+      }
+    }
     const htmlObj = findHtmlObj(el.id);
     copyTextStyles(el.id, htmlObj);
   }
@@ -7614,120 +7618,6 @@ content.body.objects.forEach(async el => {
 //   //   //   obj.strokeWidth = 0;
 //   //   // }
 
-//   if (el.type == 'group' && el.id.includes('item_table_background_')) {
-//     const png = {
-//       type: 'image',
-//       left: el.left + 6.9930311965144,
-//       top: el.top + 7.574273843514062,
-//       width: 720,
-//       height: 711,
-//       cornerSize: 9,
-//       scaleX: 0.05140686120950704,
-//       scaleY: 0.05140686120950704,
-//       id: el.id,
-//       className: 'blendPicture',
-//       src: 'https://gipper-static-assets.s3.amazonaws.com/stock_images/stain.png',
-//       shadow: {
-//         color: '#000000',
-//         blur: 4.8,
-//         offsetX: 0,
-//         offsetY: 0,
-//         nonScaling: true
-//       },
-//       appliedFilters: {
-//         blend_filter: {
-//           value: 'BlendColor',
-//           params: {
-//             color: el.objects[1].fill,
-//             mode: 'multiply',
-//             alpha: 1
-//           }
-//         },
-//         opacity_filter: {
-//           value: 'ColorMatrix',
-//           params: {
-//             matrix: [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]
-//           }
-//         }
-//       },
-//       valueToRestore: {
-//         table_item_9: {
-//           styles: {
-//             display: 'visible',
-//             top: 'top',
-//             left: 'left'
-//           },
-//           item_table_background_9: {
-//             styles: {
-//               fill: 'fill'
-//             }
-//           }
-//         }
-//       },
-//       hiddenContros: true
-//     };
-//     array[index] = png;
-//   }
-
-//   if (el.id == 'paint_splatter_2') {
-//     el.type = 'image';
-//     delete el.pathLink;
-//     el.src =
-//       'https://gipper-static-assets.s3.amazonaws.com/stock_images/paint_splatter_1010.png';
-//     el.className = 'blendPicture';
-//     el.appliedFilters = {
-//       blend_filter: {
-//         value: 'BlendColor',
-//         params: {
-//           color: el.fill,
-//           mode: 'multiply',
-//           alpha: 1
-//         }
-//       },
-//       opacity_filter: {
-//         value: 'ColorMatrix',
-//         params: {
-//           matrix: [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]
-//         }
-//       }
-//     };
-//     delete el.fill;
-//   }
-
-//   if (el.id == 'legend_wrapper') {
-//     el.objects.forEach(item => {
-//       if (item.type == 'path') {
-//         item.type = 'image';
-//         item.width = 720;
-//         item.height = 711;
-//         item.scaleX = 0.027518837820967295;
-//         item.scaleY = 0.027518837820967295;
-//         item.className = 'blendPicture';
-//         item.src =
-//           'https://gipper-static-assets.s3.amazonaws.com/stock_images/stain.png';
-//         item.appliedFilters = {
-//           blend_filter: {
-//             value: 'BlendColor',
-//             params: {
-//               color: item.fill,
-//               mode: 'multiply',
-//               alpha: 1
-//             }
-//           },
-//           opacity_filter: {
-//             value: 'ColorMatrix',
-//             params: {
-//               matrix: [
-//                 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0
-//               ]
-//             }
-//           }
-//         };
-//         delete item.fill;
-//         delete item.pathLink;
-//         delete item.dataLegendName;
-//       }
-//     });
 //   }
 // });
 
