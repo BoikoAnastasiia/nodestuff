@@ -3160,7 +3160,8 @@ const content = {
 const html = [
   {
     styles: {
-      backgroundImage: 'url("/assets/template_657_team.jpg")',
+      backgroundImage:
+        'url("https://s3.amazonaws.com/platform-gipper/DGhCdJYBPauTqWEb11QPY1iS")',
       display: 'block'
     },
     identifier: 'background_placeholder_for_template_photo',
@@ -3172,7 +3173,8 @@ const html = [
     identifier: 'buffer_image_for_template_photo',
     dataValue: {},
     dataSet: {
-      clearsrc: 'https://platform.gogipper.com/assets/template_657_team.jpg'
+      clearsrc:
+        'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/DGhCdJYBPauTqWEb11QPY1iS'
     }
   },
   {
@@ -3197,7 +3199,7 @@ const html = [
   {
     styles: {
       backgroundImage:
-        'url("https://s3.amazonaws.com/platform-gipper/njG45M6rMowor5sYoe65VdN4")',
+        'url("https://s3.amazonaws.com/platform-gipper/Kv6XfMVwDe5c2eXVp8yGUpC5")',
       display: 'block'
     },
     identifier: 'background_placeholder_for_template_image_bg',
@@ -3210,7 +3212,7 @@ const html = [
     dataValue: {},
     dataSet: {
       clearsrc:
-        'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/njG45M6rMowor5sYoe65VdN4'
+        'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/Kv6XfMVwDe5c2eXVp8yGUpC5'
     }
   },
   {
@@ -3272,7 +3274,7 @@ const html = [
   {
     styles: {
       backgroundImage:
-        'url("https://s3.amazonaws.com/platform-gipper/m3qiakZXjzbyYXPvcUQHuNd7")'
+        'url("https://s3.amazonaws.com/platform-gipper/pGFCPSPW8zQLFXfzH3LeNK4K")'
     },
     identifier: 'logo_placeholder_for_logo',
     dataValue: {},
@@ -3281,11 +3283,11 @@ const html = [
   {
     styles: {},
     identifier: 'multi_main_color',
-    dataValue: { value: '4F2683' },
+    dataValue: { value: '3E4EFF' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(79, 38, 131)' },
+    styles: { backgroundColor: 'rgb(62, 78, 255)' },
     identifier: 'preview_for_multi_main_color',
     dataValue: {},
     dataSet: {}
@@ -3293,11 +3295,11 @@ const html = [
   {
     styles: {},
     identifier: 'multi_secondary_color',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_multi_secondary_color',
     dataValue: {},
     dataSet: {}
@@ -3305,11 +3307,11 @@ const html = [
   {
     styles: {},
     identifier: 'multi_tertiary_color',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_multi_tertiary_color',
     dataValue: {},
     dataSet: {}
@@ -3317,13 +3319,13 @@ const html = [
   {
     styles: {},
     identifier: 'headline_text',
-    dataValue: { value: 'CAC Soccer Schedule' },
+    dataValue: { value: 'Friday Athletic Events' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'select_size_for_headline',
-    dataValue: { value: '17' },
+    dataValue: { value: '20' },
     dataSet: {}
   },
   {
@@ -3335,11 +3337,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_headline',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_headline',
     dataValue: {},
     dataSet: {}
@@ -3347,7 +3349,7 @@ const html = [
   {
     styles: {},
     identifier: 'title_text',
-    dataValue: { value: '2022 SCHEDULE' },
+    dataValue: { value: 'December 17th ' },
     dataSet: {}
   },
   {
@@ -3365,11 +3367,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_title',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_title',
     dataValue: {},
     dataSet: {}
@@ -3389,11 +3391,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_all_general_information_text',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_all_general_information_text',
     dataValue: {},
     dataSet: {}
@@ -3413,11 +3415,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_all_additional_information_text',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_all_additional_information_text',
     dataValue: {},
     dataSet: {}
@@ -3515,11 +3517,11 @@ const html = [
   {
     styles: {},
     identifier: 'home_options_color',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_home_options_color',
     dataValue: {},
     dataSet: {}
@@ -3527,11 +3529,11 @@ const html = [
   {
     styles: {},
     identifier: 'away_options_color',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_away_options_color',
     dataValue: {},
     dataSet: {}
@@ -3551,7 +3553,7 @@ const html = [
   {
     styles: {},
     identifier: 'control_events',
-    dataValue: { value: '19' },
+    dataValue: { value: '2' },
     dataSet: {}
   },
   {
@@ -3563,7 +3565,7 @@ const html = [
   {
     styles: {
       backgroundImage:
-        'url("https://s3.amazonaws.com/platform-gipper/2Ms2UcrhUvuT32a4kWcmV3ah")'
+        'url("https://s3.amazonaws.com/platform-gipper/pGFCPSPW8zQLFXfzH3LeNK4K")'
     },
     identifier: 'logo_placeholder_for_logo_item_1',
     dataValue: {},
@@ -3572,19 +3574,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_1',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_1',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_1',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: true },
     dataSet: {}
   },
   {
@@ -3596,13 +3598,13 @@ const html = [
   {
     styles: {},
     identifier: 'general_information_text_1_text',
-    dataValue: { value: 'GIPPER EAST HIGH' },
+    dataValue: { value: '7/8 Boys Basketball' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'select_size_for_general_information_text_1',
-    dataValue: { value: '24' },
+    dataValue: { value: '35' },
     dataSet: {}
   },
   {
@@ -3614,11 +3616,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_1',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_1',
     dataValue: {},
     dataSet: {}
@@ -3626,13 +3628,13 @@ const html = [
   {
     styles: {},
     identifier: 'additional_information_text_1_text',
-    dataValue: { value: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
+    dataValue: { value: 'at Fairview 4:00' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'select_size_for_additional_information_text_1',
-    dataValue: { value: '14' },
+    dataValue: { value: '25' },
     dataSet: {}
   },
   {
@@ -3644,11 +3646,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_1',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_1',
     dataValue: {},
     dataSet: {}
@@ -3661,7 +3663,8 @@ const html = [
   },
   {
     styles: {
-      backgroundImage: 'url("/assets/new_image/StockLogo(DarkBlue)-01.png")'
+      backgroundImage:
+        'url("https://s3.amazonaws.com/platform-gipper/qnUuJn3Tc6CQfBgHBqy8fdPQ")'
     },
     identifier: 'logo_placeholder_for_logo_item_2',
     dataValue: {},
@@ -3670,19 +3673,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_2',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_2',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_2',
-    dataValue: { value: 'FFFFFF', selected: true },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -3694,13 +3697,13 @@ const html = [
   {
     styles: {},
     identifier: 'general_information_text_2_text',
-    dataValue: { value: 'GIPPER EAST HIGH' },
+    dataValue: { value: 'JV/V Boys Basketball' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'select_size_for_general_information_text_2',
-    dataValue: { value: '24' },
+    dataValue: { value: '35' },
     dataSet: {}
   },
   {
@@ -3712,11 +3715,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_2',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_2',
     dataValue: {},
     dataSet: {}
@@ -3724,13 +3727,13 @@ const html = [
   {
     styles: {},
     identifier: 'additional_information_text_2_text',
-    dataValue: { value: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
+    dataValue: { value: 'Home vs. Eisenhower 6:00' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'select_size_for_additional_information_text_2',
-    dataValue: { value: '14' },
+    dataValue: { value: '25' },
     dataSet: {}
   },
   {
@@ -3742,24 +3745,25 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_2',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_2',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_3',
     dataValue: {},
     dataSet: {}
   },
   {
     styles: {
-      backgroundImage: 'url("/assets/new_image/StockLogo(DarkBlue)-01.png")'
+      backgroundImage:
+        'url("https://s3.amazonaws.com/platform-gipper/mteiyzY1NkWqn9GqapVCBshn")'
     },
     identifier: 'logo_placeholder_for_logo_item_3',
     dataValue: {},
@@ -3768,19 +3772,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_3',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_3',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_3',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: true },
     dataSet: {}
   },
   {
@@ -3792,7 +3796,7 @@ const html = [
   {
     styles: {},
     identifier: 'general_information_text_3_text',
-    dataValue: { value: 'GIPPER EAST HIGH' },
+    dataValue: { value: 'Boys Soccer' },
     dataSet: {}
   },
   {
@@ -3810,11 +3814,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_3',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_3',
     dataValue: {},
     dataSet: {}
@@ -3822,13 +3826,13 @@ const html = [
   {
     styles: {},
     identifier: 'additional_information_text_3_text',
-    dataValue: { value: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
+    dataValue: { value: 'at Eisenhower 4:00' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'select_size_for_additional_information_text_3',
-    dataValue: { value: '14' },
+    dataValue: { value: '17' },
     dataSet: {}
   },
   {
@@ -3840,17 +3844,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_3',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_3',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_4',
     dataValue: {},
     dataSet: {}
@@ -3872,13 +3876,13 @@ const html = [
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_4',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_4',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -3908,11 +3912,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_4',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_4',
     dataValue: {},
     dataSet: {}
@@ -3938,17 +3942,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_4',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_4',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_5',
     dataValue: {},
     dataSet: {}
@@ -3964,19 +3968,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_5',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_5',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_5',
-    dataValue: { value: 'FFFFFF', selected: true },
+    dataValue: { value: 'EEEFF7', selected: true },
     dataSet: {}
   },
   {
@@ -4006,11 +4010,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_5',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_5',
     dataValue: {},
     dataSet: {}
@@ -4036,17 +4040,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_5',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_5',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_6',
     dataValue: {},
     dataSet: {}
@@ -4062,19 +4066,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_6',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_6',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_6',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -4104,11 +4108,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_6',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_6',
     dataValue: {},
     dataSet: {}
@@ -4134,17 +4138,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_6',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_6',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_7',
     dataValue: {},
     dataSet: {}
@@ -4160,19 +4164,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_7',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_7',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_7',
-    dataValue: { value: 'FFFFFF', selected: true },
+    dataValue: { value: 'EEEFF7', selected: true },
     dataSet: {}
   },
   {
@@ -4202,11 +4206,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_7',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_7',
     dataValue: {},
     dataSet: {}
@@ -4232,17 +4236,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_7',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_7',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_8',
     dataValue: {},
     dataSet: {}
@@ -4258,19 +4262,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_8',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_8',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_8',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -4300,11 +4304,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_8',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_8',
     dataValue: {},
     dataSet: {}
@@ -4330,17 +4334,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_8',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_8',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_9',
     dataValue: {},
     dataSet: {}
@@ -4356,19 +4360,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_9',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_9',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_9',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -4398,11 +4402,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_9',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_9',
     dataValue: {},
     dataSet: {}
@@ -4428,17 +4432,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_9',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_9',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_10',
     dataValue: {},
     dataSet: {}
@@ -4454,19 +4458,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_10',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_10',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_10',
-    dataValue: { value: 'FFFFFF', selected: true },
+    dataValue: { value: 'EEEFF7', selected: true },
     dataSet: {}
   },
   {
@@ -4496,11 +4500,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_10',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_10',
     dataValue: {},
     dataSet: {}
@@ -4526,17 +4530,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_10',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_10',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_11',
     dataValue: {},
     dataSet: {}
@@ -4552,19 +4556,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_11',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_11',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_11',
-    dataValue: { value: 'FFFFFF', selected: true },
+    dataValue: { value: 'EEEFF7', selected: true },
     dataSet: {}
   },
   {
@@ -4594,11 +4598,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_11',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_11',
     dataValue: {},
     dataSet: {}
@@ -4624,17 +4628,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_11',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_11',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_12',
     dataValue: {},
     dataSet: {}
@@ -4650,19 +4654,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_12',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_12',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_12',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -4692,11 +4696,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_12',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_12',
     dataValue: {},
     dataSet: {}
@@ -4722,17 +4726,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_12',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_12',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_13',
     dataValue: {},
     dataSet: {}
@@ -4748,19 +4752,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_13',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_13',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_13',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -4790,11 +4794,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_13',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_13',
     dataValue: {},
     dataSet: {}
@@ -4820,17 +4824,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_13',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_13',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_14',
     dataValue: {},
     dataSet: {}
@@ -4846,19 +4850,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_14',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_14',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_14',
-    dataValue: { value: 'FFFFFF', selected: true },
+    dataValue: { value: 'EEEFF7', selected: true },
     dataSet: {}
   },
   {
@@ -4888,11 +4892,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_14',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_14',
     dataValue: {},
     dataSet: {}
@@ -4918,17 +4922,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_14',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_14',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_15',
     dataValue: {},
     dataSet: {}
@@ -4950,13 +4954,13 @@ const html = [
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_15',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_15',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -4986,11 +4990,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_15',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_15',
     dataValue: {},
     dataSet: {}
@@ -5016,17 +5020,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_15',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_15',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_16',
     dataValue: {},
     dataSet: {}
@@ -5042,19 +5046,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_16',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_16',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_16',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -5084,11 +5088,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_16',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_16',
     dataValue: {},
     dataSet: {}
@@ -5114,17 +5118,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_16',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_16',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_17',
     dataValue: {},
     dataSet: {}
@@ -5140,19 +5144,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_17',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_17',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_17',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -5182,11 +5186,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_17',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_17',
     dataValue: {},
     dataSet: {}
@@ -5212,17 +5216,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_17',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_17',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_18',
     dataValue: {},
     dataSet: {}
@@ -5238,19 +5242,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_18',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_18',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_18',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -5280,11 +5284,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_18',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_18',
     dataValue: {},
     dataSet: {}
@@ -5310,17 +5314,17 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_18',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_18',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { display: '' },
+    styles: { display: 'none' },
     identifier: 'controller_wrapper_legend_19',
     dataValue: {},
     dataSet: {}
@@ -5336,19 +5340,19 @@ const html = [
   {
     styles: {},
     identifier: 'select_color_location_item_19',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_19',
-    dataValue: { value: 'B1953A', selected: true },
+    dataValue: { value: 'FCFF23', selected: true },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_19',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -5378,11 +5382,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_19',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_19',
     dataValue: {},
     dataSet: {}
@@ -5408,11 +5412,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_19',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_19',
     dataValue: {},
     dataSet: {}
@@ -5440,13 +5444,13 @@ const html = [
   {
     styles: {},
     identifier: 'home_color_for_legend_icon_info_20',
-    dataValue: { value: 'B1953A', selected: false },
+    dataValue: { value: 'FCFF23', selected: false },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'away_color_for_legend_icon_info_20',
-    dataValue: { value: 'FFFFFF', selected: false },
+    dataValue: { value: 'EEEFF7', selected: false },
     dataSet: {}
   },
   {
@@ -5476,11 +5480,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_general_information_text_20',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_general_information_text_20',
     dataValue: {},
     dataSet: {}
@@ -5506,11 +5510,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_additional_information_text_20',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_additional_information_text_20',
     dataValue: {},
     dataSet: {}
@@ -5518,13 +5522,13 @@ const html = [
   {
     styles: {},
     identifier: 'hashtag_text',
-    dataValue: { value: '#GOGIPPER' },
+    dataValue: { value: '#ONEROAR' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'select_size_for_hashtag',
-    dataValue: { value: '11' },
+    dataValue: { value: '15' },
     dataSet: {}
   },
   {
@@ -5536,11 +5540,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_hashtag',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_hashtag',
     dataValue: {},
     dataSet: {}
@@ -5562,11 +5566,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_paint_splatter_2',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_paint_splatter_2',
     dataValue: {},
     dataSet: {}
@@ -5598,11 +5602,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_background_for_logo',
-    dataValue: { value: '4F2683' },
+    dataValue: { value: '3E4EFF' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(79, 38, 131)' },
+    styles: { backgroundColor: 'rgb(62, 78, 255)' },
     identifier: 'preview_for_background_for_logo',
     dataValue: {},
     dataSet: {}
@@ -5610,11 +5614,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_overlay_for_logo',
-    dataValue: { value: '4F2683' },
+    dataValue: { value: '3E4EFF' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(79, 38, 131)' },
+    styles: { backgroundColor: 'rgb(62, 78, 255)' },
     identifier: 'preview_for_overlay_for_logo',
     dataValue: {},
     dataSet: {}
@@ -5622,11 +5626,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_main_background',
-    dataValue: { value: '4F2683' },
+    dataValue: { value: '3E4EFF' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(79, 38, 131)' },
+    styles: { backgroundColor: 'rgb(62, 78, 255)' },
     identifier: 'preview_for_main_background',
     dataValue: {},
     dataSet: {}
@@ -5634,11 +5638,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_legend_icon_home',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_legend_icon_home',
     dataValue: {},
     dataSet: {}
@@ -5646,11 +5650,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_legend_icon_away',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_legend_icon_away',
     dataValue: {},
     dataSet: {}
@@ -5706,11 +5710,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_1',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_item_table_background_1',
     dataValue: {},
     dataSet: {}
@@ -5718,11 +5722,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_2',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_2',
     dataValue: {},
     dataSet: {}
@@ -5730,11 +5734,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_3',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_item_table_background_3',
     dataValue: {},
     dataSet: {}
@@ -5754,11 +5758,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_5',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_item_table_background_5',
     dataValue: {},
     dataSet: {}
@@ -5766,11 +5770,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_6',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_6',
     dataValue: {},
     dataSet: {}
@@ -5778,11 +5782,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_7',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_item_table_background_7',
     dataValue: {},
     dataSet: {}
@@ -5790,11 +5794,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_8',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_8',
     dataValue: {},
     dataSet: {}
@@ -5802,11 +5806,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_9',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_9',
     dataValue: {},
     dataSet: {}
@@ -5814,11 +5818,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_10',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_item_table_background_10',
     dataValue: {},
     dataSet: {}
@@ -5826,11 +5830,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_11',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_item_table_background_11',
     dataValue: {},
     dataSet: {}
@@ -5838,11 +5842,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_12',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_12',
     dataValue: {},
     dataSet: {}
@@ -5850,11 +5854,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_13',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_13',
     dataValue: {},
     dataSet: {}
@@ -5862,11 +5866,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_14',
-    dataValue: { value: 'FFFFFF' },
+    dataValue: { value: 'EEEFF7' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(255, 255, 255)' },
+    styles: { backgroundColor: 'rgb(238, 239, 247)' },
     identifier: 'preview_for_color_for_item_table_background_14',
     dataValue: {},
     dataSet: {}
@@ -5886,11 +5890,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_16',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_16',
     dataValue: {},
     dataSet: {}
@@ -5898,11 +5902,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_17',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_17',
     dataValue: {},
     dataSet: {}
@@ -5910,11 +5914,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_18',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_18',
     dataValue: {},
     dataSet: {}
@@ -5922,11 +5926,11 @@ const html = [
   {
     styles: {},
     identifier: 'color_for_item_table_background_19',
-    dataValue: { value: 'B1953A' },
+    dataValue: { value: 'FCFF23' },
     dataSet: {}
   },
   {
-    styles: { backgroundColor: 'rgb(177, 149, 58)' },
+    styles: { backgroundColor: 'rgb(252, 255, 35)' },
     identifier: 'preview_for_color_for_item_table_background_19',
     dataValue: {},
     dataSet: {}
@@ -5944,7 +5948,7 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { background: 'rgb(79, 38, 131)' },
+    styles: { background: 'rgb(62, 78, 255)' },
     identifier: 'main_background',
     dataValue: {},
     dataSet: {}
@@ -5979,10 +5983,10 @@ const html = [
   },
   {
     styles: {
-      top: '292.539px',
-      left: '159px',
-      width: '138px',
-      height: '78.9219px',
+      top: '17.151px',
+      left: '10px',
+      width: '60px',
+      height: '57.666px',
       display: '',
       backgroundColor: ''
     },
@@ -5996,76 +6000,76 @@ const html = [
       marginTop: '',
       top: '',
       left: '',
-      width: '138px',
-      height: '78.9219px'
+      width: '60px',
+      height: '57.666px'
     },
     identifier: 'logo',
     dataValue: {
-      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/m3qiakZXjzbyYXPvcUQHuNd7'
+      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/pGFCPSPW8zQLFXfzH3LeNK4K'
     },
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(255, 255, 255)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'paint_splatter_2',
     dataValue: {},
     dataSet: {}
   },
   {
     styles: {
-      color: 'rgb(177, 149, 58)',
-      fontSize: '',
+      color: 'rgb(252, 255, 35)',
+      fontSize: '20px',
       top: '391px',
       left: '237px'
     },
     identifier: 'headline',
-    dataValue: { innerText: 'CAC Soccer Schedule' },
+    dataValue: { innerText: 'Friday Athletic Events' },
     dataSet: {}
   },
   {
     styles: {
-      color: 'rgb(255, 255, 255)',
+      color: 'rgb(238, 239, 247)',
       fontSize: '',
       top: '400px',
       left: '240px'
     },
     identifier: 'title',
-    dataValue: { innerText: '2022 SCHEDULE' },
+    dataValue: { innerText: 'December 17th' },
     dataSet: {}
   },
   {
     styles: {
-      color: 'rgb(177, 149, 58)',
-      fontSize: '',
+      color: 'rgb(252, 255, 35)',
+      fontSize: '15px',
       top: '507px',
       left: '922px'
     },
     identifier: 'hashtag',
-    dataValue: { innerText: '#GOGIPPER' },
+    dataValue: { innerText: '#ONEROAR' },
     dataSet: {}
   },
   {
     styles: {},
     identifier: 'table_list_container',
     dataValue: {},
-    dataSet: { activeItemLenght: '19' }
+    dataSet: { activeItemLenght: '2' }
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '-5.8px', left: '10.5px', display: '' },
     identifier: 'table_item_1',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'item_table_background_1',
     dataValue: {},
     dataSet: {}
   },
   {
     styles: {
-      top: '5px',
-      left: '6px',
+      top: '4.99515px',
+      left: '5.99515px',
       width: '',
       height: '',
       display: '',
@@ -6086,52 +6090,62 @@ const html = [
     },
     identifier: 'logo_item_1',
     dataValue: {
-      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/2Ms2UcrhUvuT32a4kWcmV3ah'
+      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/pGFCPSPW8zQLFXfzH3LeNK4K'
     },
     dataSet: {}
   },
   {
-    styles: { top: '2px', left: '38px' },
+    styles: { top: '-15.3px', left: '47px' },
     identifier: 'general_information_wrapper_1',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '35px',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_1',
-    dataValue: { innerText: 'GIPPER EAST HIGH' },
+    dataValue: { innerText: '7/8 Boys Basketball' },
     dataSet: {}
   },
   {
-    styles: { top: '22px', left: '41px' },
+    styles: { top: '23.9px', left: '47px' },
     identifier: 'additional_information_wrapper_1',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '25px',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_1',
-    dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
+    dataValue: { innerText: 'at Fairview 4:00' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '43.9844px', left: '10.5px', display: '' },
     identifier: 'table_item_2',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(255, 255, 255)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_2',
     dataValue: {},
     dataSet: {}
   },
   {
     styles: {
-      top: '6.89845px',
+      top: '12.8281px',
       left: '6px',
-      width: '23px',
-      height: '27.2031px',
+      width: '22.998px',
+      height: '15.332px',
       display: '',
       backgroundColor: ''
     },
@@ -6145,57 +6159,67 @@ const html = [
       marginTop: '',
       top: '',
       left: '',
-      width: '23px',
-      height: '27.2031px'
+      width: '22.998px',
+      height: '15.332px'
     },
     identifier: 'logo_item_2',
     dataValue: {
-      src: 'https://platform.gogipper.com/assets/new_image/StockLogo(DarkBlue)-01.png'
+      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/qnUuJn3Tc6CQfBgHBqy8fdPQ'
     },
     dataSet: {}
   },
   {
-    styles: { top: '2px', left: '38px' },
+    styles: { top: '0px', left: '40px' },
     identifier: 'general_information_wrapper_2',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '35px',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_2',
-    dataValue: { innerText: 'GIPPER EAST HIGH' },
+    dataValue: { innerText: 'JV/V Boys Basketball' },
     dataSet: {}
   },
   {
-    styles: { top: '22px', left: '41px' },
+    styles: { top: '37.499px', left: '36.7px' },
     identifier: 'additional_information_wrapper_2',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '25px',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_2',
-    dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
+    dataValue: { innerText: 'Home vs. Eisenhower 6:00' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_3',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'item_table_background_3',
     dataValue: {},
     dataSet: {}
   },
   {
     styles: {
-      top: '5px',
+      top: '5.3711px',
       left: '6px',
       width: '23px',
-      height: '31px',
+      height: '30.25px',
       display: '',
       backgroundColor: ''
     },
@@ -6209,12 +6233,12 @@ const html = [
       marginTop: '',
       top: '',
       left: '',
-      width: '',
-      height: ''
+      width: '23px',
+      height: '30.25px'
     },
     identifier: 'logo_item_3',
     dataValue: {
-      src: 'https://platform.gogipper.com/assets/new_image/StockLogo(DarkBlue)-01.png'
+      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/mteiyzY1NkWqn9GqapVCBshn'
     },
     dataSet: {}
   },
@@ -6225,9 +6249,14 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '24px',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_3',
-    dataValue: { innerText: 'GIPPER EAST HIGH' },
+    dataValue: { innerText: 'Boys Soccer' },
     dataSet: {}
   },
   {
@@ -6237,13 +6266,18 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '17px',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_3',
-    dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
+    dataValue: { innerText: 'at Eisenhower 4:00' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_4',
     dataValue: {},
     dataSet: {}
@@ -6289,7 +6323,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_4',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6301,19 +6340,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_4',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_5',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(255, 255, 255)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'item_table_background_5',
     dataValue: {},
     dataSet: {}
@@ -6353,7 +6397,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_5',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6365,19 +6414,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_5',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_6',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_6',
     dataValue: {},
     dataSet: {}
@@ -6417,7 +6471,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_6',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6429,19 +6488,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_6',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_7',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(255, 255, 255)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'item_table_background_7',
     dataValue: {},
     dataSet: {}
@@ -6481,7 +6545,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_7',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6493,19 +6562,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_7',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_8',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_8',
     dataValue: {},
     dataSet: {}
@@ -6545,7 +6619,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_8',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6557,19 +6636,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_8',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_9',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_9',
     dataValue: {},
     dataSet: {}
@@ -6609,7 +6693,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_9',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6621,29 +6710,34 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_9',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_10',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(255, 255, 255)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'item_table_background_10',
     dataValue: {},
     dataSet: {}
   },
   {
     styles: {
-      top: '5px',
+      top: '6.89845px',
       left: '6px',
       width: '23px',
-      height: '31px',
+      height: '27.2031px',
       display: '',
       backgroundColor: ''
     },
@@ -6657,8 +6751,8 @@ const html = [
       marginTop: '',
       top: '',
       left: '',
-      width: '',
-      height: ''
+      width: '23px',
+      height: '27.2031px'
     },
     identifier: 'logo_item_10',
     dataValue: {
@@ -6673,7 +6767,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_10',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6685,19 +6784,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_10',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_11',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(255, 255, 255)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'item_table_background_11',
     dataValue: {},
     dataSet: {}
@@ -6737,7 +6841,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_11',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6749,19 +6858,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_11',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_12',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_12',
     dataValue: {},
     dataSet: {}
@@ -6801,7 +6915,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_12',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6813,19 +6932,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_12',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_13',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_13',
     dataValue: {},
     dataSet: {}
@@ -6865,7 +6989,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_13',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6877,19 +7006,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_13',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_14',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(255, 255, 255)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'item_table_background_14',
     dataValue: {},
     dataSet: {}
@@ -6929,7 +7063,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_14',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -6941,13 +7080,18 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_14',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_15',
     dataValue: {},
     dataSet: {}
@@ -6993,7 +7137,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_15',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -7005,19 +7154,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_15',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_16',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_16',
     dataValue: {},
     dataSet: {}
@@ -7057,7 +7211,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_16',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -7069,19 +7228,24 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_16',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_17',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_17',
     dataValue: {},
     dataSet: {}
@@ -7121,7 +7285,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_17',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -7133,29 +7302,34 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_17',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_18',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_18',
     dataValue: {},
     dataSet: {}
   },
   {
     styles: {
-      top: '5px',
+      top: '6.89845px',
       left: '6px',
       width: '23px',
-      height: '31px',
+      height: '27.2031px',
       display: '',
       backgroundColor: ''
     },
@@ -7169,8 +7343,8 @@ const html = [
       marginTop: '',
       top: '',
       left: '',
-      width: '',
-      height: ''
+      width: '23px',
+      height: '27.2031px'
     },
     identifier: 'logo_item_18',
     dataValue: {
@@ -7185,7 +7359,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_18',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -7197,29 +7376,34 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_18',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
   },
   {
-    styles: { top: '0px', left: '0px', display: '' },
+    styles: { top: '0px', left: '0px', display: 'none' },
     identifier: 'table_item_19',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'item_table_background_19',
     dataValue: {},
     dataSet: {}
   },
   {
     styles: {
-      top: '5px',
+      top: '6.89845px',
       left: '6px',
       width: '23px',
-      height: '31px',
+      height: '27.2031px',
       display: '',
       backgroundColor: ''
     },
@@ -7233,8 +7417,8 @@ const html = [
       marginTop: '',
       top: '',
       left: '',
-      width: '',
-      height: ''
+      width: '23px',
+      height: '27.2031px'
     },
     identifier: 'logo_item_19',
     dataValue: {
@@ -7249,7 +7433,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_19',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -7261,7 +7450,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_19',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
@@ -7313,7 +7507,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(177, 149, 58)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(252, 255, 35)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'general_information_text_20',
     dataValue: { innerText: 'GIPPER EAST HIGH' },
     dataSet: {}
@@ -7325,7 +7524,12 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { color: 'rgb(255, 255, 255)', fontSize: '', top: '', left: '' },
+    styles: {
+      color: 'rgb(238, 239, 247)',
+      fontSize: '',
+      top: '',
+      left: ''
+    },
     identifier: 'additional_information_text_20',
     dataValue: { innerText: 'NOV. 1 • 4:30 PM • GIPPER ARENA' },
     dataSet: {}
@@ -7349,7 +7553,7 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(177, 149, 58)' },
+    styles: { fill: 'rgb(252, 255, 35)' },
     identifier: 'legend_icon_home',
     dataValue: {},
     dataSet: {}
@@ -7367,7 +7571,7 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { fill: 'rgb(255, 255, 255)' },
+    styles: { fill: 'rgb(238, 239, 247)' },
     identifier: 'legend_icon_away',
     dataValue: {},
     dataSet: {}
@@ -7379,7 +7583,7 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { display: 'block' },
+    styles: { display: 'none' },
     identifier: 'legent_container_neutral',
     dataValue: {},
     dataSet: {}
@@ -7397,13 +7601,13 @@ const html = [
     dataSet: {}
   },
   {
-    styles: { background: 'rgb(79, 38, 131)' },
+    styles: { background: 'rgb(62, 78, 255)' },
     identifier: 'overlay_for_logo',
     dataValue: {},
     dataSet: {}
   },
   {
-    styles: { background: 'rgb(79, 38, 131)' },
+    styles: { background: 'rgb(62, 78, 255)' },
     identifier: 'background_for_logo',
     dataValue: {},
     dataSet: {}
@@ -7415,14 +7619,14 @@ const html = [
       width: 'auto',
       height: '540px',
       marginTop: '0px',
-      marginLeft: '-182px',
+      marginLeft: '-142.5px',
       marginRight: '',
       marginBottom: '',
-      transform: 'rotate(0deg) scale(1)'
+      transform: 'rotate(0deg)'
     },
     identifier: 'template_photo',
     dataValue: {
-      src: 'https://platform.gogipper.com/assets/template_657_team.jpg'
+      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/DGhCdJYBPauTqWEb11QPY1iS'
     },
     dataSet: { deg: '0' }
   },
@@ -7433,20 +7637,20 @@ const html = [
       width: 'auto',
       height: '540px',
       marginTop: '0px',
-      marginLeft: '-6.5px',
+      marginLeft: '-31px',
       marginRight: '',
       marginBottom: '',
       transform: 'rotate(0deg)'
     },
     identifier: 'template_image_bg',
     dataValue: {
-      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/njG45M6rMowor5sYoe65VdN4'
+      src: 'https://platform.gogipper.com/pictures/proxy_image?url=https://s3.amazonaws.com/platform-gipper/Kv6XfMVwDe5c2eXVp8yGUpC5'
     },
     dataSet: { deg: '0' }
   },
   {
     styles: {
-      opacity: '1',
+      opacity: '0',
       display: 'block',
       width: 'auto',
       height: '540px',
@@ -7498,39 +7702,64 @@ async function getDimensions(src) {
       const all = Promise.all(arr);
       const result = await all;
 
-      const final = result.filter(it => it.status == 200);
+      const final = result.filter(it => it.statusText == 'OK');
 
       const url = final[0].config.url;
-      const imgObj = await probe(url);
+      !final[0] && console.log(src);
 
+      const imgObj = await probe(url);
       return imgObj;
     } catch (error) {
       console.log(error.message);
     }
   }
-  console.log(src);
+
   return src;
 }
 
 content.body.objects.forEach(async el => {
-  const setStyles = (obj, imgObj) => {
-    obj.scaleX = (obj.scaleX * obj.width) / (imgObj.width / 100) / 100;
-    obj.scaleY = obj.scaleX;
-    obj.width = imgObj.width;
-    obj.height = imgObj.height;
-    obj.reserveSrc = imgObj.url;
-    obj.src = imgObj.url;
+  const setStyles = (obj, imgObj, imgCopy) => {
+    const htmlContainer = findHtmlObj(obj.id + '_container');
+    const htmlWrapper = findHtmlObj(obj.id + '_wrapper');
+    const htmlObj = findHtmlObj(obj.id);
+
+    obj.scaleX =
+      (obj.scaleX * obj.width) / (imgObj.width / 100) / 100
+        ? (obj.scaleX * obj.width) / (imgObj.width / 100) / 100
+        : imgCopy.scaleX;
+    obj.scaleY = obj.scaleX ? obj.scaleX : imgCopy.scaleY;
+    obj.width = imgObj.width ? imgObj.width : imgCopy.width;
+    obj.height = imgObj.height ? imgObj.height : imgCopy.height;
+    obj.reserveSrc = imgObj.url ? imgObj.url : imgCopy.src;
+    obj.src = imgObj.url ? imgObj.url : imgCopy.src;
+
+    if (htmlContainer && htmlContainer.styles) {
+      obj.left = parseInt(htmlContainer.styles.left);
+      obj.top = parseInt(htmlContainer.styles.top);
+    }
+    if (htmlWrapper && htmlWrapper.styles) {
+      obj.left = parseInt(htmlWrapper.styles.left);
+      obj.top = parseInt(htmlWrapper.styles.top);
+    }
+    if (
+      (htmlObj && htmlObj.styles && obj.id == 'template_photo') ||
+      obj.id == 'template_image_bg'
+    ) {
+      obj.left = parseInt(htmlObj.styles.marginLeft);
+      obj.top = parseInt(htmlObj.styles.marginTop);
+    }
   };
 
-  const copyTextStyles = (id, obj) => {
-    const text = findHtmlObj(`${id}_text`);
-    const fontFamily = findHtmlObj(`select_font_for_${id}`);
-    const fontSize = findHtmlObj(`select_size_for_${id}`);
-    const fill = findHtmlObj(`color_for_${id}`);
-    obj.fontSize = fontSize.dataValue.value;
-    obj.text = text.dataValue.value;
-    obj.fill = fill.dataValue.value;
-    obj.fontFamily = fontFamily.dataValue.value;
+  const copyTextStyles = el => {
+    const text = findHtmlObj(`${el.id}_text`);
+    const fontFamily = findHtmlObj(`select_font_for_${el.id}`);
+    const fontSize = findHtmlObj(`select_size_for_${el.id}`);
+    const fill = findHtmlObj(`color_for_${el.id}`);
+
+    el.fontSize = fontSize.dataValue.value;
+    el.text = text.dataValue.value;
+    el.fill = fill.dataValue.value;
+    el.fontFamily = fontFamily.dataValue.value;
   };
 
   const findHtmlObj = id => html.find(obj => obj.identifier == id);
@@ -7562,9 +7791,16 @@ content.body.objects.forEach(async el => {
     return src;
   };
 
-  el.id == 'main_background' &&
-    (el.fill = html.find(obj => obj.identifier == 'color_for_main_background'))
-      .styles.backgroundColor;
+  if (
+    el.type == 'textbox' &&
+    (el.id.includes('general_information_text_') ||
+      el.id.includes('additional_information_text_'))
+  ) {
+    el.id == 'main_background' &&
+      (el.fill = findHtmlObj(
+        'preview_for_main_background'
+      ).styles.backgroundColor);
+  }
 
   if (
     el.type == 'image' &&
@@ -7572,6 +7808,7 @@ content.body.objects.forEach(async el => {
     !el.id.includes('item_table_background_') &&
     !el.id.includes('paint_splatter_2')
   ) {
+    const imgCopy = { ...el };
     const htmlObj = findHtmlObj(el.id);
 
     el.src = removeHtmlUrl(htmlObj.dataValue.src);
@@ -7580,7 +7817,7 @@ content.body.objects.forEach(async el => {
       htmlObj.dataValue.src.includes('https://s3.amazonaws.com/platform-gipper')
     ) {
       const imgObj = await getDimensions(el.src);
-      setStyles(el, imgObj);
+      setStyles(el, imgObj, imgCopy);
     }
   }
 
@@ -7592,14 +7829,63 @@ content.body.objects.forEach(async el => {
       const matchID = el.id.match(/\d/gm);
       const container = findHtmlObj(`table_item_${matchID.join('')}`);
 
-      for (let i = 0; i < 20; i++) {
-        el.visible = true
-          ? container.styles.display === ''
-          : container.styles.display === 'none';
-      }
+      el.visible = true
+        ? container.styles.display === ''
+        : container.styles.display === 'none';
     }
+    copyTextStyles(el);
+  }
+
+  if (el.id && el.id.includes('logo_item_')) {
+    const matchID = el.id.match(/\d/gm);
+    const container = findHtmlObj(`table_item_${matchID.join('')}`);
+
+    el.visible = true
+      ? container.styles.display === ''
+      : container.styles.display === 'none';
+  }
+
+  if (el.id && el.id.includes('item_table_background_')) {
+    const matchID = el.id.match(/\d/gm);
+    const htmlContainer = findHtmlObj(`table_item_${matchID.join('')}`);
+    const htmlColor = findHtmlObj(`item_table_background_${matchID.join('')}`);
+
+    const userColor = htmlColor.styles.fill;
+    el.appliedFilters.blend_filter.params.color = userColor;
+    el.visible = true
+      ? htmlContainer.styles.display === ''
+      : htmlContainer.styles.display === 'none';
+  }
+
+  if (el.id === 'template_image_bg') {
+    const userColor =
+      findHtmlObj('overlay_for_logo').styles.background.localeCompare;
+    el.appliedFilters.blend_filter.params.color = userColor;
+  }
+
+  if (el.id === 'legend_wrapper') {
     const htmlObj = findHtmlObj(el.id);
-    copyTextStyles(el.id, htmlObj);
+    el.left = htmlObj.styles.left - 5.5;
+    el.top = htmlObj.styles.top - 4;
+    el.objects.forEach(obj => {
+      if (obj.id == 'legend_icon_home') {
+        obj.appliedFilters.blend_filter.params.color = findHtmlObj(
+          obj.id
+        ).styles.fill;
+      }
+
+      if (obj.id == 'legend_icon_away') {
+        obj.appliedFilters.blend_filter.params.color = findHtmlObj(
+          obj.id
+        ).styles.fill;
+      }
+
+      if (obj.id == 'legend_icon_neutral') {
+        obj.appliedFilters.blend_filter.params.color = findHtmlObj(
+          obj.id
+        ).styles.fill;
+      }
+    });
   }
 
   fs.writeFileSync('./modified.json', JSON.stringify(content), err => {
