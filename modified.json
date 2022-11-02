@@ -9,7 +9,7 @@
         "top": 0,
         "width": 960,
         "height": 540,
-        "fill": "rgb(62, 78, 255)",
+        "fill": "#002554",
         "id": "main_background",
         "selectable": false,
         "evented": false,
@@ -23,16 +23,16 @@
         "type": "image",
         "originX": "left",
         "originY": "top",
-        "left": -142,
+        "left": -28,
         "top": 0,
-        "width": 3402,
-        "height": 2271,
-        "scaleX": 0.24134021801894234,
-        "scaleY": 0.24134021801894234,
+        "width": 499,
+        "height": 499,
+        "scaleX": 1.645369582566016,
+        "scaleY": 1.645369582566016,
         "id": "template_photo",
         "idToRestore": "template_photo",
         "className": "backgroundPicture",
-        "src": "https://s3.amazonaws.com/platform-gipper/DGhCdJYBPauTqWEb11QPY1iS.png",
+        "src": "https://s3.amazonaws.com/platform-gipper/3iaHoGuAqAY7vDt74Mx7zo9p.png",
         "clipPath": {
           "type": "rect",
           "originX": "left",
@@ -46,22 +46,22 @@
         },
         "conrolTitle": "Media",
         "canUseVideo": true,
-        "reserveSrc": "https://s3.amazonaws.com/platform-gipper/DGhCdJYBPauTqWEb11QPY1iS.png"
+        "reserveSrc": "https://s3.amazonaws.com/platform-gipper/3iaHoGuAqAY7vDt74Mx7zo9p.png"
       },
       {
         "type": "image",
         "originX": "left",
         "originY": "top",
-        "left": -31,
-        "top": 0,
-        "width": 300,
-        "height": 300,
-        "scaleX": 1.59,
-        "scaleY": 1.59,
+        "left": 484.96830744689714,
+        "top": -12.5,
+        "width": 665,
+        "height": 788,
+        "scaleX": 0.7172932330827068,
+        "scaleY": 0.7172932330827068,
         "id": "template_image_bg",
         "idToRestore": "template_image_bg",
         "className": "logoPicture",
-        "src": "https://s3.amazonaws.com/platform-gipper/Kv6XfMVwDe5c2eXVp8yGUpC5.jpeg",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images//StockLogo(DarkBlueWhite)-01.png",
         "clipPath": {
           "type": "rect",
           "originX": "left",
@@ -89,8 +89,7 @@
             "params": { "mode": "tint", "alpha": 0.9 }
           }
         },
-        "conrolTitle": "Background Photo",
-        "reserveSrc": "https://s3.amazonaws.com/platform-gipper/Kv6XfMVwDe5c2eXVp8yGUpC5.jpeg"
+        "conrolTitle": "Background Photo"
       },
       {
         "type": "rect",
@@ -160,15 +159,15 @@
         "type": "textbox",
         "originX": "center",
         "originY": "top",
-        "left": 237.07667632684792,
-        "top": 391.7615146046505,
+        "left": 240,
+        "top": 373,
         "width": 418,
         "height": 16,
-        "fill": "FCFF23",
-        "text": "Friday Athletic Events",
-        "fontSize": "20",
+        "fill": "FFFFFF",
+        "text": "GODWIN GIRL'S BASKETBALL",
+        "fontSize": "55",
         "fontWeight": 400,
-        "fontFamily": "Druk-Wide-Medium",
+        "fontFamily": "Druk-Heavy",
         "lineHeight": 1,
         "textAlign": "center",
         "charSpacing": 15,
@@ -187,17 +186,18 @@
           "select_font_for_headline": { "dataValue": { "value": "fontFamily" } }
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
-        "conrolTitle": "Headline:"
+        "conrolTitle": "Headline:",
+        "color": null
       },
       {
         "type": "textbox",
         "originX": "center",
         "originY": "top",
-        "left": 238.5320520975134,
-        "top": 392.2386416919288,
+        "left": 240,
+        "top": 414,
         "width": 430,
-        "fill": "EEEFF7",
-        "text": "December 17th ",
+        "fill": "fcd504",
+        "text": "2022 SCHEDULE",
         "fontSize": "148",
         "fontWeight": 400,
         "fontFamily": "Druk-XCond-Super",
@@ -219,17 +219,18 @@
           "select_font_for_title": { "dataValue": { "value": "fontFamily" } }
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
-        "conrolTitle": "Title:"
+        "conrolTitle": "Title:",
+        "color": null
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 30.318188922571824,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "7/8 Boys Basketball",
-        "fontSize": "35",
+        "fill": "FFFFFF",
+        "text": "ORCHARD VIEW",
+        "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -258,13 +259,13 @@
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 53.076385498046875,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "at Fairview 4:00",
-        "fontSize": "25",
+        "fill": "fcd504",
+        "text": "NOV 30 ",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -294,13 +295,13 @@
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 30.318188922571824,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "JV/V Boys Basketball",
-        "fontSize": "35",
+        "fill": "FFFFFF",
+        "text": "GODFREY LEE",
+        "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -329,13 +330,13 @@
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 53.076385498046875,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "Home vs. Eisenhower 6:00",
-        "fontSize": "25",
+        "fill": "fcd504",
+        "text": "DEC 7",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -364,12 +365,12 @@
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 76.11366122900128,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "Boys Soccer",
+        "fill": "FFFFFF",
+        "text": "Canceled ",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -395,17 +396,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 3 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 98.05902099609375,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "at Eisenhower 4:00",
-        "fontSize": "17",
+        "fill": "fcd504",
+        "text": "DEC 9",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -430,16 +431,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 3 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 76.11366122900128,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "MUSKEGON HEIGHTS",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -465,17 +466,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 4 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 98.05902099609375,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "DEC 14",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -500,16 +501,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 4 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 120.90913353543075,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "UNION",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -535,17 +536,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 5 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 143.04165649414062,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "DEC 17",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -570,16 +571,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 5 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 120.90913353543075,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "COMSTOCK PARK",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -605,17 +606,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 6 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 143.04165649414062,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "JAN 7",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -640,17 +641,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 6 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 166.15909446128597,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
-        "fontSize": "24",
+        "fill": "FFFFFF",
+        "text": "NORTHPOINTE CHRISTIAN",
+        "fontSize": "21",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -675,17 +676,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 7 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 188.0242919921875,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "JAN 11",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -710,16 +711,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 7 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 166.15909446128597,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "CALVIN CHRISTIAN",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -745,17 +746,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 8 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 188.0242919921875,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "JAN 14",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -780,16 +781,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 8 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 210.96604229822105,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "BELDING",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -815,17 +816,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 9 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 233.0069580078125,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "JAN 18",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -850,16 +851,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 9 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 210.96604229822105,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "HOPKINS",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -885,17 +886,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 10 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 233.0069580078125,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "JAN 21",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -920,16 +921,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 10 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 256.2,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "SPARTA",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -955,17 +956,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 11 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 277.9895935058594,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "JAN 25",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -990,16 +991,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 11 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 256.2,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "KELLOGGSVILLE",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -1025,17 +1026,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 12 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 277.9895935058594,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "JAN 28",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1060,16 +1061,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 12 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 300.4614364563608,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "TRI-UNITY CHRISTIAN",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -1095,17 +1096,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 13 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 322.9721984863281,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "JAN 29",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1130,16 +1131,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 13 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 300.4614364563608,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "COMSTOCK PARK",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -1165,17 +1166,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 14 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 322.9721984863281,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "FEB 4",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1200,17 +1201,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 14 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 345.80242014336454,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
-        "fontSize": "24",
+        "fill": "FFFFFF",
+        "text": "NORTHPOINTE CHRISTIAN",
+        "fontSize": "21",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1235,17 +1236,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 15 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 367.9548645019531,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "FEB 8",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1270,16 +1271,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 15 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 345.80242014336454,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "CALVIN CHRISTIAN",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -1305,17 +1306,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 16 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 367.9548645019531,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "FEB 11",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1340,16 +1341,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 16 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 391.1434038303684,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "BELDING",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -1375,17 +1376,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 17 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 412.9375305175781,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "FEB 15",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1410,16 +1411,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 17 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 391.1434038303684,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "HOPKINS",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -1445,17 +1446,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 18 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 412.9375305175781,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "FEB 18",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1480,16 +1481,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 18 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 562.5,
-        "top": 435.4048402867293,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "SPARTA",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -1515,17 +1516,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 19 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 567.1557439233401,
-        "top": 457.9201354980469,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "FEB 22",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1550,16 +1551,16 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 19 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 784.4965209960938,
-        "top": 435.4048402867293,
+        "left": 38,
+        "top": 2,
         "width": 143.60627912349855,
         "height": 24,
-        "fill": "FCFF23",
-        "text": "GIPPER EAST HIGH",
+        "fill": "FFFFFF",
+        "text": "KELLOGGSVILLE",
         "fontSize": "24",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
@@ -1585,17 +1586,17 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 20 General Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "textbox",
-        "left": 788.9080615738116,
-        "top": 457.9201354980469,
+        "left": 41,
+        "top": 22,
         "width": 145.6328955915451,
         "height": 13,
-        "fill": "EEEFF7",
-        "text": "NOV. 1 • 4:30 PM • GIPPER ARENA",
-        "fontSize": "14",
+        "fill": "fcd504",
+        "text": "FEB 25",
+        "fontSize": "20",
         "fontWeight": 400,
         "fontFamily": "UnitedSansCond-Heavy",
         "lineHeight": 1,
@@ -1620,12 +1621,12 @@
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
         "conrolTitle": "Event 20 Additional Information:",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645774,
-        "top": 32.72486084002024,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -1645,7 +1646,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(238, 239, 247)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -1670,8 +1671,8 @@
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 32.72486084002024,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -1691,7 +1692,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -1716,8 +1717,8 @@
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 77.24560198737252,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -1737,7 +1738,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(238, 239, 247)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -1758,12 +1759,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 77.24560198737252,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -1783,7 +1784,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(137, 136, 137)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -1804,12 +1805,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 123.33762174361017,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -1829,7 +1830,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(238, 239, 247)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -1850,12 +1851,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 123.33762174361017,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -1875,7 +1876,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -1896,12 +1897,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 167.61385502058528,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -1921,7 +1922,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(238, 239, 247)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -1942,12 +1943,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 167.61385502058528,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -1967,7 +1968,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -1988,12 +1989,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 212.5928572543001,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2013,7 +2014,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2034,12 +2035,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 212.5928572543001,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2059,7 +2060,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(238, 239, 247)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2080,12 +2081,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 257.5718594880149,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2105,7 +2106,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(238, 239, 247)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2126,12 +2127,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 257.5718594880149,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2151,7 +2152,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2172,12 +2173,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 302.5508617217297,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2197,7 +2198,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2218,12 +2219,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 302.5508617217297,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2243,7 +2244,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(238, 239, 247)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2264,12 +2265,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 347.52986395544445,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2289,7 +2290,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(137, 136, 137)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2310,12 +2311,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 347.52986395544445,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2335,7 +2336,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2356,12 +2357,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 392.5088661891593,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2381,7 +2382,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2402,12 +2403,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 392.5088661891593,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2427,7 +2428,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(252, 213, 4)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2448,12 +2449,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 523.4935299645775,
-        "top": 437.4878684228741,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2473,7 +2474,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(252, 255, 35)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2494,12 +2495,12 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 745.4750755462484,
-        "top": 437.4878684228741,
+        "left": 0,
+        "top": 0,
         "width": 720,
         "height": 711,
         "cornerSize": 9,
@@ -2519,7 +2520,7 @@
           "blend_filter": {
             "value": "BlendColor",
             "params": {
-              "color": "rgb(137, 136, 137)",
+              "color": "rgb(255, 255, 255)",
               "mode": "multiply",
               "alpha": 1
             }
@@ -2540,19 +2541,19 @@
           }
         },
         "hiddenContros": true,
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
-        "left": 5,
-        "top": 4,
+        "left": 531.4524311481555,
+        "top": 39.08332824707031,
         "width": 409,
         "height": 484,
         "scaleX": 0.05513812387898665,
         "scaleY": 0.05513812387898665,
         "id": "logo_item_1",
         "className": "logoPicture",
-        "src": "https://s3.amazonaws.com/gipper-static-assets/stock_images/StockLogo(DarkBlue)-01.png",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images//StockLogo(DarkBlue)-01.png",
         "idsToRestore": {
           "image": "logo_item_1",
           "container": "logo_item_1_container"
@@ -2561,20 +2562,19 @@
           "table_item_1": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 1 Logo",
-        "reserveSrc": "https://s3.amazonaws.com/gipper-static-assets/stock_images/StockLogo(DarkBlue)-01.png",
         "visible": true
       },
       {
         "type": "image",
-        "left": 6,
-        "top": 12,
-        "width": 2292,
-        "height": 1528,
-        "scaleX": 0.009839220186084442,
-        "scaleY": 0.009839220186084442,
+        "left": 753.5370277392012,
+        "top": 39.08332824707031,
+        "width": 409,
+        "height": 484,
+        "scaleX": 0.05513812387898665,
+        "scaleY": 0.05513812387898665,
         "id": "logo_item_2",
         "className": "logoPicture",
-        "src": "https://s3.amazonaws.com/platform-gipper/qnUuJn3Tc6CQfBgHBqy8fdPQ.png",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images//StockLogo(DarkBlue)-01.png",
         "idsToRestore": {
           "image": "logo_item_2",
           "container": "logo_item_2_container"
@@ -2583,20 +2583,19 @@
           "table_item_2": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 2 Logo",
-        "reserveSrc": "https://s3.amazonaws.com/platform-gipper/qnUuJn3Tc6CQfBgHBqy8fdPQ.png",
         "visible": true
       },
       {
         "type": "image",
-        "left": 6,
-        "top": 5,
-        "width": 206,
-        "height": 271,
-        "scaleX": 0.10947326537138613,
-        "scaleY": 0.10947326537138613,
+        "left": 531.4524311481555,
+        "top": 84.06597900390625,
+        "width": 409,
+        "height": 484,
+        "scaleX": 0.05513812387898665,
+        "scaleY": 0.05513812387898665,
         "id": "logo_item_3",
         "className": "logoPicture",
-        "src": "https://s3.amazonaws.com/platform-gipper/mteiyzY1NkWqn9GqapVCBshn.png",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images//StockLogo(DarkBlue)-01.png",
         "idsToRestore": {
           "image": "logo_item_3",
           "container": "logo_item_3_container"
@@ -2605,8 +2604,7 @@
           "table_item_3": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 3 Logo",
-        "reserveSrc": "https://s3.amazonaws.com/platform-gipper/mteiyzY1NkWqn9GqapVCBshn.png",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2627,7 +2625,7 @@
           "table_item_4": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 4 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2648,7 +2646,7 @@
           "table_item_5": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 5 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2669,7 +2667,7 @@
           "table_item_6": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 6 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2690,7 +2688,7 @@
           "table_item_7": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 7 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2711,7 +2709,7 @@
           "table_item_8": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 8 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2732,7 +2730,7 @@
           "table_item_9": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 9 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2753,7 +2751,7 @@
           "table_item_10": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 10 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2774,7 +2772,7 @@
           "table_item_11": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 11 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2795,7 +2793,7 @@
           "table_item_12": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 12 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2816,7 +2814,7 @@
           "table_item_13": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 13 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2837,7 +2835,7 @@
           "table_item_14": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 14 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2858,7 +2856,7 @@
           "table_item_15": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 15 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2879,7 +2877,7 @@
           "table_item_16": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 16 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2900,7 +2898,7 @@
           "table_item_17": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 17 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2921,7 +2919,7 @@
           "table_item_18": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 18 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2942,7 +2940,7 @@
           "table_item_19": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 19 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2963,7 +2961,7 @@
           "table_item_20": { "styles": { "display": "visible" } }
         },
         "conrolTitle": "Event 20 Logo",
-        "visible": false
+        "visible": true
       },
       {
         "type": "image",
@@ -2996,13 +2994,13 @@
         "type": "textbox",
         "originX": "right",
         "originY": "top",
-        "left": 923.3860104370478,
-        "top": 507.75019537072427,
+        "left": 930,
+        "top": 617,
         "width": 94,
         "height": 10,
-        "fill": "FCFF23",
-        "text": "#ONEROAR",
-        "fontSize": "15",
+        "fill": "FFFFFF",
+        "text": "#GOGIPPER",
+        "fontSize": "11",
         "fontWeight": 400,
         "fontFamily": "Druk-Wide-Medium",
         "lineHeight": 1,
@@ -3023,12 +3021,13 @@
           "select_font_for_hashtag": { "dataValue": { "value": "fontFamily" } }
         },
         "additionalValueToRestore": { "reduceContainerWidth": true },
-        "conrolTitle": "Hashtag:"
+        "conrolTitle": "Hashtag:",
+        "color": null
       },
       {
         "type": "group",
-        "left": null,
-        "top": null,
+        "left": 623.5,
+        "top": 499,
         "width": 200,
         "height": 20,
         "id": "legend_wrapper",
@@ -3094,7 +3093,7 @@
               "blend_filter": {
                 "value": "BlendColor",
                 "params": {
-                  "color": "rgb(252, 255, 35)",
+                  "color": "rgb(252, 213, 4)",
                   "mode": "multiply",
                   "alpha": 1
                 }
@@ -3161,7 +3160,7 @@
               "blend_filter": {
                 "value": "BlendColor",
                 "params": {
-                  "color": "rgb(238, 239, 247)",
+                  "color": "rgb(255, 255, 255)",
                   "mode": "multiply",
                   "alpha": 1
                 }
@@ -3228,7 +3227,7 @@
               "blend_filter": {
                 "value": "BlendColor",
                 "params": {
-                  "color": "rgb(137, 136, 137)",
+                  "color": "rgb(3, 1, 48)",
                   "mode": "multiply",
                   "alpha": 1
                 }
@@ -3289,18 +3288,18 @@
       },
       {
         "type": "image",
-        "left": 10,
-        "top": 17,
-        "width": 665,
-        "height": 788,
-        "scaleX": 0.09022556390977443,
-        "scaleY": 0.09022556390977443,
+        "left": 449,
+        "top": -119,
+        "width": 499,
+        "height": 499,
+        "scaleX": 0.12024048096192384,
+        "scaleY": 0.12024048096192384,
         "className": "logoPicture",
         "id": "logo",
-        "src": "https://s3.amazonaws.com/gipper-static-assets/stock_images/StockLogo(DarkBlueWhite)-01.png",
+        "src": "https://s3.amazonaws.com/platform-gipper/3iaHoGuAqAY7vDt74Mx7zo9p.png",
         "idsToRestore": { "image": "logo", "container": "logo_wrapper" },
         "conrolTitle": "Logo",
-        "reserveSrc": "https://s3.amazonaws.com/gipper-static-assets/stock_images/StockLogo(DarkBlueWhite)-01.png"
+        "reserveSrc": "https://s3.amazonaws.com/platform-gipper/3iaHoGuAqAY7vDt74Mx7zo9p.png"
       },
       {
         "type": "image",
