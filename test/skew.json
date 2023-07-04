@@ -32,7 +32,7 @@
               "color": "#FF0000",
               "mode": "multiply",
               "alpha": 1,
-              "skew": 2
+              "skewX": 2
             }
           }
         },

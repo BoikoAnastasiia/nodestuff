@@ -10,6 +10,7 @@
         "width": 960,
         "height": 540,
         "fill": "#193214",
+        "skewX": 0,
         "id": "background_color",
         "selectable": false,
         "evented": false,
