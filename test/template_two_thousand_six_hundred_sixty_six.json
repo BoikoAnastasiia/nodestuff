@@ -1,0 +1,4177 @@
+{
+  "width": 960,
+  "height": 540,
+  "body": {
+    "objects": [
+      {
+        "type": "rect",
+        "left": 0,
+        "top": 0,
+        "width": 960,
+        "height": 540,
+        "fill": "#193214",
+        "id": "background_color",
+        "selectable": false,
+        "evented": false,
+        "conrolTitle": "Background Color",
+        "orderIndex": 81
+      },
+      {
+        "type": "image",
+        "left": -7,
+        "top": -1,
+        "orderIndex": 25,
+        "width": 2048,
+        "height": 1366,
+        "scaleX": 0.4758,
+        "scaleY": 0.4758,
+        "id": "background-photo",
+        "className": "backgroundPicture",
+        "conrolTitle": "Background Photo",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/soccer_team_1359.jpg",
+        "appliedFilters": {
+          "mask_filter": {
+            "value": "Grayscale",
+            "params": {}
+          },
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "alpha": 1,
+              "color": "#193214",
+              "mode": "multiply"
+            }
+          }
+        },
+        "clipPath": {
+          "type": "rect",
+          "top": -1,
+          "left": -1,
+          "width": 962,
+          "height": 542,
+          "absolutePositioned": true
+        }
+      },
+      {
+        "type": "rect",
+        "originX": 0,
+        "originY": 0,
+        "left": -1,
+        "top": -1,
+        "width": 962,
+        "height": 542,
+        "fill": {
+          "type": "linear",
+          "coords": { "x1": 0, "y1": 1, "x2": 0, "y2": 0 },
+          "colorStops": [
+            { "offset": 1, "color": "#193214", "opacity": 0 },
+            { "offset": 0, "color": "#193214", "opacity": 1 }
+          ],
+          "offsetX": 0,
+          "offsetY": 0,
+          "gradientUnits": "percentage",
+          "gradientTransform": [1, 0, 0, 1, 0, 0]
+        },
+        "id": "gradient",
+        "selectable": false,
+        "evented": false,
+        "conrolTitle": "Gradient Color",
+        "orderIndex": 80
+      },
+      {
+        "type": "image",
+        "top": 0,
+        "left": 4,
+        "width": 1900,
+        "height": 1080,
+        "strokeWidth": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "id": "field_lines_color",
+        "conrolTitle": "Field Lines Color",
+        "className": "blendPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/16x9_flex_field_lines.png",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#EBF63B",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "selectable": false,
+        "evented": false
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "left": 393,
+        "top": 76,
+        "width": 150,
+        "fontSize": 30,
+        "fill": "#FFFFFF",
+        "text": "FOOTBALL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 344,
+        "id": "headline_1",
+        "conrolTitle": "Header 1:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 566,
+        "top": 76,
+        "width": 150,
+        "fontSize": 30,
+        "fill": "#FFFFFF",
+        "text": "SCHEDULE",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 344,
+        "id": "headline_2",
+        "conrolTitle": "Header 2:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "left": 402,
+        "top": 99,
+        "width": 50,
+        "fontSize": 106,
+        "fill": "#EBF63B",
+        "text": "20",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 1,
+        "id": "title_1",
+        "conrolTitle": "Title 1:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 578,
+        "top": 99,
+        "width": 50,
+        "fontSize": 106,
+        "fill": "#EBF63B",
+        "text": "23",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "title_2",
+        "conrolTitle": "Title 2:"
+      },
+      {
+        "type": "group",
+        "left": 400,
+        "top": 31,
+        "width": 126,
+        "height": 116,
+        "angle": 5,
+        "scaleX": 1.678,
+        "scaleY": 1.678,
+        "id": "group_main_helmet",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "main_helmet",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "main_helmet_primary_color",
+            "conrolTitle": "Main Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "main_logo",
+                "conrolTitle": "Main Logo",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "main_helmet_secondary_color",
+            "conrolTitle": "Main Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "main_helmet_tertiary_color",
+            "conrolTitle": "Main Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 172,
+        "top": 254.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_1",
+        "conrolTitle": "Event 1 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 95.5,
+        "top": 271.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_1",
+        "conrolTitle": "Event 1 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 181,
+        "top": 277,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_1",
+        "conrolTitle": "Event 1 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 181,
+        "top": 274,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_1",
+        "conrolTitle": "Event 1 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 165,
+        "top": 273,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_1",
+        "conrolTitle": "Event 1 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 35.4191,
+        "top": 255.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_1",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_1",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_1",
+            "conrolTitle": "Event 1 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_1",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_1",
+                "conrolTitle": "Logo 1",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_1",
+            "conrolTitle": "Event 1 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_1",
+            "conrolTitle": "Event 1 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 172,
+        "top": 302.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_2",
+        "conrolTitle": "Event 2 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 95.5,
+        "top": 319.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_2",
+        "conrolTitle": "Event 2 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 181,
+        "top": 325,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_2",
+        "conrolTitle": "Event 2 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 181,
+        "top": 322,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_2",
+        "conrolTitle": "Event 2 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 165,
+        "top": 321,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_2",
+        "conrolTitle": "Event 2 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 35.4191,
+        "top": 303.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_2",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_2",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_2",
+            "conrolTitle": "Event 2 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_2",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_2",
+                "conrolTitle": "Logo 2",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_2",
+            "conrolTitle": "Event 2 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_2",
+            "conrolTitle": "Event 2 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 172,
+        "top": 350.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_3",
+        "conrolTitle": "Event 3 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 95.5,
+        "top": 367.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_3",
+        "conrolTitle": "Event 3 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 181,
+        "top": 373,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_3",
+        "conrolTitle": "Event 3 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 181,
+        "top": 370,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_3",
+        "conrolTitle": "Event 3 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 165,
+        "top": 369,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_3",
+        "conrolTitle": "Event 3 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 35.4191,
+        "top": 351.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_3",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_3",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_3",
+            "conrolTitle": "Event 3 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_3",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_3",
+                "conrolTitle": "Logo 3",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_3",
+            "conrolTitle": "Event 3 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_3",
+            "conrolTitle": "Event 3 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 172,
+        "top": 398.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_4",
+        "conrolTitle": "Event 4 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 95.5,
+        "top": 415.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_4",
+        "conrolTitle": "Event 4 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 181,
+        "top": 421,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_4",
+        "conrolTitle": "Event 4 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 181,
+        "top": 418,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_4",
+        "conrolTitle": "Event 4 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 165,
+        "top": 417,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_4",
+        "conrolTitle": "Event 4 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 35.4191,
+        "top": 399.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_4",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_4",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_4",
+            "conrolTitle": "Event 4 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_4",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_4",
+                "conrolTitle": "Logo 4",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_4",
+            "conrolTitle": "Event 4 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_4",
+            "conrolTitle": "Event 4 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 172,
+        "top": 446.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_5",
+        "conrolTitle": "Event 5 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 95.5,
+        "top": 463.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_5",
+        "conrolTitle": "Event 5 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 181,
+        "top": 469,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_5",
+        "conrolTitle": "Event 5 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 181,
+        "top": 466,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_5",
+        "conrolTitle": "Event 5 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 165,
+        "top": 465,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_5",
+        "conrolTitle": "Event 5 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 35.4191,
+        "top": 447.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_5",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_5",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_5",
+            "conrolTitle": "Event 5 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_5",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_5",
+                "conrolTitle": "Logo 5",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_5",
+            "conrolTitle": "Event 5 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_5",
+            "conrolTitle": "Event 5 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 477,
+        "top": 254.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_6",
+        "conrolTitle": "Event 6 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 400.5,
+        "top": 271.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_6",
+        "conrolTitle": "Event 6 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 486,
+        "top": 277,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_6",
+        "conrolTitle": "Event 6 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 486,
+        "top": 274,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_6",
+        "conrolTitle": "Event 6 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 470,
+        "top": 273,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_6",
+        "conrolTitle": "Event 6 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 340.4191,
+        "top": 255.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_6",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_6",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_6",
+            "conrolTitle": "Event 6 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_6",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_6",
+                "conrolTitle": "Logo 6",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_6",
+            "conrolTitle": "Event 6 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_6",
+            "conrolTitle": "Event 6 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 477,
+        "top": 302.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_7",
+        "conrolTitle": "Event 7 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 400.5,
+        "top": 319.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_7",
+        "conrolTitle": "Event 7 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 486,
+        "top": 325,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_7",
+        "conrolTitle": "Event 7 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 486,
+        "top": 322,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_7",
+        "conrolTitle": "Event 7 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 470,
+        "top": 321,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_7",
+        "conrolTitle": "Event 7 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 340.4191,
+        "top": 303.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_7",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_7",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_7",
+            "conrolTitle": "Event 7 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_7",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_7",
+                "conrolTitle": "Logo 7",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_7",
+            "conrolTitle": "Event 7 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_7",
+            "conrolTitle": "Event 7 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 477,
+        "top": 350.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_8",
+        "conrolTitle": "Event 8 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 400.5,
+        "top": 367.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_8",
+        "conrolTitle": "Event 8 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 486,
+        "top": 373,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_8",
+        "conrolTitle": "Event 8 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 486,
+        "top": 370,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_8",
+        "conrolTitle": "Event 8 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 470,
+        "top": 369,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_8",
+        "conrolTitle": "Event 8 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 340.4191,
+        "top": 351.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_8",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_8",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_8",
+            "conrolTitle": "Event 8 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_8",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_8",
+                "conrolTitle": "Logo 8",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_8",
+            "conrolTitle": "Event 8 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_8",
+            "conrolTitle": "Event 8 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 477,
+        "top": 398.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_9",
+        "conrolTitle": "Event 9 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 400.5,
+        "top": 415.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_9",
+        "conrolTitle": "Event 9 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 486,
+        "top": 421,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_9",
+        "conrolTitle": "Event 9 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 486,
+        "top": 418,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_9",
+        "conrolTitle": "Event 9 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 470,
+        "top": 417,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_9",
+        "conrolTitle": "Event 9 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 340.4191,
+        "top": 399.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_9",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_9",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_9",
+            "conrolTitle": "Event 9 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_9",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_9",
+                "conrolTitle": "Logo 9",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_9",
+            "conrolTitle": "Event 9 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_9",
+            "conrolTitle": "Event 9 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 477,
+        "top": 446.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_10",
+        "conrolTitle": "Event 10 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 400.5,
+        "top": 463.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_10",
+        "conrolTitle": "Event 10 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 486,
+        "top": 469,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_10",
+        "conrolTitle": "Event 10 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 486,
+        "top": 466,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_10",
+        "conrolTitle": "Event 10 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 470,
+        "top": 465,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_10",
+        "conrolTitle": "Event 10 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 340.4191,
+        "top": 447.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_10",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_10",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_10",
+            "conrolTitle": "Event 10 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_10",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_10",
+                "conrolTitle": "Logo 10",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_10",
+            "conrolTitle": "Event 10 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_10",
+            "conrolTitle": "Event 10 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 782,
+        "top": 254.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_11",
+        "conrolTitle": "Event 11 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 705.5,
+        "top": 271.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_11",
+        "conrolTitle": "Event 11 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 791,
+        "top": 277,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_11",
+        "conrolTitle": "Event 11 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 791,
+        "top": 274,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_11",
+        "conrolTitle": "Event 11 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 775,
+        "top": 273,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_11",
+        "conrolTitle": "Event 11 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 645.4191,
+        "top": 255.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_11",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_11",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_11",
+            "conrolTitle": "Event 11 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_11",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_11",
+                "conrolTitle": "Logo 11",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_11",
+            "conrolTitle": "Event 11 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_11",
+            "conrolTitle": "Event 11 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 782,
+        "top": 302.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_12",
+        "conrolTitle": "Event 12 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 705.5,
+        "top": 319.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_12",
+        "conrolTitle": "Event 12 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 791,
+        "top": 325,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_12",
+        "conrolTitle": "Event 12 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 791,
+        "top": 322,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_12",
+        "conrolTitle": "Event 12 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 775,
+        "top": 321,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_12",
+        "conrolTitle": "Event 12 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 645.4191,
+        "top": 303.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_12",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_12",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_12",
+            "conrolTitle": "Event 12 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_12",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_12",
+                "conrolTitle": "Logo 12",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_12",
+            "conrolTitle": "Event 12 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_12",
+            "conrolTitle": "Event 12 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 782,
+        "top": 350.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_13",
+        "conrolTitle": "Event 13 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 705.5,
+        "top": 367.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_13",
+        "conrolTitle": "Event 13 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 791,
+        "top": 373,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_13",
+        "conrolTitle": "Event 13 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 791,
+        "top": 370,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_13",
+        "conrolTitle": "Event 13 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 775,
+        "top": 369,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_13",
+        "conrolTitle": "Event 13 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 645.4191,
+        "top": 351.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_13",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_13",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_13",
+            "conrolTitle": "Event 13 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_13",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_13",
+                "conrolTitle": "Logo 13",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_13",
+            "conrolTitle": "Event 13 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_13",
+            "conrolTitle": "Event 13 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 782,
+        "top": 398.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_14",
+        "conrolTitle": "Event 14 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 705.5,
+        "top": 415.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_14",
+        "conrolTitle": "Event 14 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 791,
+        "top": 421,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_14",
+        "conrolTitle": "Event 14 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 791,
+        "top": 418,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_14",
+        "conrolTitle": "Event 14 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 775,
+        "top": 417,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_14",
+        "conrolTitle": "Event 14 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 645.4191,
+        "top": 399.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_14",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_14",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_14",
+            "conrolTitle": "Event 14 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_14",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_14",
+                "conrolTitle": "Logo 14",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_14",
+            "conrolTitle": "Event 14 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_14",
+            "conrolTitle": "Event 14 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "rect",
+        "left": 782,
+        "top": 446.5,
+        "width": 2,
+        "height": 35,
+        "fill": "#FFFFFF",
+        "strokeWidth": 0,
+        "id": "line_color_event_15",
+        "conrolTitle": "Event 15 Line Color"
+      },
+      {
+        "type": "rect",
+        "left": 705.5,
+        "top": 463.5,
+        "width": 15,
+        "height": 1,
+        "fill": "#EBF63B",
+        "strokeWidth": 0,
+        "id": "line_2_color_event_15",
+        "conrolTitle": "Event 15 Line Color",
+        "hiddenContros": true
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "originY": "bottom",
+        "left": 791,
+        "top": 469,
+        "width": 115,
+        "fontSize": 20,
+        "fill": "#EBF63B",
+        "text": "VS. GIPPER CENTRAL",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Bold",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 1,
+        "id": "event_title_15",
+        "conrolTitle": "Event 15 Title:"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 791,
+        "top": 466,
+        "width": 135,
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "text": "GIPPER STADIUM, GIPPERVILLE, USA",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "left",
+        "charSpacing": 20,
+        "id": "event_subtitle_15",
+        "conrolTitle": "Event 15 Subtitle:"
+      },
+      {
+        "type": "textbox",
+        "originX": "right",
+        "originY": "center",
+        "left": 775,
+        "top": 465,
+        "width": 48,
+        "fontSize": 40,
+        "fill": "#FFFFFF",
+        "text": "9/12",
+        "fontWeight": 400,
+        "fontFamily": "Druk-Medium",
+        "lineHeight": 1,
+        "textAlign": "right",
+        "charSpacing": 20,
+        "id": "event_general_information_15",
+        "conrolTitle": "Event 15 General Information:"
+      },
+      {
+        "type": "group",
+        "left": 645.4191,
+        "top": 447.2906,
+        "width": 126,
+        "height": 116,
+        "scaleX": 0.3743,
+        "scaleY": 0.3743,
+        "angle": 350,
+        "id": "group_helmet_event_15",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_event_15",
+            "className": "staticMedia",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_base_Image_xxs.png"
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.422,
+            "scaleY": 0.422,
+            "id": "helmet_primary_color_event_15",
+            "conrolTitle": "Event 15 Helmet Primary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_main_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#236512",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 126,
+            "height": 116,
+            "id": "group_for_photo_15",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "image",
+              "originX": "center",
+              "originY": "center",
+              "top": -21,
+              "left": -12.25,
+              "width": 300,
+              "height": 300,
+              "strokeWidth": 0,
+              "scaleX": 0.216666,
+              "scaleY": 0.216666,
+              "crossOrigin": "anonymous",
+              "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_clip_path_for_helmet.png"
+            },
+            "objects": [
+              {
+                "type": "image",
+                "originX": "center",
+                "originY": "center",
+                "selectable": false,
+                "evented": false,
+                "left": -16,
+                "top": -24,
+                "width": 808,
+                "height": 1029,
+                "angle": 5,
+                "scaleX": 0.044,
+                "scaleY": 0.044,
+                "id": "logo_15",
+                "conrolTitle": "Logo 15",
+                "useLogoSearch": true,
+                "className": "cutoutPicture",
+                "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/yellow_logo_green_border.png"
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_secondary_color_event_15",
+            "conrolTitle": "Event 15 Helmet Secondary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_secondary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          },
+          {
+            "type": "image",
+            "originX": "center",
+            "originY": "center",
+            "top": 0,
+            "left": 0,
+            "width": 300,
+            "height": 275,
+            "strokeWidth": 0,
+            "scaleX": 0.4188,
+            "scaleY": 0.4188,
+            "id": "helmet_tertiary_color_event_15",
+            "conrolTitle": "Event 15 Helmet Tertiary Color",
+            "className": "blendPicture",
+            "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/helmet_tetriary_color_xxs.png",
+            "appliedFilters": {
+              "blend_filter": {
+                "value": "BlendColor",
+                "params": {
+                  "color": "#EBF63B",
+                  "mode": "multiply",
+                  "alpha": 1
+                }
+              }
+            },
+            "opacity_filter": {
+              "value": "ColorMatrix",
+              "params": {
+                "matrix": [
+                  1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.5, 0
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "left": 901,
+        "top": 46,
+        "width": 807,
+        "height": 1028,
+        "scaleX": 0.0422,
+        "scaleY": 0.0422,
+        "id": "logo",
+        "className": "logoPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/GreenLogoGoldBorder_902-904.png",
+        "conrolTitle": "Footer Logo"
+      },
+      {
+        "type": "image",
+        "left": 21,
+        "top": 43,
+        "width": 670,
+        "height": 669,
+        "scaleX": 0.0724,
+        "scaleY": 0.0724,
+        "visible": false,
+        "id": "logo_sponsor",
+        "className": "logoPicture",
+        "src": "https://s3.amazonaws.com/gipper-static-assets/stock_images/template_seventy_three_Outlook.png",
+        "conrolTitle": "Sponsor Logo"
+      }
+    ]
+  },
+  "flexibleTemplate": true
+}

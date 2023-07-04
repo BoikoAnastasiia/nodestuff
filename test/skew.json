@@ -1,0 +1,230 @@
+{
+  "width": 720,
+  "height": 720,
+  "body": {
+    "objects": [
+      {
+        "type": "rect",
+        "left": 0,
+        "top": 0,
+        "width": 720,
+        "height": 720,
+        "fill": "#FF0000",
+        "conrolTitle": "Background Color",
+        "id": "background",
+        "selectable": false,
+        "evented": false
+      },
+      {
+        "type": "image",
+        "left": 54.23021744228305,
+        "top": 26.439120596868918,
+        "width": 753,
+        "height": 815,
+        "scaleX": 0.8185543052837573,
+        "scaleY": 0.8185543052837573,
+        "id": "leaf_1",
+        "className": "blendPicture",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FF0000",
+              "mode": "multiply",
+              "alpha": 1,
+              "skew": 2
+            }
+          }
+        },
+        "shadow": {
+          "color": "#00000080",
+          "blur": 13,
+          "offsetY": 0,
+          "offsetX": 0
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/leaf_canada_day_2023.png",
+        "conrolTitle": "Maple Leaf 1 Color"
+      },
+      {
+        "type": "image",
+        "left": 70.40853892927043,
+        "top": 47.39968024881193,
+        "width": 753,
+        "height": 815,
+        "scaleX": 0.7744793122728542,
+        "scaleY": 0.7744793122728542,
+        "id": "leaf_2",
+        "className": "blendPicture",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FF0000",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "shadow": {
+          "color": "#00000080",
+          "blur": 13,
+          "offsetY": 0,
+          "offsetX": 0
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/leaf_canada_day_2023.png",
+        "conrolTitle": "Maple Leaf 2 Color"
+      },
+      {
+        "type": "image",
+        "left": 92.00718225217975,
+        "top": 72.52296792004478,
+        "width": 753,
+        "height": 815,
+        "scaleX": 0.7182170813530887,
+        "scaleY": 0.7182170813530887,
+        "id": "leaf_3",
+        "className": "blendPicture",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FF0000",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "shadow": {
+          "color": "#00000080",
+          "blur": 13,
+          "offsetY": 0,
+          "offsetX": 0
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/leaf_canada_day_2023.png",
+        "conrolTitle": "Maple Leaf 3 Color"
+      },
+      {
+        "type": "image",
+        "left": 107.53906502987087,
+        "top": 93.81567347622138,
+        "width": 753,
+        "height": 815,
+        "scaleX": 0.6769637406420898,
+        "scaleY": 0.6769637406420898,
+        "id": "leaf_4",
+        "className": "blendPicture",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FF0000",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "shadow": {
+          "color": "#00000080",
+          "blur": 13,
+          "offsetY": 0,
+          "offsetX": 0
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/leaf_canada_day_2023.png",
+        "conrolTitle": "Maple Leaf 4 Color"
+      },
+      {
+        "type": "image",
+        "left": 125.18200108141068,
+        "top": 114.74661565768224,
+        "width": 753,
+        "height": 815,
+        "scaleX": 0.6301033527229933,
+        "scaleY": 0.6301033527229933,
+        "id": "leaf_5",
+        "className": "blendPicture",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FF0000",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "shadow": {
+          "color": "#00000080",
+          "blur": 13,
+          "offsetY": 0,
+          "offsetX": 0
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/leaf_canada_day_2023.png",
+        "conrolTitle": "Maple Leaf 5 Color"
+      },
+      {
+        "type": "textbox",
+        "originX": "center",
+        "textAlign": "center",
+        "left": 360,
+        "top": 253.83148425787113,
+        "width": 121.68832221671676,
+        "fill": "#FFFFFF",
+        "text": "GIPPER\nUNIVERSITY",
+        "fontSize": 19,
+        "fontWeight": 400,
+        "fontFamily": "UnitedSerifSemiCond_Medium",
+        "conrolTitle": "Headline:",
+        "charSpacing": -9.4,
+        "lineHeight": 0.7,
+        "minWidth": 20,
+        "id": "headline"
+      },
+      {
+        "type": "textbox",
+        "originX": "center",
+        "textAlign": "center",
+        "left": 360,
+        "top": 343.8314842578711,
+        "width": 326.40498593902595,
+        "fill": "#FFFFFF",
+        "text": "CANADA\nDAY",
+        "fontSize": 83,
+        "fontWeight": 400,
+        "fontFamily": "UnitedSerifSemiCond_Black",
+        "conrolTitle": "Title:",
+        "charSpacing": -9.4,
+        "lineHeight": 0.7,
+        "minWidth": 20,
+        "id": "title"
+      },
+      {
+        "type": "image",
+        "left": 352.80654180682086,
+        "top": 224.55211274809454,
+        "width": 549,
+        "height": 673,
+        "scaleX": 0.03500681812312137,
+        "scaleY": 0.03500681812312137,
+        "id": "logo",
+        "className": "logoPicture",
+        "conrolTitle": "Logo",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/logo_canada_day_2023.png"
+      },
+
+      {
+        "type": "image",
+        "left": 635.3889048214461,
+        "top": 636.917808219178,
+        "width": 670,
+        "height": 669,
+        "scaleX": 0.10267946789194993,
+        "scaleY": 0.10267946789194993,
+        "visible": false,
+        "id": "logo_sponsor",
+        "className": "logoPicture",
+        "src": "https://s3.amazonaws.com/gipper-static-assets/stock_images/template_seventy_three_Outlook.png",
+        "conrolTitle": "Sponsor Logo"
+      }
+    ]
+  }
+}
