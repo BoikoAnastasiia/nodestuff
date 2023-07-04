@@ -1,6 +1,6 @@
 const fs = require('fs');
-// const folderPath = './default_presets';
-const folderPath = './test';
+const folderPath = './default_presets';
+// const folderPath = './test';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
@@ -17,11 +17,14 @@ fs.readdir(folderPath, (err, files) => {
       const json = JSON.parse(data);
       const jsonString = JSON.stringify(json);
 
-      if (
-        jsonString.includes('skew') &&
-        (!jsonString.includes('skewX: 0') || !jsonString.includes('skewX: 0'))
-      ) {
-        newArr.push(filePath);
+      if (jsonString.includes('skewY') && !jsonString.includes('"skewY":0')) {
+        newArr.push(file);
+        return;
+      }
+
+      if (jsonString.includes('skewX') && !jsonString.includes('"skewX":0')) {
+        newArr.push(file);
+        return;
       }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);

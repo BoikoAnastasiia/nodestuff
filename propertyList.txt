@@ -1,2 +1,0 @@
-./test/skew.json
-./test/template_two_thousand_six_hundred_sixty_six.json
