@@ -1,7 +1,7 @@
-const download = require('download');
+const fs = require('fs');
 
 const st3keyArray = [
-  '7317DFD67B9B2637508DAB41D341AC92',
+  // '7317DFD67B9B2637508DAB41D341AC92',
   // '6089361A088399D7CBD339B53AE52A60',
   // '3D57DFDDE6C7AC58B541F25270B3622B',
   // '0F935040BC21DCA6A24EB1C250F46F2C',
@@ -336,16 +336,16 @@ const st3keyArray = [
   // 'A4041A5E50A5C1FEEE957653237845FB',
   // 'B19CBBA0D754177D092DD10257BA6C28',
   // 'A30AA69D32F54FC2099BA6BAAFA6D4F7',
-  // '4DCAEF838995C2A271500C7C8B4FD731',
-  // '7FEA2EF83970D4B7FC4314AC9107F363',
-  // 'F304ED8F88A9E88236840D5742389BAF',
-  // '79995F46DF7548313686538A05F9B258',
-  // '0A15680A85BBAE80181FCACF1A4D18FA',
-  // 'E1A2157BF0EA4AB4D7399E52F506982F',
-  // '5EE053EFCD77649856F1408D145A6A3E',
-  // 'F6BCB5D58D6BDD36D28894552EA9265C',
-  // 'E9A51932FEA46041995D974927EBF809',
-  // '2F0393F127088F883367E58B169CDB84',
+  '4DCAEF838995C2A271500C7C8B4FD731',
+  '7FEA2EF83970D4B7FC4314AC9107F363',
+  'F304ED8F88A9E88236840D5742389BAF',
+  '79995F46DF7548313686538A05F9B258',
+  '0A15680A85BBAE80181FCACF1A4D18FA',
+  'E1A2157BF0EA4AB4D7399E52F506982F',
+  '5EE053EFCD77649856F1408D145A6A3E',
+  'F6BCB5D58D6BDD36D28894552EA9265C',
+  'E9A51932FEA46041995D974927EBF809',
+  '2F0393F127088F883367E58B169CDB84',
   'E9EBCB92C7981A94E95A9F474511D392',
   '47993F4EBD088A1F3DCE65D895A269E1',
   '74E99F6D882E31F8E3CA4D944FAEC5D5',
@@ -438,13 +438,57 @@ const st3keyArray = [
   'AB3A8298675C742000A07E7D3EB1C9BB',
   '28DDE9C7255C0ECBB9BA826FEE979D7A',
 ];
-(async () => {
-  await Promise.all(
-    st3keyArray.map((file) =>
-      download(
-        `https://platform-gipper.s3.amazonaws.com/presets/${file}.json`,
-        './presets'
-      )
-    )
-  );
-})();
+st3keyArray.map((key) => {
+  const data = fs.readFileSync(`./presets/${key}.json`);
+  const json = JSON.parse(data);
+
+  if (json.body) {
+    json.body.objects.forEach((el, index, array) => {
+      // let old = array.find((el) => el.id === 'wave');
+      // const indexar = array.findIndex((el) => el.id === 'wave');
+
+      delete el.skewX;
+      delete el.skewY;
+
+      if (el.id == 'gradient_top') {
+        el.fill.coords = {
+          x1: -0.5,
+          y1: 0,
+          x2: 0,
+          y2: 1,
+        };
+        el.top = 0;
+        el.left = 0;
+        delete el.angle;
+        delete el.scaleX;
+        delete el.scaleY;
+      }
+      if (el.id == 'gradient_bottom') {
+        el.fill.coords = {
+          x1: 0,
+          y1: 0,
+          x2: 0.5,
+          y2: 1,
+        };
+        el.originY = 'bottom';
+        el.top = 721;
+        el.left = 0;
+        el.height = 300;
+        delete el.angle;
+        el.fill.colorStops[0].offset = 0.29;
+        el.fill.colorStops[0].opacity = 0;
+        el.fill.colorStops[1].offset = 1;
+        el.fill.colorStops[1].opacity = 0.9;
+      }
+    });
+  }
+
+  const newJson = JSON.stringify(json);
+
+  fs.writeFileSync(`./presets/${key}.json`, newJson, (err) => {
+    if (err) {
+      console.error(err);
+    }
+  });
+  console.log(`done ${key}`);
+});
