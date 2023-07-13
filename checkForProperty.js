@@ -18,13 +18,8 @@ fs.readdir(folderPath, (err, files) => {
       const data = fs.readFileSync(filePath, 'utf8');
       const json = JSON.parse(data);
       const jsonString = JSON.stringify(json);
-
-      if (jsonString.includes('skewY') && !jsonString.includes('"skewY":0')) {
-        newArr.push(file);
-        return;
-      }
-
-      if (jsonString.includes('skewX') && !jsonString.includes('"skewX":0')) {
+      // console.log(jsonString);
+      if (jsonString.includes(`"clipPath":{"type":"image"`)) {
         newArr.push(file);
         return;
       }
@@ -32,6 +27,6 @@ fs.readdir(folderPath, (err, files) => {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
-  fs.writeFileSync('propertyList.txt', newArr.join('\n'));
+  fs.writeFileSync('pngClipPath.txt', newArr.join('\n'));
   // console.log('Results written to propertyList.txt');
 });
