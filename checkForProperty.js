@@ -2,7 +2,7 @@ const fs = require('fs');
 const folderPath = './default_presets';
 // const folderPath = './test';
 const command =
-  './aws s3 sync s3://gipper-static-assets.s3.amazonaws.com/default_presets_update default_presets';
+  'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
