@@ -19,7 +19,7 @@ fs.readdir(folderPath, (err, files) => {
       const json = JSON.parse(data);
       const jsonString = JSON.stringify(json);
       // console.log(jsonString);
-      if (jsonString.includes(`"clipPath":{"type":"image"`)) {
+      if (jsonString.includes(`additionalTextBoxesHidden`)) {
         newArr.push(file);
         return;
       }
