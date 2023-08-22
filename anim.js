@@ -1,4 +1,4 @@
-const download = require('download');
+const fs = require('fs');
 
 const st3keyArray = [
   'template_eight_hundred_seventy_four',
@@ -77,24 +77,59 @@ const st3keyArray = [
   'template_two_thousand_six_hundred_sixty_nine',
   'template_two_thousand_three_hundred_fourty_one',
 ];
-// (async () => {
-//   await Promise.all(
-//     st3keyArray.map((file) =>
-//       download(
-//         `https://platform-gipper.s3.amazonaws.com/presets/${file}.json`,
-//         './presets'
-//       )
-//     )
-//   );
-// })();
 
-(async () => {
-  await Promise.all(
-    st3keyArray.map((file) =>
-      download(
-        `https://gipper-static-assets.s3.amazonaws.com/default_presets_update/${file}.json`,
-        './anim'
-      )
-    )
-  );
-})();
+st3keyArray.map((key) => {
+  const data = fs.readFileSync(`./anim/${key}.json`);
+  const json = JSON.parse(data);
+
+  json.additionalElementsHidden = true;
+  // if (json.body) {
+  //   json.body.objects.forEach((el, index, array) => {
+  // const detailIndex = array.findIndex((el) => el.id === 'add_info');
+  // if (el.className === 'multiGroup') {
+  //   delete el.objects[0].clipPath.crossOrigin;
+  //   delete el.objects[0].clipPath.src;
+  //   el.objects[0].clipPath.type = 'path';
+  //   el.objects[0].clipPath.scaleX = 1;
+  //   el.objects[0].clipPath.scaleY = 1;
+  //   el.objects[0].clipPath.width = 375;
+  //   el.objects[0].clipPath.height = 325;
+  //   el.objects[0].clipPath.path = [
+  //     ['M', 280.581, 0],
+  //     ['L', 92.3886, 0],
+  //     ['L', 0, 161.888],
+  //     ['L', 92.3886, 325.068],
+  //     ['L', 280.581, 325.068],
+  //     ['L', 375, 161.888],
+  //     ['L', 280.581, 0],
+  //     ['Z'],
+  //   ];
+  // }
+  //     if (el.id === 'media') {
+  //       el.clipPath.type = 'path';
+  //       delete el.clipPath.crossOrigin;
+  //       delete el.clipPath.src;
+  //       delete el.clipPath.orderIndex;
+  //       el.clipPath.path = [
+  //         ['M', 119.5, -0.5],
+  //         ['C', 398.5, -0.5, 677.5, -0.5, 956.5, -0.5],
+  //         ['C', 956.5, 359.5, 956.5, 719.5, 956.5, 1079.5],
+  //         ['C', 664.833, 1079.5, 373.167, 1079.5, 81.5, 1079.5],
+  //         ['C', 32.2979, 937.829, 4.96452, 792.162, -0.5, 642.5],
+  //         ['C', -0.5, 605.5, -0.5, 568.5, -0.5, 531.5],
+  //         ['C', 5.94474, 346.611, 45.9447, 169.278, 119.5, -0.5],
+  //         ['Z'],
+  //       ];
+  //     }
+  //   });
+  // }
+
+  const newJson = JSON.stringify(json);
+
+  fs.writeFileSync(`./anim/${key}.json`, newJson, (err) => {
+    if (err) {
+      console.error(err);
+    }
+  });
+  console.log(`done ${key}`);
+});
