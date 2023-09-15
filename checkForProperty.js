@@ -19,7 +19,7 @@ fs.readdir(folderPath, (err, files) => {
       const json = JSON.parse(data);
       const jsonString = JSON.stringify(json);
       // console.log(jsonString);
-      if (jsonString.includes('animatedTemplate')) {
+      if (jsonString.includes('"clipPath":{"type":"image"')) {
         newArr.push(file);
         return;
       }
@@ -27,6 +27,6 @@ fs.readdir(folderPath, (err, files) => {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
-  fs.writeFileSync('animatedTemplate.txt', newArr.join('\n'));
+  fs.writeFileSync('pngClipPath.txt', newArr.join('\n'));
   // console.log('Results written to propertyList.txt');
 });
