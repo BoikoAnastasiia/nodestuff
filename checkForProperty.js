@@ -18,7 +18,7 @@ fs.readdir(folderPath, (err, files) => {
       const data = fs.readFileSync(filePath, 'utf8');
       const json = JSON.parse(data);
       const jsonString = JSON.stringify(json);
-      // console.log(jsonString);
+      console.log(jsonString);
       if (jsonString.includes('"clipPath":{"type":"image"')) {
         newArr.push(file);
         return;
@@ -27,6 +27,6 @@ fs.readdir(folderPath, (err, files) => {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
-  fs.writeFileSync('pngClipPath.txt', newArr.join('\n'));
+  fs.writeFileSync('imageclippath.txt', newArr.join('\n'));
   // console.log('Results written to propertyList.txt');
 });
