@@ -1,0 +1,442 @@
+{
+  "height": 900,
+  "width": 720,
+  "body": {
+    "objects": [
+      {
+        "type": "rect",
+        "left": -1,
+        "top": -1,
+        "width": 722,
+        "height": 902,
+        "fill": "#0B2240",
+        "orderIndex": 1,
+        "importantColor": true,
+        "conrolTitle": "Background Color",
+        "id": "background",
+        "selectable": false,
+        "evented": false
+      },
+      {
+        "type": "rect",
+        "left": -1,
+        "top": -1,
+        "width": 722,
+        "height": 902,
+        "fill": {
+          "type": "linear",
+          "coords": {
+            "x1": 0,
+            "y1": 1,
+            "x2": 0,
+            "y2": 0
+          },
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#00000C",
+              "opacity": 0.4
+            },
+            {
+              "offset": 1,
+              "color": "#000000",
+              "opacity": 0
+            }
+          ],
+          "gradientTransform": [1, 0, 0, 1, 0, 0],
+          "offsetX": 0,
+          "offsetY": 0,
+          "gradientUnits": "percentage"
+        },
+        "id": "gradient",
+        "orderIndex": 6,
+        "selectable": false,
+        "evented": false,
+        "conrolTitle": "Background Gradient Color"
+      },
+      {
+        "type": "image",
+        "left": 0,
+        "top": 0,
+        "width": 728,
+        "height": 1350,
+        "scaleX": 0.668,
+        "scaleY": 0.668,
+        "orderIndex": 3,
+        "id": "background_dot_pattern",
+        "className": "blendPicture",
+        "conrolTitle": "Background Dot Pattern Color",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#009844",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/background_dotpattern_1_3181.png"
+      },
+      {
+        "type": "image",
+        "left": 0,
+        "top": 302,
+        "width": 355,
+        "height": 373,
+        "scaleX": 0.668,
+        "scaleY": 0.668,
+        "orderIndex": 4,
+        "id": "dot_line_1",
+        "className": "blendPicture",
+        "conrolTitle": "Connected Dot Line 1 Color",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#009844",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/ConnectionDot_1_3181.png"
+      },
+      {
+        "type": "image",
+        "left": -137.15936347425213,
+        "top": -27.362929519378554,
+        "width": 1999,
+        "height": 1332,
+        "scaleX": 0.7120415359389541,
+        "scaleY": 0.7120415359389541,
+        "id": "media",
+        "className": "backgroundPicture",
+        "conrolTitle": "Media",
+        "canUseVideo": true,
+        "orderIndex": 1,
+        "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/photo_kent_state_3181.jpg",
+        "clipPath": {
+          "type": "path",
+          "absolutePositioned": true,
+          "left": 257.87,
+          "top": 0,
+          "width": 693,
+          "height": 1350,
+          "scaleX": 0.6692448533196672,
+          "scaleY": 0.6692448533196672,
+          "strokeWidth": 0,
+          "path": [
+            ["M", 131.5, -0.5],
+            ["C", 318.5, -0.5, 505.5, -0.5, 692.5, -0.5],
+            ["C", 692.5, 449.5, 692.5, 899.5, 692.5, 1349.5],
+            ["C", 505.5, 1349.5, 318.5, 1349.5, 131.5, 1349.5],
+            ["C", 51.1849, 1152.26, 7.18493, 947.255, -0.5, 734.5],
+            ["C", -0.5, 694.5, -0.5, 654.5, -0.5, 614.5],
+            ["C", 7.18493, 401.745, 51.1849, 196.745, 131.5, -0.5],
+            ["Z"]
+          ]
+        }
+      },
+      {
+        "type": "path",
+        "left": 257.87,
+        "top": 0,
+        "width": 693,
+        "height": 1350,
+        "fill": {
+          "type": "linear",
+          "coords": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 1,
+            "y2": 0
+          },
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#FFFFFF",
+              "opacity": 0.15
+            },
+            {
+              "offset": 1,
+              "color": "#FFFFFF",
+              "opacity": 0
+            }
+          ],
+          "gradientTransform": [1, 0, 0, 1, 0, 0],
+          "offsetX": 0,
+          "offsetY": 0,
+          "gradientUnits": "percentage"
+        },
+        "scaleX": 0.6692448533196672,
+        "scaleY": 0.6692448533196672,
+        "strokeWidth": 0,
+        "path": [
+          ["M", 131.5, -0.5],
+          ["C", 318.5, -0.5, 505.5, -0.5, 692.5, -0.5],
+          ["C", 692.5, 449.5, 692.5, 899.5, 692.5, 1349.5],
+          ["C", 505.5, 1349.5, 318.5, 1349.5, 131.5, 1349.5],
+          ["C", 51.1849, 1152.26, 7.18493, 947.255, -0.5, 734.5],
+          ["C", -0.5, 694.5, -0.5, 654.5, -0.5, 614.5],
+          ["C", 7.18493, 401.745, 51.1849, 196.745, 131.5, -0.5],
+          ["Z"]
+        ],
+        "id": "media_gradient",
+        "orderIndex": 2,
+        "selectable": false,
+        "evented": false,
+        "conrolTitle": "Media Gradient Color"
+      },
+      {
+        "type": "image",
+        "left": 593.5108280254776,
+        "top": -0.5,
+        "width": 100,
+        "height": 707,
+        "scaleX": 1.2755,
+        "scaleY": 1.2755,
+        "orderIndex": 1,
+        "id": "media_dot_pattern",
+        "className": "blendPicture",
+        "conrolTitle": "Media Dot Pattern Color",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FFFFFF",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "clipPath": {
+          "type": "path",
+          "left": 257.87,
+          "top": 0,
+          "width": 693,
+          "height": 1350,
+          "scaleX": 0.6692448533196672,
+          "scaleY": 0.6692448533196672,
+          "strokeWidth": 0,
+          "path": [
+            ["M", 131.5, -0.5],
+            ["C", 318.5, -0.5, 505.5, -0.5, 692.5, -0.5],
+            ["C", 692.5, 449.5, 692.5, 899.5, 692.5, 1349.5],
+            ["C", 505.5, 1349.5, 318.5, 1349.5, 131.5, 1349.5],
+            ["C", 51.1849, 1152.26, 7.18493, 947.255, -0.5, 734.5],
+            ["C", -0.5, 694.5, -0.5, 654.5, -0.5, 614.5],
+            ["C", 7.18493, 401.745, 51.1849, 196.745, 131.5, -0.5],
+            ["Z"]
+          ],
+          "absolutePositioned": true
+        },
+        "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/media_dotpattern_3181.png"
+      },
+      {
+        "type": "image",
+        "left": 705.0955414012737,
+        "top": 366.96815286624206,
+        "width": 11,
+        "height": 253,
+        "scaleX": 0.668,
+        "scaleY": 0.668,
+        "orderIndex": 5,
+        "id": "dot_line_2",
+        "className": "blendPicture",
+        "conrolTitle": "Connected Dot Line 2 Color",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FFFFFF",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/ConnectionDot_2_3181.png"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "textAlign": "left",
+        "left": 14.400127388535111,
+        "top": 16.79649681528658,
+        "fill": "#FFFFFF",
+        "text": "KENT STATE MEN'S BASKETBALL",
+        "fontSize": 9,
+        "fontWeight": 170,
+        "width": 250,
+        "fontFamily": "Druk-Wide-Medium",
+        "conrolTitle": "Team Name:",
+        "charSpacing": 141.7,
+        "orderIndex": 1,
+        "minWidth": 20,
+        "lineHeight": 1,
+        "id": "team_name"
+      },
+      {
+        "type": "textbox",
+        "originX": "center",
+        "textAlign": "center",
+        "left": 692.356687898089,
+        "top": 450.79489391319015,
+        "fill": "#FFFFFF",
+        "text": "PRESEASON",
+        "fontSize": 9,
+        "angle": -90,
+        "fontWeight": 170,
+        "width": 130,
+        "fontFamily": "Druk-Wide-Medium",
+        "conrolTitle": "Ranking Week:",
+        "charSpacing": 71.9,
+        "orderIndex": 3,
+        "minWidth": 20,
+        "lineHeight": 1,
+        "id": "ranking_week"
+      },
+      {
+        "type": "textbox",
+        "originX": "center",
+        "textAlign": "center",
+        "left": 130.6,
+        "top": 299.6,
+        "fill": "#FFFFFF",
+        "text": "23",
+        "fontSize": 320,
+        "fontWeight": 170,
+        "width": 130,
+        "fontFamily": "Druk-XCond-Super",
+        "conrolTitle": "Ranking:",
+        "charSpacing": 23.6,
+        "orderIndex": 2,
+        "minWidth": 20,
+        "lineHeight": 1,
+        "id": "ranking"
+      },
+      {
+        "type": "group",
+        "left": 42.5,
+        "top": 276.5,
+        "width": 175,
+        "height": 51,
+        "id": "group_1",
+        "className": "multiGroup",
+        "objects": [
+          {
+            "originX": "center",
+            "originY": "center",
+            "type": "rect",
+            "strokeWidth": 0,
+            "left": 0,
+            "top": 0,
+            "width": 175,
+            "height": 51,
+            "orderIndex": 2,
+            "importantColor": true,
+            "fill": "#EDAB1E",
+            "id": "team_logo_background",
+            "conrolTitle": "Team Logo Background Color"
+          },
+          {
+            "type": "group",
+            "originX": "center",
+            "originY": "center",
+            "left": 0,
+            "top": 0,
+            "width": 91,
+            "height": 27,
+            "id": "group_for_logo_1",
+            "className": "containerForPicture",
+            "clipPath": {
+              "type": "rect",
+              "originX": "center",
+              "originY": "center",
+              "left": 0,
+              "top": 0,
+              "width": 175,
+              "height": 51
+            },
+            "objects": [
+              {
+                "originX": "center",
+                "originY": "center",
+                "type": "image",
+                "left": -0.5,
+                "top": -5.5,
+                "width": 1239,
+                "height": 727,
+                "scaleX": 0.09791764729852652,
+                "scaleY": 0.09791764729852652,
+                "strokeWidth": 0,
+                "orderIndex": 3,
+                "id": "team_logo",
+                "className": "cutoutPicture",
+                "useLogoSearch": true,
+                "conrolTitle": "Team Logo",
+                "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/kentstatelogo3140.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "left": 557.5903827419818,
+        "top": 753,
+        "width": 937,
+        "height": 870,
+        "scaleX": 0.15301837351561667,
+        "scaleY": 0.15301837351561667,
+        "orderIndex": 2,
+        "id": "mac_logo",
+        "className": "logoPicture",
+        "conrolTitle": "MAC Logo",
+        "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/MAC_Seal_fulclr_DkBG_3129.png"
+      },
+      {
+        "type": "image",
+        "left": 57.3,
+        "top": 602.3,
+        "width": 800,
+        "height": 120,
+        "scaleX": 0.184,
+        "scaleY": 0.184,
+        "orderIndex": 4,
+        "id": "ranking_logo",
+        "className": "logoPicture",
+        "conrolTitle": "Ranking Logo",
+        "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/usatoday_3181.png"
+      },
+      {
+        "type": "image",
+        "left": 60.84862881218089,
+        "top": 837.0494603597936,
+        "width": 1292,
+        "height": 313,
+        "scaleX": 0.10714923507351641,
+        "scaleY": 0.10714923507351641,
+        "orderIndex": 5,
+        "id": "maction_logo",
+        "className": "logoPicture",
+        "conrolTitle": "Maction Logo",
+        "src": "https://dzfa1uifb0sb6.cloudfront.net/stock_images/maction_duotone_3140.png"
+      },
+      {
+        "type": "image",
+        "left": 645,
+        "top": 10,
+        "width": 670,
+        "height": 669,
+        "scaleX": 0.09983002193173635,
+        "scaleY": 0.09983002193173635,
+        "visible": false,
+        "id": "logo_sponsor",
+        "className": "logoPicture",
+        "src": "https://s3.amazonaws.com/gipper-static-assets/stock_images/template_seventy_three_Outlook.png",
+        "conrolTitle": "Sponsor Logo"
+      }
+    ]
+  }
+}
