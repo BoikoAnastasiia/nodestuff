@@ -345,8 +345,8 @@
             "originY": "center",
             "left": 0,
             "top": 0,
-            "width": 91,
-            "height": 27,
+            "width": 175,
+            "height": 51,
             "id": "group_for_logo_1",
             "className": "containerForPicture",
             "clipPath": {
