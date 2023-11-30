@@ -1,9 +1,5 @@
 [
   {
-    "templates.id": "4021",
-    "templates.class_name": "template_three_thousand_three_hundred_seventeen"
-  },
-  {
     "templates.id": "4020",
     "templates.class_name": "template_three_thousand_three_hundred_nineteen"
   },
@@ -464,10 +460,6 @@
     "templates.class_name": "template_three_thousand_one_hundred_fifty_eight"
   },
   {
-    "templates.id": "3824",
-    "templates.class_name": "template_three_thousand_one_hundred_fifty_three"
-  },
-  {
     "templates.id": "3823",
     "templates.class_name": "template_three_thousand_one_hundred_fifty_nine"
   },
@@ -512,28 +504,8 @@
     "templates.class_name": "template_three_thousand_one_hundred_forty_seven"
   },
   {
-    "templates.id": "3811",
-    "templates.class_name": "template_three_thousand_one_hundred_forty_one"
-  },
-  {
-    "templates.id": "3810",
-    "templates.class_name": "template_three_thousand_one_hundred_fifty_one"
-  },
-  {
-    "templates.id": "3809",
-    "templates.class_name": "template_three_thousand_one_hundred_fifty"
-  },
-  {
-    "templates.id": "3808",
-    "templates.class_name": "template_three_thousand_one_hundred_forty_eight"
-  },
-  {
     "templates.id": "3807",
     "templates.class_name": "template_three_thousand_one_hundred_forty_six"
-  },
-  {
-    "templates.id": "3806",
-    "templates.class_name": "template_three_thousand_one_hundred_forty_nine"
   },
   {
     "templates.id": "3805",
@@ -1836,10 +1808,6 @@
     "templates.class_name": "template_two_thousand_seven_hundred_twenty_five"
   },
   {
-    "templates.id": "3306",
-    "templates.class_name": "template_two_thousand_seven_hundred_thirty_three"
-  },
-  {
     "templates.id": "3305",
     "templates.class_name": "template_two_thousand_seven_hundred_twenty_four"
   },
@@ -1940,14 +1908,6 @@
     "templates.class_name": "template_two_thousand_six_hundred_ninety_four"
   },
   {
-    "templates.id": "3276",
-    "templates.class_name": "template_two_thousand_six_hundred_ninety_three"
-  },
-  {
-    "templates.id": "3271",
-    "templates.class_name": "template_two_thousand_six_hundred_eighty_two"
-  },
-  {
     "templates.id": "3269",
     "templates.class_name": "template_two_thousand_six_hundred_eighty_eight"
   },
@@ -2002,10 +1962,6 @@
   {
     "templates.id": "3248",
     "templates.class_name": "example_class_name_to_test_tags"
-  },
-  {
-    "templates.id": "3247",
-    "templates.class_name": "template_two_thousand_six_hundred_sixty_nine"
   },
   {
     "templates.id": "3242",
@@ -2396,10 +2352,6 @@
     "templates.class_name": "template_two_thousand_five_hundred_thirty_three"
   },
   {
-    "templates.id": "3042",
-    "templates.class_name": "template_two_thousand_five_hundred_thirty_two"
-  },
-  {
     "templates.id": "3033",
     "templates.class_name": "template_two_thousand_five_hundred_eighteen"
   },
@@ -2626,10 +2578,6 @@
   {
     "templates.id": "2927",
     "templates.class_name": "template_two_thousand_four_hundred_forty_seven"
-  },
-  {
-    "templates.id": "2926",
-    "templates.class_name": "template_two_thousand_four_hundred_forty_six"
   },
   {
     "templates.id": "2921",
@@ -3010,10 +2958,6 @@
   {
     "templates.id": "2777",
     "templates.class_name": "template_two_thousand_three_hundred_forty_two"
-  },
-  {
-    "templates.id": "2776",
-    "templates.class_name": "template_two_thousand_three_hundred_fourty_one"
   },
   {
     "templates.id": "2775",
@@ -3516,22 +3460,6 @@
     "templates.class_name": "template_two_thousand_one_hundred_ninety_five"
   },
   {
-    "templates.id": "2619",
-    "templates.class_name": "template_two_thousand_one_hundred_ninety"
-  },
-  {
-    "templates.id": "2618",
-    "templates.class_name": "template_two_thousand_one_hundred_eighty_nine"
-  },
-  {
-    "templates.id": "2617",
-    "templates.class_name": "template_two_thousand_one_hundred_eighty_eight"
-  },
-  {
-    "templates.id": "2616",
-    "templates.class_name": "template_two_thousand_one_hundred_eighty_seven"
-  },
-  {
     "templates.id": "2615",
     "templates.class_name": "template_two_thousand_one_hundred_seventy_seven"
   },
@@ -3818,10 +3746,6 @@
   {
     "templates.id": "2453",
     "templates.class_name": "template_two_thousand_sixty_two"
-  },
-  {
-    "templates.id": "2447",
-    "templates.class_name": "template_two_thousand_sixty"
   },
   {
     "templates.id": "2445",
@@ -4144,16 +4068,8 @@
     "templates.class_name": "template_one_thousand_nine_hundred_forty_nine"
   },
   {
-    "templates.id": "2338",
-    "templates.class_name": "template_one_thousand_nine_hundred_fifty_six"
-  },
-  {
     "templates.id": "2337",
     "templates.class_name": "template_one_thousand_nine_hundred_sixty_one"
-  },
-  {
-    "templates.id": "2336",
-    "templates.class_name": "template_one_thousand_nine_hundred_fifty_five"
   },
   {
     "templates.id": "2335",
@@ -4388,10 +4304,6 @@
     "templates.class_name": "template_one_thousand_eight_hundred_ninety_five"
   },
   {
-    "templates.id": "2270",
-    "templates.class_name": "template_one_thousand_eight_hundred_forty_five"
-  },
-  {
     "templates.id": "2269",
     "templates.class_name": "template_one_thousand_eight_hundred_seventy_eight"
   },
@@ -4426,10 +4338,6 @@
   {
     "templates.id": "2261",
     "templates.class_name": "template_one_thousand_eight_hundred_sixty_six"
-  },
-  {
-    "templates.id": "2260",
-    "templates.class_name": "template_one_thousand_eight_hundred_seventy_four"
   },
   {
     "templates.id": "2258",
@@ -5956,18 +5864,6 @@
     "templates.class_name": "template_one_thousand_four_hundred"
   },
   {
-    "templates.id": "1748",
-    "templates.class_name": "template_one_thousand_three_hundred_thirty_nine"
-  },
-  {
-    "templates.id": "1747",
-    "templates.class_name": "template_one_thousand_three_hundred_thirty_eight"
-  },
-  {
-    "templates.id": "1746",
-    "templates.class_name": "template_one_thousand_three_hundred_thirty_seven"
-  },
-  {
     "templates.id": "1745",
     "templates.class_name": "template_one_thousand_three_hundred_eighty_four"
   },
@@ -6334,14 +6230,6 @@
   {
     "templates.id": "1634",
     "templates.class_name": "template_one_thousand_two_hundred_eighty_four"
-  },
-  {
-    "templates.id": "1633",
-    "templates.class_name": "template_eight_hundred_seventy_four"
-  },
-  {
-    "templates.id": "1632",
-    "templates.class_name": "template_eight_hundred_seventy_three"
   },
   {
     "templates.id": "1630",
@@ -6790,18 +6678,6 @@
   {
     "templates.id": "1481",
     "templates.class_name": "template_one_thousand_one_hundred_twenty_eight"
-  },
-  {
-    "templates.id": "1480",
-    "templates.class_name": "template_one_thousand_one_hundred_four"
-  },
-  {
-    "templates.id": "1479",
-    "templates.class_name": "template_one_thousand_one_hundred_twenty"
-  },
-  {
-    "templates.id": "1478",
-    "templates.class_name": "template_one_thousand_one_hundred_nineteen"
   },
   {
     "templates.id": "1477",
@@ -7848,18 +7724,6 @@
     "templates.class_name": "template_seven_hundred_seventy_two"
   },
   {
-    "templates.id": "1146",
-    "templates.class_name": "template_seven_hundred_eighty_two"
-  },
-  {
-    "templates.id": "1145",
-    "templates.class_name": "template_seven_hundred_eighty_one"
-  },
-  {
-    "templates.id": "1144",
-    "templates.class_name": "template_seven_hundred_eighty"
-  },
-  {
     "templates.id": "1143",
     "templates.class_name": "template_seven_hundred_sixty_two"
   },
@@ -8672,54 +8536,6 @@
     "templates.class_name": "template_five_hundred_thirty_one"
   },
   {
-    "templates.id": "486",
-    "templates.class_name": "template_five_hundred_twenty_one"
-  },
-  {
-    "templates.id": "485",
-    "templates.class_name": "template_five_hundred_twenty"
-  },
-  {
-    "templates.id": "484",
-    "templates.class_name": "template_five_hundred_nineteen"
-  },
-  {
-    "templates.id": "483",
-    "templates.class_name": "template_five_hundred_eighteen"
-  },
-  {
-    "templates.id": "482",
-    "templates.class_name": "template_five_hundred_seventeen"
-  },
-  {
-    "templates.id": "481",
-    "templates.class_name": "template_five_hundred_sixteen"
-  },
-  {
-    "templates.id": "476",
-    "templates.class_name": "template_five_hundred_fifteen"
-  },
-  {
-    "templates.id": "475",
-    "templates.class_name": "template_five_hundred_fourteen"
-  },
-  {
-    "templates.id": "474",
-    "templates.class_name": "template_five_hundred_thirteen"
-  },
-  {
-    "templates.id": "473",
-    "templates.class_name": "template_five_hundred_eight"
-  },
-  {
-    "templates.id": "472",
-    "templates.class_name": "template_five_hundred_seven"
-  },
-  {
-    "templates.id": "471",
-    "templates.class_name": "template_five_hundred_six"
-  },
-  {
     "templates.id": "470",
     "templates.class_name": "template_five_hundred_five"
   },
@@ -8784,102 +8600,6 @@
     "templates.class_name": "template_four_hundred_ninety_eight"
   },
   {
-    "templates.id": "454",
-    "templates.class_name": "template_four_hundred_ninety"
-  },
-  {
-    "templates.id": "453",
-    "templates.class_name": "template_four_hundred_eighty_nine"
-  },
-  {
-    "templates.id": "452",
-    "templates.class_name": "template_four_hundred_eighty_eight"
-  },
-  {
-    "templates.id": "451",
-    "templates.class_name": "template_four_hundred_eighty_four"
-  },
-  {
-    "templates.id": "450",
-    "templates.class_name": "template_four_hundred_eighty_three"
-  },
-  {
-    "templates.id": "449",
-    "templates.class_name": "template_four_hundred_eighty_two"
-  },
-  {
-    "templates.id": "448",
-    "templates.class_name": "template_four_hundred_sixty_nine"
-  },
-  {
-    "templates.id": "447",
-    "templates.class_name": "template_four_hundred_sixty_eight"
-  },
-  {
-    "templates.id": "446",
-    "templates.class_name": "template_four_hundred_sixty_seven"
-  },
-  {
-    "templates.id": "445",
-    "templates.class_name": "template_four_hundred_seventy_eight"
-  },
-  {
-    "templates.id": "444",
-    "templates.class_name": "template_four_hundred_seventy_seven"
-  },
-  {
-    "templates.id": "443",
-    "templates.class_name": "template_four_hundred_seventy_six"
-  },
-  {
-    "templates.id": "442",
-    "templates.class_name": "template_four_hundred_ninety_three"
-  },
-  {
-    "templates.id": "441",
-    "templates.class_name": "template_four_hundred_ninety_two"
-  },
-  {
-    "templates.id": "440",
-    "templates.class_name": "template_four_hundred_ninety_one"
-  },
-  {
-    "templates.id": "439",
-    "templates.class_name": "template_four_hundred_eighty_seven"
-  },
-  {
-    "templates.id": "438",
-    "templates.class_name": "template_four_hundred_eighty_six"
-  },
-  {
-    "templates.id": "437",
-    "templates.class_name": "template_four_hundred_eighty_five"
-  },
-  {
-    "templates.id": "436",
-    "templates.class_name": "template_four_hundred_seventy_five"
-  },
-  {
-    "templates.id": "435",
-    "templates.class_name": "template_four_hundred_seventy_four"
-  },
-  {
-    "templates.id": "434",
-    "templates.class_name": "template_four_hundred_seventy_three"
-  },
-  {
-    "templates.id": "433",
-    "templates.class_name": "template_four_hundred_seventy_two"
-  },
-  {
-    "templates.id": "432",
-    "templates.class_name": "template_four_hundred_seventy_one"
-  },
-  {
-    "templates.id": "431",
-    "templates.class_name": "template_four_hundred_seventy"
-  },
-  {
     "templates.id": "430",
     "templates.class_name": "template_four_hundred_sixty"
   },
@@ -8912,36 +8632,12 @@
     "templates.class_name": "template_four_hundred_sixty_one"
   },
   {
-    "templates.id": "422",
-    "templates.class_name": "template_four_hundred_fifty_five"
-  },
-  {
-    "templates.id": "421",
-    "templates.class_name": "template_four_hundred_fifty_four"
-  },
-  {
-    "templates.id": "420",
-    "templates.class_name": "template_four_hundred_fifty_three"
-  },
-  {
     "templates.id": "419",
     "templates.class_name": "template_four_hundred_fifty_two"
   },
   {
     "templates.id": "418",
     "templates.class_name": "template_four_hundred_fifty_one"
-  },
-  {
-    "templates.id": "414",
-    "templates.class_name": "template_four_hundred_forty_seven"
-  },
-  {
-    "templates.id": "413",
-    "templates.class_name": "template_four_hundred_forty_six"
-  },
-  {
-    "templates.id": "412",
-    "templates.class_name": "template_four_hundred_forty_five"
   },
   {
     "templates.id": "405",
@@ -8984,20 +8680,8 @@
     "templates.class_name": "template_certificate"
   },
   {
-    "templates.id": "395",
-    "templates.class_name": "template_four_hundred_forty_four"
-  },
-  {
-    "templates.id": "394",
-    "templates.class_name": "template_four_hundred_forty_three"
-  },
-  {
     "templates.id": "393",
     "templates.class_name": "template_four_hundred_thirty_eight"
-  },
-  {
-    "templates.id": "392",
-    "templates.class_name": "template_four_hundred_forty_two"
   },
   {
     "templates.id": "391",
@@ -10120,36 +9804,16 @@
     "templates.class_name": "template_one_hundred_seven"
   },
   {
-    "templates.id": "102",
-    "templates.class_name": "template_one_hundred_five"
-  },
-  {
-    "templates.id": "101",
-    "templates.class_name": "template_one_hundred_four"
-  },
-  {
     "templates.id": "100",
     "templates.class_name": "template_one_hundred_three"
-  },
-  {
-    "templates.id": "99",
-    "templates.class_name": "template_one_hundred_two"
   },
   {
     "templates.id": "98",
     "templates.class_name": "template_one_hundred_one"
   },
   {
-    "templates.id": "97",
-    "templates.class_name": "template_one_hundred"
-  },
-  {
     "templates.id": "96",
     "templates.class_name": "template_ninety_nine"
-  },
-  {
-    "templates.id": "95",
-    "templates.class_name": "template_ninety_eight"
   },
   {
     "templates.id": "94",
@@ -10186,10 +9850,6 @@
   {
     "templates.id": "84",
     "templates.class_name": "template_eighty_seven"
-  },
-  {
-    "templates.id": "83",
-    "templates.class_name": "template_eighty_six"
   },
   {
     "templates.id": "81",

@@ -20,7 +20,12 @@ fs.readdir(folderPath, (err, files) => {
 
       const jsonString = JSON.stringify(data);
       // console.log(jsonString);
-      if (jsonString.includes('flexibleTemplate')) {
+      if (
+        jsonString.includes('flexibleTemplate') ||
+        jsonString.includes('animatedTemplate') ||
+        jsonString.includes('calendarTemplate') ||
+        jsonString.includes('imagePickerArray')
+      ) {
         newArr.push(file);
         return;
       }
