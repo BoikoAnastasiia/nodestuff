@@ -16,35 +16,24 @@ fs.readdir(folderPath, (err, files) => {
     try {
       const data = fs.readFileSync(filePath, 'utf8');
 
-      // const testJSON = (string) => {
-      //   if (typeof string === 'string') {
-      //     return false;
-      //   }
-      //   try {
-      //     JSON.parse(data);
-      //     return true;
-      //   } catch (error) {
-      //     return false;
-      //   }
-      // };
       // console.log(testJSON(data));
 
-      // const jsonString = JSON.stringify(json);
+      const jsonString = JSON.stringify(data);
       // console.log(jsonString);
-      // if (jsonString.includes('"clipPath":{"type":"image"')) {
-      //   newArr.push(file);
-      //   return;
-      // }
-
-      const json = JSON.parse(data);
-
-      if (json?.body?.objects) {
-        json.body.objects.filter((obj) => obj.type != 'image' && obj.clipPath)
-          .length > 0 && newArr.push(file);
+      if (jsonString.includes('flexibleTemplate')) {
+        newArr.push(file);
+        return;
       }
+
+      // const json = JSON.parse(data);
+
+      // if (json?.body?.objects) {
+      //   json.body.objects.filter((obj) => obj.type != 'image' && obj.clipPath)
+      //     .length > 0 && newArr.push(file);
+      // }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
-  fs.writeFileSync('imageclippath.txt', newArr.join('\n'));
+  fs.writeFileSync('flexible.txt', newArr.join('\n'));
 });
