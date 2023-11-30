@@ -11,7 +11,7 @@ const file2Data = fs
 // Filter out objects with names from the second file
 const filteredData = file1Data.filter((obj) => {
   const className = obj['templates.class_name'];
-  return !file2Data.includes(className);
+  return !file2Data.includes(className) && className.includes('template_');
 });
 
 // Write the modified data to a new JSON file
