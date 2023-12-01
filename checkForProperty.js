@@ -1,7 +1,11 @@
 const fs = require('fs');
-const folderPath = './default_presets';
+// const folderPath = './default_presets';
+const folderPath = './animated_templates';
 const command =
   'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
+
+const command2 =
+  'aws s3 sync s3://gipper-static-assets/animated_templates animated_templates';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
@@ -20,12 +24,7 @@ fs.readdir(folderPath, (err, files) => {
 
       const jsonString = JSON.stringify(data);
       // console.log(jsonString);
-      if (
-        jsonString.includes('flexibleTemplate') ||
-        jsonString.includes('animatedTemplate') ||
-        jsonString.includes('calendarTemplate') ||
-        jsonString.includes('imagePickerArray')
-      ) {
+      if (jsonString.includes('clipPath') || jsonString.includes('round')) {
         newArr.push(file);
         return;
       }
@@ -40,5 +39,5 @@ fs.readdir(folderPath, (err, files) => {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
-  fs.writeFileSync('flexible.txt', newArr.join('\n'));
+  fs.writeFileSync('animation_with_clippath.txt', newArr.join('\n'));
 });
