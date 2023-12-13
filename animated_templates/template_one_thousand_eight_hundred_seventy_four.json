@@ -116,7 +116,7 @@
           "target_query": 0,
           "animation_keyframes": [
             {
-              "scaleX": "*=1.02",
+              "scaleX": "*=0.9",
               "scaleY": "*=1.02",
               "duration": 3000,
               "easing": "easeOutCubic"

@@ -1,6 +1,6 @@
 const fs = require('fs');
-// const folderPath = './default_presets';
-const folderPath = './animated_templates';
+const folderPath = './default_presets';
+// const folderPath = './animated_templates';
 const command =
   'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
 
@@ -24,7 +24,7 @@ fs.readdir(folderPath, (err, files) => {
 
       const jsonString = JSON.stringify(data);
       // console.log(jsonString);
-      if (jsonString.includes('clipPath') || jsonString.includes('round')) {
+      if (jsonString.includes('"strokeWidth": 7')) {
         newArr.push(file);
         return;
       }
@@ -39,5 +39,5 @@ fs.readdir(folderPath, (err, files) => {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
-  fs.writeFileSync('animation_with_clippath.txt', newArr.join('\n'));
+  fs.writeFileSync('circle.txt', newArr.join('\n'));
 });
