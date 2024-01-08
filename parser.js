@@ -6,8 +6,8 @@ st3keyArray.map((key) => {
   const data = fs.readFileSync(`./newsletters_presets/${key}.json`);
   const json = JSON.parse(data);
 
-  if (json.body) {
-    json.body.objects.forEach((el, index, array) => {
+  if (json) {
+    json.content.forEach((el, index, array) => {
       if (el.componentType === 'ImageComponent' && el.gridType === 'single') {
         el.gridType = '1';
 
@@ -34,17 +34,19 @@ st3keyArray.map((key) => {
       if (el.componentType === 'ImageComponent' && el.gridType === '2x2') {
         el.gridType = '2';
         const el2 = { ...el };
-        el.images.slice(2, 3);
-        el2.images.slice(0, 1);
+        el.images.splice(0, 2);
+        el2.images.slice(2, 1);
         array.splice(index + 1, 0, el2);
       }
 
       if (el.componentType === 'ImageComponent' && el.gridType === '3x3') {
         el.gridType = '3';
-        const el2 = ({ ...el } = el3);
-        el.images.slice(2, 3, 4, 5);
-        el2.images.slice(0, 1, 4, 5);
-        el3.images.slice(0, 1, 2, 3);
+        const el2 = { ...el };
+        const el3 = { ...el };
+        el.images.splice(2, 4);
+        el2.images.slice(0, 2);
+        el2.images.slice(4, 2);
+        el3.images.slice(0, 4);
         array.splice(index + 1, 0, el2, el3);
       }
     });
