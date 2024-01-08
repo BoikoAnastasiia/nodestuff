@@ -1,11 +1,7 @@
 const fs = require('fs');
-const folderPath = './default_presets';
-// const folderPath = './animated_templates';
-const command =
-  'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
-
-const command2 =
-  'aws s3 sync s3://gipper-static-assets/animated_templates animated_templates';
+const folderPath = './newslettes_presets';
+const commandDownloadAllHtmlPresets =
+  'aws s3 cp s3://platform-gipper/presets/ newsletters_presets --recursive --exclude "*" --include "*.html"';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
