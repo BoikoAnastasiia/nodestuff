@@ -15,7 +15,8 @@ fs.readdir(folderPath, (err, files) => {
     path.basename(file, '.html')
   );
 
-  const outputPath = path.join(folderPath, 'arrayOfS3keys.txt');
+  const rootFolderPath = path.join(__dirname, '.');
+  const outputPath = path.join(rootFolderPath, 'arrayOfS3keys.txt');
 
   fs.writeFileSync(
     outputPath,
