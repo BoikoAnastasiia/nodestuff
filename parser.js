@@ -37,6 +37,7 @@ st3keyArray.map((key) => {
         el.images.splice(2, 2);
         el2.images.splice(0, 2);
         array.splice(index + 1, 0, el2);
+        el2.id = el.id + '-2';
       }
 
       if (el.componentType === 'ImageComponent' && el.gridType === '3x3') {
@@ -48,6 +49,8 @@ st3keyArray.map((key) => {
         el2.images.splice(6, 3);
         el3.images.splice(0, 6);
         array.splice(index + 1, 0, el2, el3);
+        el2.id = el.id + '-2';
+        el3.id = el.id + '-3';
       }
     });
   }
