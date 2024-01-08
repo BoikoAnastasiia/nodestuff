@@ -16,21 +16,11 @@ fs.readdir(folderPath, (err, files) => {
     try {
       const data = fs.readFileSync(filePath, 'utf8');
 
-      // console.log(testJSON(data));
-
       const jsonString = JSON.stringify(data);
-      // console.log(jsonString);
       if (jsonString.includes('"strokeWidth": 7')) {
         newArr.push(file);
         return;
       }
-
-      // const json = JSON.parse(data);
-
-      // if (json?.body?.objects) {
-      //   json.body.objects.filter((obj) => obj.type != 'image' && obj.clipPath)
-      //     .length > 0 && newArr.push(file);
-      // }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
