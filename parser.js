@@ -34,8 +34,8 @@ st3keyArray.map((key) => {
       if (el.componentType === 'ImageComponent' && el.gridType === '2x2') {
         el.gridType = '2';
         const el2 = { ...el };
-        el.images.splice(0, 2);
-        el2.images.slice(2, 1);
+        el.images.splice(2, 2);
+        el2.images.splice(0, 2);
         array.splice(index + 1, 0, el2);
       }
 
@@ -43,10 +43,10 @@ st3keyArray.map((key) => {
         el.gridType = '3';
         const el2 = { ...el };
         const el3 = { ...el };
-        el.images.splice(2, 4);
-        el2.images.slice(0, 2);
-        el2.images.slice(4, 2);
-        el3.images.slice(0, 4);
+        el.images.splice(3, 6);
+        el2.images.splice(0, 3);
+        el2.images.splice(6, 3);
+        el3.images.splice(0, 6);
         array.splice(index + 1, 0, el2, el3);
       }
     });
