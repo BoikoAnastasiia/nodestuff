@@ -1,13 +1,9 @@
 const fs = require('fs');
 
-const st3keyArray = [
-  '3231296CDAD05FEEF51B523A1DBDACD9',
-  'BA151ED808E3BC227014FE996F3EFF15',
-  'EC96828F649555D71448DF9C17D2E802',
-];
+const st3keyArray = ['example'];
 
 st3keyArray.map((key) => {
-  const data = fs.readFileSync(`./presets/${key}.json`);
+  const data = fs.readFileSync(`./newsletters_presets/${key}.json`);
   const json = JSON.parse(data);
 
   if (json.body) {
@@ -34,12 +30,29 @@ st3keyArray.map((key) => {
         el.gridType = '1';
         el.singleTypeSize = '10';
       }
+
+      if (el.componentType === 'ImageComponent' && el.gridType === '2x2') {
+        el.gridType = '2';
+        const el2 = { ...el };
+        el.images.slice(2, 3);
+        el2.images.slice(0, 1);
+        array.splice(index + 1, 0, el2);
+      }
+
+      if (el.componentType === 'ImageComponent' && el.gridType === '3x3') {
+        el.gridType = '3';
+        const el2 = ({ ...el } = el3);
+        el.images.slice(2, 3, 4, 5);
+        el2.images.slice(0, 1, 4, 5);
+        el3.images.slice(0, 1, 2, 3);
+        array.splice(index + 1, 0, el2, el3);
+      }
     });
   }
 
   const newJson = JSON.stringify(json);
 
-  fs.writeFileSync(`./presets/${key}.json`, newJson, (err) => {
+  fs.writeFileSync(`./newsletters_presets/${key}.json`, newJson, (err) => {
     if (err) {
       console.error(err);
     }
