@@ -12,9 +12,27 @@ st3keyArray.map((key) => {
 
   if (json.body) {
     json.body.objects.forEach((el, index, array) => {
-      if (el.id === 'group_for_logo_1') {
-        el.width = 175;
-        el.height = 51;
+      if (el.componentType === 'ImageComponent' && el.gridType === 'single') {
+        el.gridType = '1';
+
+        switch (el.singleTypeSize) {
+          case 'l':
+            el.singleTypeSize = '9';
+            break;
+          case 's':
+            el.singleTypeSize = '1';
+            break;
+          case 'm':
+            el.singleTypeSize = '5';
+            break;
+          default:
+            break;
+        }
+      }
+
+      if (el.componentType === 'ImageComponent' && el.gridType === 'full') {
+        el.gridType = '1';
+        el.singleTypeSize = '10';
       }
     });
   }
