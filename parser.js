@@ -33,24 +33,24 @@ st3keyArray.map((key) => {
 
       if (el.componentType === 'ImageComponent' && el.gridType === '2x2') {
         el.gridType = '2';
-        const el2 = { ...el };
+        const el2 = JSON.parse(JSON.stringify(el));
         el.images.splice(2, 2);
         el2.images.splice(0, 2);
-        array.splice(index + 1, 0, el2);
         el2.id = el.id + '-2';
+        array.splice(index + 1, 0, el2);
       }
 
       if (el.componentType === 'ImageComponent' && el.gridType === '3x3') {
         el.gridType = '3';
-        const el2 = { ...el };
-        const el3 = { ...el };
+        const el2 = JSON.parse(JSON.stringify(el));
+        const el3 = JSON.parse(JSON.stringify(el));
         el.images.splice(3, 6);
         el2.images.splice(0, 3);
         el2.images.splice(6, 3);
         el3.images.splice(0, 6);
-        array.splice(index + 1, 0, el2, el3);
         el2.id = el.id + '-2';
         el3.id = el.id + '-3';
+        array.splice(index + 1, 0, el2, el3);
       }
     });
   }
