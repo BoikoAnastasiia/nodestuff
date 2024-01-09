@@ -13,26 +13,29 @@ st3keyArray.map((key) => {
 
         switch (el.singleTypeSize) {
           case 'l':
-            el.singleTypeSize = '9';
+            el.singleImageWidht = '90';
             break;
           case 's':
-            el.singleTypeSize = '1';
+            el.singleImageWidht = '10';
             break;
           case 'm':
-            el.singleTypeSize = '5';
+            el.singleImageWidht = '50';
             break;
           default:
             break;
         }
+        delete el.singleTypeSize;
       }
 
       if (el.componentType === 'ImageComponent' && el.gridType === 'full') {
         el.gridType = '1';
-        el.singleTypeSize = '10';
+        el.singleImageWidht = '10';
+        delete el.singleTypeSize;
       }
 
       if (el.componentType === 'ImageComponent' && el.gridType === '2x2') {
         el.gridType = '2';
+        delete el.singleTypeSize;
         const el2 = JSON.parse(JSON.stringify(el));
         el.images.splice(2, 2);
         el2.images.splice(0, 2);
@@ -42,6 +45,7 @@ st3keyArray.map((key) => {
 
       if (el.componentType === 'ImageComponent' && el.gridType === '3x3') {
         el.gridType = '3';
+        delete el.singleTypeSize;
         const el2 = JSON.parse(JSON.stringify(el));
         const el3 = JSON.parse(JSON.stringify(el));
         el.images.splice(3, 6);
