@@ -1,0 +1,125 @@
+{
+  "content": [
+    {
+      "id": "text_component-1",
+      "title": "Text",
+      "componentType": "TextComponent",
+      "columnsCount": 1,
+      "columnsContent": [
+        "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"kknknnlnlnlnl\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"knknknknnknkn\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"color: #FF0000;font-size: 72px;\",\"text\":\"lkhlnklnlnln\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+      ],
+      "backgroundStyling": {
+        "backgroundColor": "#FFFFFF",
+        "paddingLR": 20,
+        "paddingTB": 20
+      }
+    },
+    {
+      "id": "image_component-2",
+      "title": "Image",
+      "componentType": "ImageComponent",
+      "gridType": "3",
+      "image": [{ "src": null, "link": null, "toggleType": "cover" }],
+      "backgroundStyling": {
+        "backgroundColor": "#FFFFFF",
+        "paddingLR": 20,
+        "paddingTB": 20
+      },
+      "singleTypeAlignment": "center",
+      "backgroundPaddingImage": 20,
+      "images": [
+        {
+          "src": "https://d2tyu887lcxnka.cloudfront.net/DF989BD8F7FD6886AA1FD661EE690A4A.png",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://d2tyu887lcxnka.cloudfront.net/27F76BDBC9FC60CB51D0D16C05AB627B.png",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://d2tyu887lcxnka.cloudfront.net/A69E4C298B291C0B2F88E4F9232AD205.png",
+          "link": null,
+          "toggleType": "cover"
+        }
+      ]
+    },
+    {
+      "id": "image_component-1",
+      "title": "Image",
+      "componentType": "ImageComponent",
+      "gridType": "3",
+      "image": [{ "src": null, "link": null, "toggleType": "cover" }],
+      "backgroundStyling": {
+        "backgroundColor": "#FFFFFF",
+        "paddingLR": 20,
+        "paddingTB": 20
+      },
+      "singleTypeAlignment": "center",
+      "backgroundPaddingImage": 20,
+      "images": [
+        {
+          "src": "https://d2tyu887lcxnka.cloudfront.net/CF5770F67F3A51B0C5E50584C67EED05.png",
+          "link": null,
+          "toggleType": "contain"
+        },
+        {
+          "src": "https://d2tyu887lcxnka.cloudfront.net/A69E4C298B291C0B2F88E4F9232AD205.png",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://d2tyu887lcxnka.cloudfront.net/BCBE93AA4F3294FE00F6C8232674E2F8.png",
+          "link": null,
+          "toggleType": "contain"
+        }
+      ]
+    },
+    {
+      "id": "logo_component-2",
+      "title": "Logo",
+      "componentType": "LogoComponent",
+      "backgroundStyling": {
+        "backgroundColor": "#FFFFFF",
+        "paddingLR": 20,
+        "paddingTB": 20
+      },
+      "logoSize": "s",
+      "alignment": "center",
+      "logoSrc": "https://s3.amazonaws.com/gipper-college-logos-development/C7444E3D18F72115EED5F051DA5C3D68.png"
+    },
+    {
+      "id": "image_component-3",
+      "title": "Image",
+      "componentType": "ImageComponent",
+      "gridType": "2",
+      "image": [{ "src": null, "link": null, "toggleType": "cover" }],
+      "backgroundStyling": {
+        "backgroundColor": "#FFFFFF",
+        "paddingLR": 20,
+        "paddingTB": 20
+      },
+      "singleTypeSize": "s",
+      "singleTypeAlignment": "center",
+      "backgroundPaddingImage": 20,
+      "images": [
+        { "src": null, "link": null, "toggleType": "cover" },
+        { "src": null, "link": null, "toggleType": "cover" }
+      ]
+    },
+    {
+      "id": "logo_component-1",
+      "title": "Logo",
+      "componentType": "LogoComponent",
+      "backgroundStyling": {
+        "backgroundColor": "#FFFFFF",
+        "paddingLR": 20,
+        "paddingTB": 20
+      },
+      "logoSize": "s",
+      "alignment": "center",
+      "logoSrc": "https://s3.amazonaws.com/gipper-college-logos-development/C4B8CB6354450ACA88DE8D14B7CEF3A1.png"
+    }
+  ]
+}

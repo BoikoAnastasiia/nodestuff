@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const st3keyArray = ['example'];
+const st3keyArray = ['example', 'example2'];
 
 st3keyArray.map((key) => {
   const data = fs.readFileSync(`./newsletters_presets/${key}.json`);
@@ -22,7 +22,6 @@ st3keyArray.map((key) => {
             el.singleImageWidht = '50';
             break;
           default:
-            break;
         }
         delete el.singleTypeSize;
       }
@@ -36,6 +35,7 @@ st3keyArray.map((key) => {
       if (el.componentType === 'ImageComponent' && el.gridType === '2x2') {
         el.gridType = '2';
         delete el.singleTypeSize;
+        el.singleImageWidht = 50;
         const el2 = JSON.parse(JSON.stringify(el));
         el.images.splice(2, 2);
         el2.images.splice(0, 2);
@@ -48,6 +48,7 @@ st3keyArray.map((key) => {
         delete el.singleTypeSize;
         const el2 = JSON.parse(JSON.stringify(el));
         const el3 = JSON.parse(JSON.stringify(el));
+        el.singleImageWidht = 50;
         el.images.splice(3, 6);
         el2.images.splice(0, 3);
         el2.images.splice(6, 3);
@@ -58,15 +59,15 @@ st3keyArray.map((key) => {
       }
 
       if (
-        el.backgroundStyling.paddingLR &&
-        el.backgroundStyling.paddingRight &&
-        el.backgroundStyling.paddingLeft
+        el.backgroundStyling.paddingLR >= 0 &&
+        el.backgroundStyling.paddingRight >= 0 &&
+        el.backgroundStyling.paddingLeft >= 0
       ) {
         delete el.backgroundStyling.paddingLR;
       }
 
       if (
-        el.backgroundStyling.paddingLR &&
+        el.backgroundStyling.paddingLR >= 0 &&
         !el.backgroundStyling.paddingRight &&
         !el.backgroundStyling.paddingLeft
       ) {
@@ -76,15 +77,15 @@ st3keyArray.map((key) => {
       }
 
       if (
-        el.backgroundStyling.paddingTB &&
-        el.backgroundStyling.paddingTop &&
-        el.backgroundStyling.paddingBottom
+        el.backgroundStyling.paddingTB >= 0 &&
+        el.backgroundStyling.paddingTop >= 0 &&
+        el.backgroundStyling.paddingBottom >= 0
       ) {
         delete el.backgroundStyling.paddingTB;
       }
 
       if (
-        el.backgroundStyling.paddingTB &&
+        el.backgroundStyling.paddingTB >= 0 &&
         !el.backgroundStyling.paddingTop &&
         !el.backgroundStyling.paddingBottom
       ) {
@@ -92,6 +93,7 @@ st3keyArray.map((key) => {
         el.backgroundStyling.paddingBottom = el.backgroundStyling.paddingTB;
         delete el.backgroundStyling.paddingTB;
       }
+      console.log(el);
     });
   }
 
