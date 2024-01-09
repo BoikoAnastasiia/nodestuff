@@ -93,7 +93,6 @@ st3keyArray.map((key) => {
         el.backgroundStyling.paddingBottom = el.backgroundStyling.paddingTB;
         delete el.backgroundStyling.paddingTB;
       }
-      console.log(el);
     });
   }
 
