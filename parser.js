@@ -56,6 +56,42 @@ st3keyArray.map((key) => {
         el3.id = el.id + '-3';
         array.splice(index + 1, 0, el2, el3);
       }
+
+      if (
+        el.backgroundStyling.paddingLR &&
+        el.backgroundStyling.paddingRight &&
+        el.backgroundStyling.paddingLeft
+      ) {
+        delete el.backgroundStyling.paddingLR;
+      }
+
+      if (
+        el.backgroundStyling.paddingLR &&
+        !el.backgroundStyling.paddingRight &&
+        !el.backgroundStyling.paddingLeft
+      ) {
+        el.backgroundStyling.paddingRight = el.backgroundStyling.paddingLR;
+        el.backgroundStyling.paddingLeft = el.backgroundStyling.paddingLR;
+        delete el.backgroundStyling.paddingLR;
+      }
+
+      if (
+        el.backgroundStyling.paddingTB &&
+        el.backgroundStyling.paddingTop &&
+        el.backgroundStyling.paddingBottom
+      ) {
+        delete el.backgroundStyling.paddingTB;
+      }
+
+      if (
+        el.backgroundStyling.paddingTB &&
+        !el.backgroundStyling.paddingTop &&
+        !el.backgroundStyling.paddingBottom
+      ) {
+        el.backgroundStyling.paddingTop = el.backgroundStyling.paddingTB;
+        el.backgroundStyling.paddingBottom = el.backgroundStyling.paddingTB;
+        delete el.backgroundStyling.paddingTB;
+      }
     });
   }
 
