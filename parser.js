@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const st3keyArray = ['example', 'example2'];
+const st3keyArray = ['example', 'example2', 'example4', 'example4'];
 
 st3keyArray.map((key) => {
   const data = fs.readFileSync(`./newsletters_presets/${key}.json`);

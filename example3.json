@@ -1,0 +1,190 @@
+{
+  "content": [
+    {
+      "id": "image_component-1",
+      "title": "Image",
+      "componentType": "ImageComponent",
+      "gridType": "single",
+      "image": [{ "src": null, "link": null, "toggleType": "cover" }],
+      "backgroundStyling": {
+        "backgroundColor": "#BBB3B3",
+        "paddingLR": 0,
+        "paddingTB": 0
+      },
+      "singleTypeSize": "l",
+      "singleTypeAlignment": "center",
+      "backgroundPaddingImage": 20,
+      "images": [
+        {
+          "src": "https://d1txs74qdv0iht.cloudfront.net/FDFE7936C103CA9247FF3D3A5FFB7361.png",
+          "link": "https://ricco.kh.ua/",
+          "toggleType": "cover"
+        }
+      ]
+    },
+    {
+      "id": "image_component-2",
+      "title": "Image",
+      "componentType": "ImageComponent",
+      "gridType": "full",
+      "image": [{ "src": null, "link": null, "toggleType": "cover" }],
+      "backgroundStyling": {
+        "backgroundColor": "#6C9F0C",
+        "paddingLR": 20,
+        "paddingTB": 20
+      },
+      "singleTypeSize": "s",
+      "singleTypeAlignment": "center",
+      "backgroundPaddingImage": 20,
+      "images": [
+        {
+          "src": "https://d1txs74qdv0iht.cloudfront.net/2D702B4632A69CD1ED4FB8CEC0D42CA9.png",
+          "link": null,
+          "toggleType": "cover"
+        }
+      ]
+    },
+    {
+      "id": "image_component-3",
+      "title": "Image",
+      "componentType": "ImageComponent",
+      "gridType": "2x2",
+      "image": [{ "src": null, "link": null, "toggleType": "cover" }],
+      "backgroundStyling": {
+        "backgroundColor": "#245256",
+        "paddingLR": 20,
+        "paddingTB": 20
+      },
+      "singleTypeSize": "s",
+      "singleTypeAlignment": "center",
+      "backgroundPaddingImage": 20,
+      "images": [
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/icons/twitter.png",
+          "link": null,
+          "toggleType": "contain"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/icons/youtube.png",
+          "link": null,
+          "toggleType": "contain"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/icons/facebook.png",
+          "link": null,
+          "toggleType": "contain"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/icons/clock_icon.png",
+          "link": null,
+          "toggleType": "contain"
+        }
+      ]
+    },
+    {
+      "id": "image_component-4",
+      "title": "Image",
+      "componentType": "ImageComponent",
+      "gridType": "3x3",
+      "image": [{ "src": null, "link": null, "toggleType": "cover" }],
+      "backgroundStyling": {
+        "backgroundColor": "#6C9F0C",
+        "paddingLR": 20,
+        "paddingTB": 20
+      },
+      "singleTypeSize": "s",
+      "singleTypeAlignment": "center",
+      "backgroundPaddingImage": 20,
+      "images": [
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_20.jpeg",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_16.jpeg",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_14.jpeg",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_13.jpeg",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_2.png",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_7.jpeg",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_12.jpeg",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_6.jpeg",
+          "link": null,
+          "toggleType": "cover"
+        },
+        {
+          "src": "https://dzfa1uifb0sb6.cloudfront.net/academic_1.jpeg",
+          "link": null,
+          "toggleType": "cover"
+        }
+      ]
+    },
+    {
+      "id": "button_component-1",
+      "title": "Buttons",
+      "componentType": "ButtonComponent",
+      "orientation": "row",
+      "alignment": "center",
+      "buttons": [
+        {
+          "link": "https://ricco.kh.ua/",
+          "content": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":2,\"mode\":\"normal\",\"style\":\"\",\"text\":\"One\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+        },
+        {
+          "link": "",
+          "content": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":1,\"mode\":\"normal\",\"style\":\"font-family: Times New Roman;font-size: 18px;\",\"text\":\"Two\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"left\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+        },
+        {
+          "link": "",
+          "content": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":8,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Three\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"right\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+        },
+        {
+          "link": "",
+          "content": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":4,\"mode\":\"normal\",\"style\":\"color: #E11EC0;\",\"text\":\"Four\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"center\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+        }
+      ],
+      "buttonsCount": 4,
+      "buttonStyle": { "backgroundColor": "#6C9F0C", "borderRadius": 10 },
+      "backgroundStyling": {
+        "backgroundColor": "#BBB3B3",
+        "paddingLR": 20,
+        "paddingTB": 20
+      }
+    },
+    {
+      "id": "video_component-1",
+      "title": "Video",
+      "componentType": "VideoComponent",
+      "video_embed_id": "k8jXX7E_Wkg",
+      "backgroundStyling": {
+        "backgroundColor": "#6C9F0C",
+        "paddingLR": 20,
+        "paddingTB": 20
+      }
+    }
+  ]
+}
