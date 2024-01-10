@@ -6,24 +6,43 @@ st3keyArray.map((key) => {
   const data = fs.readFileSync(`./newsletters_presets/${key}.json`);
   const json = JSON.parse(data);
 
+  const changeImageWidth = (el) => {
+    switch (el.singleTypeSize) {
+      case 'l':
+        el.singleImageWidht = '90';
+        break;
+      case 's':
+        el.singleImageWidht = '10';
+        break;
+      case 'm':
+        el.singleImageWidht = '50';
+        break;
+      default:
+    }
+  };
+
   if (json) {
     json.content.forEach((el, index, array) => {
       if (el.componentType === 'ImageComponent' && el.gridType === 'single') {
         el.gridType = '1';
+        changeImageWidth(el);
+        delete el.singleTypeSize;
+      }
 
+      // need only if client decides to make custom width for logos
+      if (el.componentType === 'LogoComponent') {
         switch (el.singleTypeSize) {
           case 'l':
-            el.singleImageWidht = '90';
+            el.logoSize = '80';
             break;
           case 's':
-            el.singleImageWidht = '10';
+            el.logoSize = '10';
             break;
           case 'm':
-            el.singleImageWidht = '50';
+            el.logoSize = '40';
             break;
           default:
         }
-        delete el.singleTypeSize;
       }
 
       if (el.componentType === 'ImageComponent' && el.gridType === 'full') {
