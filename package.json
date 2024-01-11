@@ -8,7 +8,8 @@
     "download": "^8.0.0",
     "node-fetch": "^2.6.7",
     "probe-image-size": "^7.2.3",
-    "web-streams-polyfill": "^4.0.0-beta.2"
+    "web-streams-polyfill": "^4.0.0-beta.2",
+    "xmldom": "^0.6.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
