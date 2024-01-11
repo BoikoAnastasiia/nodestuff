@@ -1,7 +1,10 @@
 const fs = require('fs');
 const folderPath = './newslettes_presets';
-const commandDownloadAllHtmlPresets =
+const commandDownloadAllHtmlPresetsProd =
   'aws s3 cp s3://platform-gipper/presets/ newsletters_presets --recursive --exclude "*" --include "*.html"';
+
+const commandDownloadAllHtmlPresetsDev =
+  'aws s3 cp s3://gipper-college-logos-development/presets/ newsletters_presets_dev --recursive --exclude "*" --include "*.html"';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
@@ -17,7 +20,7 @@ fs.readdir(folderPath, (err, files) => {
       const data = fs.readFileSync(filePath, 'utf8');
 
       const jsonString = JSON.stringify(data);
-      if (jsonString.includes('"strokeWidth": 7')) {
+      if (jsonString.includes('2x2') || jsonString.includes('3x3')) {
         newArr.push(file);
         return;
       }
@@ -25,5 +28,5 @@ fs.readdir(folderPath, (err, files) => {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
-  fs.writeFileSync('circle.txt', newArr.join('\n'));
+  fs.writeFileSync('2x2&&3x3.txt', newArr.join('\n'));
 });
