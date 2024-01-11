@@ -1,41 +1,67 @@
 const fs = require('fs');
-const cheerio = require('cheerio');
+const { DOMParser, XMLSerializer } = require('xmldom');
 
-// Read the HTML file
-const htmlContent = fs.readFileSync('your_file.html', 'utf-8');
+const st3keyArray = ['example', 'example2', 'example4', 'example4'];
 
-// Load HTML content using Cheerio
-const $ = cheerio.load(htmlContent);
+st3keyArray.map((key) => {
+  // Read the HTML file
+  const htmlContent = fs.readFileSync(
+    `./newsletters_presets/${key}.html`,
+    'utf-8'
+  );
 
-// Select the original div with id="image_component-2_content"
-const originalDiv = $('#image_component-2_content');
+  // Parse HTML content
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(htmlContent, 'text/html');
 
-// Create a new div with a modified ID
-const newDivId = 'image_component-2_content-2';
-const newDiv = $('<div>', {
-  id: newDivId,
-  class: originalDiv.attr('class'),
-  style: originalDiv.attr('style'),
+  // Select the original div with id="image_component-2_content"
+  const originalDiv = doc.getElementById('image_component-2_content');
+
+  // Create a new div with a modified ID
+  const newDivId = `${originalDiv.getAttribute('id')}-${key}`;
+  const newDiv = doc.createElement('div');
+  newDiv.setAttribute('id', newDivId);
+  newDiv.setAttribute('class', originalDiv.getAttribute('class'));
+  newDiv.setAttribute('style', originalDiv.getAttribute('style'));
+
+  // Create a new div wrapper for the images
+  const imageWrapper = doc.createElement('div');
+  imageWrapper.setAttribute(
+    'class',
+    'image_component_wrapper image_two-images'
+  );
+
+  // Move every other image to the new div wrapper
+  const images = originalDiv.getElementsByClassName('newsletter_image');
+  for (let i = 0; i < images.length; i++) {
+    if (i % 2 !== 0) {
+      imageWrapper.appendChild(images[i].cloneNode(true));
+    }
+  }
+
+  // Append the new div wrapper to the new div
+  newDiv.appendChild(imageWrapper);
+
+  // Append the new div to the original div's parent
+  originalDiv.parentNode.insertBefore(newDiv, originalDiv.nextSibling);
+
+  // Remove every other image from the original div wrapper
+  while (originalDiv.getElementsByClassName('newsletter_image')[1]) {
+    originalDiv.removeChild(
+      originalDiv.getElementsByClassName('newsletter_image')[1]
+    );
+  }
+
+  // Serialize the modified DOM back to HTML
+  const serializer = new XMLSerializer();
+  const modifiedHTML = serializer.serializeToString(doc);
+
+  // Save the modified HTML content to a new file
+  fs.writeFileSync(
+    `./modified_files/${key}_modified.html`,
+    modifiedHTML,
+    'utf-8'
+  );
+
+  console.log(`HTML file ${key}_modified.html has been successfully created.`);
 });
-
-// Create a new div wrapper for the images
-const imageWrapper = $('<div>', {
-  class: 'image_component_wrapper image_two-images',
-});
-
-// Move every other image to the new div wrapper
-originalDiv.find('.image_component_wrapper img:odd').appendTo(imageWrapper);
-
-// Append the new div wrapper to the new div
-newDiv.append(imageWrapper);
-
-// Append the new div to the original div's parent
-originalDiv.after(newDiv);
-
-// Remove every other image from the original div wrapper
-originalDiv.find('.image_component_wrapper img:even').remove();
-
-// Save the modified HTML content to a new file
-fs.writeFileSync('modified_file.html', $.html(), 'utf-8');
-
-console.log('HTML file has been successfully modified.');
