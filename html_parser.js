@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { DOMParser, XMLSerializer } = require('xmldom');
 
-const st3keyArray = ['single', 'cat'];
+const st3keyArray = ['single', 'cat', '0A0DA3C0745EF3060201BCDC40DFC0BF'];
 
 st3keyArray.map((key) => {
   // Read the HTML file
@@ -43,6 +43,22 @@ st3keyArray.map((key) => {
         divElement.setAttribute('style', 'width: 30%');
       }
     }
+  });
+
+  // handle full image
+  const fullSizeImagesArray = Array.from(allElements).filter((element) => {
+    return (
+      element.getAttribute('class') &&
+      element.getAttribute('class').includes('image_full')
+    );
+  });
+
+  fullSizeImagesArray.forEach((div) => {
+    div.setAttribute('style', 'width: 100%');
+    div.setAttribute(
+      'class',
+      'image_component_wrapper image_single image_alignment_center'
+    );
   });
 
   // const originalDiv = doc.getElementById('image_component-2_content');
