@@ -14,8 +14,9 @@ st3keyArray.map((key) => {
   const parser = new DOMParser();
   const doc = parser.parseFromString(htmlContent, 'text/html');
 
-  // handle single images
   const allElements = doc.getElementsByTagName('div');
+
+  // handle single images
   const singleImagesArray = Array.from(allElements).filter((element) => {
     return (
       element.getAttribute('class') &&
@@ -26,7 +27,23 @@ st3keyArray.map((key) => {
     (el) => !el.getAttribute('style').includes('width')
   );
 
-  console.log(oldSingleImagesArray);
+  oldSingleImagesArray.forEach((divElement) => {
+    const imgElements = divElement.getElementsByTagName('img');
+
+    // Check if there are any img elements
+    if (imgElements.length > 0) {
+      const imgClass = imgElements[0].getAttribute('class');
+
+      // Check the class of the img element and set style accordingly
+      if (imgClass.includes('small')) {
+        divElement.setAttribute('style', 'width: 10%');
+      } else if (imgClass.includes('medium')) {
+        divElement.setAttribute('style', 'width: 20%');
+      } else if (imgClass.includes('large')) {
+        divElement.setAttribute('style', 'width: 30%');
+      }
+    }
+  });
 
   // const originalDiv = doc.getElementById('image_component-2_content');
 
