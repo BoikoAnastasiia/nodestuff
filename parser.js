@@ -1,21 +1,21 @@
 const fs = require('fs');
 
-const st3keyArray = ['example', 'example2', 'example4', 'example4'];
+const st3keyArray = ['62520F4F8CE30093BC43FF133B4EA982'];
 
 st3keyArray.map((key) => {
-  const data = fs.readFileSync(`./newsletters_presets/${key}.json`);
+  const data = fs.readFileSync(`./newsletters_presets/json/${key}.json`);
   const json = JSON.parse(data);
 
   const changeImageWidth = (el) => {
     switch (el.singleTypeSize) {
       case 'l':
-        el.singleImageWidht = 30;
+        el.singleImageWidth = 30;
         break;
       case 's':
-        el.singleImageWidht = 10;
+        el.singleImageWidth = 10;
         break;
       case 'm':
-        el.singleImageWidht = 20;
+        el.singleImageWidth = 20;
         break;
       default:
     }
@@ -47,14 +47,14 @@ st3keyArray.map((key) => {
 
       if (el.componentType === 'ImageComponent' && el.gridType === 'full') {
         el.gridType = '1';
-        el.singleImageWidht = 100;
+        el.singleImageWidth = 100;
         delete el.singleTypeSize;
       }
 
       if (el.componentType === 'ImageComponent' && el.gridType === '2x2') {
         el.gridType = '2';
         delete el.singleTypeSize;
-        el.singleImageWidht = 50;
+        el.singleImageWidth = 50;
         const el2 = JSON.parse(JSON.stringify(el));
         el.images.splice(2, 2);
         el2.images.splice(0, 2);
@@ -67,7 +67,7 @@ st3keyArray.map((key) => {
         delete el.singleTypeSize;
         const el2 = JSON.parse(JSON.stringify(el));
         const el3 = JSON.parse(JSON.stringify(el));
-        el.singleImageWidht = 50;
+        el.singleImageWidth = 50;
         el.images.splice(3, 6);
         el2.images.splice(0, 3);
         el2.images.splice(6, 3);
@@ -117,10 +117,14 @@ st3keyArray.map((key) => {
 
   const newJson = JSON.stringify(json);
 
-  fs.writeFileSync(`./newsletters_presets/${key}.json`, newJson, (err) => {
-    if (err) {
-      console.error(err);
+  fs.writeFileSync(
+    `./newsletters_presets/modified/${key}.json`,
+    newJson,
+    (err) => {
+      if (err) {
+        console.error(err);
+      }
     }
-  });
+  );
   console.log(`done ${key}`);
 });
