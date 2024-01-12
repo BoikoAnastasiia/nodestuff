@@ -70,7 +70,7 @@ st3keyArray.map((key) => {
         el.singleImageWidth = 50;
         el.images.splice(3, 6);
         el2.images.splice(0, 3);
-        el2.images.splice(6, 3);
+        el2.images.splice(3, 3);
         el3.images.splice(0, 6);
         el2.id = el.id + '-2';
         el3.id = el.id + '-3';

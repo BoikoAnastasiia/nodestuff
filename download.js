@@ -1106,7 +1106,7 @@ const st3keyArray = [
     st3keyArray.map((file) =>
       download(
         `https://d2tyu887lcxnka.cloudfront.net/presets/${file}.json`,
-        './newsletters_presets/json'
+        './newsletters_presets_dev/json'
       )
     )
   );
