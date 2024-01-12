@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const st3keyArray = ['62520F4F8CE30093BC43FF133B4EA982'];
+const st3keyArray = ['63EF9653C035135AD8BCC19C8FDF6672'];
 
 st3keyArray.map((key) => {
   const data = fs.readFileSync(`./newsletters_presets/json/${key}.json`);
@@ -29,21 +29,22 @@ st3keyArray.map((key) => {
         delete el.singleTypeSize;
       }
 
-      // need only if client decides to make custom width for logos
-      // if (el.componentType === 'LogoComponent') {
-      //   switch (el.singleTypeSize) {
-      //     case 'l':
-      //       el.logoSize = 30;
-      //       break;
-      //     case 's':
-      //       el.logoSize = 10;
-      //       break;
-      //     case 'm':
-      //       el.logoSize = 20;
-      //       break;
-      //     default:
-      //   }
-      // }
+      if (el.componentType === 'LogoComponent') {
+        console.log(el.logoSize);
+        switch (el.logoSize) {
+          case 'l':
+            el.logoWidth = 50;
+            break;
+          case 's':
+            el.logoWidth = 20;
+            break;
+          case 'm':
+            el.logoWidth = 40;
+            break;
+          default:
+        }
+        delete el.logoSize;
+      }
 
       if (el.componentType === 'ImageComponent' && el.gridType === 'full') {
         el.gridType = '1';
