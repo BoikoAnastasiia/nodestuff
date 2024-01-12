@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const st3keyArray = ['63EF9653C035135AD8BCC19C8FDF6672'];
+const st3keyArray = ['517D1880688693B7578D68316B82E01E'];
 
 st3keyArray.map((key) => {
   const data = fs.readFileSync(`./newsletters_presets/json/${key}.json`);
@@ -33,10 +33,10 @@ st3keyArray.map((key) => {
         console.log(el.logoSize);
         switch (el.logoSize) {
           case 'l':
-            el.logoWidth = 50;
+            el.logoWidth = 60;
             break;
           case 's':
-            el.logoWidth = 20;
+            el.logoWidth = 30;
             break;
           case 'm':
             el.logoWidth = 40;
@@ -78,41 +78,20 @@ st3keyArray.map((key) => {
         array.splice(index + 1, 0, el2, el3);
       }
 
-      if (
-        el.backgroundStyling.paddingLR >= 0 &&
-        el.backgroundStyling.paddingRight >= 0 &&
-        el.backgroundStyling.paddingLeft >= 0
-      ) {
-        delete el.backgroundStyling.paddingLR;
-      }
+      const paddings = {
+        paddingRight:
+          el.backgroundStyling.paddingRight ?? el.backgroundStyling.paddingLR,
+        paddingLeft:
+          el.backgroundStyling.paddingLeft ?? el.backgroundStyling.paddingLR,
+        paddingTop:
+          el.backgroundStyling.paddingTop ?? el.backgroundStyling.paddingTB,
+        paddingBottom:
+          el.backgroundStyling.paddingBottom ?? el.backgroundStyling.paddingTB,
+      };
 
-      if (
-        el.backgroundStyling.paddingLR >= 0 &&
-        !el.backgroundStyling.paddingRight &&
-        !el.backgroundStyling.paddingLeft
-      ) {
-        el.backgroundStyling.paddingRight = el.backgroundStyling.paddingLR;
-        el.backgroundStyling.paddingLeft = el.backgroundStyling.paddingLR;
-        delete el.backgroundStyling.paddingLR;
-      }
-
-      if (
-        el.backgroundStyling.paddingTB >= 0 &&
-        el.backgroundStyling.paddingTop >= 0 &&
-        el.backgroundStyling.paddingBottom >= 0
-      ) {
-        delete el.backgroundStyling.paddingTB;
-      }
-
-      if (
-        el.backgroundStyling.paddingTB >= 0 &&
-        !el.backgroundStyling.paddingTop &&
-        !el.backgroundStyling.paddingBottom
-      ) {
-        el.backgroundStyling.paddingTop = el.backgroundStyling.paddingTB;
-        el.backgroundStyling.paddingBottom = el.backgroundStyling.paddingTB;
-        delete el.backgroundStyling.paddingTB;
-      }
+      el.backgroundStyling = { ...el.backgroundStyling, ...paddings };
+      delete el.backgroundStyling.paddingLR;
+      delete el.backgroundStyling.paddingTB;
     });
   }
 
