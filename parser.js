@@ -9,13 +9,13 @@ st3keyArray.map((key) => {
   const changeImageWidth = (el) => {
     switch (el.singleTypeSize) {
       case 'l':
-        el.singleImageWidht = '30';
+        el.singleImageWidht = 30;
         break;
       case 's':
-        el.singleImageWidht = '10';
+        el.singleImageWidht = 10;
         break;
       case 'm':
-        el.singleImageWidht = '20';
+        el.singleImageWidht = 20;
         break;
       default:
     }
@@ -30,24 +30,24 @@ st3keyArray.map((key) => {
       }
 
       // need only if client decides to make custom width for logos
-      if (el.componentType === 'LogoComponent') {
-        switch (el.singleTypeSize) {
-          case 'l':
-            el.logoSize = '30';
-            break;
-          case 's':
-            el.logoSize = '10';
-            break;
-          case 'm':
-            el.logoSize = '20';
-            break;
-          default:
-        }
-      }
+      // if (el.componentType === 'LogoComponent') {
+      //   switch (el.singleTypeSize) {
+      //     case 'l':
+      //       el.logoSize = 30;
+      //       break;
+      //     case 's':
+      //       el.logoSize = 10;
+      //       break;
+      //     case 'm':
+      //       el.logoSize = 20;
+      //       break;
+      //     default:
+      //   }
+      // }
 
       if (el.componentType === 'ImageComponent' && el.gridType === 'full') {
         el.gridType = '1';
-        el.singleImageWidht = '10';
+        el.singleImageWidht = 100;
         delete el.singleTypeSize;
       }
 

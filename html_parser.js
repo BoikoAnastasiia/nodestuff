@@ -61,6 +61,25 @@ st3keyArray.map((key) => {
     );
   });
 
+  // handle 2x2 images
+  const imageComponentArray = Array.from(allElements).filter(
+    (div) =>
+      div.getAttribute('class') &&
+      div.getAttribute('class').includes('image_component')
+  );
+
+  const allImageDivArray = imageComponentArray.filter((imageComponentDiv) => {
+    // Check if the image_componentDiv contains nested divs with class image_grid-2x2
+    const nestedGridDivs = Array.from(
+      imageComponentDiv.getElementsByTagName('div')
+    ).filter(
+      (nestedDiv) =>
+        nestedDiv.getAttribute('class') &&
+        nestedDiv.getAttribute('class').includes('image_grid-2x2')
+    );
+
+    return nestedGridDivs.length > 0;
+  });
   // const originalDiv = doc.getElementById('image_component-2_content');
 
   // // Create a new div with a modified ID
