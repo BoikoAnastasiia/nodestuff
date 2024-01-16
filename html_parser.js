@@ -68,54 +68,21 @@ st3keyArray.map((key) => {
       div.getAttribute('class').includes('image_component')
   );
 
-  const allImageDivArray = imageComponentArray.filter((imageComponentDiv) => {
-    // Check if the image_componentDiv contains nested divs with class image_grid-2x2
-    const nestedGridDivs = Array.from(
-      imageComponentDiv.getElementsByTagName('div')
-    ).filter(
-      (nestedDiv) =>
-        nestedDiv.getAttribute('class') &&
-        nestedDiv.getAttribute('class').includes('image_grid-2x2')
-    );
+  const allImageDivArray2x2 = imageComponentArray.filter(
+    (imageComponentDiv) => {
+      // Check if the image_componentDiv contains nested divs with class image_grid-2x2
+      const nestedGridDivs = Array.from(
+        imageComponentDiv.getElementsByTagName('div')
+      ).filter(
+        (nestedDiv) =>
+          nestedDiv.getAttribute('class') &&
+          nestedDiv.getAttribute('class').includes('image_grid-2x2')
+      );
 
-    return nestedGridDivs.length > 0;
-  });
-  // const originalDiv = doc.getElementById('image_component-2_content');
-
-  // // Create a new div with a modified ID
-  // const newDivId = `${originalDiv.getAttribute('id')}-${key}`;
-  // const newDiv = doc.createElement('div');
-  // newDiv.setAttribute('id', newDivId);
-  // newDiv.setAttribute('class', originalDiv.getAttribute('class'));
-  // newDiv.setAttribute('style', originalDiv.getAttribute('style'));
-
-  // // Create a new div wrapper for the images
-  // const imageWrapper = doc.createElement('div');
-  // imageWrapper.setAttribute(
-  //   'class',
-  //   'image_component_wrapper image_two-images'
-  // );
-
-  // // Move every other image to the new div wrapper
-  // const images = originalDiv.getElementsByClassName('newsletter_image');
-  // for (let i = 0; i < images.length; i++) {
-  //   if (i % 2 !== 0) {
-  //     imageWrapper.appendChild(images[i].cloneNode(true));
-  //   }
-  // }
-
-  // // Append the new div wrapper to the new div
-  // newDiv.appendChild(imageWrapper);
-
-  // // Append the new div to the original div's parent
-  // originalDiv.parentNode.insertBefore(newDiv, originalDiv.nextSibling);
-
-  // // Remove every other image from the original div wrapper
-  // while (originalDiv.getElementsByClassName('newsletter_image')[1]) {
-  //   originalDiv.removeChild(
-  //     originalDiv.getElementsByClassName('newsletter_image')[1]
-  //   );
-  // }
+      return nestedGridDivs.length > 0;
+    }
+  );
+  console.log(allImageDivArray2x2);
 
   // Serialize the modified DOM back to HTML
   const serializer = new XMLSerializer();
