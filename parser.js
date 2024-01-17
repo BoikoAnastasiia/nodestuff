@@ -918,6 +918,22 @@ st3keyArray.map((key) => {
 
   if (json.content) {
     json.content.forEach((el, index, array) => {
+      const paddings = {
+        paddingRight:
+          el.backgroundStyling.paddingRight ?? el.backgroundStyling.paddingLR,
+        paddingLeft:
+          el.backgroundStyling.paddingLeft ?? el.backgroundStyling.paddingLR,
+        paddingTop:
+          el.backgroundStyling.paddingTop ?? el.backgroundStyling.paddingTB,
+        paddingBottom:
+          el.backgroundStyling.paddingBottom ?? el.backgroundStyling.paddingTB,
+      };
+
+      el.backgroundStyling = { ...el.backgroundStyling, ...paddings };
+      delete el.backgroundStyling.paddingLR;
+      delete el.backgroundStyling.paddingTB;
+      delete el.image;
+
       if (el.componentType === 'ImageComponent' && el.gridType === 'single') {
         el.gridType = '1';
         changeImageWidth(el);
@@ -971,22 +987,6 @@ st3keyArray.map((key) => {
         el3.id = el.id + '-3';
         array.splice(index + 1, 0, el2, el3);
       }
-
-      const paddings = {
-        paddingRight:
-          el.backgroundStyling.paddingRight ?? el.backgroundStyling.paddingLR,
-        paddingLeft:
-          el.backgroundStyling.paddingLeft ?? el.backgroundStyling.paddingLR,
-        paddingTop:
-          el.backgroundStyling.paddingTop ?? el.backgroundStyling.paddingTB,
-        paddingBottom:
-          el.backgroundStyling.paddingBottom ?? el.backgroundStyling.paddingTB,
-      };
-
-      el.backgroundStyling = { ...el.backgroundStyling, ...paddings };
-      delete el.backgroundStyling.paddingLR;
-      delete el.backgroundStyling.paddingTB;
-      delete el.image;
     });
   } else console.log('download', key, '.json');
 
