@@ -897,7 +897,8 @@ const st3keyArray = [
   // 'E4123C70ADF0B7C06C2255F60A9B1EC4',
 ];
 
-st3keyArray.map((key) => {
+for (let i = 0; i < st3keyArray.length; i++) {
+  const key = st3keyArray[i];
   const data = fs.readFileSync(`./newsletters_presets_dev/json/${key}.json`);
   const json = JSON.parse(data);
 
@@ -912,7 +913,8 @@ st3keyArray.map((key) => {
   };
 
   if (json.content) {
-    json.content.forEach((el, index, array) => {
+    for (let index = 0; index < json.content.length; index++) {
+      const el = json.content[index];
       const paddings = {
         paddingRight:
           el.backgroundStyling?.paddingRight ?? el.backgroundStyling?.paddingLR,
@@ -965,7 +967,7 @@ st3keyArray.map((key) => {
         el.images.splice(2, 2);
         el2.images.splice(0, 2);
         el2.id = el.id + '-2';
-        array.splice(index + 1, 0, el2);
+        json.content.splice(index + 1, 0, el2);
       }
 
       if (el.componentType === 'ImageComponent' && el.gridType === '3x3') {
@@ -980,22 +982,15 @@ st3keyArray.map((key) => {
         el3.images.splice(0, 6);
         el2.id = el.id + '-2';
         el3.id = el.id + '-3';
-        array.splice(index + 1, 0, el2, el3);
+        json.content.splice(index + 1, 0, el2, el3);
       }
       console.log(el.id);
-    });
+    }
   } else console.log('download', key, '.json');
 
   const newJson = JSON.stringify(json);
 
-  fs.writeFileSync(
-    `./newsletters_presets_dev/modified2/${key}.json`,
-    newJson,
-    (err) => {
-      if (err) {
-        console.error(err);
-      }
-    }
-  );
-  console.log(`done ${key}`);
-});
+  fs.writeFileSync(`./newsletters_presets_dev/modified2/${key}.json`, newJson);
+
+  console.log(`Done processing ${key}`);
+}
