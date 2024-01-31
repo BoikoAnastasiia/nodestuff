@@ -1,18 +1,20 @@
+const download = require('download');
 const fs = require('fs');
+const path = require('path');
 
 const st3keyArray = [
-  // 'E29BB1ECE1DE6289023B35EC2F24B3D6',
-  // 'CCED14A7AE302C799677672E6F92BB44',
-  // '7E854BA6EA706DE8FAB64D3619A295DA',
-  // 'D26178E7F9D03975B3461375867F8CCA',
-  // '5ED0A7205AE4D05F8B200FEE21F1138D',
-  // 'VZea2h1C5BqOU7EWcKTR1QJt',
-  // 'A645D78440DFDC1BE6C94253383545B4',
-  // '2CA4E995F261FD6D8A2901526A6CE056',
-  // '5E16AF0976A692BA05F6FA79B1E98310',
-  // 'E7D869446FB01D4E61A3B3F20F142594',
-  // '1iuGw1mcp5EyhGKEOHdgszFM',
-  // '4BB1A91C7641493301F26A067350752A',
+  'E29BB1ECE1DE6289023B35EC2F24B3D6',
+  'CCED14A7AE302C799677672E6F92BB44',
+  '7E854BA6EA706DE8FAB64D3619A295DA',
+  'D26178E7F9D03975B3461375867F8CCA',
+  '5ED0A7205AE4D05F8B200FEE21F1138D',
+  'VZea2h1C5BqOU7EWcKTR1QJt',
+  'A645D78440DFDC1BE6C94253383545B4',
+  '2CA4E995F261FD6D8A2901526A6CE056',
+  '5E16AF0976A692BA05F6FA79B1E98310',
+  'E7D869446FB01D4E61A3B3F20F142594',
+  '1iuGw1mcp5EyhGKEOHdgszFM',
+  '4BB1A91C7641493301F26A067350752A',
   '789A545764F036F1499FAE517D4F3217',
   '4989CD731B0B6984C6EF737AB9511803',
   '158FA1A688EE21B59883A1C824CC11A0',
@@ -2024,27 +2026,66 @@ const st3keyArray = [
   'b899fd3da91f9d5331dba5d0fad6e557',
   'a5e4b2d1c4a59b0513967346e5fbf217',
 ];
+const downloadDirectory = './presets';
 
-st3keyArray.map((key) => {
-  const data = fs.readFileSync(`./presets/${key}.json`);
-  const json = JSON.parse(data);
+// Function to check if file exists
+function fileExists(filePath) {
+  return fs.existsSync(filePath);
+}
 
-  if (json.body) {
-    json.body.objects.forEach((el, index, array) => {
-      if (el.type === 'textbox') {
-        el.selectable = true;
-        el.evented = true;
-        el.editable = true;
+// Function to download a file with retry logic
+async function downloadWithRetry(file, retries = 3) {
+  const filePath = path.join(downloadDirectory, `${file}.json`);
+
+  for (let i = 0; i < retries; i++) {
+    try {
+      if (!fileExists(filePath) || i > 0) {
+        // Download if file doesn't exist or on retry
+        await download(
+          `https://d1txs74qdv0iht.cloudfront.net/presets/${file}.json`,
+          downloadDirectory
+        );
+        console.log(`Downloaded: ${file}`);
       }
-    });
-  }
+      const data = fs.readFileSync(filePath);
+      const json = JSON.parse(data); // Attempt to parse the JSON file
 
-  const newJson = JSON.stringify(json);
+      // Your JSON processing code goes here...
 
-  fs.writeFileSync(`./presets/${key}.json`, newJson, (err) => {
-    if (err) {
-      console.error(err);
+      const newJson = JSON.stringify(json);
+      fs.writeFileSync(filePath, newJson);
+      console.log(`Processed and saved ${file}`);
+      break; // Break the loop if everything is successful
+    } catch (error) {
+      if (error instanceof SyntaxError) {
+        console.error(
+          `JSON parsing error for ${file}, attempt ${i + 1}/${retries}: ${
+            error.message
+          }`
+        );
+      } else {
+        console.error(
+          `Failed to download or process ${file}, attempt ${
+            i + 1
+          }/${retries}: ${error.message}`
+        );
+      }
     }
-  });
-  console.log(`done ${key}`);
-});
+
+    if (i === retries - 1) {
+      throw new Error(
+        `Failed to process file after ${retries} attempts: ${file}`
+      );
+    }
+  }
+}
+
+// Main function to download and process all files
+(async () => {
+  try {
+    await Promise.all(st3keyArray.map((file) => downloadWithRetry(file)));
+    console.log('All files downloaded and processed successfully');
+  } catch (error) {
+    console.error('Some files failed:', error);
+  }
+})();

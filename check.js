@@ -1,4 +1,6 @@
+const download = require('download');
 const fs = require('fs');
+const path = require('path');
 
 const st3keyArray = [
   // 'E29BB1ECE1DE6289023B35EC2F24B3D6',
@@ -13,27 +15,27 @@ const st3keyArray = [
   // 'E7D869446FB01D4E61A3B3F20F142594',
   // '1iuGw1mcp5EyhGKEOHdgszFM',
   // '4BB1A91C7641493301F26A067350752A',
-  '789A545764F036F1499FAE517D4F3217',
-  '4989CD731B0B6984C6EF737AB9511803',
-  '158FA1A688EE21B59883A1C824CC11A0',
-  'E2FA4617B80F03F286099733125E168F',
-  '2807B2CE1035B212032E75E16F613912',
-  '921547B3464394CE3BBAFABE8EC2B422',
-  'A5DEC9FA5B103757319BFFAD3E58E7D4',
-  '221A227FFC68E55FFAC62ECD598376C1',
-  '28FB5A85DFAC5F5B27DBB2D6E94A1A05',
-  '5EE40ABAA72B60A4B8A2756129726FF8',
-  '53E2FC9723BA65F207F950D779579508',
-  '6479FA98685509E8C17DAC3E66E57EE4',
-  '8379AEE4E555909F6389E05FACDFECE5',
-  '7C42D5D44F11EBE28C0CE7A08F62D483',
-  'DC4D6ED12947D0A1D0EBDB7456EBA624',
-  'E58F1B644981603B4A966773106E4A83',
-  '6B4EF675404C1BD84E85607356039081',
-  '001B27FAD7BF3D84ABEE854352BC51D2',
-  'CB3F706768A197F08A54E3CBE7A44189',
-  '945D1D7D57E5CB612813C35F536EFFFD',
-  '5A03E2CB067FE63B454878491D99A275',
+  // '789A545764F036F1499FAE517D4F3217',
+  // '4989CD731B0B6984C6EF737AB9511803',
+  // '158FA1A688EE21B59883A1C824CC11A0',
+  // 'E2FA4617B80F03F286099733125E168F',
+  // '2807B2CE1035B212032E75E16F613912',
+  // '921547B3464394CE3BBAFABE8EC2B422',
+  // 'A5DEC9FA5B103757319BFFAD3E58E7D4',
+  // '221A227FFC68E55FFAC62ECD598376C1',
+  // '28FB5A85DFAC5F5B27DBB2D6E94A1A05',
+  // '5EE40ABAA72B60A4B8A2756129726FF8',
+  // '53E2FC9723BA65F207F950D779579508',
+  // '6479FA98685509E8C17DAC3E66E57EE4',
+  // '8379AEE4E555909F6389E05FACDFECE5',
+  // '7C42D5D44F11EBE28C0CE7A08F62D483',
+  // 'DC4D6ED12947D0A1D0EBDB7456EBA624',
+  // 'E58F1B644981603B4A966773106E4A83',
+  // '6B4EF675404C1BD84E85607356039081',
+  // '001B27FAD7BF3D84ABEE854352BC51D2',
+  // 'CB3F706768A197F08A54E3CBE7A44189',
+  // '945D1D7D57E5CB612813C35F536EFFFD',
+  // '5A03E2CB067FE63B454878491D99A275',
   '10233CC02833F7FD49CB7FD0B4C0E61D',
   '41E75C1CAD4AEA8CA30EA0572019F7CE',
   'ACBCDDD583B207876FDB77B86C2F789F',
@@ -2024,27 +2026,54 @@ const st3keyArray = [
   'b899fd3da91f9d5331dba5d0fad6e557',
   'a5e4b2d1c4a59b0513967346e5fbf217',
 ];
+const downloadDirectory = './presets';
 
-st3keyArray.map((key) => {
-  const data = fs.readFileSync(`./presets/${key}.json`);
-  const json = JSON.parse(data);
+// Check if file exists
+function fileExists(filePath) {
+  return fs.existsSync(filePath);
+}
 
-  if (json.body) {
-    json.body.objects.forEach((el, index, array) => {
-      if (el.type === 'textbox') {
-        el.selectable = true;
-        el.evented = true;
-        el.editable = true;
+// Function to download a file with retry logic
+async function downloadWithRetry(file, retries = 3) {
+  const filePath = path.join(downloadDirectory, `${file}.json`);
+
+  for (let i = 0; i < retries; i++) {
+    if (!fileExists(filePath)) {
+      try {
+        await download(
+          `https://d1txs74qdv0iht.cloudfront.net/presets/${file}.json`,
+          downloadDirectory
+        );
+        console.log(`Downloaded: ${file}`);
+        if (fileExists(filePath)) {
+          break; // Break the loop if file is downloaded and exists
+        }
+      } catch (error) {
+        console.error(
+          `Failed to download ${file}, attempt ${i + 1}/${retries}: ${
+            error.message
+          }`
+        );
       }
-    });
-  }
-
-  const newJson = JSON.stringify(json);
-
-  fs.writeFileSync(`./presets/${key}.json`, newJson, (err) => {
-    if (err) {
-      console.error(err);
+    } else {
+      console.log(`File already exists: ${file}`);
+      break; // Break the loop if file already exists
     }
-  });
-  console.log(`done ${key}`);
-});
+
+    if (i === retries - 1 && !fileExists(filePath)) {
+      throw new Error(
+        `Failed to download file after ${retries} attempts: ${file}`
+      );
+    }
+  }
+}
+
+// Main function to download all files
+(async () => {
+  try {
+    await Promise.all(st3keyArray.map((file) => downloadWithRetry(file)));
+    console.log('All files downloaded successfully');
+  } catch (error) {
+    console.error('Some files failed to download:', error);
+  }
+})();
