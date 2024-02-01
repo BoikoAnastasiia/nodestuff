@@ -13,12 +13,16 @@ fs.readdir(folderPath, (err, files) => {
     const filePath = `${folderPath}/${file}`;
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
+
+      if (jsonString.includes('chalk') && jsonString.includes('gradient')) {
+        newArr.push(file);
+      }
       const json = JSON.parse(jsonString);
 
-      if (json?.body?.objects) {
-        json.body.objects.filter((obj) => obj.backgroundColor !== null).length >
-          0 && newArr.push(file);
-      }
+      // if (json?.body?.objects) {
+      //   json.body.objects.filter((obj) => obj.backgroundColor !== null).length >
+      //     0 && newArr.push(file);
+      // }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
