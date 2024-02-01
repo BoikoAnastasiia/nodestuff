@@ -1,7 +1,5 @@
 const fs = require('fs');
 const folderPath = './default_presets';
-const command =
-  'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
@@ -19,14 +17,32 @@ fs.readdir(folderPath, (err, files) => {
       const json = JSON.parse(jsonString);
 
       if (json?.body?.objects) {
-        json?.body?.objects.forEach((obj) => {
-          if (obj.fill.colorStops[0].color !== obj.fill.colorStops[1].color) {
-            newArr.push(file);
-          }
-          if (obj.objects) {
-            obj.objects.some((el) => {
-              el.fill.colorStops[0].color !== el.fill.colorStops[1].color;
-            }) && newArr.push(file);
+        json.body.objects.forEach((obj) => {
+          try {
+            if (obj.fill.colorStops[0].color !== obj.fill.colorStops[1].color) {
+              newArr.push(file);
+            }
+            if (obj.objects) {
+              const hasDifferentGradient = obj.objects.some((el) => {
+                try {
+                  return (
+                    el.fill.colorStops[0].color !== el.fill.colorStops[1].color
+                  );
+                } catch (innerError) {
+                  console.error(
+                    `Error parsing JSON in nested object of file ${file}:`,
+                    innerError
+                  );
+                  return false; // Continue with other objects in the array
+                }
+              });
+
+              if (hasDifferentGradient) {
+                newArr.push(file);
+              }
+            }
+          } catch (innerError) {
+            console.error(`Error parsing JSON in file ${file}:`, innerError);
           }
         });
       }
