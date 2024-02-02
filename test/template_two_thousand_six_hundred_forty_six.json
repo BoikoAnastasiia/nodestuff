@@ -1,0 +1,702 @@
+{
+  "width": 720,
+  "height": 900,
+  "body": {
+    "objects": [
+      {
+        "type": "image",
+        "left": -0.1,
+        "top": -0.1,
+        "width": 1000,
+        "height": 1500,
+        "scaleX": 0.721774,
+        "scaleY": 0.721774,
+        "orderIndex": 8,
+        "isAdditionalMedia": true,
+        "appliedFilters": {
+          "mask_filter": {
+            "value": "Grayscale",
+            "params": {}
+          }
+        },
+        "clipPath": {
+          "type": "rect",
+          "left": -1,
+          "top": -1,
+          "width": 722,
+          "height": 902,
+          "absolutePositioned": true
+        },
+        "id": "background_photo",
+        "className": "backgroundPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/city_NY_unsplash_BW.jpg",
+        "conrolTitle": "Background Photo"
+      },
+      {
+        "type": "image",
+        "left": -0.1,
+        "top": 531,
+        "width": 1000,
+        "height": 505,
+        "scaleX": 0.721774,
+        "scaleY": 0.721774,
+        "opacity": 0.25,
+        "id": "static_texture",
+        "className": "staticMedia",
+        "selectable": false,
+        "evented": false,
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/col23_newspaper_final_score.png"
+      },
+      {
+        "type": "rect",
+        "left": 1003,
+        "top": 90,
+        "width": 1100,
+        "height": 980,
+        "angle": 109,
+        "fill": {
+          "type": "linear",
+          "coords": {
+            "x1": 0,
+            "y1": 1,
+            "x2": 0,
+            "y2": 0
+          },
+          "colorStops": [
+            {
+              "offset": 0.26,
+              "color": "#000000",
+              "opacity": 0
+            },
+            {
+              "offset": 0,
+              "color": "#000000",
+              "opacity": 1
+            }
+          ],
+          "offsetX": 0,
+          "offsetY": 0,
+          "gradientUnits": "percentage",
+          "gradientTransform": [1, 0, 0, 1, 0, 0]
+        },
+        "id": "gradient_top",
+        "selectable": false,
+        "evented": false,
+        "orderIndex": 11,
+        "conrolTitle": "Gradient 1 Color"
+      },
+      {
+        "type": "rect",
+        "left": -1,
+        "top": -1,
+        "width": 722,
+        "height": 902,
+        "fill": {
+          "type": "linear",
+          "coords": {
+            "x1": 0,
+            "y1": 1,
+            "x2": 0,
+            "y2": 0
+          },
+          "colorStops": [
+            {
+              "offset": 0.35,
+              "color": "#99CAEA",
+              "opacity": 0
+            },
+            {
+              "offset": 0,
+              "color": "#99CAEA",
+              "opacity": 1
+            }
+          ],
+          "offsetX": 0,
+          "offsetY": 0,
+          "gradientUnits": "percentage",
+          "gradientTransform": [1, 0, 0, 1, 0, 0]
+        },
+        "id": "gradient_bottom",
+        "selectable": false,
+        "evented": false,
+        "orderIndex": 12,
+        "conrolTitle": "Gradient 2 Color"
+      },
+      {
+        "type": "image",
+        "left": 501,
+        "top": 601.5,
+        "width": 468,
+        "height": 640,
+        "scaleX": 0.46802135,
+        "scaleY": 0.46802135,
+        "selectable": false,
+        "evented": false,
+        "id": "fance_1",
+        "className": "staticMedia",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/col_fence_6.png"
+      },
+      {
+        "type": "image",
+        "left": 567.25,
+        "top": 40,
+        "width": 329,
+        "height": 1480,
+        "scaleX": 0.469352,
+        "scaleY": 0.469352,
+        "selectable": false,
+        "evented": false,
+        "orderIndex": 7,
+        "conrolTitle": "Subway Map 2 Color",
+        "id": "train_map_2",
+        "className": "blendPicture",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FFFFFF",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/train_map_right.png"
+      },
+      {
+        "type": "image",
+        "left": 523,
+        "top": -0.1,
+        "width": 422,
+        "height": 257,
+        "scaleX": 0.46802135,
+        "scaleY": 0.46802135,
+        "selectable": false,
+        "evented": false,
+        "id": "fance_2",
+        "className": "staticMedia",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/col_fence_5.png"
+      },
+      {
+        "type": "textbox",
+        "originX": "center",
+        "left": 352.5,
+        "top": 718,
+        "width": 750,
+        "angle": 358.15,
+        "fill": "#183863",
+        "text": "#ONLYHERE",
+        "fontSize": 198,
+        "fontWeight": 400,
+        "fontFamily": "DonGraffiti",
+        "conrolTitle": "Graffiti:",
+        "shadow": {
+          "color": "#183863",
+          "blur": 6.9399999999999995,
+          "offsetY": 0,
+          "offsetX": 0,
+          "id": 560
+        },
+        "charSpacing": -5,
+        "lineHeight": 1,
+        "textAlign": "center",
+        "orderIndex": 1,
+        "minWidth": 20,
+        "id": "graffiti"
+      },
+      {
+        "type": "image",
+        "left": -0.1,
+        "top": -0.1,
+        "width": 900,
+        "height": 1264,
+        "scaleX": 0.81,
+        "scaleY": 0.81,
+        "selectable": false,
+        "evented": false,
+        "orderIndex": 9,
+        "id": "background_glow",
+        "conrolTitle": "Background Glow Color",
+        "className": "blendPicture",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#99CAEA",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/white_bg_glow_1_col.png"
+      },
+      {
+        "type": "image",
+        "left": 134.5,
+        "top": 77.5,
+        "width": 625,
+        "height": 793,
+        "scaleX": 0.93957,
+        "scaleY": 0.93957,
+        "orderIndex": 8,
+        "selectable": false,
+        "evented": false,
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FFFFFF",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "id": "photo_container",
+        "className": "blendPicture",
+        "conrolTitle": "Photo Container Color",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/col_pl_photo_container_with_glow.png"
+      },
+      {
+        "type": "image",
+        "left": -209,
+        "top": 99,
+        "width": 1778,
+        "height": 1000,
+        "scaleX": 0.70008954,
+        "scaleY": 0.70008954,
+        "canUseVideo": true,
+        "orderIndex": -1,
+        "clipPath": {
+          "type": "image",
+          "left": 159,
+          "top": 102,
+          "width": 598,
+          "height": 742,
+          "scaleX": 0.93957,
+          "scaleY": 0.93957,
+          "crossOrigin": "anonymous",
+          "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/col_pl_photo_container_clippath.png",
+          "absolutePositioned": true
+        },
+        "id": "foreground_photo",
+        "className": "backgroundPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/col_softbal_team_girls.jpg",
+        "conrolTitle": "Media"
+      },
+      {
+        "type": "image",
+        "left": 158.6,
+        "top": 114.9,
+        "width": 598,
+        "height": 742,
+        "scaleX": 0.929652437,
+        "scaleY": 0.929652437,
+        "selectable": false,
+        "evented": false,
+        "hiddenContros": true,
+        "id": "shadow_photo",
+        "className": "blendPicture",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#000001",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/col_pl_photo_container_inner_shadow_black.png"
+      },
+      {
+        "type": "image",
+        "left": 216,
+        "top": 443.37,
+        "width": 552,
+        "height": 727,
+        "scaleX": 0.469352,
+        "scaleY": 0.469352,
+        "selectable": false,
+        "evented": false,
+        "orderIndex": 6,
+        "id": "train_map_1",
+        "conrolTitle": "Subway Map 1 Color",
+        "className": "blendPicture",
+        "clipPath": {
+          "type": "image",
+          "left": 159,
+          "top": 102,
+          "width": 598,
+          "height": 742,
+          "scaleX": 0.93957,
+          "scaleY": 0.93957,
+          "crossOrigin": "anonymous",
+          "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/col_pl_photo_container_clippath.png",
+          "absolutePositioned": true
+        },
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FFFFFF",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/train_map_inside_photo_container.png"
+      },
+      {
+        "type": "image",
+        "left": -1,
+        "top": 743,
+        "width": 556,
+        "height": 331,
+        "selectable": false,
+        "evented": false,
+        "orderIndex": 10,
+        "scaleX": 0.4791984,
+        "scaleY": 0.4791984,
+        "id": "skyline",
+        "conrolTitle": "Skyline Color",
+        "appliedFilters": {
+          "blend_filter": {
+            "value": "BlendColor",
+            "params": {
+              "color": "#FFFFFF",
+              "mode": "multiply",
+              "alpha": 1
+            }
+          }
+        },
+        "className": "blendPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/skyline_copy_2_0.png"
+      },
+      {
+        "type": "rect",
+        "left": 35,
+        "top": 196,
+        "width": 145,
+        "height": 137,
+        "rx": 32,
+        "ry": 32,
+        "strokeWidth": 0,
+        "cornerSize": 8,
+        "fill": "#FFFFFF",
+        "id": "col_container",
+        "orderIndex": 1,
+        "conrolTitle": "Columbia Score Container Color"
+      },
+      {
+        "type": "rect",
+        "left": 35,
+        "top": 345,
+        "width": 145,
+        "height": 137,
+        "rx": 32,
+        "ry": 32,
+        "strokeWidth": 0,
+        "cornerSize": 8,
+        "fill": "#FFFFFF",
+        "id": "op_container",
+        "orderIndex": 2,
+        "conrolTitle": "Opponent Score Container Color"
+      },
+      {
+        "type": "rect",
+        "left": 35,
+        "top": 722.5,
+        "width": 245,
+        "height": 34,
+        "rx": 15,
+        "ry": 15,
+        "strokeWidth": 0,
+        "cornerSize": 8,
+        "fill": "#FFFFFF",
+        "id": "rect_1",
+        "orderIndex": 3,
+        "conrolTitle": "Line 1 Text Container Color"
+      },
+      {
+        "type": "rect",
+        "left": 35,
+        "top": 761,
+        "width": 245,
+        "height": 34,
+        "rx": 15,
+        "ry": 15,
+        "strokeWidth": 0,
+        "cornerSize": 8,
+        "fill": "#FFFFFF",
+        "id": "rect_2",
+        "orderIndex": 4,
+        "conrolTitle": "Line 2 Text Container Color"
+      },
+      {
+        "type": "rect",
+        "left": 35,
+        "top": 809.5,
+        "width": 245,
+        "height": 25,
+        "rx": 15,
+        "ry": 15,
+        "strokeWidth": 0,
+        "cornerSize": 8,
+        "fill": "#FFFFFF",
+        "id": "rect_3",
+        "orderIndex": 5,
+        "conrolTitle": "Line 3 Text Container Color"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 53,
+        "top": 96.5,
+        "width": 200,
+        "fill": "#FFFFFF",
+        "text": "Final",
+        "fontSize": 46,
+        "fontWeight": 400,
+        "fontFamily": "Helvetica-Bold",
+        "conrolTitle": "Title 1:",
+        "charSpacing": -10,
+        "lineHeight": 1,
+        "textAlign": "left",
+        "minWidth": 20,
+        "id": "title_1"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 53,
+        "top": 136.5,
+        "width": 200,
+        "fill": "#FFFFFF",
+        "text": "Score",
+        "fontSize": 46,
+        "fontWeight": 400,
+        "fontFamily": "Helvetica",
+        "conrolTitle": "Title 2:",
+        "charSpacing": 1,
+        "lineHeight": 1,
+        "textAlign": "left",
+        "minWidth": 20,
+        "id": "title_2"
+      },
+      {
+        "type": "textbox",
+        "originX": "center",
+        "left": 109.5,
+        "top": 197,
+        "width": 150,
+        "fill": "#183863",
+        "text": "9",
+        "fontSize": 115,
+        "fontWeight": 400,
+        "fontFamily": "Helvetica-Bold",
+        "conrolTitle": "Columbia Score:",
+        "charSpacing": -10,
+        "lineHeight": 1,
+        "textAlign": "center",
+        "minWidth": 20,
+        "id": "colu1mbia_score"
+      },
+      {
+        "type": "textbox",
+        "originX": "center",
+        "left": 109.5,
+        "top": 349,
+        "width": 200,
+        "fill": "#183863",
+        "text": "1",
+        "fontSize": 115,
+        "fontWeight": 400,
+        "fontFamily": "Helvetica_Lt",
+        "conrolTitle": "Opponent Score:",
+        "charSpacing": 1,
+        "lineHeight": 1,
+        "textAlign": "center",
+        "minWidth": 20,
+        "id": "opponent_score"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 56,
+        "top": 764,
+        "width": 250,
+        "fill": "#000000",
+        "text": "vs Princeton Tigers",
+        "fontSize": 24,
+        "fontWeight": 400,
+        "fontFamily": "Helvetica",
+        "conrolTitle": "Opponent:",
+        "charSpacing": 0,
+        "lineHeight": 1,
+        "textAlign": "left",
+        "minWidth": 20,
+        "id": "opponent_text"
+      },
+      {
+        "type": "textbox",
+        "originX": "left",
+        "left": 56,
+        "top": 812.5,
+        "width": 250,
+        "fill": "#000000",
+        "text": "Saturday, Sept 12th",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "fontFamily": "Helvetica_Lt",
+        "conrolTitle": "General Information:",
+        "charSpacing": -5,
+        "lineHeight": 1,
+        "textAlign": "left",
+        "minWidth": 20,
+        "id": "gen_info"
+      },
+      {
+        "type": "image",
+        "left": 161.5,
+        "top": 209,
+        "width": 223,
+        "height": 256,
+        "scaleX": 0.4706442,
+        "scaleY": 0.4706442,
+        "id": "colum_logo",
+        "orderIndex": 1,
+        "cornerSize": 8,
+        "className": "logoPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/Columbia_Lions_logo-stroke.png",
+        "conrolTitle": "Columbia Logo"
+      },
+      {
+        "type": "image",
+        "left": 166.75,
+        "top": 358.36,
+        "width": 1200,
+        "height": 1373,
+        "scaleX": 0.07887124,
+        "scaleY": 0.07887124,
+        "id": "opp_logo",
+        "orderIndex": 2,
+        "cornerSize": 8,
+        "className": "logoPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/Princeton_Tigers_logo_1200px.png",
+        "conrolTitle": "Opponent Logo"
+      },
+      {
+        "type": "image",
+        "left": 57.5,
+        "top": 730,
+        "width": 1096,
+        "height": 124,
+        "scaleX": 0.148584,
+        "scaleY": 0.148584,
+        "id": "word_logo",
+        "isAdditionalMedia": true,
+        "orderIndex": 3,
+        "cornerSize": 8,
+        "className": "logoPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/Columbia_For_White_Background.png",
+        "conrolTitle": "Wordmark Logo"
+      },
+      {
+        "type": "image",
+        "left": 598.5,
+        "top": 714.5,
+        "width": 223,
+        "height": 256,
+        "scaleX": 0.30757395,
+        "scaleY": 0.30757395,
+        "isAdditionalMedia": true,
+        "id": "colum_logo_2",
+        "orderIndex": 4,
+        "cornerSize": 8,
+        "className": "logoPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/Columbia_Lions_logo-stroke.png",
+        "conrolTitle": "Footer Logo 1"
+      },
+      {
+        "type": "image",
+        "left": 587,
+        "top": 811.5,
+        "width": 464,
+        "height": 188,
+        "scaleX": 0.206916,
+        "scaleY": 0.206916,
+        "cornerSize": 5,
+        "isAdditionalMedia": true,
+        "orderIndex": 4,
+        "id": "ivy_logo",
+        "className": "logoPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/ivy_league_logo_Columbia_white.png",
+        "conrolTitle": "Footer Logo 2"
+      },
+      {
+        "type": "image",
+        "left": 57.5,
+        "top": 13,
+        "width": 1096,
+        "height": 124,
+        "scaleX": 0.148584,
+        "scaleY": 0.148584,
+        "id": "add_logo",
+        "orderIndex": 6,
+        "visible": false,
+        "isAdditionalMedia": true,
+        "cornerSize": 8,
+        "className": "logoPicture",
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/Columbia_For_White_Background.png",
+        "conrolTitle": "Additional Logo"
+      },
+      {
+        "type": "image",
+        "left": -1,
+        "top": -1,
+        "width": 722,
+        "height": 903,
+        "scaleX": 1,
+        "scaleY": 1,
+        "orderIndex": 10,
+        "clipPath": {
+          "type": "rect",
+          "left": -1,
+          "top": -1,
+          "width": 722,
+          "height": 902,
+          "absolutePositioned": true
+        },
+        "id": "foreground_texture",
+        "className": "backgroundPicture",
+        "selectable": false,
+        "evented": false,
+        "src": "https://gipper-static-assets.s3.amazonaws.com/stock_images/newc_texture_at_8_opacity.png",
+        "appliedFilters": {
+          "opacity_filter": {
+            "value": "ColorMatrix",
+            "params": {
+              "matrix": [
+                1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0.08, 0
+              ]
+            }
+          }
+        },
+        "conrolTitle": "Foreground Texture"
+      },
+      {
+        "type": "image",
+        "left": 496,
+        "top": 801.5,
+        "width": 670,
+        "height": 669,
+        "scaleX": 0.10359541,
+        "scaleY": 0.10359541,
+        "visible": false,
+        "id": "logo_sponsor",
+        "className": "logoPicture",
+        "src": "https://s3.amazonaws.com/gipper-static-assets/stock_images/template_seventy_three_Outlook.png",
+        "conrolTitle": "Sponsor Logo"
+      }
+    ]
+  }
+}

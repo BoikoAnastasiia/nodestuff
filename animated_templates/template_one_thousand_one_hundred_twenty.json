@@ -1,0 +1,124 @@
+[
+  {
+    "animation_name": "First Animation",
+    "animation_params": {
+      "animation_duration": 8000,
+      "animation_objects": [
+        {
+          "target_query": 9,
+          "animation_keyframes": [
+            {"top": -2, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 10,
+          "animation_keyframes": [
+            {"top": 276.2, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": {"index": 10, "element": "clipPath"},
+          "animation_keyframes": [
+            {"top": -2, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 11,
+          "animation_keyframes": [
+            {"top": 276, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 12,
+          "animation_keyframes": [
+            {"top": 271, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 14,
+          "animation_keyframes": [
+            {"top": 266.2, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 15,
+          "animation_keyframes": [
+            {"top": 266.2, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": {"index": 15, "element": "clipPath"},
+          "animation_keyframes": [
+            {"top": 266.2, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 16,
+          "animation_keyframes": [
+            {"top": 264.5, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 17,
+          "animation_keyframes": [
+            {"top": 260, "duration": 0, "endDelay": 960},
+            {"top": {}, "duration": 1440, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 8,
+          "animation_keyframes": [
+            {"top": ["bottom", 540], "duration": 0, "endDelay": 1360},
+            {"top": {}, "duration": 1000, "endDelay": 0}
+          ]
+        },
+        {
+          "target_query": 13,
+          "animation_keyframes": [
+            {"top": 962, "duration": 0, "endDelay": 1120},
+            {"top": {}, "duration": 800, "endDelay": 0, "easing": "easeOutCubic"},
+            {"scaleX": "*=1.039", "scaleY": "*=1.039", "duration": 6080, "endDelay": 0, "easing": "easeOutCubic"},
+            {"scaleX": {}, "scaleY": {}, "duration": 0, "endDelay": 0, "top": {}}
+          ]
+        },
+        {
+          "target_query": 6,
+          "animation_keyframes": [
+            {"top": ["bottom", 540], "duration": 0, "endDelay": 1420},
+            {"top": {}, "duration": 1000, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 7,
+          "animation_keyframes": [
+            {"top": ["bottom", 540], "duration": 0, "endDelay": 1120},
+            {"top": {}, "duration": 1000, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 5,
+          "animation_keyframes": [
+            {"top": ["bottom", 540], "duration": 0, "endDelay": 1200},
+            {"top": {}, "duration": 1000, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        },
+        {
+          "target_query": 4,
+          "animation_keyframes": [
+            {"left": 1220, "duration": 0, "endDelay": 1440},
+            {"left": {}, "duration": 1000, "endDelay": 0, "easing": "easeOutCubic"}
+          ]
+        }
+      ]
+    }
+  }
+]
