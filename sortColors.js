@@ -1,4 +1,4 @@
-export const extractColorsFromObject = (jsonData) => {
+const extractColorsFromObject = (jsonData) => {
   let colorDict = {};
   extractColors(jsonData.body, colorDict);
 
@@ -129,4 +129,8 @@ const rgbToHex = (rgb) => {
       .slice(1)
       .toUpperCase()
   );
+};
+
+module.exports = {
+  extractColorsFromObject,
 };

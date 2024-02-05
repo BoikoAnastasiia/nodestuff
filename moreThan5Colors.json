@@ -1,0 +1,1518 @@
+[
+  {
+    "file": "template_eight_hundred_ninety_five.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_eight_hundred_ninety_four.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_eight_hundred_ninety_three.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_eight_hundred_seventy_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eight_hundred_seventy_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eight_hundred_seventy_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eight_hundred_sixty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eight_hundred_sixty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eight_hundred_sixty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eight_hundred_sixty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eight_hundred_sixty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eight_hundred_sixty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_eighty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_fifty_three.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_five_hundred_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_five_hundred_seventy_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_five_hundred_sixty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_five_hundred_two.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_four_hundred_eighteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_four_hundred_eleven.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_four_hundred_fifty.json",
+    "numberOfColors": 19
+  },
+  {
+    "file": "template_four_hundred_fifty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_four_hundred_fifty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_four_hundred_fifty_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_four_hundred_forty_eight.json",
+    "numberOfColors": 19
+  },
+  {
+    "file": "template_four_hundred_forty_nine.json",
+    "numberOfColors": 19
+  },
+  {
+    "file": "template_four_hundred_fourty.json",
+    "numberOfColors": 15
+  },
+  {
+    "file": "template_four_hundred_fourty_one.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_four_hundred_nineteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_four_hundred_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_four_hundred_seventeen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_four_hundred_thirteen.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_four_hundred_thirty_four.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_four_hundred_thirty_nine.json",
+    "numberOfColors": 15
+  },
+  {
+    "file": "template_four_hundred_thirty_three.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_four_hundred_thirty_two.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_four_hundred_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_four_hundred_twelve.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_four_hundred_twenty.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_four_hundred_twenty_one.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_four_hundred_twenty_two.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_fourty_nine.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_nine_hundred_fifteen.json",
+    "numberOfColors": 13
+  },
+  {
+    "file": "template_nine_hundred_ninety_five.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_nine_hundred_twenty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_nine_hundred_twenty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_nine_hundred_twenty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_nine_hundred_twenty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_nine_hundred_twenty_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_nine_hundred_twenty_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_hundred_fifty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_hundred_sixteen.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_one_hundred_sixty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_hundred_sixty_six.json ",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_hundred_twenty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_hundred_twenty_three.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_one_thousand_five_hundred_fourty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_four_hundred_eleven.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_four_hundred_fifty_eight.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_one_thousand_four_hundred_fifty_five.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_four_hundred_fifty_four.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_four_hundred_fifty_seven.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_one_thousand_four_hundred_fifty_six.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_one_thousand_four_hundred_fifty_three.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_four_hundred_thirteen.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_four_hundred_twelve.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_fifty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_fifty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_fifty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_fifty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_fifty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_fifty_six.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_fifty_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_forty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_forty_eight.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_forty_nine.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_forty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_forty_two.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_ninety_eight.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_ninety_seven.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_seventy.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_sixty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_sixty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_sixty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_sixty_one.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_one_thousand_nine_hundred_sixty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_ninety_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_eighty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_eighty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_eighty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_eighty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_eighty_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_eighty_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_fifty_one.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_one_thousand_one_hundred_fifty_three.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_one_thousand_one_hundred_fifty_two.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_one_thousand_one_hundred_forty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_forty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_forty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_ninety_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_one_hundred_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_seventy.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_one_thousand_seventy_one.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_one_thousand_seventy_two.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_one_thousand_three_hundred_fifteen.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_one_thousand_three_hundred_fourteen.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_one_thousand_three_hundred_sixteen.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_one_thousand_three_hundred_thirty_one.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_one_thousand_three_hundred_thirty_three.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_one_thousand_three_hundred_thirty_two.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_one_thousand_two_hundred.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_two_hundred_eighty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_two_hundred_fifteen.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_one_thousand_two_hundred_forty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_two_hundred_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_two_hundred_thirty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_one_thousand_two_hundred_thirty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_seven_hundred_forty.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_seven_hundred_sixty.json",
+    "numberOfColors": 15
+  },
+  {
+    "file": "template_seven_hundred_sixty_one.json",
+    "numberOfColors": 19
+  },
+  {
+    "file": "template_seven_hundred_sixty_two.json",
+    "numberOfColors": 13
+  },
+  {
+    "file": "template_seven_hundred_thirty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_seven_hundred_thirty_eight.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_seven_hundred_thirty_nine.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_seven_hundred_twenty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_seven_hundred_twenty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_seventy_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_seventy_five.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_seventy_four.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_seventy_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_six_hundred_eighty.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_six_hundred_eighty_one.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_six_hundred_ninety_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_six_hundred_seventy_nine.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_three_hundred_seventy.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_hundred_sixty_eight.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_hundred_sixty_four.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_three_hundred_sixty_nine.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_hundred_sixty_seven.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_three_hundred_thirty.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_three_hundred_thirty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_hundred_thirty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_hundred_thirty_one.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_three_hundred_thirty_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_hundred_thirty_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_hundred_twenty_eight.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_three_hundred_twenty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_hundred_twenty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_hundred_twenty_nine.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_three_hundred_twenty_seven.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_three_hundred_twenty_six.json",
+    "numberOfColors": 12
+  },
+  {
+    "file": "template_three_hundred_twenty_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_eighty_four.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_thousand_eleven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_fifty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_fifty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_forty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_forty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_forty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_forty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_four_hundred_forty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_four_hundred_forty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_four_hundred_forty_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_four_hundred_forty_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_ninety_eight.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_thousand_ninety_five.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_thousand_ninety_seven.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_thousand_ninety_six.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_thousand_ninety_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_one_hundred_eighty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_one_hundred_fifty_four.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_three_thousand_one_hundred_fifty_three.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_three_thousand_one_hundred_forty_seven.json",
+    "numberOfColors": 10
+  },
+  {
+    "file": "template_three_thousand_one_hundred_ninety.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_thousand_one_hundred_ninety_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_one_hundred_ninety_seven.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_three_thousand_one_hundred_ninety_three.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_three_thousand_one_hundred_seventy_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_one_hundred_seventy_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_one_hundred_seventy_nine.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_three_thousand_one_hundred_seventy_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_one_hundred_sixty_two.json",
+    "numberOfColors": 28
+  },
+  {
+    "file": "template_three_thousand_one_hundred_thirty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_sixty_five.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_thousand_ten.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_thirteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_three_hundred_forty_one.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_three_thousand_three_hundred_forty_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_three_hundred_nineteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_three_hundred_thirty_three.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_three_thousand_three_hundred_twenty.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_three_thousand_twelve.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_twenty_five.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_three_thousand_twenty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_two_hundred_eighteen.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_three_thousand_two_hundred_eleven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_two_hundred_fifteen.json",
+    "numberOfColors": 24
+  },
+  {
+    "file": "template_three_thousand_two_hundred_fifty.json",
+    "numberOfColors": 15
+  },
+  {
+    "file": "template_three_thousand_two_hundred_fifty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_three_thousand_two_hundred_fifty_four.json",
+    "numberOfColors": 25
+  },
+  {
+    "file": "template_three_thousand_two_hundred_fifty_three.json",
+    "numberOfColors": 25
+  },
+  {
+    "file": "template_three_thousand_two_hundred_forty_nine.json",
+    "numberOfColors": 15
+  },
+  {
+    "file": "template_three_thousand_two_hundred_fourteen.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_three_thousand_two_hundred_ninety_eight.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_three_thousand_two_hundred_ninety_seven.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_three_thousand_two_hundred_seventeen.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_three_thousand_two_hundred_ten.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_two thousand_nine_hundred_fourteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_hundred_forty.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_hundred_ninety_seven.json",
+    "numberOfColors": 10
+  },
+  {
+    "file": "template_two_hundred_thirty_five.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_two_hundred_thirty_four.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_two_hundred_thirty_nine.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_hundred_thirty_six.json",
+    "numberOfColors": 17
+  },
+  {
+    "file": "template_two_hundred_thirty_three.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_hundred_thirty_two.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_hundred_twenty_seven.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_hundred_twenty_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_eighty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_fifty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_fifty_eight.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_fifty_nine.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_fifty_one.json",
+    "numberOfColors": 30
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_fifty_seven.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_fifty_six.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_forty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_forty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_forty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_forty_six.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_seventy.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_seventy_one.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_seventy_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_seventy_six.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_sixty_eight.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_sixty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_sixty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_sixty_nine.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_sixty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_sixty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_thirty_one.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_eight_hundred_thirty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eighty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_eighty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_fifty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_fifty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_fifty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_eghty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_eighteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_fifteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_fifty_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_fifty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_fifty_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_fifty_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_forty_eight.json",
+    "numberOfColors": 13
+  },
+  {
+    "file": "template_two_thousand_five_hundred_forty_four.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_five_hundred_forty_one.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_five_hundred_forty_seven.json",
+    "numberOfColors": 13
+  },
+  {
+    "file": "template_two_thousand_five_hundred_forty_six.json",
+    "numberOfColors": 13
+  },
+  {
+    "file": "template_two_thousand_five_hundred_forty_three.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_five_hundred_forty_two.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_five_hundred_ninety_nine.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_two_thousand_five_hundred_seventeen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_seventy_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_sixteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_five_hundred_sixty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_four_hundred_forty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_four_hundred_seventy_three.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_four_hundred_sixty.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_four_hundred_sixty_seven.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_nine_hundred.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_eighty_eight.json",
+    "numberOfColors": 10
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_eighty_nine.json",
+    "numberOfColors": 10
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_eighty_six.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_eleven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_fifty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_fifty_three.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_forty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_fourteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety_eight.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety_one.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_ninety_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_seventy_two.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_sixty_eight.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_sixty_nine.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_sixty_seven.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_sixty_six.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_thirteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_twelve.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_nine_hundred_twenty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_eighteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_eighty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_eighty_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_eighty_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_fifty_eight.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_two_thousand_one_hundred_fifty_nine.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_two_thousand_one_hundred_fifty_seven.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_two_thousand_one_hundred_nineteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_ninety.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_ninety_four.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_two_thousand_one_hundred_ninety_one.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_two_thousand_one_hundred_ninety_three.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_two_thousand_one_hundred_ninety_two.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_two_thousand_one_hundred_seventeen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_seventy_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_one_hundred_sixty.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_two_thousand_one_hundred_twenty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_eighteen.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_eighty_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_fifteen.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_fifty_seven.json",
+    "numberOfColors": 10
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_ninety_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_ninety_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_seventeen.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_sixteen.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_two_thousand_seven_hundred_thirty_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_seventy_eight.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_seventy_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_six_hundred.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_two_thousand_six_hundred_eighty_eight.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_six_hundred_five.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_six_hundred_forty_eight.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_six_hundred_forty_seven.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_six_hundred_four.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_six_hundred_fourteen.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_six_hundred_one.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_two_thousand_six_hundred_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_six_hundred_sixty_four.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_two_thousand_six_hundred_sixty_one.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_two_thousand_six_hundred_sixty_three.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_two_thousand_six_hundred_sixty_two.json",
+    "numberOfColors": 11
+  },
+  {
+    "file": "template_two_thousand_six_hundred_thirteen.json",
+    "numberOfColors": 15
+  },
+  {
+    "file": "template_two_thousand_six_hundred_thirty.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_six_hundred_thirty_five.json",
+    "numberOfColors": 9
+  },
+  {
+    "file": "template_two_thousand_six_hundred_thirty_one.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_six_hundred_thirty_three.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_six_hundred_thirty_two.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_six_hundred_three.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_six_hundred_twelve.json",
+    "numberOfColors": 16
+  },
+  {
+    "file": "template_two_thousand_six_hundred_twenty_one.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "template_two_thousand_six_hundred_two.json",
+    "numberOfColors": 18
+  },
+  {
+    "file": "template_two_thousand_sixty.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_three_hundred_ninety_nine.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_three_hundred_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_three_hundred_seventy_seven.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_three_hundred_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_three_hundred_sixty_six.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_three_hundred_thirty_one.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_three_hundred_thirty_one_.json",
+    "numberOfColors": 6
+  },
+  {
+    "file": "template_two_thousand_two_hundred_eighty.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_two_thousand_two_hundred_eighty_one.json",
+    "numberOfColors": 7
+  },
+  {
+    "file": "template_two_thousand_two_hundred_seventy_eight.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_two_thousand_two_hundred_seventy_nine.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_two_thousand_two_hundred_seventy_seven.json",
+    "numberOfColors": 14
+  },
+  {
+    "file": "template_two_thousand_two_hundred_seventy_six.json",
+    "numberOfColors": 8
+  },
+  {
+    "file": "test_clippath.json",
+    "numberOfColors": 6
+  }
+]
