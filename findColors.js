@@ -1,5 +1,3 @@
-// findColors.js
-
 const fs = require('fs');
 const { extractColorsFromObject } = require('./sortColors');
 const folderPath = './default_presets';
