@@ -5,12 +5,11 @@ const command =
   'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
 
 const filterTitles = (arr) => {
-  // arr.forEach((el, index) => (arr[index] = el.replace(/\s/g, ' ').trim()));
   const uniqueTitles = new Set(arr);
   return [...uniqueTitles]
     .filter((el) => el !== 'NEED_TYPE_TITLE' && el)
     .sort((a, b) => a.localeCompare(b))
-    .map((el, index) => (arr[index] = el.trim()));
+    .map((el) => el.trim());
 };
 
 fs.readdir(folderPath, (err, files) => {
@@ -35,6 +34,34 @@ fs.readdir(folderPath, (err, files) => {
     'Sponsor Logo': ['Sponsor Logo'],
   };
 
+  const iterateNestedObjects = (obj) => {
+    try {
+      if (
+        obj.type === 'image' &&
+        (obj.className === 'backgroundPicture' ||
+          obj.className === 'logoPicture' ||
+          obj.className === 'cutoutPicture')
+      ) {
+        titles.Media.push(obj.conrolTitle);
+      }
+      if (obj.type === 'image' && obj.className === 'blendPicture') {
+        titles.Colors.push(obj.conrolTitle);
+      }
+      if (obj.type !== 'image' && obj.type !== 'textbox') {
+        titles.Colors.push(obj.conrolTitle);
+      }
+      if (obj.type === 'textbox') {
+        titles.Text.push(obj.conrolTitle);
+      }
+      // If this object contains other objects, iterate over them recursively
+      if (obj.objects && Array.isArray(obj.objects)) {
+        obj.objects.forEach(iterateNestedObjects);
+      }
+    } catch (innerError) {
+      console.error(`Error parsing JSON in object:`, innerError);
+    }
+  };
+
   files.forEach((file) => {
     const filePath = `${folderPath}/${file}`;
     try {
@@ -42,29 +69,7 @@ fs.readdir(folderPath, (err, files) => {
       const json = JSON.parse(jsonString);
 
       if (json?.body?.objects) {
-        json.body.objects.forEach((obj) => {
-          try {
-            if (
-              obj.type === 'image' &&
-              (obj.className === 'backgroundPicture' ||
-                obj.className === 'logoPicture' ||
-                obj.className === 'cutoutPicture')
-            ) {
-              titles.Media.push(obj.conrolTitle);
-            }
-            if (obj.type === 'image' && obj.className === 'blendPicture') {
-              titles.Colors.push(obj.conrolTitle);
-            }
-            if (obj.type !== 'image' && obj.type !== 'textbox') {
-              titles.Colors.push(obj.conrolTitle);
-            }
-            if (obj.type === 'textbox') {
-              titles.Text.push(obj.conrolTitle);
-            }
-          } catch (innerError) {
-            console.error(`Error parsing JSON in file ${file}:`, innerError);
-          }
-        });
+        json.body.objects.forEach(iterateNestedObjects);
       }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
