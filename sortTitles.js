@@ -10,7 +10,21 @@ fs.readdir(folderPath, (err, files) => {
     return;
   }
 
-  let newArr = [];
+  const titles = {
+    Media: [],
+    Colors: [],
+    Text: [],
+    Location: [
+      'Home Color',
+      'Away Color',
+      'Neutral Color',
+      'Scrimmage Color',
+      'Location 1',
+      'Location 2',
+    ],
+    'Additional Elements': ['Photo', 'Text Box: ', 'Cutout', 'Logo'],
+    'Sponsor Logo': ['Sponsor Logo'],
+  };
 
   files.forEach((file) => {
     const filePath = `${folderPath}/${file}`;
