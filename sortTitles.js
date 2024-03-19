@@ -4,6 +4,14 @@ const folderPath = './default_presets';
 const command =
   'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
 
+// Define your filter function to remove duplicate and unwanted titles
+const filterTitles = (arr) => {
+  const uniqueTitles = new Set(arr);
+  return [...uniqueTitles]
+    .filter((el) => el !== 'NEED_TYPE_TITLE' && el)
+    .sort((a, b) => a.localeCompare(b));
+};
+
 fs.readdir(folderPath, (err, files) => {
   if (err) {
     console.error(err);
@@ -30,7 +38,6 @@ fs.readdir(folderPath, (err, files) => {
     const filePath = `${folderPath}/${file}`;
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
-
       const json = JSON.parse(jsonString);
 
       if (json?.body?.objects) {
@@ -47,7 +54,7 @@ fs.readdir(folderPath, (err, files) => {
             if (obj.type === 'image' && obj.className === 'blendPicture') {
               titles.Colors.push(obj.conrolTitle);
             }
-            if (obj.type === 'text') {
+            if (obj.type === 'textbox') {
               titles.Text.push(obj.conrolTitle);
             }
           } catch (innerError) {
@@ -59,6 +66,10 @@ fs.readdir(folderPath, (err, files) => {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
+
+  titles.Media = filterTitles(titles.Media);
+  titles.Colors = filterTitles(titles.Colors);
+  titles.Text = filterTitles(titles.Text);
 
   const titlesJSON = JSON.stringify(titles, null, 2);
   fs.writeFileSync('titles.json', titlesJSON);
