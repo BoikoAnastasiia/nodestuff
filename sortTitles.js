@@ -38,9 +38,17 @@ fs.readdir(folderPath, (err, files) => {
           try {
             if (
               obj.type === 'image' &&
-              (obj.width > 2048 || obj.height > 2048)
+              (obj.className === 'backgroundPicture' ||
+                obj.className === 'logoPicture' ||
+                obj.className === 'cutoutPicture')
             ) {
-              newArr.push(file);
+              titles.Media.push(obj.conrolTitle);
+            }
+            if (obj.type === 'image' && obj.className === 'blendPicture') {
+              titles.Colors.push(obj.conrolTitle);
+            }
+            if (obj.type === 'text') {
+              titles.Text.push(obj.conrolTitle);
             }
           } catch (innerError) {
             console.error(`Error parsing JSON in file ${file}:`, innerError);
@@ -52,5 +60,6 @@ fs.readdir(folderPath, (err, files) => {
     }
   });
 
-  fs.writeFileSync('big_images.txt', newArr.join('\n'));
+  const titlesJSON = JSON.stringify(titles, null, 2);
+  fs.writeFileSync('titles.json', titlesJSON);
 });
