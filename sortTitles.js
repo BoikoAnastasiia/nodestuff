@@ -4,12 +4,13 @@ const folderPath = './default_presets';
 const command =
   'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
 
-// Define your filter function to remove duplicate and unwanted titles
 const filterTitles = (arr) => {
+  // arr.forEach((el, index) => (arr[index] = el.replace(/\s/g, ' ').trim()));
   const uniqueTitles = new Set(arr);
   return [...uniqueTitles]
     .filter((el) => el !== 'NEED_TYPE_TITLE' && el)
-    .sort((a, b) => a.localeCompare(b));
+    .sort((a, b) => a.localeCompare(b))
+    .map((el, index) => (arr[index] = el.trim()));
 };
 
 fs.readdir(folderPath, (err, files) => {
@@ -52,6 +53,9 @@ fs.readdir(folderPath, (err, files) => {
               titles.Media.push(obj.conrolTitle);
             }
             if (obj.type === 'image' && obj.className === 'blendPicture') {
+              titles.Colors.push(obj.conrolTitle);
+            }
+            if (obj.type !== 'image' && obj.type !== 'textbox') {
               titles.Colors.push(obj.conrolTitle);
             }
             if (obj.type === 'textbox') {
