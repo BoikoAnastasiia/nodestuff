@@ -20,17 +20,19 @@ fs.readdir(folderPath, (err, files) => {
       const json = JSON.parse(jsonString);
 
       // Check condition and possibly delete clipPath
+      // console.log(json.clipPath, json.width, json.height);
       if (
-        json.clipPath &&
-        (json.width !== json.clipPath.width ||
-          json.height !== json.clipPath.height)
+        json.body.clipPath &&
+        (json.width !== json.body.clipPath.width ||
+          json.height !== json.body.clipPath.height)
       ) {
-        delete json.clipPath;
-      }
+        delete json.body.clipPath;
+        console.log(file);
 
-      // Write the modified json back to a new file in the edited_presets folder
-      const editedFilePath = `${editedFolderPath}/${file}`;
-      fs.writeFileSync(editedFilePath, JSON.stringify(json, null, 2), 'utf8');
+        // Only write the modified json to a new file if clipPath was deleted
+        const editedFilePath = `${editedFolderPath}/${file}`;
+        fs.writeFileSync(editedFilePath, JSON.stringify(json, null, 2), 'utf8');
+      }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
