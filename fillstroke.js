@@ -22,7 +22,7 @@ fs.readdir(folderPath, (err, files) => {
       if (json?.body?.objects) {
         json.body.objects.forEach((obj) => {
           try {
-            if (obj.type === 'group' && obj.stroke && obj.fill) {
+            if (obj.type === 'group' && obj.stroke && obj.fill === undefined) {
               newArr.push(file);
             }
           } catch (innerError) {
