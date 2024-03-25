@@ -30,6 +30,9 @@ fs.readdir(folderPath, (err, files) => {
             el.fill === undefined
           ) {
             el.fill = null; // Make the modification
+            if (el.pathlink) {
+              delete el.objects;
+            }
             fileModified = true; // Set the flag since a modification was made
           }
         });
