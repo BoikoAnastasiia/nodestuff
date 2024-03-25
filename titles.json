@@ -1,7 +1,7 @@
 {
   "Media": [
-    "Background Texture 1",
-    "1 Seed Logo",
+    { "Background Texture 1": 23 },
+    { "1 Seed Logo": 2 },
     "1st Place Photo",
     "2 Seed Logo",
     "2nd Place Photo",
@@ -13219,13 +13219,6 @@
     "Location 1",
     "Location 2"
   ],
-  "Additional Elements": [
-    "Photo",
-    "Text Box: ",
-    "Cutout",
-    "Logo"
-  ],
-  "Sponsor Logo": [
-    "Sponsor Logo"
-  ]
+  "Additional Elements": ["Photo", "Text Box: ", "Cutout", "Logo"],
+  "Sponsor Logo": ["Sponsor Logo"]
 }
