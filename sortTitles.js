@@ -1,15 +1,50 @@
 const fs = require('fs');
 const folderPath = './default_presets';
 
-const command =
-  'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
-
-const filterTitles = (arr) => {
-  const uniqueTitles = new Set(arr);
-  return [...uniqueTitles]
+const filterTitles = (dict) => {
+  return Object.keys(dict)
     .filter((el) => el !== 'NEED_TYPE_TITLE' && el)
     .sort((a, b) => a.localeCompare(b))
-    .map((el) => el.trim());
+    .map((el) => ({ title: el.trim(), count: dict[el] }));
+};
+
+const iterateNestedObjects = (obj, titlesCount) => {
+  try {
+    if (obj.conrolTitle && typeof obj.conrolTitle === 'string') {
+      let titleCategory = null;
+      if (
+        obj.type === 'image' &&
+        (obj.className === 'backgroundPicture' ||
+          obj.className === 'logoPicture' ||
+          obj.className === 'cutoutPicture')
+      ) {
+        titleCategory = titlesCount.Media;
+      } else if (obj.type === 'image' && obj.className === 'blendPicture') {
+        titleCategory = titlesCount.Colors;
+      } else if (obj.type !== 'image' && obj.type !== 'textbox') {
+        titleCategory = titlesCount.Colors;
+      } else if (obj.type === 'textbox') {
+        titleCategory = titlesCount.Text;
+      }
+
+      if (titleCategory) {
+        const trimmedTitle = obj.conrolTitle.trim();
+        if (titleCategory[trimmedTitle]) {
+          titleCategory[trimmedTitle]++;
+        } else {
+          titleCategory[trimmedTitle] = 1;
+        }
+      }
+    }
+
+    if (obj.objects && Array.isArray(obj.objects)) {
+      obj.objects.forEach((nestedObj) =>
+        iterateNestedObjects(nestedObj, titlesCount)
+      );
+    }
+  } catch (innerError) {
+    console.error(`Error parsing JSON in object:`, innerError);
+  }
 };
 
 fs.readdir(folderPath, (err, files) => {
@@ -18,48 +53,11 @@ fs.readdir(folderPath, (err, files) => {
     return;
   }
 
-  const titles = {
-    Media: [],
-    Colors: [],
-    Text: [],
-    Location: [
-      'Home Color',
-      'Away Color',
-      'Neutral Color',
-      'Scrimmage Color',
-      'Location 1',
-      'Location 2',
-    ],
-    'Additional Elements': ['Photo', 'Text Box: ', 'Cutout', 'Logo'],
-    'Sponsor Logo': ['Sponsor Logo'],
-  };
-
-  const iterateNestedObjects = (obj) => {
-    try {
-      if (
-        obj.type === 'image' &&
-        (obj.className === 'backgroundPicture' ||
-          obj.className === 'logoPicture' ||
-          obj.className === 'cutoutPicture')
-      ) {
-        titles.Media.push(obj.conrolTitle);
-      }
-      if (obj.type === 'image' && obj.className === 'blendPicture') {
-        titles.Colors.push(obj.conrolTitle);
-      }
-      if (obj.type !== 'image' && obj.type !== 'textbox') {
-        titles.Colors.push(obj.conrolTitle);
-      }
-      if (obj.type === 'textbox') {
-        titles.Text.push(obj.conrolTitle);
-      }
-      // If this object contains other objects, iterate over them recursively
-      if (obj.objects && Array.isArray(obj.objects)) {
-        obj.objects.forEach(iterateNestedObjects);
-      }
-    } catch (innerError) {
-      console.error(`Error parsing JSON in object:`, innerError);
-    }
+  const titlesCount = {
+    Media: {},
+    Colors: {},
+    Text: {},
+    // Initialize other categories as needed here
   };
 
   files.forEach((file) => {
@@ -69,17 +67,22 @@ fs.readdir(folderPath, (err, files) => {
       const json = JSON.parse(jsonString);
 
       if (json?.body?.objects) {
-        json.body.objects.forEach(iterateNestedObjects);
+        json.body.objects.forEach((obj) =>
+          iterateNestedObjects(obj, titlesCount)
+        );
       }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
 
-  titles.Media = filterTitles(titles.Media);
-  titles.Colors = filterTitles(titles.Colors);
-  titles.Text = filterTitles(titles.Text);
+  const finalTitles = {
+    Media: filterTitles(titlesCount.Media),
+    Colors: filterTitles(titlesCount.Colors),
+    Text: filterTitles(titlesCount.Text),
+    // Process other categories as needed
+  };
 
-  const titlesJSON = JSON.stringify(titles, null, 2);
+  const titlesJSON = JSON.stringify(finalTitles, null, 2);
   fs.writeFileSync('titles.json', titlesJSON);
 });
