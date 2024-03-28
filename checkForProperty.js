@@ -16,12 +16,7 @@ fs.readdir(folderPath, (err, files) => {
 
       const json = JSON.parse(jsonString);
 
-      if (
-        jsonString.includes('.svg') &&
-        !jsonString.includes(
-          'https://gipper-static-assets.s3.amazonaws.com/icons/move_cursor.svg'
-        )
-      ) {
+      if (jsonString.includes('staticMedia')) {
         newArr.push(file);
       }
     } catch (parseError) {
@@ -29,5 +24,5 @@ fs.readdir(folderPath, (err, files) => {
     }
   });
 
-  fs.writeFileSync('svg.txt', newArr.join('\n'));
+  fs.writeFileSync('static.txt', newArr.join('\n'));
 });
