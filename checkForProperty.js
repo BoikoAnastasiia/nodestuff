@@ -16,13 +16,21 @@ fs.readdir(folderPath, (err, files) => {
 
       const json = JSON.parse(jsonString);
 
-      if (jsonString.includes('staticMedia')) {
-        newArr.push(file);
+      // if (jsonString.includes('staticMedia')) {
+      //   newArr.push(file);
+      // }
+
+      if (json.body.objects) {
+        json.body.objects.forEach((obj) => {
+          if (obj.additionalPicture && obj.className !== 'logoPicture') {
+            newArr.push(file);
+          }
+        });
       }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
 
-  fs.writeFileSync('static.txt', newArr.join('\n'));
+  fs.writeFileSync('removeBG.txt', newArr.join('\n'));
 });
