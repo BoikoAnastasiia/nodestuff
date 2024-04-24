@@ -4,7 +4,10 @@
       "presets": 2
     },
     {
-      "Locations": ["", ""]
+      "Locations": [
+        "",
+        ""
+      ]
     }
   ],
   "https://platform.gogipper.com/templates/4350": [
@@ -2401,6 +2404,75 @@
         "PINNACBLE BANK ARENA",
         "AT UMASS DARTMOUTH",
         "TESORO SPORTS PARK"
+      ]
+    }
+  ],
+  "https://platform.gogipper.com/templates/4722": [
+    {
+      "presets": 1
+    },
+    {
+      "Locations": [
+        "MOCKSVILLE, N.C."
+      ]
+    }
+  ],
+  "https://platform.gogipper.com/templates/4723": [
+    {
+      "presets": 15
+    },
+    {
+      "Locations": [
+        "DAVIE HIGH",
+        "OLD ROCHESTER SOFTBALL FIELD",
+        "",
+        "GEORGE MASON SOFTBALL STADIUM",
+        "GIPPER MEMORIAL COURTS",
+        "New Egypt HS",
+        "EAST VALLEY FIELDS",
+        "COLUMBUS, TX",
+        "KEN SEITZ FIELD (FUTURE ROYALS NIGHT)",
+        "@HARTFORD HIGH SCHOOL",
+        "MEMPHIS INVITE",
+        "PROSPECT HIGH SCHOOL",
+        "WAUNAKEE HOME GAME",
+        "GIPPER MEMORIAL FIELD",
+        "SHUTTLEWORTH PARK"
+      ]
+    }
+  ],
+  "https://platform.gogipper.com/templates/3836": [
+    {
+      "presets": 26
+    },
+    {
+      "Locations": [
+        "TESORO SPORTS PARK",
+        "LAS VEGAS, NEVADA",
+        "VASQUEZ HIGH SCHOOL",
+        "CHICAGO, ILL. ",
+        "MEYER FIELD",
+        "STRAUGH GYMNASIUM",
+        "CLASS OF 2023",
+        "WINDSOR HIGH SCHOOL ",
+        "CLASS OF 2021",
+        "CYCLONE ARENA",
+        "#UTIME",
+        "MIDLOTHIAN HIGH SCHOOL",
+        "STUCKEY FIELD COCHRAN, GA",
+        "PATRIOT HIGHSCHOOL",
+        "IRVINE, CALIF.",
+        "BIGLIN BOWL\nCHARLES RIVER | APRIL 13",
+        "",
+        "CLASS OF 2023",
+        "@SANGER HIGH SCHOOL",
+        "NEWHALL CHURCH OF THE NAZARENE",
+        "HARRIET HOWELL ROGERS\nRIDING CENTER",
+        "GIPPER WEST STADIUM",
+        "GIPPER WEST STADIUM",
+        "CLASS OF 2021",
+        "MOL ARENA ",
+        "BIGLIN BOWL\nCHARLES RIVER | APRIL 13"
       ]
     }
   ]
