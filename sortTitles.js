@@ -1,5 +1,5 @@
 const fs = require('fs');
-const folderPath = './default_presets';
+const folderPath = './presets';
 
 const filterTitles = (dict) => {
   return Object.keys(dict)

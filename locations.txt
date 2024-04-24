@@ -1,8 +1,8 @@
 
-template_four_thousand.json
-template_four_thousand_eight.json
-template_four_thousand_eighty.json
-template_four_thousand_eighty_eight.json
+template_four_thousand.json 4393
+template_four_thousand_eight.json 4350
+template_four_thousand_eighty.json 4703
+template_four_thousand_eighty_eight.json 4419
 template_four_thousand_eighty_five.json
 template_four_thousand_eighty_seven.json
 template_four_thousand_eighty_six.json
