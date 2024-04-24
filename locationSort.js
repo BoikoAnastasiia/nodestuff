@@ -10,7 +10,7 @@ fs.readdir(folderPath, (err, files) => {
 
   const Locations = [];
   const baseUrl = 'https://platform.gogipper.com/templates/';
-  const templateId = '4403';
+  const templateId = '4419';
 
   files.forEach((file) => {
     const filePath = `${folderPath}/${file}`;
@@ -33,7 +33,7 @@ fs.readdir(folderPath, (err, files) => {
   try {
     const currentLocations = JSON.parse(fs.readFileSync(locationsFile, 'utf8'));
     currentLocations[baseUrl + templateId] = [
-      { presets: files.length },
+      { presets: Locations.length },
       { Locations },
     ];
 
@@ -42,7 +42,6 @@ fs.readdir(folderPath, (err, files) => {
       JSON.stringify(currentLocations, null, 2),
       'utf8'
     );
-    console.log('Locations updated successfully.');
   } catch (error) {
     console.error('Error reading or writing locations file:', error);
   }
