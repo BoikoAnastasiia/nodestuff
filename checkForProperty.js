@@ -19,24 +19,27 @@ fs.readdir(folderPath, (err, files) => {
 
       const json = JSON.parse(jsonString);
 
-      if (json?.body?.objects) {
-        json.body.objects.forEach((obj) => {
-          try {
-            if (
-              obj.type === 'image' &&
-              (obj.width > 2048 || obj.height > 2048)
-            ) {
-              newArr.push(file);
-            }
-          } catch (innerError) {
-            console.error(`Error parsing JSON in file ${file}:`, innerError);
-          }
-        });
+      if (jsonString.includes('Location:')) {
+        newArr.push(file);
       }
+      // if (json?.body?.objects) {
+      //   json.body.objects.forEach((obj) => {
+      //     try {
+      //       if (
+      //         obj.type === 'image' &&
+      //         (obj.width > 2048 || obj.height > 2048)
+      //       ) {
+      //         newArr.push(file);
+      //       }
+      //     } catch (innerError) {
+      //       console.error(`Error parsing JSON in file ${file}:`, innerError);
+      //     }
+      //   });
+      // }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
 
-  fs.writeFileSync('big_images.txt', newArr.join('\n'));
+  fs.writeFileSync('locations.txt', newArr.join('\n'));
 });
