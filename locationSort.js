@@ -10,7 +10,7 @@ fs.readdir(folderPath, (err, files) => {
 
   const Locations = [];
   const baseUrl = 'https://platform.gogipper.com/templates/';
-  const templateId = '4236';
+  const templateId = '4264';
 
   files.forEach((file) => {
     const filePath = `${folderPath}/${file}`;
