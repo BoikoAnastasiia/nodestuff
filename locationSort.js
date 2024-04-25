@@ -1,6 +1,6 @@
 const fs = require('fs');
 const folderPath = './presets';
-const locationsFile = './locations.json';
+const locationsFile = './locations2.json';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
@@ -10,7 +10,7 @@ fs.readdir(folderPath, (err, files) => {
 
   const Locations = [];
   const baseUrl = 'https://platform.gogipper.com/templates/';
-  const templateId = '4103';
+  const templateId = '4104';
 
   files.forEach((file) => {
     const filePath = `${folderPath}/${file}`;
