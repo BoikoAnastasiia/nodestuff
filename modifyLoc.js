@@ -22,7 +22,6 @@ fs.readFile(fileLoc, 'utf8', (err, data) => {
       }
     });
 
-    // Sort the object keys (links) in ascending order
     const sortedJsonData = Object.keys(jsonData)
       .sort()
       .reduce((acc, key) => {
