@@ -22,11 +22,18 @@ fs.readdir(folderPath, (err, files) => {
       if (json?.body?.objects) {
         json.body.objects.forEach((obj) => {
           try {
-            if (
-              obj.type === 'image' &&
-              (obj.width > 2048 || obj.height > 2048)
-            ) {
-              newArr.push(file);
+            if (obj.className === 'multiGroup') {
+              const indexGroup = obj.objects.findIndex(
+                (el) => el.className == 'containerForPicture'
+              );
+              const subgroup = obj.objects.find(
+                (el) => el.className == 'containerForPicture'
+              );
+              console.log(subgroup);
+              const hasvideo = subgroup.objects[0].canUseVideo;
+              if (obj.objects[indexGroup + 1] && hasvideo) {
+                newArr.push(file);
+              }
             }
           } catch (innerError) {
             console.error(`Error parsing JSON in file ${file}:`, innerError);
@@ -38,5 +45,5 @@ fs.readdir(folderPath, (err, files) => {
     }
   });
 
-  fs.writeFileSync('big_images.txt', newArr.join('\n'));
+  fs.writeFileSync('specificalGroup.txt', newArr.join('\n'));
 });
