@@ -1,4 +1,6 @@
 const fs = require('fs');
+const path = require('path');
+
 const folderPath = './default_presets';
 
 const filterTitles = (dict) => {
@@ -26,7 +28,6 @@ const iterateNestedObjects = (obj, titlesCount) => {
       } else if (obj.type === 'textbox') {
         titleCategory = titlesCount.Text;
       }
-
       if (titleCategory) {
         const trimmedTitle = obj.conrolTitle.trim();
         if (titleCategory[trimmedTitle]) {
@@ -36,7 +37,18 @@ const iterateNestedObjects = (obj, titlesCount) => {
         }
       }
     }
-
+    if (obj.type === 'textbox' && obj.text && typeof obj.text === 'string') {
+      const fileContent = obj.text.toLowerCase();
+      if (/(game day|gameday|game\/nday)/i.test(fileContent)) {
+        const titleCategory = titlesCount.Text;
+        const trimmedTitle = obj.text.trim();
+        if (titleCategory[trimmedTitle]) {
+          titleCategory[trimmedTitle]++;
+        } else {
+          titleCategory[trimmedTitle] = 1;
+        }
+      }
+    }
     if (obj.objects && Array.isArray(obj.objects)) {
       obj.objects.forEach((nestedObj) =>
         iterateNestedObjects(nestedObj, titlesCount)
@@ -49,7 +61,7 @@ const iterateNestedObjects = (obj, titlesCount) => {
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
-    console.error(err);
+    console.error(`Error reading directory:`, err);
     return;
   }
 
@@ -61,18 +73,22 @@ fs.readdir(folderPath, (err, files) => {
   };
 
   files.forEach((file) => {
-    const filePath = `${folderPath}/${file}`;
+    const filePath = path.join(folderPath, file);
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
       const json = JSON.parse(jsonString);
 
+      // Check if the file content includes the desired phrases
+      const fileContent = jsonString.toLowerCase();
       if (
-        jsonString.toLowerCase().includes('game') &&
-        jsonString.toLowerCase().includes('day')
-      )
+        /(game day|gameday|game\/nday)/i.test(fileContent) &&
+        json.body &&
+        Array.isArray(json.body.objects)
+      ) {
         json.body.objects.forEach((obj) =>
           iterateNestedObjects(obj, titlesCount)
         );
+      }
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }

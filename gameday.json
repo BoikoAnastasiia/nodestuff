@@ -1,36 +1,12 @@
 {
   "Media": [
     {
-      "title": "1 Seed Logo",
-      "count": 1
-    },
-    {
-      "title": "2 Seed Logo",
-      "count": 1
-    },
-    {
-      "title": "3 Seed Logo",
-      "count": 1
-    },
-    {
-      "title": "4 Seed Logo",
-      "count": 1
-    },
-    {
-      "title": "5 Seed Logo",
-      "count": 1
-    },
-    {
-      "title": "6 Seed Logo",
-      "count": 1
-    },
-    {
       "title": "Accent Logo",
-      "count": 24
+      "count": 12
     },
     {
       "title": "Additional Logo",
-      "count": 5
+      "count": 3
     },
     {
       "title": "Background",
@@ -46,7 +22,7 @@
     },
     {
       "title": "Background Logo",
-      "count": 126
+      "count": 89
     },
     {
       "title": "Background Middle Pattern",
@@ -54,31 +30,31 @@
     },
     {
       "title": "Background Pattern",
-      "count": 13
+      "count": 3
     },
     {
       "title": "Background Photo",
-      "count": 139
+      "count": 107
     },
     {
       "title": "Background Photo 1",
-      "count": 9
+      "count": 3
     },
     {
       "title": "Background Photo 2",
-      "count": 9
+      "count": 3
     },
     {
       "title": "Background Texture",
-      "count": 423
+      "count": 312
     },
     {
       "title": "Background Texture 1",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Background Texture 2",
-      "count": 12
+      "count": 8
     },
     {
       "title": "Basketball Court Lines",
@@ -105,20 +81,12 @@
       "count": 3
     },
     {
-      "title": "Champion Team Logo",
-      "count": 1
-    },
-    {
       "title": "Close Logo",
       "count": 4
     },
     {
-      "title": "Columbia Logo",
-      "count": 2
-    },
-    {
       "title": "Compass",
-      "count": 7
+      "count": 2
     },
     {
       "title": "Corner Logo",
@@ -126,15 +94,15 @@
     },
     {
       "title": "Cutout",
-      "count": 61
+      "count": 53
     },
     {
       "title": "Cutout 1",
-      "count": 10
+      "count": 9
     },
     {
       "title": "Cutout 2",
-      "count": 11
+      "count": 9
     },
     {
       "title": "Cutout 3",
@@ -165,10 +133,6 @@
       "count": 2
     },
     {
-      "title": "Event 1 Logo",
-      "count": 1
-    },
-    {
       "title": "Event 1 Logo 1",
       "count": 4
     },
@@ -186,51 +150,11 @@
     },
     {
       "title": "Event 1 Team 1 Logo",
-      "count": 28
+      "count": 20
     },
     {
       "title": "Event 1 Team 2 Logo",
-      "count": 28
-    },
-    {
-      "title": "Event 10 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 14 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 15 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 16 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 17 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 18 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 19 Logo",
-      "count": 1
+      "count": 20
     },
     {
       "title": "Event 2 Cutout",
@@ -253,10 +177,6 @@
       "count": 2
     },
     {
-      "title": "Event 2 Logo",
-      "count": 1
-    },
-    {
       "title": "Event 2 Logo 1",
       "count": 4
     },
@@ -270,151 +190,47 @@
     },
     {
       "title": "Event 2 Team 1 Logo",
-      "count": 28
+      "count": 20
     },
     {
       "title": "Event 2 Team 2 Logo",
-      "count": 28
-    },
-    {
-      "title": "Event 20 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 21 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 22 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 23 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 24 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 25 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 26 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 27 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 28 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 29 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 3 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 3 Team 1 Logo",
-      "count": 8
-    },
-    {
-      "title": "Event 3 Team 2 Logo",
-      "count": 8
-    },
-    {
-      "title": "Event 30 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 4 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 4 Team 1 Logo",
-      "count": 8
-    },
-    {
-      "title": "Event 4 Team 2 Logo",
-      "count": 8
-    },
-    {
-      "title": "Event 5 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 5 Team 1 Logo",
-      "count": 4
-    },
-    {
-      "title": "Event 5 Team 2 Logo",
-      "count": 4
-    },
-    {
-      "title": "Event 6 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 6 Team 1 Logo",
-      "count": 4
-    },
-    {
-      "title": "Event 6 Team 2 Logo",
-      "count": 4
-    },
-    {
-      "title": "Event 7 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 8 Logo",
-      "count": 1
-    },
-    {
-      "title": "Event 9 Logo",
-      "count": 1
+      "count": 20
     },
     {
       "title": "Event Logo",
-      "count": 4
+      "count": 1
     },
     {
       "title": "First Team Logo",
-      "count": 2
+      "count": 1
     },
     {
       "title": "Footer Logo",
-      "count": 16
-    },
-    {
-      "title": "Footer Logo 1",
       "count": 13
     },
     {
+      "title": "Footer Logo 1",
+      "count": 9
+    },
+    {
       "title": "Footer Logo 2",
-      "count": 15
+      "count": 9
     },
     {
       "title": "Footer Logo 3",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Foreground Texture",
-      "count": 171
+      "count": 115
     },
     {
       "title": "Foreground Texture 1",
-      "count": 19
+      "count": 15
     },
     {
       "title": "Foreground Texture 2",
-      "count": 19
+      "count": 15
     },
     {
       "title": "Frame",
@@ -433,15 +249,7 @@
       "count": 1
     },
     {
-      "title": "Game 3 Team 2 Logo",
-      "count": 1
-    },
-    {
       "title": "Game 4 Opponent Logo",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 2 Logo",
       "count": 1
     },
     {
@@ -449,28 +257,8 @@
       "count": 1
     },
     {
-      "title": "Game 5 Team 1 Logo",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 2 Logo",
-      "count": 1
-    },
-    {
-      "title": "Gold Additional Information Background",
-      "count": 1
-    },
-    {
-      "title": "Gold Champion Accent Line",
-      "count": 3
-    },
-    {
-      "title": "Gold Curved Lines",
-      "count": 1
-    },
-    {
       "title": "Gold Frame",
-      "count": 7
+      "count": 2
     },
     {
       "title": "Gold Logo Background",
@@ -481,16 +269,12 @@
       "count": 2
     },
     {
-      "title": "Gold VS/AT Background",
-      "count": 1
-    },
-    {
       "title": "Header Logo 1",
-      "count": 8
+      "count": 7
     },
     {
       "title": "Header Logo 2",
-      "count": 8
+      "count": 7
     },
     {
       "title": "LA Breakers Logo",
@@ -502,7 +286,7 @@
     },
     {
       "title": "Logo",
-      "count": 213
+      "count": 109
     },
     {
       "title": "Logo 1",
@@ -529,12 +313,8 @@
       "count": 1
     },
     {
-      "title": "Main Background Pattern",
-      "count": 4
-    },
-    {
       "title": "Main Logo",
-      "count": 20
+      "count": 4
     },
     {
       "title": "Main Logo Image",
@@ -546,55 +326,27 @@
     },
     {
       "title": "Media",
-      "count": 341
+      "count": 286
     },
     {
       "title": "Network Logo",
       "count": 3
     },
     {
-      "title": "NYU Logo",
-      "count": 1
-    },
-    {
-      "title": "NYU Logo 1",
-      "count": 2
-    },
-    {
-      "title": "NYU Logo 2",
-      "count": 2
-    },
-    {
-      "title": "OnlyHere Lockup",
-      "count": 1
-    },
-    {
       "title": "Open Logo",
       "count": 4
     },
     {
-      "title": "Opponent 1 Logo",
-      "count": 1
-    },
-    {
-      "title": "Opponent 2 Logo",
-      "count": 1
-    },
-    {
       "title": "Opponent Logo",
-      "count": 21
+      "count": 4
     },
     {
       "title": "Opponent Logo 1",
-      "count": 5
+      "count": 4
     },
     {
       "title": "Opponent Logo 2",
-      "count": 5
-    },
-    {
-      "title": "Opponet Logo",
-      "count": 1
+      "count": 4
     },
     {
       "title": "Overlay Texture",
@@ -606,11 +358,11 @@
     },
     {
       "title": "Pattern",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Photo",
-      "count": 54
+      "count": 49
     },
     {
       "title": "Photo (Right Side)",
@@ -618,27 +370,11 @@
     },
     {
       "title": "Photo 1",
-      "count": 27
+      "count": 17
     },
     {
       "title": "Photo 2",
-      "count": 27
-    },
-    {
-      "title": "Photo 3",
-      "count": 9
-    },
-    {
-      "title": "Photo 4",
-      "count": 5
-    },
-    {
-      "title": "Photo 5",
-      "count": 1
-    },
-    {
-      "title": "Photo 6",
-      "count": 1
+      "count": 17
     },
     {
       "title": "Profile Icon",
@@ -646,7 +382,7 @@
     },
     {
       "title": "QR Code",
-      "count": 17
+      "count": 10
     },
     {
       "title": "Right Photo",
@@ -654,34 +390,10 @@
     },
     {
       "title": "Second Team Logo",
-      "count": 2
-    },
-    {
-      "title": "Shape 1 Pattern",
-      "count": 4
-    },
-    {
-      "title": "Shape 2 Pattern",
-      "count": 4
+      "count": 1
     },
     {
       "title": "Signature Field",
-      "count": 1
-    },
-    {
-      "title": "Small Billboard 1 Asset",
-      "count": 1
-    },
-    {
-      "title": "Small Billboard 2 Asset",
-      "count": 1
-    },
-    {
-      "title": "Small Billboard 3 Asset",
-      "count": 1
-    },
-    {
-      "title": "Small Billboard 4 Asset",
       "count": 1
     },
     {
@@ -705,16 +417,12 @@
       "count": 2
     },
     {
-      "title": "Southern Logo",
-      "count": 2
-    },
-    {
       "title": "Splatter",
       "count": 2
     },
     {
       "title": "Sponsor Logo",
-      "count": 673
+      "count": 487
     },
     {
       "title": "Team #1 Logo",
@@ -734,7 +442,7 @@
     },
     {
       "title": "Team 1 Logo",
-      "count": 362
+      "count": 322
     },
     {
       "title": "Team 1 Logo (bottom left)",
@@ -754,11 +462,11 @@
     },
     {
       "title": "Team 2 Logo",
-      "count": 363
+      "count": 323
     },
     {
       "title": "Team Logo",
-      "count": 10
+      "count": 9
     },
     {
       "title": "Team Logo 1",
@@ -774,7 +482,7 @@
     },
     {
       "title": "Texture",
-      "count": 34
+      "count": 22
     },
     {
       "title": "Texture Bottom",
@@ -797,102 +505,6 @@
       "count": 4
     },
     {
-      "title": "Today's Game 1 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 1 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 2 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 2 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 3 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 3 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 4 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 4 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 5 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 5 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 6 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 6 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 1 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 1 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 2 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 2 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 3 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 3 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 4 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 4 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 5 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 5 Team 2 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 6 Team 1 Logo",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 6 Team 2 Logo",
-      "count": 3
-    },
-    {
       "title": "Top Background Texture",
       "count": 1
     },
@@ -909,15 +521,7 @@
       "count": 2
     },
     {
-      "title": "Wac Logo",
-      "count": 1
-    },
-    {
       "title": "WAC Logo",
-      "count": 3
-    },
-    {
-      "title": "Window Photo",
       "count": 1
     },
     {
@@ -940,11 +544,11 @@
     },
     {
       "title": "Accent Logo Rectangle Color",
-      "count": 24
+      "count": 12
     },
     {
       "title": "Additional Information Rectangle Color",
-      "count": 25
+      "count": 12
     },
     {
       "title": "Angled Stripes Group 1 Color",
@@ -972,22 +576,14 @@
     },
     {
       "title": "Arrow Color",
-      "count": 12
+      "count": 11
     },
     {
       "title": "Arrow Set 1 Color",
-      "count": 8
-    },
-    {
-      "title": "Arrow Set 2 Color",
-      "count": 8
-    },
-    {
-      "title": "Arrows 1 Color",
       "count": 4
     },
     {
-      "title": "Arrows 2 Color",
+      "title": "Arrow Set 2 Color",
       "count": 4
     },
     {
@@ -1003,56 +599,8 @@
       "count": 4
     },
     {
-      "title": "Away Color",
-      "count": 5
-    },
-    {
-      "title": "Away Game Info Background 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 10 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 2 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 3 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 4 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 5 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 6 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 7 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 8 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Game Info Background 9 Color",
-      "count": 1
-    },
-    {
-      "title": "Away Games Background Color",
-      "count": 1
-    },
-    {
       "title": "Background 1 Color",
-      "count": 7
+      "count": 3
     },
     {
       "title": "Background 1 Gradient Color",
@@ -1060,7 +608,7 @@
     },
     {
       "title": "Background 2 Color",
-      "count": 7
+      "count": 3
     },
     {
       "title": "Background 2 Gradient Color",
@@ -1084,7 +632,7 @@
     },
     {
       "title": "Background Bottom Rectangle Color",
-      "count": 5
+      "count": 1
     },
     {
       "title": "Background Brushstroke Color",
@@ -1092,27 +640,27 @@
     },
     {
       "title": "Background Circle 1 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Background Circle 1 Gradient Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Background Circle 2 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Background Circle 2 Gradient Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Background Circle 3 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Background Circle 3 Gradient Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Background Circle Color",
@@ -1120,7 +668,7 @@
     },
     {
       "title": "Background Color",
-      "count": 482
+      "count": 348
     },
     {
       "title": "Background Color 01",
@@ -1132,14 +680,6 @@
     },
     {
       "title": "Background Color 03",
-      "count": 1
-    },
-    {
-      "title": "Background Color 1",
-      "count": 1
-    },
-    {
-      "title": "Background Color 2",
       "count": 1
     },
     {
@@ -1159,10 +699,6 @@
       "count": 4
     },
     {
-      "title": "Background Dots Color",
-      "count": 3
-    },
-    {
       "title": "Background Feather Color",
       "count": 1
     },
@@ -1175,24 +711,8 @@
       "count": 4
     },
     {
-      "title": "Background Gradient 1 Color",
-      "count": 9
-    },
-    {
-      "title": "Background Gradient 2 Color",
-      "count": 9
-    },
-    {
-      "title": "Background Gradient 3 Color",
-      "count": 8
-    },
-    {
-      "title": "Background Gradient 4 Color",
-      "count": 4
-    },
-    {
       "title": "Background Gradient Color",
-      "count": 102
+      "count": 88
     },
     {
       "title": "Background Grid Color",
@@ -1223,12 +743,8 @@
       "count": 4
     },
     {
-      "title": "Background Rectangle Color",
-      "count": 4
-    },
-    {
       "title": "Background Rounded Rectangle Color",
-      "count": 18
+      "count": 14
     },
     {
       "title": "Background Second Logo",
@@ -1240,19 +756,15 @@
     },
     {
       "title": "Background Shape 1 Color",
-      "count": 12
+      "count": 8
     },
     {
       "title": "Background Shape 2 Color",
-      "count": 12
+      "count": 8
     },
     {
       "title": "Background Shape 3 Color",
-      "count": 12
-    },
-    {
-      "title": "Background Shape 4 Color",
-      "count": 4
+      "count": 8
     },
     {
       "title": "Background Shapes 1 Color",
@@ -1275,10 +787,6 @@
       "count": 8
     },
     {
-      "title": "Background Street Texture Color",
-      "count": 4
-    },
-    {
       "title": "Background Stripes Color",
       "count": 4
     },
@@ -1288,7 +796,7 @@
     },
     {
       "title": "Background Texture Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Background Top Color",
@@ -1315,18 +823,6 @@
       "count": 1
     },
     {
-      "title": "Big X 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Big X 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Big X 3 Color",
-      "count": 4
-    },
-    {
       "title": "Billboard Background Color",
       "count": 4
     },
@@ -1340,27 +836,27 @@
     },
     {
       "title": "Bolt 1 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bolt 2 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bolt 3 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bolt 4 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bolt 5 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bolt 6 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Border Bar 1 Color",
@@ -1372,11 +868,7 @@
     },
     {
       "title": "Border Color",
-      "count": 15
-    },
-    {
-      "title": "Border Lines Color",
-      "count": 4
+      "count": 6
     },
     {
       "title": "Border Logo Background Color",
@@ -1384,7 +876,7 @@
     },
     {
       "title": "Border Rectangle Color",
-      "count": 16
+      "count": 12
     },
     {
       "title": "Border Shape Color",
@@ -1412,35 +904,19 @@
     },
     {
       "title": "Bottom Background Color",
-      "count": 20
+      "count": 16
     },
     {
       "title": "Bottom Background Lines Color",
       "count": 4
     },
     {
-      "title": "Bottom Bar Color",
-      "count": 1
-    },
-    {
-      "title": "Bottom Border Rectangle 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Bottom Border Rectangle 2 Color",
-      "count": 1
-    },
-    {
       "title": "Bottom Brushstroke Color",
       "count": 4
     },
     {
-      "title": "Bottom Calendar Rectangle Color",
-      "count": 1
-    },
-    {
       "title": "Bottom Corner Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bottom Corner Shape Color",
@@ -1448,15 +924,15 @@
     },
     {
       "title": "Bottom Dash 1 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bottom Dash 2 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bottom Dash 3 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bottom Detail Rectangles Color",
@@ -1480,7 +956,7 @@
     },
     {
       "title": "Bottom Dot Group Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Bottom Foreground Paint Splatter Color",
@@ -1508,11 +984,7 @@
     },
     {
       "title": "Bottom Gradient Color",
-      "count": 31
-    },
-    {
-      "title": "Bottom Gradient Color Color",
-      "count": 1
+      "count": 30
     },
     {
       "title": "Bottom Left Corner Background",
@@ -1544,7 +1016,7 @@
     },
     {
       "title": "Bottom Line Color",
-      "count": 12
+      "count": 1
     },
     {
       "title": "Bottom Logo Background Color",
@@ -1552,7 +1024,7 @@
     },
     {
       "title": "Bottom Paint Splatter Color",
-      "count": 26
+      "count": 13
     },
     {
       "title": "Bottom Paint Stroke Color",
@@ -1575,20 +1047,16 @@
       "count": 4
     },
     {
-      "title": "Bottom Photo Frame Color",
-      "count": 3
-    },
-    {
       "title": "Bottom Photo Location Icon Color",
       "count": 1
     },
     {
       "title": "Bottom Rectangle 1 Color",
-      "count": 7
+      "count": 4
     },
     {
       "title": "Bottom Rectangle 2 Color",
-      "count": 7
+      "count": 4
     },
     {
       "title": "Bottom Rectangle 3 Color",
@@ -1596,7 +1064,7 @@
     },
     {
       "title": "Bottom Rectangle Color",
-      "count": 33
+      "count": 29
     },
     {
       "title": "Bottom Right Corner Background",
@@ -1639,20 +1107,12 @@
       "count": 4
     },
     {
-      "title": "Bottom Rounded Rectangle Color",
-      "count": 4
-    },
-    {
       "title": "Bottom Shadow Color",
       "count": 4
     },
     {
       "title": "Bottom Shape Color",
-      "count": 8
-    },
-    {
-      "title": "Bottom Spot Pattern Color",
-      "count": 2
+      "count": 4
     },
     {
       "title": "Bottom Stitch Color",
@@ -1707,44 +1167,8 @@
       "count": 4
     },
     {
-      "title": "Bracket Lines Color",
-      "count": 3
-    },
-    {
-      "title": "Brushstroke Accent 1 Color",
-      "count": 2
-    },
-    {
-      "title": "Brushstroke Accent 2 Color",
-      "count": 2
-    },
-    {
-      "title": "Brushstroke Accent Color",
-      "count": 1
-    },
-    {
-      "title": "Brushstroke Accent Color 1",
-      "count": 1
-    },
-    {
-      "title": "Brushstroke Accent Color 2",
-      "count": 1
-    },
-    {
-      "title": "Brushstroke Border Color",
-      "count": 1
-    },
-    {
       "title": "Brushstroke Circle Color",
-      "count": 8
-    },
-    {
-      "title": "Brushstroke Frame Color",
-      "count": 2
-    },
-    {
-      "title": "Calendar Rectangle Background Color",
-      "count": 1
+      "count": 4
     },
     {
       "title": "Center Gradient Color",
@@ -1787,50 +1211,6 @@
       "count": 4
     },
     {
-      "title": "Champion Team Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Champion Team Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Champion Team Rectangle Color",
-      "count": 2
-    },
-    {
-      "title": "Championship Rectangle Outline",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 1 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 1 Ranking Outline",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 1 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 2 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 2 Ranking Outline",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 2 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Championship Time Rectangle Background",
-      "count": 3
-    },
-    {
       "title": "Checker Flag Color",
       "count": 4
     },
@@ -1840,71 +1220,11 @@
     },
     {
       "title": "Circle Color",
-      "count": 14
+      "count": 11
     },
     {
       "title": "Circle Outline Color",
       "count": 4
-    },
-    {
-      "title": "Circle Square Color",
-      "count": 4
-    },
-    {
-      "title": "Circuit Line 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Circuit Line 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Container 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Container 1 Grunge Color",
-      "count": 1
-    },
-    {
-      "title": "Container 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Container 2 Grunge Color",
-      "count": 1
-    },
-    {
-      "title": "Container 3 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Container 3 Grunge Color",
-      "count": 1
-    },
-    {
-      "title": "Container 4 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Container 4 Grunge Color",
-      "count": 1
-    },
-    {
-      "title": "Container 5 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Container 5 Grunge Color",
-      "count": 1
-    },
-    {
-      "title": "Container 6 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Container 6 Grunge Color",
-      "count": 1
     },
     {
       "title": "Corner 1 - Primary Color",
@@ -1949,30 +1269,6 @@
     {
       "title": "Curved 2 Line Color",
       "count": 13
-    },
-    {
-      "title": "Curved Line 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Curved Line 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Curved Lines Color",
-      "count": 1
-    },
-    {
-      "title": "Curved Shape 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Curved Shape 2 Color",
-      "count": 1
-    },
-    {
-      "title": "Cutout 1 Gradient Color",
-      "count": 1
     },
     {
       "title": "Cutout Background Color",
@@ -2040,38 +1336,14 @@
     },
     {
       "title": "Diamond 1 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Diamond 2 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Diamond 3 Color",
-      "count": 8
-    },
-    {
-      "title": "Digital Line 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Digital Line 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Digital Line 3 Color",
-      "count": 4
-    },
-    {
-      "title": "Digital Line 4 Color",
-      "count": 4
-    },
-    {
-      "title": "Digital Line 5 Color",
-      "count": 4
-    },
-    {
-      "title": "Digital Line 6 Color",
       "count": 4
     },
     {
@@ -2083,64 +1355,8 @@
       "count": 4
     },
     {
-      "title": "Divider 1 Line Color",
-      "count": 4
-    },
-    {
-      "title": "Divider 2 Line Color",
-      "count": 4
-    },
-    {
-      "title": "Divider 3 Line Color",
-      "count": 4
-    },
-    {
-      "title": "Divider Line 1",
-      "count": 1
-    },
-    {
-      "title": "Divider Line 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Divider Line 2",
-      "count": 1
-    },
-    {
-      "title": "Divider Line 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Divider Line 3",
-      "count": 1
-    },
-    {
-      "title": "Divider Line 3 Color",
-      "count": 4
-    },
-    {
-      "title": "Divider Line 4 Color",
-      "count": 4
-    },
-    {
-      "title": "Divider Line 5 Color",
-      "count": 4
-    },
-    {
-      "title": "Divider Line 6 Color",
-      "count": 4
-    },
-    {
-      "title": "Divider Line 7 Color",
-      "count": 4
-    },
-    {
       "title": "Divider Line Color",
       "count": 2
-    },
-    {
-      "title": "Dividing Line",
-      "count": 1
     },
     {
       "title": "Dot 1 Color",
@@ -2152,7 +1368,7 @@
     },
     {
       "title": "Dot Pattern Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Dot Texture Color",
@@ -2173,10 +1389,6 @@
     {
       "title": "Event 1 Background Color",
       "count": 4
-    },
-    {
-      "title": "Event 1 Container Color",
-      "count": 1
     },
     {
       "title": "Event 1 Game 1 Background Color",
@@ -2231,52 +1443,20 @@
       "count": 1
     },
     {
-      "title": "Event 1 Team 1 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 1 Team 1 Logo Color",
-      "count": 3
-    },
-    {
       "title": "Event 1 Team 1 Logo Rectangle Color",
-      "count": 12
-    },
-    {
-      "title": "Event 1 Team 1 Name Background Color",
-      "count": 2
+      "count": 4
     },
     {
       "title": "Event 1 Team 1 Name Rectangle Color",
-      "count": 8
-    },
-    {
-      "title": "Event 1 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 1 Team 2 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 1 Team 2 Logo Color",
-      "count": 3
+      "count": 4
     },
     {
       "title": "Event 1 Team 2 Logo Rectangle Color",
-      "count": 12
-    },
-    {
-      "title": "Event 1 Team 2 Name Background Color",
-      "count": 2
+      "count": 4
     },
     {
       "title": "Event 1 Team 2 Name Rectangle Color",
-      "count": 8
-    },
-    {
-      "title": "Event 1 Team 2 Score Color",
-      "count": 2
+      "count": 4
     },
     {
       "title": "Event 1 Title Background Color",
@@ -2284,10 +1464,6 @@
     },
     {
       "title": "Event 1 VS/AT Bottom Line Color",
-      "count": 4
-    },
-    {
-      "title": "Event 1 VS/AT Hexagon Color",
       "count": 4
     },
     {
@@ -2299,84 +1475,8 @@
       "count": 4
     },
     {
-      "title": "Event 10 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 10 Team 1 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 10 Team 2 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Team 1 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Team 2 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Team 1 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Team 2 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Team 1 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Team 2 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 14 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 15 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 16 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 17 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 18 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 19 Container Color",
-      "count": 1
-    },
-    {
       "title": "Event 2 Background Color",
       "count": 4
-    },
-    {
-      "title": "Event 2 Container Color",
-      "count": 1
     },
     {
       "title": "Event 2 Game 1 Background Color",
@@ -2431,52 +1531,20 @@
       "count": 1
     },
     {
-      "title": "Event 2 Team 1 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 2 Team 1 Logo Color",
-      "count": 3
-    },
-    {
       "title": "Event 2 Team 1 Logo Rectangle Color",
-      "count": 12
-    },
-    {
-      "title": "Event 2 Team 1 Name Background Color",
-      "count": 2
+      "count": 4
     },
     {
       "title": "Event 2 Team 1 Name Rectangle Color",
-      "count": 8
-    },
-    {
-      "title": "Event 2 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 2 Team 2 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 2 Team 2 Logo Color",
-      "count": 3
+      "count": 4
     },
     {
       "title": "Event 2 Team 2 Logo Rectangle Color",
-      "count": 12
-    },
-    {
-      "title": "Event 2 Team 2 Name Background Color",
-      "count": 2
+      "count": 4
     },
     {
       "title": "Event 2 Team 2 Name Rectangle Color",
-      "count": 8
-    },
-    {
-      "title": "Event 2 Team 2 Score Color",
-      "count": 2
+      "count": 4
     },
     {
       "title": "Event 2 Title Background Color",
@@ -2484,10 +1552,6 @@
     },
     {
       "title": "Event 2 VS/AT Bottom Line Color",
-      "count": 4
-    },
-    {
-      "title": "Event 2 VS/AT Hexagon Color",
       "count": 4
     },
     {
@@ -2499,115 +1563,11 @@
       "count": 4
     },
     {
-      "title": "Event 20 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 21 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 22 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 23 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 24 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 25 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 26 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 27 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 28 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 29 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 3 Container Color",
-      "count": 1
-    },
-    {
       "title": "Event 3 Rectangle Color",
       "count": 5
     },
     {
       "title": "Event 3 Rounded Rectangle Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Event 3 Team 1 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 3 Team 1 Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Event 3 Team 1 Logo Rectangle Color",
-      "count": 8
-    },
-    {
-      "title": "Event 3 Team 1 Name Background Color",
-      "count": 2
-    },
-    {
-      "title": "Event 3 Team 1 Name Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 3 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 3 Team 2 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 3 Team 2 Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Event 3 Team 2 Logo Rectangle Color",
-      "count": 8
-    },
-    {
-      "title": "Event 3 Team 2 Name Background Color",
-      "count": 2
-    },
-    {
-      "title": "Event 3 Team 2 Name Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 3 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 3 VS/AT Hexagon Color",
-      "count": 4
-    },
-    {
-      "title": "Event 30 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 4 Container Color",
       "count": 1
     },
     {
@@ -2619,123 +1579,11 @@
       "count": 1
     },
     {
-      "title": "Event 4 Team 1 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 4 Team 1 Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Event 4 Team 1 Logo Rectangle Color",
-      "count": 8
-    },
-    {
-      "title": "Event 4 Team 1 Name Background Color",
-      "count": 2
-    },
-    {
-      "title": "Event 4 Team 1 Name Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 4 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 4 Team 2 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 4 Team 2 Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Event 4 Team 2 Logo Rectangle Color",
-      "count": 8
-    },
-    {
-      "title": "Event 4 Team 2 Name Background Color",
-      "count": 2
-    },
-    {
-      "title": "Event 4 Team 2 Name Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 4 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 4 VS/AT Hexagon Color",
-      "count": 4
-    },
-    {
-      "title": "Event 5 Container Color",
-      "count": 1
-    },
-    {
       "title": "Event 5 Rectangle Color",
       "count": 5
     },
     {
       "title": "Event 5 Rounded Rectangle Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Event 5 Team 1 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 5 Team 1 Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Event 5 Team 1 Logo Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 5 Team 1 Name Background Color",
-      "count": 2
-    },
-    {
-      "title": "Event 5 Team 1 Name Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 5 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 5 Team 2 Logo Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 5 Team 2 Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Event 5 Team 2 Logo Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 5 Team 2 Name Background Color",
-      "count": 2
-    },
-    {
-      "title": "Event 5 Team 2 Name Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 5 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 5 VS/AT Hexagon Color",
-      "count": 4
-    },
-    {
-      "title": "Event 6 Container Color",
       "count": 1
     },
     {
@@ -2747,79 +1595,11 @@
       "count": 1
     },
     {
-      "title": "Event 6 Team 1 Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Event 6 Team 1 Logo Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 6 Team 1 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 6 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 6 Team 2 Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Event 6 Team 2 Logo Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Event 6 Team 2 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 6 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Event 7 Container Color",
-      "count": 1
-    },
-    {
       "title": "Event 7 Rounded Rectangle Outline Color",
       "count": 1
     },
     {
-      "title": "Event 7 Team 1 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 7 Team 2 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 8 Container Color",
-      "count": 1
-    },
-    {
       "title": "Event 8 Rounded Rectangle Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Event 8 Team 1 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 8 Team 2 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 9 Container Color",
-      "count": 1
-    },
-    {
-      "title": "Event 9 Team 1 Name Background Color",
-      "count": 1
-    },
-    {
-      "title": "Event 9 Team 2 Name Background Color",
       "count": 1
     },
     {
@@ -2831,10 +1611,6 @@
       "count": 4
     },
     {
-      "title": "Footer Container Color",
-      "count": 3
-    },
-    {
       "title": "Footer Information Background Color",
       "count": 3
     },
@@ -2844,15 +1620,7 @@
     },
     {
       "title": "Footer Rectangle Color",
-      "count": 6
-    },
-    {
-      "title": "Footer Shape 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Footer Shape 2 Color",
-      "count": 1
+      "count": 3
     },
     {
       "title": "Footer Stroke Color",
@@ -2868,31 +1636,31 @@
     },
     {
       "title": "Foreground Chainlink 1 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Foreground Chainlink 2 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Foreground Circle Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Foreground Circle Gradient 1 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Foreground Circle Gradient 2 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Foreground Feather 1 Color",
-      "count": 5
+      "count": 4
     },
     {
       "title": "Foreground Feather 2 Color",
-      "count": 5
+      "count": 4
     },
     {
       "title": "Foreground Feather 3 Color",
@@ -2900,19 +1668,19 @@
     },
     {
       "title": "Foreground Gradient 1 Color",
-      "count": 10
+      "count": 4
     },
     {
       "title": "Foreground Gradient 2 Color",
-      "count": 12
+      "count": 6
     },
     {
       "title": "Foreground Gradient 3 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Foreground Gradient Color",
-      "count": 17
+      "count": 12
     },
     {
       "title": "Foreground Pattern Color",
@@ -3011,144 +1779,16 @@
       "count": 1
     },
     {
-      "title": "Game 1 Team 1 Background Color",
-      "count": 1
-    },
-    {
       "title": "Game 1 Team 1 Logo Background Color",
       "count": 4
-    },
-    {
-      "title": "Game 1 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Team 2 Background Color",
-      "count": 1
     },
     {
       "title": "Game 1 Team 2 Logo Background Color",
       "count": 4
     },
     {
-      "title": "Game 1 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Time Rectangle Background",
-      "count": 3
-    },
-    {
       "title": "Game 1 VS/AT Rectangle Color",
       "count": 4
-    },
-    {
-      "title": "Game 10 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Stroke Color",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Time Background Color",
-      "count": 1
     },
     {
       "title": "Game 2 Game Time Rectangle Color",
@@ -3159,52 +1799,12 @@
       "count": 1
     },
     {
-      "title": "Game 2 Team 1 Background Color",
-      "count": 1
-    },
-    {
       "title": "Game 2 Team 1 Logo Background Color",
       "count": 4
     },
     {
-      "title": "Game 2 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Team 2 Background Color",
-      "count": 1
-    },
-    {
       "title": "Game 2 Team 2 Logo Background Color",
       "count": 4
-    },
-    {
-      "title": "Game 2 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Time Rectangle Background",
-      "count": 3
     },
     {
       "title": "Game 2 VS/AT Rectangle Color",
@@ -3215,292 +1815,24 @@
       "count": 1
     },
     {
-      "title": "Game 3 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Time Rectangle Background",
-      "count": 3
-    },
-    {
       "title": "Game 4 Opponent Circle Color",
       "count": 1
-    },
-    {
-      "title": "Game 4 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Time Rectangle Background",
-      "count": 3
     },
     {
       "title": "Game 5 Opponent Circle Color",
       "count": 1
     },
     {
-      "title": "Game 5 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 1 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 1 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 1 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 2 Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 2 Ranking Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 2 Rectangle Color",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Time Background Color",
-      "count": 1
-    },
-    {
-      "title": "Game Information Container Color",
-      "count": 1
-    },
-    {
       "title": "Game Time Rectangle Color",
-      "count": 12
+      "count": 8
     },
     {
       "title": "Gameday Text Color",
       "count": 5
     },
     {
-      "title": "General Information 1 Rectangle Color",
-      "count": 4
-    },
-    {
       "title": "General Information Background Color",
-      "count": 5
+      "count": 4
     },
     {
       "title": "General Information Circle Color",
@@ -3511,24 +1843,12 @@
       "count": 8
     },
     {
-      "title": "General Information Rectangle Color",
-      "count": 4
-    },
-    {
       "title": "Gradient",
-      "count": 2
-    },
-    {
-      "title": "Gradient 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Gradient 2 Color",
-      "count": 4
+      "count": 1
     },
     {
       "title": "Gradient Color",
-      "count": 143
+      "count": 86
     },
     {
       "title": "Grid 1 Color",
@@ -3544,7 +1864,7 @@
     },
     {
       "title": "Grid Color",
-      "count": 20
+      "count": 16
     },
     {
       "title": "Grid Gradient Color",
@@ -3552,19 +1872,15 @@
     },
     {
       "title": "Grid Lines 1 Color",
-      "count": 16
-    },
-    {
-      "title": "Grid Lines 2 Color",
-      "count": 16
-    },
-    {
-      "title": "Grid Lines 3 Color",
       "count": 12
     },
     {
-      "title": "Grid Lines 4 Color",
-      "count": 4
+      "title": "Grid Lines 2 Color",
+      "count": 12
+    },
+    {
+      "title": "Grid Lines 3 Color",
+      "count": 8
     },
     {
       "title": "Hand Drawn Arrow Color",
@@ -3580,7 +1896,7 @@
     },
     {
       "title": "Hand Drawn Circle Color",
-      "count": 17
+      "count": 13
     },
     {
       "title": "Hashtag Background",
@@ -3620,11 +1936,7 @@
     },
     {
       "title": "Headline Background Color",
-      "count": 57
-    },
-    {
-      "title": "Headline Background Shape Color",
-      "count": 4
+      "count": 49
     },
     {
       "title": "Headline Bottom Rectangle 1 Color",
@@ -3680,11 +1992,11 @@
     },
     {
       "title": "Headline Rectangle Color",
-      "count": 9
+      "count": 5
     },
     {
       "title": "Headline Stroke Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Helmet 1 Accent Color",
@@ -3711,68 +2023,12 @@
       "count": 3
     },
     {
-      "title": "Home Color",
-      "count": 5
-    },
-    {
-      "title": "Home Game Info Background 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 10 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 2 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 3 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 4 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 5 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 6 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 7 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 8 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Background 9 Color",
-      "count": 1
-    },
-    {
-      "title": "Home Games Background Color",
-      "count": 1
-    },
-    {
-      "title": "Horizontal Rectangle Color",
+      "title": "Inner Background",
       "count": 4
     },
     {
-      "title": "Information Background Color",
-      "count": 8
-    },
-    {
-      "title": "Inner Background",
-      "count": 5
-    },
-    {
       "title": "Inner Background Color",
-      "count": 32
+      "count": 13
     },
     {
       "title": "Inner Bottom Stroke Color",
@@ -3792,11 +2048,11 @@
     },
     {
       "title": "Leaf 1 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Leaf 2 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Left Background Line",
@@ -3812,7 +2068,7 @@
     },
     {
       "title": "Left Gradient Color",
-      "count": 12
+      "count": 4
     },
     {
       "title": "Left Gradient Overlay Color",
@@ -3824,15 +2080,11 @@
     },
     {
       "title": "Left Panel Color",
-      "count": 14
+      "count": 8
     },
     {
       "title": "Left Panel Gradient Color",
-      "count": 14
-    },
-    {
-      "title": "Left Panel Outer Stroke Color",
-      "count": 3
+      "count": 11
     },
     {
       "title": "Left Photo Location Icon",
@@ -3849,10 +2101,6 @@
     {
       "title": "Left Photo Location Rounded Rectangle Color",
       "count": 1
-    },
-    {
-      "title": "Left Rectangle Color",
-      "count": 3
     },
     {
       "title": "Left Separator Line Color",
@@ -3880,7 +2128,7 @@
     },
     {
       "title": "Line",
-      "count": 7
+      "count": 6
     },
     {
       "title": "Line 01",
@@ -3888,7 +2136,7 @@
     },
     {
       "title": "Line 1 Color",
-      "count": 5
+      "count": 1
     },
     {
       "title": "Line 1 Gradient Color",
@@ -3899,12 +2147,8 @@
       "count": 4
     },
     {
-      "title": "Line 1 Text Container Color",
-      "count": 1
-    },
-    {
       "title": "Line 2 Color",
-      "count": 5
+      "count": 1
     },
     {
       "title": "Line 2 Gradient Color",
@@ -3915,168 +2159,12 @@
       "count": 4
     },
     {
-      "title": "Line 2 Text Container Color",
-      "count": 1
-    },
-    {
-      "title": "Line 3 Color",
-      "count": 4
-    },
-    {
-      "title": "Line 3 Text Container Color",
-      "count": 1
-    },
-    {
-      "title": "Line 4 Color",
-      "count": 4
-    },
-    {
-      "title": "Line 4 Text Container Color",
-      "count": 1
-    },
-    {
-      "title": "Line 5 Text Container Color",
-      "count": 1
-    },
-    {
-      "title": "Line 6 Text Container Color",
-      "count": 1
-    },
-    {
-      "title": "Line 7 Text Container Color",
-      "count": 1
-    },
-    {
       "title": "Line Color",
-      "count": 18
-    },
-    {
-      "title": "Lines Color",
-      "count": 1
+      "count": 8
     },
     {
       "title": "Linkedin Icon Color",
       "count": 2
-    },
-    {
-      "title": "Location 1",
-      "count": 4
-    },
-    {
-      "title": "Location 10",
-      "count": 4
-    },
-    {
-      "title": "Location 11",
-      "count": 4
-    },
-    {
-      "title": "Location 12",
-      "count": 4
-    },
-    {
-      "title": "Location 13",
-      "count": 4
-    },
-    {
-      "title": "Location 14",
-      "count": 4
-    },
-    {
-      "title": "Location 15",
-      "count": 4
-    },
-    {
-      "title": "Location 16",
-      "count": 4
-    },
-    {
-      "title": "Location 17",
-      "count": 4
-    },
-    {
-      "title": "Location 18",
-      "count": 4
-    },
-    {
-      "title": "Location 19",
-      "count": 4
-    },
-    {
-      "title": "Location 2",
-      "count": 4
-    },
-    {
-      "title": "Location 20",
-      "count": 4
-    },
-    {
-      "title": "Location 21",
-      "count": 4
-    },
-    {
-      "title": "Location 22",
-      "count": 4
-    },
-    {
-      "title": "Location 23",
-      "count": 4
-    },
-    {
-      "title": "Location 24",
-      "count": 4
-    },
-    {
-      "title": "Location 25",
-      "count": 4
-    },
-    {
-      "title": "Location 26",
-      "count": 4
-    },
-    {
-      "title": "Location 27",
-      "count": 4
-    },
-    {
-      "title": "Location 28",
-      "count": 4
-    },
-    {
-      "title": "Location 29",
-      "count": 4
-    },
-    {
-      "title": "Location 3",
-      "count": 4
-    },
-    {
-      "title": "Location 30",
-      "count": 4
-    },
-    {
-      "title": "Location 4",
-      "count": 4
-    },
-    {
-      "title": "Location 5",
-      "count": 4
-    },
-    {
-      "title": "Location 6",
-      "count": 4
-    },
-    {
-      "title": "Location 7",
-      "count": 4
-    },
-    {
-      "title": "Location 8",
-      "count": 4
-    },
-    {
-      "title": "Location 9",
-      "count": 4
     },
     {
       "title": "Location Background Color",
@@ -4092,7 +2180,7 @@
     },
     {
       "title": "Location Icon Color",
-      "count": 14
+      "count": 8
     },
     {
       "title": "Location Pin Color",
@@ -4128,11 +2216,7 @@
     },
     {
       "title": "Logo Background Color",
-      "count": 44
-    },
-    {
-      "title": "Logo Background Shape Color",
-      "count": 4
+      "count": 25
     },
     {
       "title": "Logo Circle Background Color",
@@ -4167,10 +2251,6 @@
       "count": 4
     },
     {
-      "title": "Logo Outline Color",
-      "count": 8
-    },
-    {
       "title": "Logo Rectangle Color",
       "count": 3
     },
@@ -4188,11 +2268,7 @@
     },
     {
       "title": "Logo Stroke Color",
-      "count": 12
-    },
-    {
-      "title": "Magma Color",
-      "count": 4
+      "count": 8
     },
     {
       "title": "Main Background",
@@ -4200,22 +2276,10 @@
     },
     {
       "title": "Main Background Color",
-      "count": 59
-    },
-    {
-      "title": "Main Billboard Background Color",
-      "count": 1
-    },
-    {
-      "title": "Main Billboard Gradient Color",
-      "count": 1
+      "count": 51
     },
     {
       "title": "Main Color",
-      "count": 1
-    },
-    {
-      "title": "Main Container Color",
       "count": 1
     },
     {
@@ -4231,12 +2295,8 @@
       "count": 1
     },
     {
-      "title": "Main Panel Color",
-      "count": 8
-    },
-    {
       "title": "Main Rectangle Color",
-      "count": 19
+      "count": 15
     },
     {
       "title": "Main Rectangle Gradient Color",
@@ -4244,23 +2304,11 @@
     },
     {
       "title": "Main Rounded Rectangle Color",
-      "count": 19
+      "count": 15
     },
     {
       "title": "Main Rounded Rectangle Stroke Color",
-      "count": 19
-    },
-    {
-      "title": "Main Shape 1 Color",
-      "count": 2
-    },
-    {
-      "title": "Main Shape 2 Color",
-      "count": 2
-    },
-    {
-      "title": "Main Shape Color",
-      "count": 5
+      "count": 15
     },
     {
       "title": "main_background",
@@ -4268,35 +2316,27 @@
     },
     {
       "title": "Marker Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Marker Scribble 1 Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Marker Scribble 2 Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Marker Scribble 3 Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Marker Scribble 4 Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Marker Scribble 5 Color",
-      "count": 4
-    },
-    {
-      "title": "Matchup 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Matchup 2 Background Color",
-      "count": 1
+      "count": 3
     },
     {
       "title": "Matchup Divider Color",
@@ -4304,7 +2344,7 @@
     },
     {
       "title": "Matchup Rectangle Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Matchup Rounded Rectangle Color",
@@ -4344,7 +2384,7 @@
     },
     {
       "title": "Media Frame Color",
-      "count": 12
+      "count": 4
     },
     {
       "title": "Media Gradient 1 Color",
@@ -4383,16 +2423,8 @@
       "count": 4
     },
     {
-      "title": "Middle Gradient Color",
-      "count": 1
-    },
-    {
       "title": "Middle Ground Street Color",
       "count": 8
-    },
-    {
-      "title": "Middle Ground Street Texture Color",
-      "count": 4
     },
     {
       "title": "Middle Left Tear Color",
@@ -4411,15 +2443,7 @@
       "count": 4
     },
     {
-      "title": "Middle Spot Pattern Color",
-      "count": 1
-    },
-    {
       "title": "Name Background Color",
-      "count": 4
-    },
-    {
-      "title": "Neutral Color",
       "count": 4
     },
     {
@@ -4431,10 +2455,6 @@
       "count": 2
     },
     {
-      "title": "Opponent Logo Background Color",
-      "count": 8
-    },
-    {
       "title": "Opponent Logo Rounded Rectangle Color",
       "count": 5
     },
@@ -4444,7 +2464,7 @@
     },
     {
       "title": "Opponent Name Rectangle Color",
-      "count": 9
+      "count": 5
     },
     {
       "title": "Opponent Rectangle Color",
@@ -4452,11 +2472,11 @@
     },
     {
       "title": "Outer Background",
-      "count": 7
+      "count": 6
     },
     {
       "title": "Outer Background Color",
-      "count": 32
+      "count": 13
     },
     {
       "title": "Outer Border Glow Color",
@@ -4480,7 +2500,7 @@
     },
     {
       "title": "Paint Splatter Color",
-      "count": 49
+      "count": 39
     },
     {
       "title": "Paint Stroke Color",
@@ -4504,31 +2524,23 @@
     },
     {
       "title": "Paper Tear 1 Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Paper Tear 1 Pattern Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Paper Tear 2 Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Paper Tear 3 Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Paper Tear 3 Pattern Color",
-      "count": 4
-    },
-    {
-      "title": "Pattern 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Pattern 2 Color",
-      "count": 4
+      "count": 3
     },
     {
       "title": "Pause Circle Color",
@@ -4563,40 +2575,8 @@
       "count": 4
     },
     {
-      "title": "Photo 1 Background Hexagon 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Photo 1 Foreground Hexagon Color",
-      "count": 4
-    },
-    {
-      "title": "Photo 1 Gradient Color",
-      "count": 1
-    },
-    {
       "title": "Photo 2 Background Color",
       "count": 4
-    },
-    {
-      "title": "Photo 2 Foreground Hexagon Color",
-      "count": 4
-    },
-    {
-      "title": "Photo 2 Gradient Color",
-      "count": 1
-    },
-    {
-      "title": "Photo 3 Background Hexagon 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Photo 3 Foreground Hexagon Color",
-      "count": 4
-    },
-    {
-      "title": "Photo Frame",
-      "count": 2
     },
     {
       "title": "Photo Frame Left Shape 1 Color",
@@ -4643,10 +2623,6 @@
       "count": 1
     },
     {
-      "title": "Player 1 Number Rectangle Color",
-      "count": 4
-    },
-    {
       "title": "Player 10 Name Rounded Rectangle Outline Color",
       "count": 1
     },
@@ -4671,20 +2647,12 @@
       "count": 1
     },
     {
-      "title": "Player 2 Number Rectangle Color",
-      "count": 4
-    },
-    {
       "title": "Player 3 Name Rounded Rectangle Outline Color",
       "count": 1
     },
     {
       "title": "Player 3 Number Circle Color",
       "count": 1
-    },
-    {
-      "title": "Player 3 Number Rectangle Color",
-      "count": 4
     },
     {
       "title": "Player 4 Name Rounded Rectangle Outline Color",
@@ -4695,20 +2663,12 @@
       "count": 1
     },
     {
-      "title": "Player 4 Number Rectangle Color",
-      "count": 4
-    },
-    {
       "title": "Player 5 Name Rounded Rectangle Outline Color",
       "count": 1
     },
     {
       "title": "Player 5 Number Circle Color",
       "count": 1
-    },
-    {
-      "title": "Player 5 Number Rectangle Color",
-      "count": 4
     },
     {
       "title": "Player 6 Name Rounded Rectangle Outline Color",
@@ -4743,24 +2703,12 @@
       "count": 1
     },
     {
-      "title": "Player Gradient 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Player Gradient 2 Color",
-      "count": 1
-    },
-    {
-      "title": "Plus Sign Color",
-      "count": 3
-    },
-    {
       "title": "Point Color",
       "count": 2
     },
     {
       "title": "Primary Background Color",
-      "count": 20
+      "count": 16
     },
     {
       "title": "Primary Smoke Color",
@@ -4775,75 +2723,31 @@
       "count": 1
     },
     {
-      "title": "Radar 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Radar 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Ranking Circle Color",
-      "count": 1
-    },
-    {
       "title": "Rectange Background",
       "count": 1
     },
     {
-      "title": "Rectangle 1",
-      "count": 1
-    },
-    {
       "title": "Rectangle 1 Color",
-      "count": 8
-    },
-    {
-      "title": "Rectangle 2",
-      "count": 1
+      "count": 4
     },
     {
       "title": "Rectangle 2 Color",
-      "count": 8
-    },
-    {
-      "title": "Rectangle 3",
-      "count": 1
+      "count": 4
     },
     {
       "title": "Rectangle 3 Color",
-      "count": 8
-    },
-    {
-      "title": "Rectangle 4",
-      "count": 1
+      "count": 4
     },
     {
       "title": "Rectangle 4 Color",
-      "count": 8
-    },
-    {
-      "title": "Rectangle 5",
-      "count": 1
+      "count": 4
     },
     {
       "title": "Rectangle 5 Color",
-      "count": 8
-    },
-    {
-      "title": "Rectangle 6",
-      "count": 1
+      "count": 4
     },
     {
       "title": "Rectangle 6 Color",
-      "count": 8
-    },
-    {
-      "title": "Rectangle 7",
-      "count": 1
-    },
-    {
-      "title": "Rectangle 7 Color",
       "count": 4
     },
     {
@@ -4857,14 +2761,6 @@
     {
       "title": "Rectangle Paint Splatter Color",
       "count": 3
-    },
-    {
-      "title": "Repeated X 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Repeated X 2 Color",
-      "count": 4
     },
     {
       "title": "Reverse Circle Color",
@@ -4888,7 +2784,7 @@
     },
     {
       "title": "Right Gradient Color",
-      "count": 12
+      "count": 4
     },
     {
       "title": "Right Gradient Overlay Color",
@@ -4901,14 +2797,6 @@
     {
       "title": "Right Panel Background",
       "count": 2
-    },
-    {
-      "title": "Right Panel Color",
-      "count": 6
-    },
-    {
-      "title": "Right Panel Gradient Color",
-      "count": 3
     },
     {
       "title": "Right Photo Location Icon",
@@ -4925,10 +2813,6 @@
     {
       "title": "Right Photo Location Rounded Rectangle Color",
       "count": 2
-    },
-    {
-      "title": "Right Rectangle Color",
-      "count": 3
     },
     {
       "title": "Right Separator Line Color",
@@ -4968,7 +2852,7 @@
     },
     {
       "title": "Ripped Paper Color",
-      "count": 6
+      "count": 4
     },
     {
       "title": "Ripped Paper Color Bottom",
@@ -4987,116 +2871,12 @@
       "count": 4
     },
     {
-      "title": "Round 1 Team 1 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 1 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 1 Rectangle Outline",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 2 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 2 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 2 Rectangle Outline",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 3 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 3 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 3 Rectangle Outline",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 4 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 4 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 4 Rectangle Outline",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 1 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 1 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 1 Rectangle Outline",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 2 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 2 Ranking Outline",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 2 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 3 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 3 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 3 Rectangle Outline",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 4 Ranking Background",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 4 Rectangle Background",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 4 Rectangle Outline",
-      "count": 3
-    },
-    {
-      "title": "Rounded Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Rounded Rectangle Group",
-      "count": 1
-    },
-    {
       "title": "School Name Background Color",
       "count": 21
     },
     {
       "title": "School Name Rectangle Color",
-      "count": 16
+      "count": 12
     },
     {
       "title": "School Name Rounded Rectangle Color",
@@ -5107,108 +2887,32 @@
       "count": 4
     },
     {
-      "title": "Score 1 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 1 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 2 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 2 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 3 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 3 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 4 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 4 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 5 Team 1 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score 5 Team 2 Score Color",
-      "count": 2
-    },
-    {
-      "title": "Score Table Lines Color",
-      "count": 4
-    },
-    {
       "title": "Scribble Line Color",
       "count": 1
     },
     {
       "title": "Secondary Background Color",
-      "count": 22
-    },
-    {
-      "title": "Secondary Shape 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Secondary Shape 2 Color",
-      "count": 1
-    },
-    {
-      "title": "Secondary Shape Color",
-      "count": 1
+      "count": 18
     },
     {
       "title": "Secondary Smoke Color",
       "count": 2
     },
     {
-      "title": "Section 1 Title Background Color",
-      "count": 3
-    },
-    {
-      "title": "Section 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Section 2 Title Background Color",
-      "count": 3
-    },
-    {
-      "title": "Section 2 Title Rounded Rectangle Background Color",
-      "count": 1
-    },
-    {
-      "title": "Section 2 Title Rounded Rectangle Outline Color",
-      "count": 1
-    },
-    {
       "title": "Shape 1 Color",
-      "count": 16
+      "count": 12
     },
     {
       "title": "Shape 1 Stroke Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Shape 2 Color",
-      "count": 16
+      "count": 12
     },
     {
       "title": "Shape 2 Stroke Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Shape 3 Color",
@@ -5220,7 +2924,7 @@
     },
     {
       "title": "Shape Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Shape Gradient Color",
@@ -5256,34 +2960,6 @@
     },
     {
       "title": "Side Bar 2 Color",
-      "count": 1
-    },
-    {
-      "title": "Side Gradient Color",
-      "count": 1
-    },
-    {
-      "title": "Side Gradient Color Color",
-      "count": 1
-    },
-    {
-      "title": "Skyline Color",
-      "count": 1
-    },
-    {
-      "title": "Small Billboard 1 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Small Billboard 2 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Small Billboard 3 Background Color",
-      "count": 1
-    },
-    {
-      "title": "Small Billboard 4 Background Color",
       "count": 1
     },
     {
@@ -5491,10 +3167,6 @@
       "count": 3
     },
     {
-      "title": "Square Stroke Color",
-      "count": 4
-    },
-    {
       "title": "Squiggle Color",
       "count": 4
     },
@@ -5504,14 +3176,6 @@
     },
     {
       "title": "Stars Color",
-      "count": 4
-    },
-    {
-      "title": "Stitch 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Stitch 2 Color",
       "count": 4
     },
     {
@@ -5540,19 +3204,19 @@
     },
     {
       "title": "Stripe Group 1 Color",
-      "count": 26
+      "count": 13
     },
     {
       "title": "Stripe Group 2 Color",
-      "count": 26
+      "count": 13
     },
     {
       "title": "Stripe Group 3 Color",
-      "count": 18
+      "count": 5
     },
     {
       "title": "Stripe Group 4 Color",
-      "count": 10
+      "count": 5
     },
     {
       "title": "Striped Hexagon 1 Color",
@@ -5572,27 +3236,15 @@
     },
     {
       "title": "Stroke Accent 1 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Stroke Accent 2 Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Stroke Accent 3 Color",
       "count": 4
-    },
-    {
-      "title": "Stroke Arrow Color",
-      "count": 1
-    },
-    {
-      "title": "Stroke Logo Color",
-      "count": 3
-    },
-    {
-      "title": "Subitle Container Color",
-      "count": 1
     },
     {
       "title": "Subtitle 1 Background Color",
@@ -5616,22 +3268,10 @@
     },
     {
       "title": "Subtitle Rectangle Color",
-      "count": 30
+      "count": 18
     },
     {
       "title": "Subtitle Rounded Rectangle Outline Color",
-      "count": 1
-    },
-    {
-      "title": "Subtitle Spot Pattern Color",
-      "count": 1
-    },
-    {
-      "title": "Subway Map 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Subway Map 2 Color",
       "count": 1
     },
     {
@@ -5639,12 +3279,8 @@
       "count": 8
     },
     {
-      "title": "Sunburst Color",
-      "count": 4
-    },
-    {
       "title": "Sunburst Pattern Color",
-      "count": 12
+      "count": 8
     },
     {
       "title": "Tape Color",
@@ -5656,10 +3292,6 @@
     },
     {
       "title": "Tapered Lines 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Tapered Lines Color",
       "count": 4
     },
     {
@@ -5680,7 +3312,7 @@
     },
     {
       "title": "Team 1 Logo Background Color",
-      "count": 82
+      "count": 80
     },
     {
       "title": "Team 1 Logo Border Color",
@@ -5719,10 +3351,6 @@
       "count": 4
     },
     {
-      "title": "Team 1 Logo Paint Splatter Color",
-      "count": 4
-    },
-    {
       "title": "Team 1 Logo Rounded Rectangle Color",
       "count": 4
     },
@@ -5756,7 +3384,7 @@
     },
     {
       "title": "Team 1 Score Container Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Team 1 Score Container Left Stroke Color",
@@ -5764,10 +3392,6 @@
     },
     {
       "title": "Team 1 Score Container Right Stroke Color",
-      "count": 4
-    },
-    {
-      "title": "Team 1 Stamp Color",
       "count": 4
     },
     {
@@ -5816,7 +3440,7 @@
     },
     {
       "title": "Team 2 Logo Background Color",
-      "count": 82
+      "count": 80
     },
     {
       "title": "Team 2 Logo Border Color",
@@ -5848,10 +3472,6 @@
     },
     {
       "title": "Team 2 Logo Outline Shape Color",
-      "count": 4
-    },
-    {
-      "title": "Team 2 Logo Paint Splatter Color",
       "count": 4
     },
     {
@@ -5888,7 +3508,7 @@
     },
     {
       "title": "Team 2 Score Container Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Team 2 Score Container Left Stroke Color",
@@ -5896,10 +3516,6 @@
     },
     {
       "title": "Team 2 Score Container Right Stroke Color",
-      "count": 4
-    },
-    {
-      "title": "Team 2 Stamp Color",
       "count": 4
     },
     {
@@ -5955,31 +3571,11 @@
       "count": 4
     },
     {
-      "title": "Text Container 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Text Container 2 Color",
-      "count": 1
-    },
-    {
       "title": "Text Paint Splatter Color",
-      "count": 10
-    },
-    {
-      "title": "Thick Circle Stroke Color",
-      "count": 4
-    },
-    {
-      "title": "Thin Circle Stroke Color",
-      "count": 4
+      "count": 8
     },
     {
       "title": "this type did not work triangle",
-      "count": 2
-    },
-    {
-      "title": "Ticket Color",
       "count": 1
     },
     {
@@ -6003,14 +3599,6 @@
       "count": 5
     },
     {
-      "title": "Title 1 Background Color",
-      "count": 4
-    },
-    {
-      "title": "Title 2 Background Color",
-      "count": 4
-    },
-    {
       "title": "Title Background Bottom Accent Color",
       "count": 4
     },
@@ -6023,10 +3611,6 @@
       "count": 4
     },
     {
-      "title": "Title Container Color",
-      "count": 1
-    },
-    {
       "title": "Title Divider Background Color",
       "count": 4
     },
@@ -6037,58 +3621,6 @@
     {
       "title": "Title Paint Stripe Color",
       "count": 15
-    },
-    {
-      "title": "Title Spot Pattern Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 1 Event 1 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 1 Event 2 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 1 Event 3 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 1 Event 4 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 1 Event 5 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 1 Event 6 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 2 Event 1 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 2 Event 2 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 2 Event 3 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 2 Event 4 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 2 Event 5 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Today’s Event 2 Event 6 Team 2 Score Color",
-      "count": 1
     },
     {
       "title": "Top Arrow",
@@ -6119,20 +3651,8 @@
       "count": 1
     },
     {
-      "title": "Top Border Rectangle 1 Color",
-      "count": 1
-    },
-    {
-      "title": "Top Border Rectangle 2 Color",
-      "count": 1
-    },
-    {
       "title": "Top Brushstroke Color",
       "count": 4
-    },
-    {
-      "title": "Top Calendar Rectangle Color",
-      "count": 1
     },
     {
       "title": "Top Dash 1 Color",
@@ -6156,7 +3676,7 @@
     },
     {
       "title": "Top Dot Group Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Top Foreground Paint Splatter Color",
@@ -6191,18 +3711,6 @@
       "count": 22
     },
     {
-      "title": "Top Left Dash 1 Color",
-      "count": 4
-    },
-    {
-      "title": "Top Left Dash 2 Color",
-      "count": 4
-    },
-    {
-      "title": "Top Left Dash 3 Color",
-      "count": 4
-    },
-    {
       "title": "Top Left Paint Splatter Color",
       "count": 4
     },
@@ -6212,7 +3720,7 @@
     },
     {
       "title": "Top Line Color",
-      "count": 4
+      "count": 1
     },
     {
       "title": "Top Main Wave Color",
@@ -6220,7 +3728,7 @@
     },
     {
       "title": "Top Paint Splatter Color",
-      "count": 26
+      "count": 13
     },
     {
       "title": "Top Paint Stroke Color",
@@ -6243,10 +3751,6 @@
       "count": 4
     },
     {
-      "title": "Top Photo Frame Color",
-      "count": 3
-    },
-    {
       "title": "Top Photo Location Icon Color",
       "count": 1
     },
@@ -6256,15 +3760,7 @@
     },
     {
       "title": "Top Primary Corner Color",
-      "count": 8
-    },
-    {
-      "title": "Top Rectangle 1 Color",
-      "count": 3
-    },
-    {
-      "title": "Top Rectangle 2 Color",
-      "count": 3
+      "count": 4
     },
     {
       "title": "Top Right Corner Color",
@@ -6291,14 +3787,6 @@
       "count": 4
     },
     {
-      "title": "Top Rounded Rectangle Color",
-      "count": 4
-    },
-    {
-      "title": "Top Secondary Corner Color",
-      "count": 4
-    },
-    {
       "title": "Top Secondory Corner Color",
       "count": 4
     },
@@ -6308,15 +3796,11 @@
     },
     {
       "title": "Top Shape Color",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Top Small Diagonal Solid Block Color",
       "count": 1
-    },
-    {
-      "title": "Top Spot Pattern Color",
-      "count": 2
     },
     {
       "title": "Top Stitch Color",
@@ -6352,7 +3836,7 @@
     },
     {
       "title": "Upper Gradient Color",
-      "count": 6
+      "count": 4
     },
     {
       "title": "Versus Circular Text Color",
@@ -6361,10 +3845,6 @@
     {
       "title": "Vertical Line Color",
       "count": 3
-    },
-    {
-      "title": "Vertical Rectangle Color",
-      "count": 4
     },
     {
       "title": "VS Background Color",
@@ -6404,10 +3884,6 @@
     },
     {
       "title": "VS/AT Background Color",
-      "count": 7
-    },
-    {
-      "title": "VS/AT Hexagon Color",
       "count": 5
     },
     {
@@ -6428,7 +3904,7 @@
     },
     {
       "title": "VS/AT Rectangle Color",
-      "count": 16
+      "count": 8
     },
     {
       "title": "WAC Logo Background Color",
@@ -6463,142 +3939,30 @@
       "count": 4
     },
     {
-      "title": "Yesterday's Game 1 Score 1 Team 1 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 1 Score 1 Team 2 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 2 Score 2 Team 1 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 2 Score 2 Team 2 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 3 Score 3 Team 1 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 3 Score 3 Team 2 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 4 Score 4 Team 1 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 4 Score 4 Team 2 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 5 Score 5 Team 1 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 5 Score 5 Team 2 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 6 Score 6 Team 1 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 6 Score 6 Team 2 Score Color",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 1 Score 1 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 1 Score 2 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 1 Score 3 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 1 Score 4 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 1 Score 5 Team 1 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 2 Score 1 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 2 Score 2 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 2 Score 3 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 2 Score 4 Team 2 Score Color",
-      "count": 1
-    },
-    {
-      "title": "Yesterday’s Event 2 Score 5 Team 2 Score Color",
-      "count": 1
-    },
-    {
       "title": "ZigZag Color",
       "count": 4
     }
   ],
   "Text": [
     {
-      "title": "@ Text",
-      "count": 1
-    },
-    {
       "title": "Additional Info:",
       "count": 2
     },
     {
       "title": "Additional Information",
-      "count": 5
+      "count": 3
     },
     {
       "title": "Additional Information :",
       "count": 1
     },
     {
-      "title": "Additional Information 1:",
-      "count": 9
-    },
-    {
-      "title": "Additional Information 2:",
-      "count": 9
-    },
-    {
-      "title": "Additional Information Title 1:",
-      "count": 3
-    },
-    {
-      "title": "Additional Information Title 2:",
-      "count": 3
-    },
-    {
       "title": "Additional Information:",
-      "count": 89
+      "count": 74
     },
     {
       "title": "AM or PM:",
       "count": 6
-    },
-    {
-      "title": "Away Games:",
-      "count": 1
     },
     {
       "title": "Background Headline 1:",
@@ -6638,11 +4002,11 @@
     },
     {
       "title": "Background Headline:",
-      "count": 32
+      "count": 20
     },
     {
       "title": "Background Title:",
-      "count": 10
+      "count": 2
     },
     {
       "title": "Call to Action:",
@@ -6713,66 +4077,6 @@
       "count": 1
     },
     {
-      "title": "Champion General Information:",
-      "count": 2
-    },
-    {
-      "title": "Champion Name:",
-      "count": 1
-    },
-    {
-      "title": "Champion Seed:",
-      "count": 2
-    },
-    {
-      "title": "Championship Additional Information:",
-      "count": 2
-    },
-    {
-      "title": "Championship Game Time:",
-      "count": 3
-    },
-    {
-      "title": "Championship General Information:",
-      "count": 1
-    },
-    {
-      "title": "Championship Subtitle:",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 1 Name:",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 1 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 2 Name:",
-      "count": 3
-    },
-    {
-      "title": "Championship Team 2 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Championship Team Name:",
-      "count": 2
-    },
-    {
-      "title": "Championship Title:",
-      "count": 3
-    },
-    {
-      "title": "Columbia Name:",
-      "count": 1
-    },
-    {
-      "title": "Columbia Rank:",
-      "count": 1
-    },
-    {
       "title": "Date Range:",
       "count": 1
     },
@@ -6782,11 +4086,11 @@
     },
     {
       "title": "Date:",
-      "count": 16
+      "count": 11
     },
     {
       "title": "Date/Time:",
-      "count": 242
+      "count": 210
     },
     {
       "title": "Day 1 Information:",
@@ -6845,14 +4149,6 @@
       "count": 1
     },
     {
-      "title": "Day Of Month Of The Game Text:",
-      "count": 1
-    },
-    {
-      "title": "Day Of The Game Text:",
-      "count": 1
-    },
-    {
       "title": "Day of Week 1:",
       "count": 1
     },
@@ -6885,8 +4181,8 @@
       "count": 3
     },
     {
-      "title": "DECEMBER 2, 2022",
-      "count": 1
+      "title": "DOUBLEHEADER\nGAMEDAY",
+      "count": 4
     },
     {
       "title": "Event 1 - Date:",
@@ -6918,11 +4214,7 @@
     },
     {
       "title": "Event 1 Additional Information:",
-      "count": 15
-    },
-    {
-      "title": "Event 1 Day:",
-      "count": 4
+      "count": 9
     },
     {
       "title": "Event 1 Game 1 Headline:",
@@ -6941,48 +4233,24 @@
       "count": 2
     },
     {
-      "title": "Event 1 General Information 1:",
-      "count": 7
-    },
-    {
-      "title": "Event 1 General Information 2:",
-      "count": 7
-    },
-    {
-      "title": "Event 1 General Information 3:",
-      "count": 1
-    },
-    {
       "title": "Event 1 General Information:",
-      "count": 20
+      "count": 8
     },
     {
       "title": "Event 1 Headline:",
-      "count": 15
-    },
-    {
-      "title": "Event 1 Indicator Value:",
-      "count": 1
+      "count": 3
     },
     {
       "title": "Event 1 Information:",
-      "count": 9
+      "count": 5
     },
     {
       "title": "Event 1 Location:",
       "count": 2
     },
     {
-      "title": "Event 1 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 1 Name:",
-      "count": 5
-    },
-    {
       "title": "Event 1 Subtitle:",
-      "count": 20
+      "count": 15
     },
     {
       "title": "Event 1 Team 1 Additional Information:",
@@ -6990,19 +4258,7 @@
     },
     {
       "title": "Event 1 Team 1 Name:",
-      "count": 11
-    },
-    {
-      "title": "Event 1 Team 1 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 1 Team 1 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 1 Team 1:",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Event 1 Team 2 Additional Information:",
@@ -7010,27 +4266,15 @@
     },
     {
       "title": "Event 1 Team 2 Name:",
-      "count": 11
-    },
-    {
-      "title": "Event 1 Team 2 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 1 Team 2 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 1 Team 2:",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Event 1 Time:",
-      "count": 8
+      "count": 5
     },
     {
       "title": "Event 1 Title:",
-      "count": 23
+      "count": 14
     },
     {
       "title": "Event 1 vs/at Indicator:",
@@ -7038,339 +4282,11 @@
     },
     {
       "title": "Event 1 VS/AT Indicator:",
-      "count": 10
-    },
-    {
-      "title": "Event 1 VS/AT:",
-      "count": 12
-    },
-    {
-      "title": "Event 10 Additional Information:",
-      "count": 4
-    },
-    {
-      "title": "Event 10 Champion Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 10 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 10 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 10 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 10 General Information:",
-      "count": 2
-    },
-    {
-      "title": "Event 10 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 10 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 10 Name:",
-      "count": 5
-    },
-    {
-      "title": "Event 10 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 10 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 10 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Event 10 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 10 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Event 10 Title:",
       "count": 8
     },
     {
-      "title": "Event 11 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 11 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 11 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 11 General Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 11 Name:",
-      "count": 5
-    },
-    {
-      "title": "Event 11 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 11 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Event 11 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 12 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 12 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 12 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 12 General Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 12 Name:",
-      "count": 5
-    },
-    {
-      "title": "Event 12 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 12 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Event 12 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 13 Additional Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 13 General Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 13 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 13 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Event 13 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 14 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 14 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 14 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 14 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 14 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 15 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 15 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 15 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 15 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 15 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 16 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 16 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 16 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 16 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 16 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 17 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 17 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 17 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 17 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 17 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 18 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 18 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 18 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 18 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 18 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 19 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 19 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 19 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 19 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 19 Title:",
-      "count": 4
+      "title": "Event 1 VS/AT:",
+      "count": 8
     },
     {
       "title": "Event 2 - Date:",
@@ -7402,11 +4318,7 @@
     },
     {
       "title": "Event 2 Additional Information:",
-      "count": 15
-    },
-    {
-      "title": "Event 2 Day:",
-      "count": 4
+      "count": 9
     },
     {
       "title": "Event 2 Game 1 Headline:",
@@ -7425,48 +4337,24 @@
       "count": 2
     },
     {
-      "title": "Event 2 General Information 1:",
-      "count": 7
-    },
-    {
-      "title": "Event 2 General Information 2:",
-      "count": 7
-    },
-    {
-      "title": "Event 2 General Information 3:",
-      "count": 1
-    },
-    {
       "title": "Event 2 General Information:",
-      "count": 20
+      "count": 8
     },
     {
       "title": "Event 2 Headline:",
-      "count": 15
-    },
-    {
-      "title": "Event 2 Indicator Value:",
-      "count": 1
+      "count": 3
     },
     {
       "title": "Event 2 Information:",
-      "count": 9
+      "count": 5
     },
     {
       "title": "Event 2 Location:",
       "count": 2
     },
     {
-      "title": "Event 2 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 2 Name:",
-      "count": 5
-    },
-    {
       "title": "Event 2 Subtitle:",
-      "count": 20
+      "count": 15
     },
     {
       "title": "Event 2 Team 1 Additional Information:",
@@ -7474,19 +4362,7 @@
     },
     {
       "title": "Event 2 Team 1 Name:",
-      "count": 11
-    },
-    {
-      "title": "Event 2 Team 1 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 2 Team 1 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 2 Team 1:",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Event 2 Team 2 Additional Information:",
@@ -7494,27 +4370,15 @@
     },
     {
       "title": "Event 2 Team 2 Name:",
-      "count": 12
-    },
-    {
-      "title": "Event 2 Team 2 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 2 Team 2 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 2 Team 2:",
-      "count": 8
+      "count": 4
     },
     {
       "title": "Event 2 Time:",
-      "count": 8
+      "count": 5
     },
     {
       "title": "Event 2 Title:",
-      "count": 23
+      "count": 14
     },
     {
       "title": "Event 2 vs/at Indicator:",
@@ -7522,211 +4386,11 @@
     },
     {
       "title": "Event 2 VS/AT Indicator:",
-      "count": 10
+      "count": 8
     },
     {
       "title": "Event 2 VS/AT:",
-      "count": 12
-    },
-    {
-      "title": "Event 20 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 20 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 20 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 20 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 20 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 21 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 21 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 21 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 21 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 21 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 22 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 22 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 22 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 22 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 22 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 23 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 23 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 23 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 23 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 23 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 24 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 24 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 24 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 24 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 24 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 25 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 25 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 25 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 25 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 25 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 26 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 26 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 26 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 26 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 26 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 27 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 27 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 27 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 27 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 27 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 28 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 28 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 28 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 28 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 28 Title:",
-      "count": 4
-    },
-    {
-      "title": "Event 29 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 29 Information:",
-      "count": 1
-    },
-    {
-      "title": "Event 29 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 29 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 29 Title:",
-      "count": 4
+      "count": 8
     },
     {
       "title": "Event 3 - Date:",
@@ -7746,111 +4410,19 @@
     },
     {
       "title": "Event 3 Additional Information:",
-      "count": 5
-    },
-    {
-      "title": "Event 3 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 3 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 3 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 3 General Information:",
-      "count": 12
-    },
-    {
-      "title": "Event 3 Headline:",
-      "count": 12
-    },
-    {
-      "title": "Event 3 Indicator Value:",
       "count": 1
     },
     {
       "title": "Event 3 Information:",
-      "count": 9
-    },
-    {
-      "title": "Event 3 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 3 Name:",
       "count": 5
-    },
-    {
-      "title": "Event 3 Subtitle:",
-      "count": 5
-    },
-    {
-      "title": "Event 3 Team 1 Name:",
-      "count": 7
-    },
-    {
-      "title": "Event 3 Team 1 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 3 Team 1 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 3 Team 1:",
-      "count": 8
-    },
-    {
-      "title": "Event 3 Team 2 Name:",
-      "count": 6
-    },
-    {
-      "title": "Event 3 Team 2 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 3 Team 2 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 3 Team 2:",
-      "count": 8
     },
     {
       "title": "Event 3 Time:",
-      "count": 8
+      "count": 5
     },
     {
       "title": "Event 3 Title:",
-      "count": 10
-    },
-    {
-      "title": "Event 3 VS/AT:",
-      "count": 4
-    },
-    {
-      "title": "Event 30 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 30 Information:",
       "count": 1
-    },
-    {
-      "title": "Event 30 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 30 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 30 Title:",
-      "count": 4
     },
     {
       "title": "Event 4 - Date:",
@@ -7870,91 +4442,19 @@
     },
     {
       "title": "Event 4 Additional Information:",
-      "count": 5
-    },
-    {
-      "title": "Event 4 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 4 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 4 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 4 General Information:",
-      "count": 12
-    },
-    {
-      "title": "Event 4 Headline:",
-      "count": 12
-    },
-    {
-      "title": "Event 4 Indicator Value:",
       "count": 1
     },
     {
       "title": "Event 4 Information:",
-      "count": 9
-    },
-    {
-      "title": "Event 4 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 4 Name:",
       "count": 5
-    },
-    {
-      "title": "Event 4 Subtitle:",
-      "count": 5
-    },
-    {
-      "title": "Event 4 Team 1 Name:",
-      "count": 7
-    },
-    {
-      "title": "Event 4 Team 1 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 4 Team 1 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 4 Team 1:",
-      "count": 8
-    },
-    {
-      "title": "Event 4 Team 2 Name:",
-      "count": 7
-    },
-    {
-      "title": "Event 4 Team 2 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 4 Team 2 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 4 Team 2:",
-      "count": 8
     },
     {
       "title": "Event 4 Time:",
-      "count": 8
+      "count": 5
     },
     {
       "title": "Event 4 Title:",
-      "count": 10
-    },
-    {
-      "title": "Event 4 VS/AT:",
-      "count": 4
+      "count": 1
     },
     {
       "title": "Event 5 - Date:",
@@ -7974,91 +4474,19 @@
     },
     {
       "title": "Event 5 Additional Information:",
-      "count": 5
-    },
-    {
-      "title": "Event 5 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 5 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 5 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 5 General Information:",
-      "count": 8
-    },
-    {
-      "title": "Event 5 Headline:",
-      "count": 8
-    },
-    {
-      "title": "Event 5 Indicator Value:",
       "count": 1
     },
     {
       "title": "Event 5 Information:",
-      "count": 9
-    },
-    {
-      "title": "Event 5 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 5 Name:",
       "count": 5
-    },
-    {
-      "title": "Event 5 Subtitle:",
-      "count": 5
-    },
-    {
-      "title": "Event 5 Team 1 Name:",
-      "count": 8
-    },
-    {
-      "title": "Event 5 Team 1 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 5 Team 1 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 5 Team 1:",
-      "count": 4
-    },
-    {
-      "title": "Event 5 Team 2 Name:",
-      "count": 6
-    },
-    {
-      "title": "Event 5 Team 2 Score:",
-      "count": 5
-    },
-    {
-      "title": "Event 5 Team 2 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Event 5 Team 2:",
-      "count": 4
     },
     {
       "title": "Event 5 Time:",
-      "count": 8
+      "count": 5
     },
     {
       "title": "Event 5 Title:",
-      "count": 10
-    },
-    {
-      "title": "Event 5 VS/AT:",
-      "count": 4
+      "count": 1
     },
     {
       "title": "Event 6 - Date:",
@@ -8078,259 +4506,35 @@
     },
     {
       "title": "Event 6 Additional Information:",
-      "count": 5
-    },
-    {
-      "title": "Event 6 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 6 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 6 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 6 General Information:",
-      "count": 7
-    },
-    {
-      "title": "Event 6 Headline:",
-      "count": 4
-    },
-    {
-      "title": "Event 6 Indicator Value:",
       "count": 1
     },
     {
       "title": "Event 6 Information:",
-      "count": 9
-    },
-    {
-      "title": "Event 6 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 6 Name:",
       "count": 5
-    },
-    {
-      "title": "Event 6 Subtitle:",
-      "count": 5
-    },
-    {
-      "title": "Event 6 Team 1 Name:",
-      "count": 2
-    },
-    {
-      "title": "Event 6 Team 1 Seed:",
-      "count": 2
-    },
-    {
-      "title": "Event 6 Team 1:",
-      "count": 4
-    },
-    {
-      "title": "Event 6 Team 2 Name:",
-      "count": 2
-    },
-    {
-      "title": "Event 6 Team 2 Seed:",
-      "count": 2
-    },
-    {
-      "title": "Event 6 Team 2:",
-      "count": 4
     },
     {
       "title": "Event 6 Time:",
-      "count": 8
+      "count": 5
     },
     {
       "title": "Event 6 Title:",
-      "count": 10
+      "count": 1
     },
     {
       "title": "Event 7 Additional Information:",
-      "count": 5
-    },
-    {
-      "title": "Event 7 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 7 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 7 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 7 General Information:",
-      "count": 2
-    },
-    {
-      "title": "Event 7 Information:",
-      "count": 4
-    },
-    {
-      "title": "Event 7 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 7 Name:",
-      "count": 5
-    },
-    {
-      "title": "Event 7 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 7 Team 1 Name:",
-      "count": 2
-    },
-    {
-      "title": "Event 7 Team 1 Seed:",
-      "count": 2
-    },
-    {
-      "title": "Event 7 Team 2 Name:",
-      "count": 2
-    },
-    {
-      "title": "Event 7 Team 2 Seed:",
-      "count": 2
-    },
-    {
-      "title": "Event 7 Time:",
-      "count": 3
+      "count": 1
     },
     {
       "title": "Event 7 Title:",
-      "count": 9
+      "count": 1
     },
     {
       "title": "Event 8 Additional Information:",
-      "count": 5
-    },
-    {
-      "title": "Event 8 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 8 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 8 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 8 General Information:",
-      "count": 2
-    },
-    {
-      "title": "Event 8 Information:",
-      "count": 4
-    },
-    {
-      "title": "Event 8 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 8 Name:",
-      "count": 5
-    },
-    {
-      "title": "Event 8 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 8 Team 1 Name:",
-      "count": 2
-    },
-    {
-      "title": "Event 8 Team 1 Seed:",
-      "count": 2
-    },
-    {
-      "title": "Event 8 Team 2 Name:",
-      "count": 2
-    },
-    {
-      "title": "Event 8 Team 2 Seed:",
-      "count": 2
-    },
-    {
-      "title": "Event 8 Time:",
-      "count": 3
+      "count": 1
     },
     {
       "title": "Event 8 Title:",
-      "count": 9
-    },
-    {
-      "title": "Event 9 Additional Information:",
-      "count": 4
-    },
-    {
-      "title": "Event 9 Day:",
-      "count": 4
-    },
-    {
-      "title": "Event 9 General Information 1:",
-      "count": 5
-    },
-    {
-      "title": "Event 9 General Information 2:",
-      "count": 5
-    },
-    {
-      "title": "Event 9 General Information:",
-      "count": 2
-    },
-    {
-      "title": "Event 9 Information:",
-      "count": 4
-    },
-    {
-      "title": "Event 9 Month:",
-      "count": 4
-    },
-    {
-      "title": "Event 9 Name:",
-      "count": 5
-    },
-    {
-      "title": "Event 9 Subtitle:",
-      "count": 4
-    },
-    {
-      "title": "Event 9 Team 1 Name:",
-      "count": 2
-    },
-    {
-      "title": "Event 9 Team 1 Seed:",
-      "count": 2
-    },
-    {
-      "title": "Event 9 Team 2 Name:",
-      "count": 2
-    },
-    {
-      "title": "Event 9 Team 2 Seed:",
-      "count": 2
-    },
-    {
-      "title": "Event 9 Time:",
-      "count": 3
-    },
-    {
-      "title": "Event 9 Title:",
-      "count": 8
+      "count": 1
     },
     {
       "title": "Event Date:",
@@ -8338,7 +4542,7 @@
     },
     {
       "title": "Event Info",
-      "count": 3
+      "count": 2
     },
     {
       "title": "Event Info Line 2:",
@@ -8398,22 +4602,10 @@
     },
     {
       "title": "First Team Name",
-      "count": 2
+      "count": 1
     },
     {
       "title": "First Team Name:",
-      "count": 1
-    },
-    {
-      "title": "First Team Score 1",
-      "count": 1
-    },
-    {
-      "title": "First Team Score 2",
-      "count": 1
-    },
-    {
-      "title": "First Team Score 3",
       "count": 1
     },
     {
@@ -8423,18 +4615,6 @@
     {
       "title": "Following Indicator:",
       "count": 4
-    },
-    {
-      "title": "Footer Information 1:",
-      "count": 1
-    },
-    {
-      "title": "Footer Information 2:",
-      "count": 1
-    },
-    {
-      "title": "Footer Information 3:",
-      "count": 1
     },
     {
       "title": "Footer Information:",
@@ -8462,131 +4642,19 @@
     },
     {
       "title": "Game 1 Subtitle:",
-      "count": 9
-    },
-    {
-      "title": "Game 1 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 1 Team 2 Seed:",
-      "count": 1
+      "count": 8
     },
     {
       "title": "Game 1 Time:",
-      "count": 2
+      "count": 1
     },
     {
       "title": "Game 1 Title:",
-      "count": 7
+      "count": 6
     },
     {
       "title": "Game 1 VS/AT:",
       "count": 4
-    },
-    {
-      "title": "Game 10 General Information:",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Time:",
-      "count": 1
-    },
-    {
-      "title": "Game 10 Title:",
-      "count": 1
-    },
-    {
-      "title": "Game 11 General Information:",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Time:",
-      "count": 1
-    },
-    {
-      "title": "Game 11 Title:",
-      "count": 1
-    },
-    {
-      "title": "Game 12 General Information:",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Time:",
-      "count": 1
-    },
-    {
-      "title": "Game 12 Title:",
-      "count": 1
     },
     {
       "title": "Game 2 Additional Information:",
@@ -8606,31 +4674,15 @@
     },
     {
       "title": "Game 2 Subtitle:",
-      "count": 9
-    },
-    {
-      "title": "Game 2 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 2 Team 2 Seed:",
-      "count": 1
+      "count": 8
     },
     {
       "title": "Game 2 Time:",
-      "count": 2
+      "count": 1
     },
     {
       "title": "Game 2 Title:",
-      "count": 7
+      "count": 6
     },
     {
       "title": "Game 2 VS/AT:",
@@ -8641,31 +4693,7 @@
       "count": 1
     },
     {
-      "title": "Game 3 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 3 Team 2 Seed:",
-      "count": 1
-    },
-    {
       "title": "Game 3 Time:",
-      "count": 2
-    },
-    {
-      "title": "Game 3 Title:",
       "count": 1
     },
     {
@@ -8673,31 +4701,7 @@
       "count": 1
     },
     {
-      "title": "Game 4 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 4 Team 2 Seed:",
-      "count": 1
-    },
-    {
       "title": "Game 4 Time:",
-      "count": 2
-    },
-    {
-      "title": "Game 4 Title:",
       "count": 1
     },
     {
@@ -8705,152 +4709,16 @@
       "count": 1
     },
     {
-      "title": "Game 5 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 5 Team 2 Seed:",
-      "count": 1
-    },
-    {
       "title": "Game 5 Time:",
-      "count": 2
-    },
-    {
-      "title": "Game 5 Title:",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Time:",
-      "count": 1
-    },
-    {
-      "title": "Game 6 Title:",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Time:",
-      "count": 1
-    },
-    {
-      "title": "Game 7 Title:",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Time:",
-      "count": 1
-    },
-    {
-      "title": "Game 8 Title:",
-      "count": 1
-    },
-    {
-      "title": "Game 9 General Information:",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Subtitle:",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 1 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 1 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 2 Name:",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Team 2 Seed:",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Time:",
-      "count": 1
-    },
-    {
-      "title": "Game 9 Title:",
       "count": 1
     },
     {
       "title": "Game Date:",
       "count": 2
+    },
+    {
+      "title": "GAME DAY",
+      "count": 21
     },
     {
       "title": "Game Day Line 1",
@@ -8865,10 +4733,6 @@
       "count": 1
     },
     {
-      "title": "Game Info First Line",
-      "count": 1
-    },
-    {
       "title": "Game Info Line 1",
       "count": 2
     },
@@ -8877,16 +4741,12 @@
       "count": 2
     },
     {
-      "title": "Game Info Second Line",
-      "count": 1
-    },
-    {
       "title": "Game Information",
       "count": 6
     },
     {
       "title": "Game Information:",
-      "count": 7
+      "count": 3
     },
     {
       "title": "Game Location:",
@@ -8897,28 +4757,32 @@
       "count": 2
     },
     {
+      "title": "gameday",
+      "count": 22
+    },
+    {
+      "title": "Gameday",
+      "count": 12
+    },
+    {
+      "title": "GameDay",
+      "count": 1
+    },
+    {
       "title": "GAMEDAY",
-      "count": 8
+      "count": 537
     },
     {
       "title": "General Information 1:",
-      "count": 24
+      "count": 13
     },
     {
       "title": "General Information 2:",
-      "count": 20
-    },
-    {
-      "title": "General Information 3:",
-      "count": 2
+      "count": 9
     },
     {
       "title": "General Information:",
-      "count": 101
-    },
-    {
-      "title": "Graffiti:",
-      "count": 1
+      "count": 62
     },
     {
       "title": "Hashtag",
@@ -8926,7 +4790,7 @@
     },
     {
       "title": "Hashtag:",
-      "count": 110
+      "count": 83
     },
     {
       "title": "Header",
@@ -8934,11 +4798,11 @@
     },
     {
       "title": "Header Information",
-      "count": 5
+      "count": 3
     },
     {
       "title": "Header Text",
-      "count": 2
+      "count": 1
     },
     {
       "title": "Header:",
@@ -8954,15 +4818,15 @@
     },
     {
       "title": "Headline 1:",
-      "count": 197
+      "count": 168
     },
     {
       "title": "Headline 2:",
-      "count": 245
+      "count": 212
     },
     {
       "title": "Headline 3:",
-      "count": 12
+      "count": 8
     },
     {
       "title": "Headline 4:",
@@ -8986,91 +4850,7 @@
     },
     {
       "title": "Headline:",
-      "count": 344
-    },
-    {
-      "title": "Home Game Info Text 1:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 10:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 2:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 3:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 4:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 5:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 6:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 7:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 8:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Info Text 9:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 1:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 10:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 2:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 3:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 4:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 5:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 6:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 7:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 8:",
-      "count": 1
-    },
-    {
-      "title": "Home Game Time Text 9:",
-      "count": 1
-    },
-    {
-      "title": "Home Games:",
-      "count": 1
+      "count": 219
     },
     {
       "title": "Home or Away",
@@ -9079,10 +4859,6 @@
     {
       "title": "Home/Away:",
       "count": 4
-    },
-    {
-      "title": "Info Text",
-      "count": 1
     },
     {
       "title": "Information 1:",
@@ -9094,23 +4870,15 @@
     },
     {
       "title": "Information:",
-      "count": 60
+      "count": 4
     },
     {
       "title": "Instagram:",
       "count": 2
     },
     {
-      "title": "Key 1 Title:",
-      "count": 4
-    },
-    {
-      "title": "Key 2 Title:",
-      "count": 4
-    },
-    {
-      "title": "Key 3 Title:",
-      "count": 4
+      "title": "IT'S GAME DAY",
+      "count": 2
     },
     {
       "title": "Last Name",
@@ -9119,10 +4887,6 @@
     {
       "title": "Last Name:",
       "count": 4
-    },
-    {
-      "title": "Left Title:",
-      "count": 1
     },
     {
       "title": "LinkedIn:",
@@ -9146,7 +4910,7 @@
     },
     {
       "title": "Location:",
-      "count": 259
+      "count": 226
     },
     {
       "title": "Los Angeles Breakers:",
@@ -9157,19 +4921,11 @@
       "count": 1
     },
     {
-      "title": "Main Score",
-      "count": 1
-    },
-    {
       "title": "Main Text",
-      "count": 5
+      "count": 1
     },
     {
       "title": "Main Text:",
-      "count": 1
-    },
-    {
-      "title": "Month Of The Game Text:",
       "count": 1
     },
     {
@@ -9185,10 +4941,6 @@
       "count": 14
     },
     {
-      "title": "Next Game Text",
-      "count": 1
-    },
-    {
       "title": "Nickname #1",
       "count": 1
     },
@@ -9202,7 +4954,7 @@
     },
     {
       "title": "Opponent Name:",
-      "count": 10
+      "count": 5
     },
     {
       "title": "Opponent:",
@@ -9234,11 +4986,11 @@
     },
     {
       "title": "Player 1 First Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 1 Last Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 1 Name:",
@@ -9246,7 +4998,7 @@
     },
     {
       "title": "Player 1 Number:",
-      "count": 7
+      "count": 3
     },
     {
       "title": "Player 10 Name:",
@@ -9266,11 +5018,11 @@
     },
     {
       "title": "Player 2 First Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 2 Last Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 2 Name:",
@@ -9278,15 +5030,15 @@
     },
     {
       "title": "Player 2 Number:",
-      "count": 7
+      "count": 3
     },
     {
       "title": "Player 3 First Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 3 Last Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 3 Name:",
@@ -9294,15 +5046,15 @@
     },
     {
       "title": "Player 3 Number:",
-      "count": 7
+      "count": 3
     },
     {
       "title": "Player 4 First Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 4 Last Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 4 Name:",
@@ -9310,15 +5062,15 @@
     },
     {
       "title": "Player 4 Number:",
-      "count": 7
+      "count": 3
     },
     {
       "title": "Player 5 First Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 5 Last Name:",
-      "count": 6
+      "count": 2
     },
     {
       "title": "Player 5 Name:",
@@ -9326,7 +5078,7 @@
     },
     {
       "title": "Player 5 Number:",
-      "count": 7
+      "count": 3
     },
     {
       "title": "Player 6 Name:",
@@ -9509,106 +5261,6 @@
       "count": 2
     },
     {
-      "title": "Right Title:",
-      "count": 1
-    },
-    {
-      "title": "Round 1 Game 1 Time:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Game 2 Time:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Subtitle:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 1 Name:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 1 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 2 Name:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 2 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 3 Name:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 3 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 4 Name:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Team 4 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Round 1 Title:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Game 1 Time:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Game 2 Time:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Subtitle:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 1 Name:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 1 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 2 Name:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 2 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 3 Name:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 3 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 4 Name:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Team 4 Seed:",
-      "count": 3
-    },
-    {
-      "title": "Round 2 Title:",
-      "count": 3
-    },
-    {
       "title": "School 1:",
       "count": 1
     },
@@ -9630,7 +5282,7 @@
     },
     {
       "title": "School Name:",
-      "count": 338
+      "count": 246
     },
     {
       "title": "School/Organization Name:",
@@ -9646,46 +5298,10 @@
     },
     {
       "title": "Second Team Name",
-      "count": 3
+      "count": 2
     },
     {
       "title": "Second Team Name:",
-      "count": 1
-    },
-    {
-      "title": "Second Team Score 1",
-      "count": 1
-    },
-    {
-      "title": "Second Team Score 2",
-      "count": 1
-    },
-    {
-      "title": "Second Team Score 3",
-      "count": 1
-    },
-    {
-      "title": "Section 1 Column 1 Information:",
-      "count": 1
-    },
-    {
-      "title": "Section 1 Column 1 Title:",
-      "count": 1
-    },
-    {
-      "title": "Section 1 Column 2 Information:",
-      "count": 1
-    },
-    {
-      "title": "Section 1 Column 2 Title:",
-      "count": 1
-    },
-    {
-      "title": "Section 1 Column 3 Information:",
-      "count": 1
-    },
-    {
-      "title": "Section 1 Column 3 Title:",
       "count": 1
     },
     {
@@ -9694,34 +5310,6 @@
     },
     {
       "title": "Section 1 Title:",
-      "count": 7
-    },
-    {
-      "title": "Section 2 Additional Information:",
-      "count": 1
-    },
-    {
-      "title": "Section 2 Column 1 Information:",
-      "count": 1
-    },
-    {
-      "title": "Section 2 Column 1 Title:",
-      "count": 1
-    },
-    {
-      "title": "Section 2 Column 2 Information:",
-      "count": 1
-    },
-    {
-      "title": "Section 2 Column 2 Title:",
-      "count": 1
-    },
-    {
-      "title": "Section 2 Column 3 Information:",
-      "count": 1
-    },
-    {
-      "title": "Section 2 Column 3 Title:",
       "count": 1
     },
     {
@@ -9730,7 +5318,7 @@
     },
     {
       "title": "Section 2 Title:",
-      "count": 8
+      "count": 1
     },
     {
       "title": "Section 3 Information:",
@@ -9854,7 +5442,7 @@
     },
     {
       "title": "Sport Name:",
-      "count": 20
+      "count": 15
     },
     {
       "title": "Sport:",
@@ -9863,90 +5451,6 @@
     {
       "title": "Starting Lineup Title",
       "count": 1
-    },
-    {
-      "title": "Stat 1 Additional Information:",
-      "count": 4
-    },
-    {
-      "title": "Stat 1 Title:",
-      "count": 4
-    },
-    {
-      "title": "Stat 1 Value:",
-      "count": 4
-    },
-    {
-      "title": "Stat 2 Additional Information:",
-      "count": 4
-    },
-    {
-      "title": "Stat 2 Title:",
-      "count": 4
-    },
-    {
-      "title": "Stat 2 Value:",
-      "count": 4
-    },
-    {
-      "title": "Stat 3 Additional Information:",
-      "count": 4
-    },
-    {
-      "title": "Stat 3 Title:",
-      "count": 4
-    },
-    {
-      "title": "Stat 3 Value:",
-      "count": 4
-    },
-    {
-      "title": "Stat 4 Additional Information:",
-      "count": 4
-    },
-    {
-      "title": "Stat 4 Title:",
-      "count": 4
-    },
-    {
-      "title": "Stat 4 Value:",
-      "count": 4
-    },
-    {
-      "title": "Stat 5 Additional Information:",
-      "count": 4
-    },
-    {
-      "title": "Stat 5 Title:",
-      "count": 4
-    },
-    {
-      "title": "Stat 5 Value:",
-      "count": 4
-    },
-    {
-      "title": "Stat 6 Additional Information:",
-      "count": 4
-    },
-    {
-      "title": "Stat 6 Title:",
-      "count": 4
-    },
-    {
-      "title": "Stat 6 Value:",
-      "count": 4
-    },
-    {
-      "title": "Subheader 1:",
-      "count": 5
-    },
-    {
-      "title": "Subheader 2:",
-      "count": 5
-    },
-    {
-      "title": "Subheader 3:",
-      "count": 5
     },
     {
       "title": "Subtitle",
@@ -9962,19 +5466,15 @@
     },
     {
       "title": "Subtitle:",
-      "count": 152
+      "count": 100
     },
     {
       "title": "Synced Headline:",
       "count": 4
     },
     {
-      "title": "Team 1 Information:",
-      "count": 4
-    },
-    {
       "title": "Team 1 Name:",
-      "count": 37
+      "count": 31
     },
     {
       "title": "Team 1 Overall Score:",
@@ -9986,19 +5486,15 @@
     },
     {
       "title": "Team 1 Score:",
-      "count": 16
+      "count": 12
     },
     {
       "title": "Team 1:",
       "count": 9
     },
     {
-      "title": "Team 2 Information:",
-      "count": 4
-    },
-    {
       "title": "Team 2 Name:",
-      "count": 118
+      "count": 96
     },
     {
       "title": "Team 2 Overall Score:",
@@ -10010,7 +5506,7 @@
     },
     {
       "title": "Team 2 Score:",
-      "count": 16
+      "count": 12
     },
     {
       "title": "Team 2:",
@@ -10022,31 +5518,23 @@
     },
     {
       "title": "Time:",
-      "count": 35
+      "count": 31
     },
     {
       "title": "Title",
-      "count": 19
+      "count": 16
     },
     {
       "title": "Title 1:",
-      "count": 43
+      "count": 18
     },
     {
       "title": "Title 2:",
-      "count": 42
+      "count": 17
     },
     {
       "title": "Title cont.",
       "count": 3
-    },
-    {
-      "title": "Title Part 1:",
-      "count": 1
-    },
-    {
-      "title": "Title Part 2:",
-      "count": 1
     },
     {
       "title": "Title Text",
@@ -10054,198 +5542,10 @@
     },
     {
       "title": "Title:",
-      "count": 248
+      "count": 193
     },
     {
-      "title": "Today's Game 1 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 1 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 1 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 1 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 2 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 2 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 2 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 2 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 3 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 3 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 3 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 3 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 4 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 4 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 4 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 4 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 5 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 5 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 5 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 5 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 6 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 6 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 6 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today's Game 6 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 1 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 1 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 1 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 1 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 2 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 2 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 2 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 2 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 3 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 3 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 3 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 3 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 4 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 4 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 4 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 4 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 5 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 5 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 5 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 5 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 6 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 6 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 6 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Today’s Event 6 Team 2:",
+      "title": "TODAY IS GAMEDAY",
       "count": 3
     },
     {
@@ -10282,239 +5582,15 @@
     },
     {
       "title": "VS/AT Indicator:",
-      "count": 14
+      "count": 13
     },
     {
       "title": "VS/AT:",
-      "count": 82
+      "count": 64
     },
     {
       "title": "When and Where",
       "count": 1
-    },
-    {
-      "title": "Yesterday's Game 1 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 1 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 1 Team 1 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 1 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 1 Team 2 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 1 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 2 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 2 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 2 Team 1 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 2 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 2 Team 2 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 2 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 3 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 3 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 3 Team 1 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 3 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 3 Team 2 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 3 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 4 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 4 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 4 Team 1 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 4 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 4 Team 2 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 4 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 5 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 5 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 5 Team 1 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 5 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 5 Team 2 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 5 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 6 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 6 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 6 Team 1 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 6 Team 1:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 6 Team 2 Score:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday's Game 6 Team 2:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 1 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 1 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 1 Team 1:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 1 Team 2:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 2 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 2 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 2 Team 1:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 2 Team 2:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 3 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 3 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 3 Team 1:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 3 Team 2:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 4 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 4 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 4 Team 1:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 4 Team 2:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 5 General Information:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 5 Headline:",
-      "count": 3
-    },
-    {
-      "title": "Yesterday’s Event 5 Team 1:",
-      "count": 6
-    },
-    {
-      "title": "Yesterday’s Event 5 Team 2:",
-      "count": 6
     }
   ]
 }
