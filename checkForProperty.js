@@ -17,26 +17,18 @@ fs.readdir(folderPath, (err, files) => {
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
 
-      const json = JSON.parse(jsonString);
-
-      if (json?.body?.objects) {
-        json.body.objects.forEach((obj) => {
-          try {
-            if (
-              obj.type === 'image' &&
-              (obj.width > 2048 || obj.height > 2048)
-            ) {
-              newArr.push(file);
-            }
-          } catch (innerError) {
-            console.error(`Error parsing JSON in file ${file}:`, innerError);
-          }
-        });
+      if (
+        jsonString.toLowerCase().includes('game') &&
+        jsonString.toLowerCase().includes('day')
+      ) {
+        newArr.push(file);
       }
+
+      const json = JSON.parse(jsonString);
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
 
-  fs.writeFileSync('big_images.txt', newArr.join('\n'));
+  fs.writeFileSync('game.txt', newArr.join('\n'));
 });
