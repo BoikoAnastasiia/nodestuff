@@ -1,8 +1,8 @@
 const fs = require('fs');
-const folderPath = './default_presets';
+const folderPath = './animations';
 
 const command =
-  'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
+  'aws s3 sync s3://gipper-static-assets/animated_templates animations';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
@@ -17,10 +17,7 @@ fs.readdir(folderPath, (err, files) => {
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
 
-      if (
-        jsonString.toLowerCase().includes('game') &&
-        jsonString.toLowerCase().includes('day')
-      ) {
+      if (jsonString.includes('round')) {
         newArr.push(file);
       }
 
@@ -30,5 +27,5 @@ fs.readdir(folderPath, (err, files) => {
     }
   });
 
-  fs.writeFileSync('game.txt', newArr.join('\n'));
+  fs.writeFileSync('counter.txt', newArr.join('\n'));
 });
