@@ -17,7 +17,7 @@ fs.readdir(folderPath, (err, files) => {
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
 
-      if (jsonString.includes('round')) {
+      if (jsonString.includes('clipPath')) {
         newArr.push(file);
       }
 
@@ -27,5 +27,5 @@ fs.readdir(folderPath, (err, files) => {
     }
   });
 
-  fs.writeFileSync('counter.txt', newArr.join('\n'));
+  fs.writeFileSync('clippath.txt', newArr.join('\n'));
 });
