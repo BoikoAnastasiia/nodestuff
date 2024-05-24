@@ -10,7 +10,7 @@ const filterTitles = (dict) => {
     .map((el) => ({ title: el.trim(), count: dict[el] }));
 };
 
-const iterateNestedObjects = (obj, titlesCount) => {
+const iterateNestedObjects = (obj, titlesCount, hasGameDay) => {
   try {
     if (obj.conrolTitle && typeof obj.conrolTitle === 'string') {
       let titleCategory = null;
@@ -28,20 +28,8 @@ const iterateNestedObjects = (obj, titlesCount) => {
       } else if (obj.type === 'textbox') {
         titleCategory = titlesCount.Text;
       }
-      if (titleCategory) {
+      if (titleCategory && hasGameDay) {
         const trimmedTitle = obj.conrolTitle.trim();
-        if (titleCategory[trimmedTitle]) {
-          titleCategory[trimmedTitle]++;
-        } else {
-          titleCategory[trimmedTitle] = 1;
-        }
-      }
-    }
-    if (obj.type === 'textbox' && obj.text && typeof obj.text === 'string') {
-      const fileContent = obj.text.toLowerCase();
-      if (/(schedule)/i.test(fileContent)) {
-        const titleCategory = titlesCount.Text;
-        const trimmedTitle = obj.text.trim();
         if (titleCategory[trimmedTitle]) {
           titleCategory[trimmedTitle]++;
         } else {
@@ -51,7 +39,7 @@ const iterateNestedObjects = (obj, titlesCount) => {
     }
     if (obj.objects && Array.isArray(obj.objects)) {
       obj.objects.forEach((nestedObj) =>
-        iterateNestedObjects(nestedObj, titlesCount)
+        iterateNestedObjects(nestedObj, titlesCount, hasGameDay)
       );
     }
   } catch (innerError) {
@@ -78,15 +66,11 @@ fs.readdir(folderPath, (err, files) => {
       const jsonString = fs.readFileSync(filePath, 'utf8');
       const json = JSON.parse(jsonString);
 
-      // Check if the file content includes the desired phrases
-      const fileContent = jsonString.toLowerCase();
-      if (
-        /(schedule)/i.test(fileContent) &&
-        json.body &&
-        Array.isArray(json.body.objects)
-      ) {
+      const hasGameDay = /(schedule)/i.test(jsonString);
+
+      if (json.body && Array.isArray(json.body.objects)) {
         json.body.objects.forEach((obj) =>
-          iterateNestedObjects(obj, titlesCount)
+          iterateNestedObjects(obj, titlesCount, hasGameDay)
         );
       }
     } catch (parseError) {
@@ -102,5 +86,5 @@ fs.readdir(folderPath, (err, files) => {
   };
 
   const titlesJSON = JSON.stringify(finalTitles, null, 2);
-  fs.writeFileSync('schedules.json', titlesJSON);
+  fs.writeFileSync('schedule.json', titlesJSON);
 });
