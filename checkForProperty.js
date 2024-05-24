@@ -17,10 +17,7 @@ fs.readdir(folderPath, (err, files) => {
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
 
-      if (
-        jsonString.toLowerCase().includes('game') &&
-        jsonString.toLowerCase().includes('day')
-      ) {
+      if (jsonString.toLowerCase().includes('schedule')) {
         newArr.push(file);
       }
 

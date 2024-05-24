@@ -39,7 +39,7 @@ const iterateNestedObjects = (obj, titlesCount) => {
     }
     if (obj.type === 'textbox' && obj.text && typeof obj.text === 'string') {
       const fileContent = obj.text.toLowerCase();
-      if (/(game day|gameday|game\/nday)/i.test(fileContent)) {
+      if (/(schedule)/i.test(fileContent)) {
         const titleCategory = titlesCount.Text;
         const trimmedTitle = obj.text.trim();
         if (titleCategory[trimmedTitle]) {
@@ -102,5 +102,5 @@ fs.readdir(folderPath, (err, files) => {
   };
 
   const titlesJSON = JSON.stringify(finalTitles, null, 2);
-  fs.writeFileSync('gameday.json', titlesJSON);
+  fs.writeFileSync('schedules.json', titlesJSON);
 });
