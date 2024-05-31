@@ -17,7 +17,10 @@ fs.readdir(folderPath, (err, files) => {
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
 
-      if (jsonString.toLowerCase().includes('schedule')) {
+      if (
+        !jsonString.toLowerCase().includes('backgroundpicture') &&
+        !jsonString.toLowerCase().includes('cutoutpicture')
+      ) {
         newArr.push(file);
       }
 
@@ -27,5 +30,5 @@ fs.readdir(folderPath, (err, files) => {
     }
   });
 
-  fs.writeFileSync('game.txt', newArr.join('\n'));
+  fs.writeFileSync('clippaths.txt', newArr.join('\n'));
 });
