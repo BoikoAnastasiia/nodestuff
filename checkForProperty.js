@@ -17,18 +17,23 @@ fs.readdir(folderPath, (err, files) => {
     try {
       const jsonString = fs.readFileSync(filePath, 'utf8');
 
-      if (
-        !jsonString.toLowerCase().includes('backgroundpicture') &&
-        !jsonString.toLowerCase().includes('cutoutpicture')
-      ) {
-        newArr.push(file);
-      }
+      // if (
+      //   !jsonString.toLowerCase().includes('backgroundpicture') &&
+      //   !jsonString.toLowerCase().includes('cutoutpicture')
+      // ) {
+      //   newArr.push(file);
+      // }
 
       const json = JSON.parse(jsonString);
+      json.body.objects.forEach((el) => {
+        if (el.strokeWidth > 0 && el.shadow) {
+          newArr.push(file);
+        }
+      });
     } catch (parseError) {
       console.error(`Error parsing JSON in file ${file}:`, parseError);
     }
   });
 
-  fs.writeFileSync('clippaths.txt', newArr.join('\n'));
+  fs.writeFileSync('stroke.txt', newArr.join('\n'));
 });
