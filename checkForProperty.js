@@ -1,8 +1,11 @@
 const fs = require('fs');
 const folderPath = './default_presets';
 
-const command =
+const defaultTemplates =
   'aws s3 sync s3://gipper-static-assets/default_presets_update default_presets';
+
+const animatedTemplates =
+  'aws s3 sync s3://gipper-static-assets/animated_templates old_animations';
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
