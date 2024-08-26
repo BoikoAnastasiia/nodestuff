@@ -5,7 +5,6 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
-          "target_query": "template_one_hundred_two_brush_stroke",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -16,10 +15,10 @@
               "duration": 3000,
               "endDelay": 2000
             }
-          ]
+          ],
+          "id": "template_one_hundred_two_brush_stroke"
         },
         {
-          "target_query": "final_score_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -30,10 +29,10 @@
               "duration": 3000,
               "endDelay": 2000
             }
-          ]
+          ],
+          "id": "final_score_text"
         },
         {
-          "target_query": "first_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -44,10 +43,10 @@
               "duration": 3000,
               "endDelay": 2000
             }
-          ]
+          ],
+          "id": "first_logo"
         },
         {
-          "target_query": "second_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -58,10 +57,10 @@
               "duration": 3000,
               "endDelay": 2000
             }
-          ]
+          ],
+          "id": "second_logo"
         },
         {
-          "target_query": "first_team_score_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -72,10 +71,10 @@
               "duration": 3000,
               "endDelay": 2000
             }
-          ]
+          ],
+          "id": "first_team_score_text"
         },
         {
-          "target_query": "second_team_score_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -86,7 +85,8 @@
               "duration": 3000,
               "endDelay": 2000
             }
-          ]
+          ],
+          "id": "second_team_score_text"
         }
       ]
     }

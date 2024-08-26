@@ -5,7 +5,6 @@
       "animation_duration": 4000,
       "animation_objects": [
         {
-          "target_query": "wave_line",
           "animation_keyframes": [
             {
               "scaleY": {},
@@ -31,10 +30,10 @@
               "duration": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "wave_line"
         },
         {
-          "target_query": "background_paper",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -52,10 +51,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "background_paper"
         },
         {
-          "target_query": "group_paper",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -73,27 +72,27 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "group_paper"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": -300,
+              "duration": 0
+            },
+            {
+              "top": {},
+              "duration": 4000,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "group_paper",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": -300,
-              "duration": 0
-            },
-            {
-              "top": {},
-              "duration": 4000,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "group_wave",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -111,13 +110,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "group_wave"
         },
         {
-          "target_query": {
-            "id": "group_wave",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -300,
@@ -128,10 +124,13 @@
               "duration": 4000,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "group_wave",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "smoke_pr",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -170,10 +169,10 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "smoke_pr"
         },
         {
-          "target_query": "smoke_sec",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -212,10 +211,10 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "smoke_sec"
         },
         {
-          "target_query": "cutout_photo",
           "animation_keyframes": [
             {
               "top": 800,
@@ -233,13 +232,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "cutout_photo"
         },
         {
-          "target_query": {
-            "id": "cutout_photo",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -300,
@@ -250,10 +246,13 @@
               "duration": 4000,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "cutout_photo",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "cir_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -275,10 +274,10 @@
               "duration": 1000,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "cir_line"
         },
         {
-          "target_query": "template_texture",
           "animation_keyframes": [
             {
               "angle": 90,
@@ -320,7 +319,8 @@
               "duration": 0,
               "endDelay": 500
             }
-          ]
+          ],
+          "id": "template_texture"
         }
       ]
     }

@@ -5,7 +5,6 @@
       "animation_duration": 9000,
       "animation_objects": [
         {
-          "target_query": "corner_wave",
           "animation_keyframes": [
             {
               "top": -411,
@@ -28,10 +27,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "corner_wave"
         },
         {
-          "target_query": "wave_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -49,10 +48,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "wave_logo"
         },
         {
-          "target_query": "adidas_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -70,10 +69,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "adidas_logo"
         },
         {
-          "target_query": "separator",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -91,10 +90,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "separator"
         },
         {
-          "target_query": "photo",
           "animation_keyframes": [
             {
               "scaleY": "*=1.1",
@@ -106,10 +105,10 @@
               "scaleX": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "photo"
         },
         {
-          "target_query": "photo_background",
           "animation_keyframes": [
             {
               "top": 600,
@@ -169,10 +168,10 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "photo_background"
         },
         {
-          "target_query": "hide_photo_background",
           "animation_keyframes": [
             {
               "top": 600,
@@ -232,10 +231,10 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "hide_photo_background"
         },
         {
-          "target_query": "labreakers_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -256,10 +255,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "labreakers_logo"
         },
         {
-          "target_query": "opponent_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -280,10 +279,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "opponent_logo"
         },
         {
-          "target_query": "team_score_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -304,10 +303,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "team_score_1"
         },
         {
-          "target_query": "team_name_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -328,10 +327,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "team_name_1"
         },
         {
-          "target_query": "team_score_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -352,10 +351,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "team_score_2"
         },
         {
-          "target_query": "team_name_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -376,10 +375,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "team_name_2"
         },
         {
-          "target_query": "score_dash",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -397,13 +396,28 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "score_dash"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": -150,
+              "duration": 0,
+              "endDelay": 9000
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "team_score_1",
             "element": "clipPath"
-          },
+          }
+        },
+        {
           "animation_keyframes": [
             {
               "top": -150,
@@ -415,16 +429,16 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
-        },
-        {
-          "target_query": {
+          ],
+          "id": {
             "id": "team_score_2",
             "element": "clipPath"
-          },
+          }
+        },
+        {
           "animation_keyframes": [
             {
-              "top": -150,
+              "top": -100,
               "duration": 0,
               "endDelay": 9000
             },
@@ -433,13 +447,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
-        },
-        {
-          "target_query": {
+          ],
+          "id": {
             "id": "team_name_1",
             "element": "clipPath"
-          },
+          }
+        },
+        {
           "animation_keyframes": [
             {
               "top": -100,
@@ -451,28 +465,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
-        },
-        {
-          "target_query": {
+          ],
+          "id": {
             "id": "team_name_2",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": -100,
-              "duration": 0,
-              "endDelay": 9000
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "corner_wave_bottom",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -489,10 +488,10 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "corner_wave_bottom"
         },
         {
-          "target_query": "background_image",
           "animation_keyframes": [
             {
               "top": 305,
@@ -552,10 +551,10 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "background_image"
         },
         {
-          "target_query": "texture",
           "animation_keyframes": [
             {
               "top": 600,
@@ -615,13 +614,76 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "texture"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": 600,
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 474,
+              "duration": 1000,
+              "endDelay": 100,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 545,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 555,
+              "duration": 1500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 500,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 545,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 555,
+              "duration": 1500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 500,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 545,
+              "duration": 800,
+              "endDelay": 500,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 0
+            }
+          ],
+          "id": {
             "id": "background_image",
             "element": "clipPath"
-          },
+          }
+        },
+        {
           "animation_keyframes": [
             {
               "top": 600,
@@ -681,76 +743,13 @@
               "top": {},
               "duration": 0
             }
-          ]
-        },
-        {
-          "target_query": {
+          ],
+          "id": {
             "id": "texture",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": 600,
-              "duration": 0,
-              "endDelay": 0,
-              "easing": "easeInOutExpo"
-            },
-            {
-              "top": 474,
-              "duration": 1000,
-              "endDelay": 100,
-              "easing": "easeInOutExpo"
-            },
-            {
-              "top": 545,
-              "duration": 800,
-              "endDelay": 100,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 555,
-              "duration": 1500,
-              "endDelay": 0,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 500,
-              "duration": 800,
-              "endDelay": 100,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 545,
-              "duration": 800,
-              "endDelay": 100,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 555,
-              "duration": 1500,
-              "endDelay": 0,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 500,
-              "duration": 800,
-              "endDelay": 100,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 545,
-              "duration": 800,
-              "endDelay": 500,
-              "easing": "easeInBack"
-            },
-            {
-              "top": {},
-              "duration": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "sea_bubbles_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -912,10 +911,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "sea_bubbles_1"
         },
         {
-          "target_query": "sea_bubbles_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1072,10 +1071,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "sea_bubbles_2"
         },
         {
-          "target_query": "sea_bubbles_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1222,10 +1221,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "sea_bubbles_3"
         },
         {
-          "target_query": "sea_bubbles_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1372,13 +1371,64 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "sea_bubbles_4"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": 600,
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 474,
+              "duration": 1000,
+              "endDelay": 100,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 545,
+              "duration": 800,
+              "endDelay": 800,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 500,
+              "duration": 800,
+              "endDelay": 800,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 545,
+              "duration": 800,
+              "endDelay": 800,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 500,
+              "duration": 800,
+              "endDelay": 800,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 545,
+              "duration": 800,
+              "endDelay": 700,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 0
+            }
+          ],
+          "id": {
             "id": "sea_bubbles_1",
             "element": "clipPath"
-          },
+          }
+        },
+        {
           "animation_keyframes": [
             {
               "top": 600,
@@ -1426,13 +1476,13 @@
               "top": {},
               "duration": 0
             }
-          ]
-        },
-        {
-          "target_query": {
+          ],
+          "id": {
             "id": "sea_bubbles_2",
             "element": "clipPath"
-          },
+          }
+        },
+        {
           "animation_keyframes": [
             {
               "top": 600,
@@ -1480,67 +1530,13 @@
               "top": {},
               "duration": 0
             }
-          ]
-        },
-        {
-          "target_query": {
+          ],
+          "id": {
             "id": "sea_bubbles_3",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": 600,
-              "duration": 0,
-              "endDelay": 0,
-              "easing": "easeInOutExpo"
-            },
-            {
-              "top": 474,
-              "duration": 1000,
-              "endDelay": 100,
-              "easing": "easeInOutExpo"
-            },
-            {
-              "top": 545,
-              "duration": 800,
-              "endDelay": 800,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 500,
-              "duration": 800,
-              "endDelay": 800,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 545,
-              "duration": 800,
-              "endDelay": 800,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 500,
-              "duration": 800,
-              "endDelay": 800,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 545,
-              "duration": 800,
-              "endDelay": 700,
-              "easing": "easeInBack"
-            },
-            {
-              "top": {},
-              "duration": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": {
-            "id": "sea_bubbles_4",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": 600,
@@ -1588,7 +1584,11 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "sea_bubbles_4",
+            "element": "clipPath"
+          }
         }
       ]
     }

@@ -5,7 +5,6 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
-          "target_query": "title",
           "animation_keyframes": [
             {
               "left": [
@@ -21,10 +20,10 @@
               "endDelay": 6280,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "title"
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -40,10 +39,10 @@
               "endDelay": 6216,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": "additional_info",
           "animation_keyframes": [
             {
               "left": 970,
@@ -56,10 +55,10 @@
               "endDelay": 6280,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "additional_info"
         },
         {
-          "target_query": "gen_info",
           "animation_keyframes": [
             {
               "left": 970,
@@ -72,10 +71,10 @@
               "endDelay": 6216,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "gen_info"
         },
         {
-          "target_query": "cutout",
           "animation_keyframes": [
             {
               "top": 836,
@@ -100,10 +99,10 @@
               "duration": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "cutout"
         },
         {
-          "target_query": "bottom_right_rect",
           "animation_keyframes": [
             {
               "left": [
@@ -119,10 +118,10 @@
               "endDelay": 1760,
               "easing": "cubicBezier(0,.89,.68,1.07)"
             }
-          ]
+          ],
+          "id": "bottom_right_rect"
         },
         {
-          "target_query": "top_right_rect",
           "animation_keyframes": [
             {
               "left": [
@@ -138,10 +137,10 @@
               "endDelay": 1760,
               "easing": "cubicBezier(0,.89,.68,1.07)"
             }
-          ]
+          ],
+          "id": "top_right_rect"
         },
         {
-          "target_query": "bottom_left_rect",
           "animation_keyframes": [
             {
               "left": [
@@ -157,10 +156,10 @@
               "endDelay": 1760,
               "easing": "cubicBezier(0,.89,.68,1.07)"
             }
-          ]
+          ],
+          "id": "bottom_left_rect"
         },
         {
-          "target_query": "top_left_rect",
           "animation_keyframes": [
             {
               "left": [
@@ -176,7 +175,8 @@
               "endDelay": 1760,
               "easing": "cubicBezier(0,.89,.68,1.07)"
             }
-          ]
+          ],
+          "id": "top_left_rect"
         }
       ]
     }

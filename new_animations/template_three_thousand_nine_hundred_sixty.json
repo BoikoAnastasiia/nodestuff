@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "paint_splater",
           "animation_keyframes": [
             {
               "angle": {},
@@ -22,10 +21,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "paint_splater"
         },
         {
-          "target_query": "school_name",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -47,10 +46,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "school_name"
         },
         {
-          "target_query": "group_bottom_paper",
           "animation_keyframes": [
             {
               "top": {},
@@ -163,10 +162,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "group_bottom_paper"
         },
         {
-          "target_query": "group_top_paper",
           "animation_keyframes": [
             {
               "top": {},
@@ -277,10 +276,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "group_top_paper"
         },
         {
-          "target_query": "title_1",
           "animation_keyframes": [
             {
               "left": 330,
@@ -361,13 +360,44 @@
               "duration": 0,
               "endDelay": 50
             }
-          ]
+          ],
+          "id": "title_1"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                722
+              ],
+              "duration": 0,
+              "endDelay": 2000
+            },
+            {
+              "left": {},
+              "duration": 400,
+              "endDelay": 6900
+            },
+            {
+              "left": [
+                "right",
+                722
+              ],
+              "duration": 400,
+              "endDelay": 300
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "name_bg",
             "element": "clipPath"
-          },
+          }
+        },
+        {
           "animation_keyframes": [
             {
               "left": [
@@ -395,44 +425,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
-        },
-        {
-          "target_query": {
+          ],
+          "id": {
             "id": "name",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "left": [
-                "right",
-                722
-              ],
-              "duration": 0,
-              "endDelay": 2000
-            },
-            {
-              "left": {},
-              "duration": 400,
-              "endDelay": 6900
-            },
-            {
-              "left": [
-                "right",
-                722
-              ],
-              "duration": 400,
-              "endDelay": 300
-            },
-            {
-              "left": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "main_logo",
           "animation_keyframes": [
             {
               "top": [
@@ -531,13 +530,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "main_logo"
         },
         {
-          "target_query": {
-            "id": "main_logo",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -440,
@@ -559,7 +555,11 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "main_logo",
+            "element": "clipPath"
+          }
         }
       ]
     }

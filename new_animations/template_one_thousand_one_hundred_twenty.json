@@ -5,7 +5,6 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
-          "target_query": "background_wave_top",
           "animation_keyframes": [
             {
               "top": -2,
@@ -18,10 +17,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "background_wave_top"
         },
         {
-          "target_query": "top_wave",
           "animation_keyframes": [
             {
               "top": 276.2,
@@ -34,13 +33,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "top_wave"
         },
         {
-          "target_query": {
-            "id": "top_wave",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -2,
@@ -53,10 +49,13 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": {
+            "id": "top_wave",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "top_stroke",
           "animation_keyframes": [
             {
               "top": 276,
@@ -69,10 +68,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "top_stroke"
         },
         {
-          "target_query": "outline_top",
           "animation_keyframes": [
             {
               "top": 271,
@@ -85,10 +84,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "outline_top"
         },
         {
-          "target_query": "background_wave_bottom",
           "animation_keyframes": [
             {
               "top": 266.2,
@@ -101,10 +100,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "background_wave_bottom"
         },
         {
-          "target_query": "bottom_wave",
           "animation_keyframes": [
             {
               "top": 266.2,
@@ -117,29 +116,29 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "bottom_wave"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": 266.2,
+              "duration": 0,
+              "endDelay": 960
+            },
+            {
+              "top": {},
+              "duration": 1440,
+              "endDelay": 0,
+              "easing": "easeOutCubic"
+            }
+          ],
+          "id": {
             "id": "bottom_wave",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": 266.2,
-              "duration": 0,
-              "endDelay": 960
-            },
-            {
-              "top": {},
-              "duration": 1440,
-              "endDelay": 0,
-              "easing": "easeOutCubic"
-            }
-          ]
+          }
         },
         {
-          "target_query": "outline_bottom",
           "animation_keyframes": [
             {
               "top": 264.5,
@@ -152,10 +151,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "outline_bottom"
         },
         {
-          "target_query": "bottom_stroke",
           "animation_keyframes": [
             {
               "top": 260,
@@ -168,10 +167,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "bottom_stroke"
         },
         {
-          "target_query": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -186,10 +185,10 @@
               "duration": 1000,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo"
         },
         {
-          "target_query": "cutout",
           "animation_keyframes": [
             {
               "top": 962,
@@ -216,10 +215,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "cutout"
         },
         {
-          "target_query": "first_name",
           "animation_keyframes": [
             {
               "top": [
@@ -235,10 +234,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "first_name"
         },
         {
-          "target_query": "position",
           "animation_keyframes": [
             {
               "top": [
@@ -254,10 +253,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "position"
         },
         {
-          "target_query": "last_name",
           "animation_keyframes": [
             {
               "top": [
@@ -273,10 +272,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "last_name"
         },
         {
-          "target_query": "number",
           "animation_keyframes": [
             {
               "left": 1220,
@@ -289,7 +288,8 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "number"
         }
       ]
     }

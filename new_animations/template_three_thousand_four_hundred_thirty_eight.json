@@ -5,7 +5,6 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
-          "target_query": "accent_logo_rect",
           "animation_keyframes": [
             {
               "top": 800,
@@ -27,10 +26,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "accent_logo_rect"
         },
         {
-          "target_query": "right_rect",
           "animation_keyframes": [
             {
               "top": -800,
@@ -52,38 +51,38 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "right_rect"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": -800,
+              "duration": 0,
+              "endDelay": 170
+            },
+            {
+              "top": {},
+              "duration": 170,
+              "endDelay": 7210
+            },
+            {
+              "top": -800,
+              "duration": 250,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "add_info",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": -800,
-              "duration": 0,
-              "endDelay": 170
-            },
-            {
-              "top": {},
-              "duration": 170,
-              "endDelay": 7210
-            },
-            {
-              "top": -800,
-              "duration": 250,
-              "endDelay": 200
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "bg_logo",
           "animation_keyframes": [
             {
               "top": 800,
@@ -126,10 +125,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_logo"
         },
         {
-          "target_query": "accent_logo",
           "animation_keyframes": [
             {
               "left": -800,
@@ -176,13 +175,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "accent_logo"
         },
         {
-          "target_query": {
-            "id": "accent_logo",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": 800,
@@ -204,10 +200,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "accent_logo",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "main_logo",
           "animation_keyframes": [
             {
               "top": 365,
@@ -273,10 +272,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "main_logo"
         },
         {
-          "target_query": "title_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -306,10 +305,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title_1"
         },
         {
-          "target_query": "title_2",
           "animation_keyframes": [
             {
               "left": {},
@@ -401,10 +400,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title_2"
         },
         {
-          "target_query": "title_goal_2",
           "animation_keyframes": [
             {
               "left": [
@@ -461,7 +460,8 @@
               "duration": 0,
               "endDelay": 1600
             }
-          ]
+          ],
+          "id": "title_goal_2"
         }
       ]
     }

@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "team_1_logo",
           "animation_keyframes": [
             {
               "angle": -360,
@@ -143,10 +142,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "team_1_logo"
         },
         {
-          "target_query": "paint_1",
           "animation_keyframes": [
             {
               "scaleX": "*=1.02",
@@ -284,10 +283,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "paint_1"
         },
         {
-          "target_query": "stroke",
           "animation_keyframes": [
             {
               "scaleX": 0,
@@ -312,10 +311,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "stroke"
         },
         {
-          "target_query": "title",
           "animation_keyframes": [
             {
               "left": {},
@@ -388,38 +387,38 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": -712,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "top": {},
+              "duration": 500,
+              "endDelay": 8200
+            },
+            {
+              "top": -712,
+              "duration": 500,
+              "endDelay": 300
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "headline",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": -712,
-              "duration": 0,
-              "endDelay": 500
-            },
-            {
-              "top": {},
-              "duration": 500,
-              "endDelay": 8200
-            },
-            {
-              "top": -712,
-              "duration": 500,
-              "endDelay": 300
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "top": 150,
@@ -446,38 +445,38 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": -500,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "top": {},
+              "duration": 500,
+              "endDelay": 8200
+            },
+            {
+              "top": -500,
+              "duration": 500,
+              "endDelay": 300
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "subtitle",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": -500,
-              "duration": 0,
-              "endDelay": 500
-            },
-            {
-              "top": {},
-              "duration": 500,
-              "endDelay": 8200
-            },
-            {
-              "top": -500,
-              "duration": 500,
-              "endDelay": 300
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "subtitle",
           "animation_keyframes": [
             {
               "top": 725,
@@ -504,7 +503,8 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "subtitle"
         }
       ]
     }

@@ -5,10 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": {
-            "id": "school_name",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": [
@@ -23,10 +19,13 @@
               "duration": 0,
               "endDelay": 9100
             }
-          ]
+          ],
+          "id": {
+            "id": "school_name",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "school_name",
           "animation_keyframes": [
             {
               "top": [
@@ -41,13 +40,10 @@
               "duration": 400,
               "endDelay": 9100
             }
-          ]
+          ],
+          "id": "school_name"
         },
         {
-          "target_query": {
-            "id": "headline",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": [
@@ -62,10 +58,13 @@
               "duration": 0,
               "endDelay": 9100
             }
-          ]
+          ],
+          "id": {
+            "id": "headline",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "top": [
@@ -146,10 +145,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": "border_logo_background",
           "animation_keyframes": [
             {
               "top": [
@@ -164,10 +163,10 @@
               "duration": 700,
               "endDelay": 8600
             }
-          ]
+          ],
+          "id": "border_logo_background"
         },
         {
-          "target_query": "border_logo",
           "animation_keyframes": [
             {
               "top": [
@@ -222,10 +221,10 @@
               "duration": 900,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "border_logo"
         },
         {
-          "target_query": "foreground_texture",
           "animation_keyframes": [
             {
               "originX": 0.5,
@@ -285,13 +284,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "foreground_texture"
         },
         {
-          "target_query": {
-            "id": "group_2",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": [
@@ -306,7 +302,11 @@
               "duration": 200,
               "endDelay": 9700
             }
-          ]
+          ],
+          "id": {
+            "id": "group_2",
+            "element": "clipPath"
+          }
         }
       ]
     }

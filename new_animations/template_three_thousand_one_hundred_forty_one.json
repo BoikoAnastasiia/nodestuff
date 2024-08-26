@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "hand_drawn_circle",
           "animation_keyframes": [
             {
               "angle": 355.6489834399662,
@@ -67,10 +66,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "hand_drawn_circle"
         },
         {
-          "target_query": "group_top_elements",
           "animation_keyframes": [
             {
               "angle": {},
@@ -240,10 +239,10 @@
               "top": {},
               "duration": 8
             }
-          ]
+          ],
+          "id": "group_top_elements"
         },
         {
-          "target_query": "grid_2_color",
           "animation_keyframes": [
             {
               "angle": -5.570395556194163,
@@ -325,10 +324,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "grid_2_color"
         },
         {
-          "target_query": "grid_3_color",
           "animation_keyframes": [
             {
               "angle": 358.6587952003419,
@@ -410,10 +409,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "grid_3_color"
         },
         {
-          "target_query": "bottom_curved_line",
           "animation_keyframes": [
             {
               "angle": {},
@@ -583,10 +582,10 @@
               "top": {},
               "duration": 8
             }
-          ]
+          ],
+          "id": "bottom_curved_line"
         },
         {
-          "target_query": "title",
           "animation_keyframes": [
             {
               "angle": {},
@@ -938,10 +937,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title"
         },
         {
-          "target_query": "media_1",
           "animation_keyframes": [
             {
               "angle": {},
@@ -1076,10 +1075,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "media_1"
         },
         {
-          "target_query": "media_2",
           "animation_keyframes": [
             {
               "angle": {},
@@ -1159,7 +1158,8 @@
               "angle": {},
               "duration": 200
             }
-          ]
+          ],
+          "id": "media_2"
         }
       ]
     }

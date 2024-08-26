@@ -5,10 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": {
-            "id": "headline_tf",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -995,
@@ -20,13 +16,13 @@
               "duration": 600,
               "endDelay": 9400
             }
-          ]
+          ],
+          "id": {
+            "id": "headline_tf",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": {
-            "id": "school_name_tf",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -100,
@@ -38,10 +34,13 @@
               "duration": 0,
               "endDelay": 9000
             }
-          ]
+          ],
+          "id": {
+            "id": "school_name_tf",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "school_name_tf",
           "animation_keyframes": [
             {
               "top": 950,
@@ -54,10 +53,10 @@
               "endDelay": 9100,
               "easing": "easeOutSine"
             }
-          ]
+          ],
+          "id": "school_name_tf"
         },
         {
-          "target_query": "group_media",
           "animation_keyframes": [
             {
               "angle": {},
@@ -114,10 +113,10 @@
               "duration": 0,
               "endDelay": 350
             }
-          ]
+          ],
+          "id": "group_media"
         },
         {
-          "target_query": "headline_tf",
           "animation_keyframes": [
             {
               "scaleX": "*=1.08",
@@ -179,10 +178,10 @@
               "duration": 0,
               "endDelay": 350
             }
-          ]
+          ],
+          "id": "headline_tf"
         },
         {
-          "target_query": "team_1_logo",
           "animation_keyframes": [
             {
               "angle": 5.5,
@@ -269,7 +268,8 @@
               "duration": 0,
               "endDelay": 350
             }
-          ]
+          ],
+          "id": "team_1_logo"
         }
       ]
     }

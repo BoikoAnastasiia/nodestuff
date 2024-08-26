@@ -5,10 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": {
-            "id": "headline",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": 213,
@@ -22,10 +18,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "headline",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "top": [
@@ -235,10 +234,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": "footer_logo",
           "animation_keyframes": [
             {
               "top": 528,
@@ -323,10 +322,10 @@
               "easing": "easeOutQuad",
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "footer_logo"
         },
         {
-          "target_query": "logo_section_group",
           "animation_keyframes": [
             {
               "top": 528,
@@ -351,10 +350,10 @@
               "easing": "easeOutQuad",
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo_section_group"
         },
         {
-          "target_query": "top_section_group",
           "animation_keyframes": [
             {
               "top": -33,
@@ -379,10 +378,10 @@
               "easing": "easeOutQuad",
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "top_section_group"
         },
         {
-          "target_query": "background_texture",
           "animation_keyframes": [
             {
               "opacity": "*=0.5",
@@ -504,7 +503,8 @@
               "easing": "easeOutQuad",
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "background_texture"
         }
       ]
     }

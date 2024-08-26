@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "dots_color",
           "animation_keyframes": [
             {
               "angle": {},
@@ -62,10 +61,10 @@
               "duration": 900,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "dots_color"
         },
         {
-          "target_query": "foreground_grad_2",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -122,10 +121,10 @@
               "duration": 900,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "foreground_grad_2"
         },
         {
-          "target_query": "foreground_grad_1",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -182,10 +181,10 @@
               "duration": 900,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "foreground_grad_1"
         },
         {
-          "target_query": "headline_rect",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -242,13 +241,10 @@
               "duration": 900,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline_rect"
         },
         {
-          "target_query": {
-            "id": "headline_rect",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": [
@@ -263,10 +259,13 @@
               "duration": 400,
               "endDelay": 9300
             }
-          ]
+          ],
+          "id": {
+            "id": "headline_rect",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "fg_leaf_1",
           "animation_keyframes": [
             {
               "left": 244,
@@ -334,10 +333,10 @@
               "duration": 700,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "fg_leaf_1"
         },
         {
-          "target_query": "fg_leaf_2",
           "animation_keyframes": [
             {
               "left": 647,
@@ -405,10 +404,10 @@
               "duration": 700,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "fg_leaf_2"
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "left": {},
@@ -460,10 +459,10 @@
               "duration": 0,
               "endDelay": 9300
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": "school_name",
           "animation_keyframes": [
             {
               "top": [
@@ -478,13 +477,10 @@
               "duration": 300,
               "endDelay": 9000
             }
-          ]
+          ],
+          "id": "school_name"
         },
         {
-          "target_query": {
-            "id": "school_name",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": [
@@ -499,10 +495,13 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ]
+          ],
+          "id": {
+            "id": "school_name",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "info",
           "animation_keyframes": [
             {
               "left": [
@@ -517,13 +516,10 @@
               "duration": 450,
               "endDelay": 9000
             }
-          ]
+          ],
+          "id": "info"
         },
         {
-          "target_query": {
-            "id": "info",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": [
@@ -538,10 +534,13 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ]
+          ],
+          "id": {
+            "id": "info",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -606,13 +605,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo"
         },
         {
-          "target_query": {
-            "id": "logo",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": [
@@ -627,7 +623,11 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ]
+          ],
+          "id": {
+            "id": "logo",
+            "element": "clipPath"
+          }
         }
       ]
     }

@@ -5,7 +5,6 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
-          "target_query": "first_team_background_container",
           "animation_keyframes": [
             {
               "left": -470,
@@ -16,10 +15,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "first_team_background_container"
         },
         {
-          "target_query": "second_team_background_container",
           "animation_keyframes": [
             {
               "left": -493,
@@ -30,10 +29,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "second_team_background_container"
         },
         {
-          "target_query": "event_title",
           "animation_keyframes": [
             {
               "left": [
@@ -47,10 +46,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "event_title"
         },
         {
-          "target_query": "event_info",
           "animation_keyframes": [
             {
               "left": [
@@ -64,10 +63,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "event_info"
         },
         {
-          "target_query": "thin_event_line",
           "animation_keyframes": [
             {
               "left": -385,
@@ -78,10 +77,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "thin_event_line"
         },
         {
-          "target_query": "first_team_name",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -92,10 +91,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "first_team_name"
         },
         {
-          "target_query": "first_team_record",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -106,10 +105,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "first_team_record"
         },
         {
-          "target_query": "second_team_name",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -120,10 +119,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "second_team_name"
         },
         {
-          "target_query": "second_team_record",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -134,10 +133,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "second_team_record"
         },
         {
-          "target_query": "first_logo_team",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -148,10 +147,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "first_logo_team"
         },
         {
-          "target_query": "second_logo_team",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -162,10 +161,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "second_logo_team"
         },
         {
-          "target_query": "background_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -176,10 +175,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "background_logo"
         },
         {
-          "target_query": "second_background_left_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -190,10 +189,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "second_background_left_line"
         },
         {
-          "target_query": "second_background_right_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -204,10 +203,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "second_background_right_line"
         },
         {
-          "target_query": "main_background_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -218,10 +217,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "main_background_line"
         },
         {
-          "target_query": "dashed_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -232,7 +231,8 @@
               "opacity": {},
               "duration": 2500
             }
-          ]
+          ],
+          "id": "dashed_line"
         }
       ]
     }

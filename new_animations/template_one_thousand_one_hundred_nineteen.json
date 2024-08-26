@@ -5,7 +5,6 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
-          "target_query": "top_shadow",
           "animation_keyframes": [
             {
               "top": 108,
@@ -17,10 +16,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "top_shadow"
         },
         {
-          "target_query": "top_background",
           "animation_keyframes": [
             {
               "top": -35,
@@ -32,13 +31,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "top_background"
         },
         {
-          "target_query": {
-            "id": "top_paper_texture",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -18,
@@ -50,10 +46,13 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": {
+            "id": "top_paper_texture",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "top_ripped_edge",
           "animation_keyframes": [
             {
               "top": 110,
@@ -65,10 +64,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "top_ripped_edge"
         },
         {
-          "target_query": "bottom_background",
           "animation_keyframes": [
             {
               "top": 305,
@@ -80,13 +79,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "bottom_background"
         },
         {
-          "target_query": {
-            "id": "bottom_paper_texture",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": 309,
@@ -98,10 +94,13 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": {
+            "id": "bottom_paper_texture",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "bottom_ripped_edge",
           "animation_keyframes": [
             {
               "top": -140,
@@ -113,10 +112,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "bottom_ripped_edge"
         },
         {
-          "target_query": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -132,10 +131,10 @@
               "endDelay": 6340,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "logo"
         },
         {
-          "target_query": "last_name",
           "animation_keyframes": [
             {
               "left": [
@@ -151,10 +150,10 @@
               "endDelay": 6060,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "last_name"
         },
         {
-          "target_query": "first_name",
           "animation_keyframes": [
             {
               "left": [
@@ -170,10 +169,10 @@
               "endDelay": 5860,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "first_name"
         },
         {
-          "target_query": "position",
           "animation_keyframes": [
             {
               "left": [
@@ -189,10 +188,10 @@
               "endDelay": 5860,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "position"
         },
         {
-          "target_query": "number",
           "animation_keyframes": [
             {
               "top": [
@@ -208,10 +207,10 @@
               "endDelay": 6880,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "number"
         },
         {
-          "target_query": "hometown_background",
           "animation_keyframes": [
             {
               "top": 562.9183225472027,
@@ -224,10 +223,10 @@
               "endDelay": 6880,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "hometown_background"
         },
         {
-          "target_query": "hometown",
           "animation_keyframes": [
             {
               "top": 570.9183225472027,
@@ -240,10 +239,10 @@
               "endDelay": 6880,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "hometown"
         },
         {
-          "target_query": "hashtag",
           "animation_keyframes": [
             {
               "top": 560,
@@ -256,10 +255,10 @@
               "endDelay": 6340,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "hashtag"
         },
         {
-          "target_query": "cutout",
           "animation_keyframes": [
             {
               "scaleY": {},
@@ -284,7 +283,8 @@
               "duration": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "cutout"
         }
       ]
     }

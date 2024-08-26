@@ -58,15 +58,15 @@ function transformContent(content, idMap, specialMap) {
     if (item.animation_params && item.animation_params.animation_objects) {
       item.animation_params.animation_objects =
         item.animation_params.animation_objects.map((obj) => {
+          let newObj = { ...obj };
           if (
             typeof obj.target_query === 'number' &&
             idMap[obj.target_query] !== undefined
           ) {
-            obj.target_query = idMap[obj.target_query];
+            newObj.id = idMap[obj.target_query];
           } else if (typeof obj.target_query === 'string') {
-            if (specialMap[obj.target_query.toLowerCase()]) {
-              obj.target_query = specialMap[obj.target_query.toLowerCase()];
-            }
+            newObj.id =
+              specialMap[obj.target_query.toLowerCase()] || obj.target_query;
           } else if (typeof obj.target_query === 'object') {
             if (obj.target_query.index !== undefined) {
               let newId;
@@ -81,15 +81,18 @@ function transformContent(content, idMap, specialMap) {
               ) {
                 newId = specialMap[obj.target_query.index.toLowerCase()];
               } else {
-                newId = obj.target_query.index; // Keep original if no mapping found
+                newId = obj.target_query.index;
               }
-              obj.target_query = {
+              newObj.id = {
                 id: newId,
                 element: obj.target_query.element,
               };
+            } else {
+              newObj.id = obj.target_query;
             }
           }
-          return obj;
+          delete newObj.target_query;
+          return newObj;
         });
     }
     return item;

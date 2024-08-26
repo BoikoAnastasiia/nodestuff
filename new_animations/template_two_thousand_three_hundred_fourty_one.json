@@ -6,7 +6,6 @@
       "animation_duration": 5500,
       "animation_objects": [
         {
-          "target_query": "gipper_logo_white",
           "animation_keyframes": [
             {
               "top": 360,
@@ -66,10 +65,10 @@
               "duration": 0,
               "endDelay": 4100
             }
-          ]
+          ],
+          "id": "gipper_logo_white"
         },
         {
-          "target_query": "handshake",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -105,10 +104,10 @@
               "duration": 0,
               "endDelay": 3550
             }
-          ]
+          ],
+          "id": "handshake"
         },
         {
-          "target_query": "green_curtain",
           "animation_keyframes": [
             {
               "top": -1,
@@ -138,10 +137,10 @@
               "duration": 0,
               "endDelay": 3849
             }
-          ]
+          ],
+          "id": "green_curtain"
         },
         {
-          "target_query": "vertical_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -154,10 +153,10 @@
               "easing": "easeOutCubic",
               "endDelay": 1300
             }
-          ]
+          ],
+          "id": "vertical_line"
         },
         {
-          "target_query": "logo_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -170,10 +169,10 @@
               "easing": "easeOutCubic",
               "endDelay": 1300
             }
-          ]
+          ],
+          "id": "logo_1"
         },
         {
-          "target_query": "logo_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -186,10 +185,10 @@
               "easing": "easeOutCubic",
               "endDelay": 1300
             }
-          ]
+          ],
+          "id": "logo_2"
         },
         {
-          "target_query": "tagline",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -206,10 +205,10 @@
               "easing": "easeOutCubic",
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "tagline"
         },
         {
-          "target_query": "logo_sponsor",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -226,7 +225,8 @@
               "easing": "easeOutCubic",
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo_sponsor"
         }
       ]
     }

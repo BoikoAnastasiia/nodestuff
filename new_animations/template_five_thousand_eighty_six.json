@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "bg_curcuit_line_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -17,10 +16,10 @@
               "duration": 100,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_curcuit_line_1"
         },
         {
-          "target_query": "bg_curcuit_line_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -32,10 +31,10 @@
               "duration": 100,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_curcuit_line_2"
         },
         {
-          "target_query": "bg_digital_line_6",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -237,10 +236,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_digital_line_6"
         },
         {
-          "target_query": "bg_digital_line_5",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -382,10 +381,10 @@
               "duration": 50,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_digital_line_5"
         },
         {
-          "target_query": "bg_digital_line_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -487,10 +486,10 @@
               "duration": 500,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_digital_line_2"
         },
         {
-          "target_query": "bg_digital_line_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -592,10 +591,10 @@
               "duration": 500,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_digital_line_3"
         },
         {
-          "target_query": "bg_digital_line_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -697,10 +696,10 @@
               "duration": 500,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_digital_line_1"
         },
         {
-          "target_query": "bg_digital_line_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -852,10 +851,10 @@
               "duration": 600,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "bg_digital_line_4"
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -1040,13 +1039,10 @@
               "duration": 300,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": {
-            "id": "team_logo",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": 400,
@@ -1058,10 +1054,13 @@
               "duration": 0,
               "endDelay": 9200
             }
-          ]
+          ],
+          "id": {
+            "id": "team_logo",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "team_logo",
           "animation_keyframes": [
             {
               "top": [
@@ -1126,13 +1125,10 @@
               "duration": 50,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "team_logo"
         },
         {
-          "target_query": {
-            "id": "school_name",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": 400,
@@ -1144,10 +1140,13 @@
               "duration": 0,
               "endDelay": 9200
             }
-          ]
+          ],
+          "id": {
+            "id": "school_name",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "school_name",
           "animation_keyframes": [
             {
               "top": [
@@ -1162,7 +1161,8 @@
               "duration": 700,
               "endDelay": 9200
             }
-          ]
+          ],
+          "id": "school_name"
         }
       ]
     }

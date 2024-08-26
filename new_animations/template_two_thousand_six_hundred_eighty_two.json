@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "background_photo",
           "animation_keyframes": [
             {
               "angle": -2,
@@ -62,10 +61,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "background_photo"
         },
         {
-          "target_query": "background_wave",
           "animation_keyframes": [
             {
               "angle": -2,
@@ -122,61 +121,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "background_wave"
         },
         {
-          "target_query": "blue_wave",
-          "animation_keyframes": [
-            {
-              "top": 721,
-              "duration": 0,
-              "endDelay": 0,
-              "easing": "easeInOutExpo"
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 100,
-              "easing": "easeInOutExpo"
-            },
-            {
-              "top": 721,
-              "duration": 800,
-              "endDelay": 100,
-              "easing": "easeInBack"
-            },
-            {
-              "top": {},
-              "duration": 2500,
-              "endDelay": 0,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 721,
-              "duration": 800,
-              "endDelay": 100,
-              "easing": "easeInBack"
-            },
-            {
-              "top": {},
-              "duration": 2500,
-              "endDelay": 0,
-              "easing": "easeInBack"
-            },
-            {
-              "top": 721,
-              "duration": 800,
-              "endDelay": 2300,
-              "easing": "easeInBack"
-            },
-            {
-              "top": {},
-              "duration": 0
-            }
-          ]
-        },
-        {
-          "target_query": "blue_wave_texture",
           "animation_keyframes": [
             {
               "top": 721,
@@ -224,10 +172,61 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "blue_wave"
         },
         {
-          "target_query": "white_wave",
+          "animation_keyframes": [
+            {
+              "top": 721,
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 100,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 2500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 2500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 2300,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 0
+            }
+          ],
+          "id": "blue_wave_texture"
+        },
+        {
           "animation_keyframes": [
             {
               "top": 721,
@@ -275,10 +274,10 @@
               "top": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "white_wave"
         },
         {
-          "target_query": "bottom_wave_group",
           "animation_keyframes": [
             {
               "top": 1200,
@@ -293,10 +292,10 @@
               "endDelay": 8900,
               "easing": "easeOutQuad"
             }
-          ]
+          ],
+          "id": "bottom_wave_group"
         },
         {
-          "target_query": "top_wave_group",
           "animation_keyframes": [
             {
               "top": -400,
@@ -311,10 +310,10 @@
               "endDelay": 8900,
               "easing": "easeOutQuad"
             }
-          ]
+          ],
+          "id": "top_wave_group"
         },
         {
-          "target_query": "wave_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -332,10 +331,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "wave_logo"
         },
         {
-          "target_query": "adidas_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -353,10 +352,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "adidas_logo"
         },
         {
-          "target_query": "separator",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -374,13 +373,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "separator"
         },
         {
-          "target_query": {
-            "id": "title_1",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": 328,
@@ -392,10 +388,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "title_1",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "title_1",
           "animation_keyframes": [
             {
               "left": 0,
@@ -413,13 +412,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title_1"
         },
         {
-          "target_query": {
-            "id": "title_2",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": -28,
@@ -431,10 +427,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "title_2",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "title_2",
           "animation_keyframes": [
             {
               "left": 889,
@@ -452,13 +451,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title_2"
         },
         {
-          "target_query": {
-            "id": "headline",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -712,
@@ -470,10 +466,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "headline",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "top": 194,
@@ -494,28 +493,28 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": -460,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "team_1",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": -460,
-              "duration": 0,
-              "endDelay": 10000
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "team_1",
           "animation_keyframes": [
             {
               "top": 470,
@@ -536,28 +535,28 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "team_1"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": -460,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "team_2",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": -460,
-              "duration": 0,
-              "endDelay": 10000
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "team_2",
           "animation_keyframes": [
             {
               "top": 470,
@@ -578,10 +577,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "team_2"
         },
         {
-          "target_query": "labreakers_logo",
           "animation_keyframes": [
             {
               "top": 490,
@@ -602,10 +601,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "labreakers_logo"
         },
         {
-          "target_query": "opponent_logo",
           "animation_keyframes": [
             {
               "top": 490,
@@ -626,10 +625,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "opponent_logo"
         },
         {
-          "target_query": "vs",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -647,10 +646,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "vs"
         },
         {
-          "target_query": "triangle",
           "animation_keyframes": [
             {
               "left": 682,
@@ -671,13 +670,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "triangle"
         },
         {
-          "target_query": {
-            "id": "player_number",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": 376,
@@ -689,10 +685,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "player_number",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "player_number",
           "animation_keyframes": [
             {
               "left": 370,
@@ -710,13 +709,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "player_number"
         },
         {
-          "target_query": {
-            "id": "name",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": 462,
@@ -728,10 +724,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "name",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "name",
           "animation_keyframes": [
             {
               "left": 300,
@@ -749,13 +748,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "name"
         },
         {
-          "target_query": {
-            "id": "second_name",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": 462,
@@ -767,10 +763,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "second_name",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "second_name",
           "animation_keyframes": [
             {
               "left": 300,
@@ -788,10 +787,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "second_name"
         },
         {
-          "target_query": "additional_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -953,10 +952,10 @@
               "duration": 0,
               "endDelay": 1
             }
-          ]
+          ],
+          "id": "additional_logo"
         },
         {
-          "target_query": "texture_dots_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1113,10 +1112,10 @@
               "duration": 0,
               "endDelay": 1
             }
-          ]
+          ],
+          "id": "texture_dots_2"
         },
         {
-          "target_query": "texture_dots_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1268,10 +1267,10 @@
               "duration": 0,
               "endDelay": 1
             }
-          ]
+          ],
+          "id": "texture_dots_3"
         },
         {
-          "target_query": "texture_dots_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1418,7 +1417,8 @@
               "duration": 0,
               "endDelay": 1
             }
-          ]
+          ],
+          "id": "texture_dots_4"
         }
       ]
     }

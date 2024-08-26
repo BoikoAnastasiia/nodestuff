@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "hand_drawn_circle",
           "animation_keyframes": [
             {
               "angle": 8,
@@ -101,10 +100,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "hand_drawn_circle"
         },
         {
-          "target_query": "grid_1_color",
           "animation_keyframes": [
             {
               "left": 140,
@@ -217,10 +216,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "grid_1_color"
         },
         {
-          "target_query": "grid_2_color",
           "animation_keyframes": [
             {
               "angle": -6,
@@ -310,10 +309,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "grid_2_color"
         },
         {
-          "target_query": "grid_3_color",
           "animation_keyframes": [
             {
               "angle": 6,
@@ -403,10 +402,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "grid_3_color"
         },
         {
-          "target_query": "bottom_curved_line",
           "animation_keyframes": [
             {
               "angle": 70,
@@ -502,10 +501,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "bottom_curved_line"
         },
         {
-          "target_query": "top_curved_line",
           "animation_keyframes": [
             {
               "left": 5,
@@ -618,10 +617,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "top_curved_line"
         },
         {
-          "target_query": "logo_circle_1",
           "animation_keyframes": [
             {
               "angle": 12,
@@ -819,10 +818,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "logo_circle_1"
         },
         {
-          "target_query": "logo_circle_2",
           "animation_keyframes": [
             {
               "angle": 12,
@@ -942,10 +941,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "logo_circle_2"
         },
         {
-          "target_query": "title",
           "animation_keyframes": [
             {
               "left": 474.12214747707526,
@@ -1247,10 +1246,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title"
         },
         {
-          "target_query": "media_1",
           "animation_keyframes": [
             {
               "angle": 12,
@@ -1448,10 +1447,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "media_1"
         },
         {
-          "target_query": "media_2",
           "animation_keyframes": [
             {
               "angle": 12,
@@ -1571,7 +1570,8 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "media_2"
         }
       ]
     }

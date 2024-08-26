@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "group_main",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -152,10 +151,10 @@
               "duration": 450,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "group_main"
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -178,10 +177,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -250,10 +249,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo"
         },
         {
-          "target_query": "school_name",
           "animation_keyframes": [
             {
               "left": [
@@ -285,13 +284,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "school_name"
         },
         {
-          "target_query": {
-            "id": "school_name",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": [
@@ -319,10 +315,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "school_name",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "info",
           "animation_keyframes": [
             {
               "top": [
@@ -350,13 +349,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "info"
         },
         {
-          "target_query": {
-            "id": "info",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "angle": {},
@@ -379,7 +375,11 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "info",
+            "element": "clipPath"
+          }
         }
       ]
     }

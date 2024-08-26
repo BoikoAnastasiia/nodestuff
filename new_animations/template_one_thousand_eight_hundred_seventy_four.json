@@ -6,7 +6,6 @@
       "animation_duration": 3000,
       "animation_objects": [
         {
-          "target_query": "gradient_left",
           "animation_keyframes": [
             {
               "left": 600,
@@ -18,10 +17,10 @@
               "endDelay": 2000,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "gradient_left"
         },
         {
-          "target_query": "gradient_right",
           "animation_keyframes": [
             {
               "left": [
@@ -36,10 +35,10 @@
               "endDelay": 2000,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "gradient_right"
         },
         {
-          "target_query": "rect_left",
           "animation_keyframes": [
             {
               "left": 1,
@@ -51,10 +50,10 @@
               "endDelay": 2000,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "rect_left"
         },
         {
-          "target_query": "rect_right",
           "animation_keyframes": [
             {
               "left": [
@@ -69,10 +68,10 @@
               "endDelay": 2000,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "rect_right"
         },
         {
-          "target_query": "left_background_dots",
           "animation_keyframes": [
             {
               "left": -250,
@@ -85,10 +84,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "left_background_dots"
         },
         {
-          "target_query": "right_background_dots",
           "animation_keyframes": [
             {
               "left": [
@@ -104,10 +103,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "right_background_dots"
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -119,10 +118,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": "title",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -134,10 +133,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ]
+          ],
+          "id": "title"
         },
         {
-          "target_query": "subtitle",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -149,10 +148,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ]
+          ],
+          "id": "subtitle"
         },
         {
-          "target_query": "hashtag",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -164,10 +163,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ]
+          ],
+          "id": "hashtag"
         },
         {
-          "target_query": "logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -179,10 +178,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ]
+          ],
+          "id": "logo"
         },
         {
-          "target_query": "main_photo",
           "animation_keyframes": [
             {
               "scaleX": "*=1.02",
@@ -197,10 +196,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "main_photo"
         },
         {
-          "target_query": "logo_l",
           "animation_keyframes": [
             {
               "left": 500,
@@ -218,10 +217,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo_l"
         },
         {
-          "target_query": "logo_r",
           "animation_keyframes": [
             {
               "left": 500,
@@ -238,7 +237,8 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo_r"
         }
       ]
     }

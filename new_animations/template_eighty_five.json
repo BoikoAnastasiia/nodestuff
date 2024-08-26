@@ -13,7 +13,6 @@
           }
         },
         {
-          "target_query": "legend_wrapper",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -25,10 +24,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "legend_wrapper"
         },
         {
-          "target_query": "schedule_item_date_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -40,10 +39,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_1"
         },
         {
-          "target_query": "schedule_item_team_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -55,10 +54,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_1"
         },
         {
-          "target_query": "schedule_item_date_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -70,10 +69,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_2"
         },
         {
-          "target_query": "schedule_item_team_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -85,10 +84,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_2"
         },
         {
-          "target_query": "schedule_item_date_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -100,10 +99,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_3"
         },
         {
-          "target_query": "schedule_item_team_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -115,10 +114,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_3"
         },
         {
-          "target_query": "schedule_item_date_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -130,10 +129,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_4"
         },
         {
-          "target_query": "schedule_item_team_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -145,10 +144,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_4"
         },
         {
-          "target_query": "schedule_item_date_5",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -160,10 +159,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_5"
         },
         {
-          "target_query": "schedule_item_team_5",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -175,10 +174,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_5"
         },
         {
-          "target_query": "schedule_item_date_6",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -190,10 +189,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_6"
         },
         {
-          "target_query": "schedule_item_team_6",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -205,10 +204,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_6"
         },
         {
-          "target_query": "schedule_item_date_7",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -220,10 +219,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_7"
         },
         {
-          "target_query": "schedule_item_team_7",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -235,10 +234,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_7"
         },
         {
-          "target_query": "schedule_item_date_8",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -250,10 +249,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_8"
         },
         {
-          "target_query": "schedule_item_team_8",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -265,10 +264,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_8"
         },
         {
-          "target_query": "schedule_item_date_9",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -280,10 +279,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_9"
         },
         {
-          "target_query": "schedule_item_team_9",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -295,10 +294,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_9"
         },
         {
-          "target_query": "schedule_item_date_10",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -310,10 +309,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_10"
         },
         {
-          "target_query": "schedule_item_team_10",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -325,10 +324,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_10"
         },
         {
-          "target_query": "schedule_item_date_11",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -340,10 +339,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_11"
         },
         {
-          "target_query": "schedule_item_team_11",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -355,10 +354,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_11"
         },
         {
-          "target_query": "schedule_item_date_12",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -370,10 +369,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_12"
         },
         {
-          "target_query": "schedule_item_team_12",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -385,10 +384,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_12"
         },
         {
-          "target_query": "schedule_item_date_13",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -400,10 +399,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_13"
         },
         {
-          "target_query": "schedule_item_team_13",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -415,10 +414,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_13"
         },
         {
-          "target_query": "schedule_item_date_14",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -430,10 +429,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_14"
         },
         {
-          "target_query": "schedule_item_team_14",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -445,10 +444,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_14"
         },
         {
-          "target_query": "schedule_item_date_15",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -460,10 +459,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_date_15"
         },
         {
-          "target_query": "schedule_item_team_15",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -475,10 +474,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "schedule_item_team_15"
         },
         {
-          "target_query": "school_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -490,10 +489,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "school_text"
         },
         {
-          "target_query": "sport_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -505,10 +504,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "sport_text"
         },
         {
-          "target_query": "title_background",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -520,10 +519,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title_background"
         },
         {
-          "target_query": "title_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -535,10 +534,10 @@
               "duration": 200,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "title_text"
         },
         {
-          "target_query": "logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -550,7 +549,8 @@
               "duration": 100,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo"
         }
       ]
     }

@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "background_texture",
           "animation_keyframes": [
             {
               "originX": 0.5,
@@ -78,13 +77,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "background_texture"
         },
         {
-          "target_query": {
-            "id": "school_name_tf",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": 273,
@@ -96,13 +92,13 @@
               "duration": 0,
               "endDelay": 9200
             }
-          ]
+          ],
+          "id": {
+            "id": "school_name_tf",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": {
-            "id": "info_tf",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -200,
@@ -114,13 +110,13 @@
               "duration": 0,
               "endDelay": 9200
             }
-          ]
+          ],
+          "id": {
+            "id": "info_tf",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": {
-            "id": "logo",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": 162,
@@ -132,10 +128,13 @@
               "duration": 0,
               "endDelay": 9200
             }
-          ]
+          ],
+          "id": {
+            "id": "logo",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -283,10 +282,10 @@
               "easing": "easeInOutSine",
               "endDelay": 60
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -434,10 +433,10 @@
               "easing": "easeInOutSine",
               "endDelay": 60
             }
-          ]
+          ],
+          "id": "logo"
         },
         {
-          "target_query": "school_name_tf",
           "animation_keyframes": [
             {
               "top": [
@@ -453,10 +452,10 @@
               "easing": "easeOutSine",
               "endDelay": 9500
             }
-          ]
+          ],
+          "id": "school_name_tf"
         },
         {
-          "target_query": "info_tf",
           "animation_keyframes": [
             {
               "top": [
@@ -472,10 +471,10 @@
               "easing": "easeOutSine",
               "endDelay": 9500
             }
-          ]
+          ],
+          "id": "info_tf"
         },
         {
-          "target_query": "sunburst",
           "animation_keyframes": [
             {
               "angle": -360,
@@ -486,7 +485,8 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "sunburst"
         }
       ]
     }

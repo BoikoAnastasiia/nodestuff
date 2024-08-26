@@ -5,7 +5,6 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
-          "target_query": "cutout_1",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -26,10 +25,10 @@
               "duration": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "cutout_1"
         },
         {
-          "target_query": "cutout_3",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -50,10 +49,10 @@
               "duration": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "cutout_3"
         },
         {
-          "target_query": "cutout_2",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -74,10 +73,10 @@
               "duration": 0,
               "top": {}
             }
-          ]
+          ],
+          "id": "cutout_2"
         },
         {
-          "target_query": "media",
           "animation_keyframes": [
             {
               "scaleX": "*=0.94",
@@ -92,7 +91,8 @@
               "scaleY": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "media"
         }
       ]
     }

@@ -5,7 +5,6 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
-          "target_query": "rectangle_center",
           "animation_keyframes": [
             {
               "left": 1270,
@@ -16,10 +15,10 @@
               "duration": 1500,
               "endDelay": 3500
             }
-          ]
+          ],
+          "id": "rectangle_center"
         },
         {
-          "target_query": "rectangle_center_little",
           "animation_keyframes": [
             {
               "left": 1228,
@@ -30,10 +29,10 @@
               "duration": 1500,
               "endDelay": 3500
             }
-          ]
+          ],
+          "id": "rectangle_center_little"
         },
         {
-          "target_query": "center_triangle",
           "animation_keyframes": [
             {
               "left": 146.64870322655906,
@@ -44,10 +43,10 @@
               "duration": 1500,
               "endDelay": 3500
             }
-          ]
+          ],
+          "id": "center_triangle"
         },
         {
-          "target_query": "left_bottom_triangle",
           "animation_keyframes": [
             {
               "left": -200,
@@ -59,10 +58,10 @@
               "duration": 1500,
               "endDelay": 3000
             }
-          ]
+          ],
+          "id": "left_bottom_triangle"
         },
         {
-          "target_query": "top_right_triangle_second",
           "animation_keyframes": [
             {
               "left": 1154,
@@ -74,10 +73,10 @@
               "duration": 1500,
               "endDelay": 3000
             }
-          ]
+          ],
+          "id": "top_right_triangle_second"
         },
         {
-          "target_query": "top_right_triangle_first",
           "animation_keyframes": [
             {
               "left": 1170,
@@ -89,10 +88,10 @@
               "duration": 1500,
               "endDelay": 3000
             }
-          ]
+          ],
+          "id": "top_right_triangle_first"
         },
         {
-          "target_query": "gradient_top_line",
           "animation_keyframes": [
             {
               "left": [
@@ -107,10 +106,10 @@
               "duration": 500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "gradient_top_line"
         },
         {
-          "target_query": "gradient_bottom_line",
           "animation_keyframes": [
             {
               "left": 1024,
@@ -122,10 +121,10 @@
               "duration": 500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "gradient_bottom_line"
         },
         {
-          "target_query": "main_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -137,10 +136,10 @@
               "duration": 500,
               "endDelay": 2000
             }
-          ]
+          ],
+          "id": "main_text"
         },
         {
-          "target_query": "date_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -152,10 +151,10 @@
               "duration": 500,
               "endDelay": 1500
             }
-          ]
+          ],
+          "id": "date_text"
         },
         {
-          "target_query": "logo_team_first",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -167,10 +166,10 @@
               "duration": 250,
               "endDelay": 1500
             }
-          ]
+          ],
+          "id": "logo_team_first"
         },
         {
-          "target_query": "vs_icon",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -182,10 +181,10 @@
               "duration": 250,
               "endDelay": 1250
             }
-          ]
+          ],
+          "id": "vs_icon"
         },
         {
-          "target_query": "logo_team_second",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -197,10 +196,10 @@
               "duration": 250,
               "endDelay": 1000
             }
-          ]
+          ],
+          "id": "logo_team_second"
         },
         {
-          "target_query": "location_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -212,10 +211,10 @@
               "duration": 250,
               "endDelay": 750
             }
-          ]
+          ],
+          "id": "location_text"
         },
         {
-          "target_query": "location_pin",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -227,10 +226,10 @@
               "duration": 250,
               "endDelay": 750
             }
-          ]
+          ],
+          "id": "location_pin"
         },
         {
-          "target_query": "hashtag_container",
           "animation_keyframes": [
             {
               "left": [
@@ -245,10 +244,10 @@
               "duration": 1000,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "hashtag_container"
         },
         {
-          "target_query": "hashtag_text",
           "animation_keyframes": [
             {
               "left": [
@@ -263,7 +262,8 @@
               "duration": 1000,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "hashtag_text"
         }
       ]
     }

@@ -5,10 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": {
-            "id": "headline",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": 634,
@@ -24,13 +20,13 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ]
+          ],
+          "id": {
+            "id": "headline",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": {
-            "id": "school_name",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": 320,
@@ -46,10 +42,13 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ]
+          ],
+          "id": {
+            "id": "school_name",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -65,10 +64,10 @@
               "easing": "easeOutSine",
               "endDelay": 9000
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": "school_name",
           "animation_keyframes": [
             {
               "left": [
@@ -84,10 +83,10 @@
               "easing": "easeOutSine",
               "endDelay": 9000
             }
-          ]
+          ],
+          "id": "school_name"
         },
         {
-          "target_query": "group_logo",
           "animation_keyframes": [
             {
               "top": [
@@ -171,10 +170,10 @@
               "easing": "easeInOutSine",
               "endDelay": 1200
             }
-          ]
+          ],
+          "id": "group_logo"
         },
         {
-          "target_query": "checker_flag_1",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -264,10 +263,10 @@
               "easing": "easeInOutSine",
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "checker_flag_1"
         },
         {
-          "target_query": "checker_flag_2",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -357,7 +356,8 @@
               "easing": "easeInOutSine",
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "checker_flag_2"
         }
       ]
     }

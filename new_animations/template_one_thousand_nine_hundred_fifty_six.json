@@ -5,10 +5,6 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
-          "target_query": {
-            "id": "template_image",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": 770,
@@ -20,10 +16,13 @@
               "endDelay": 3800,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": {
+            "id": "template_image",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "template_image",
           "animation_keyframes": [
             {
               "left": 400,
@@ -35,10 +34,10 @@
               "endDelay": 3800,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "template_image"
         },
         {
-          "target_query": "bottom_left_rect",
           "animation_keyframes": [
             {
               "left": 802,
@@ -50,10 +49,10 @@
               "endDelay": 3800,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "bottom_left_rect"
         },
         {
-          "target_query": "top_left_rect",
           "animation_keyframes": [
             {
               "left": 780,
@@ -65,10 +64,10 @@
               "endDelay": 3800,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "top_left_rect"
         },
         {
-          "target_query": "right_triangle",
           "animation_keyframes": [
             {
               "left": 720,
@@ -80,10 +79,10 @@
               "duration": 300,
               "endDelay": 3700
             }
-          ]
+          ],
+          "id": "right_triangle"
         },
         {
-          "target_query": "gradient_top_left",
           "animation_keyframes": [
             {
               "left": 720,
@@ -95,10 +94,10 @@
               "duration": 300,
               "endDelay": 3700
             }
-          ]
+          ],
+          "id": "gradient_top_left"
         },
         {
-          "target_query": "top_right_rect",
           "animation_keyframes": [
             {
               "left": 720,
@@ -110,10 +109,10 @@
               "duration": 300,
               "endDelay": 3700
             }
-          ]
+          ],
+          "id": "top_right_rect"
         },
         {
-          "target_query": "left_bottom_triangle",
           "animation_keyframes": [
             {
               "left": [
@@ -128,10 +127,10 @@
               "duration": 150,
               "endDelay": 3650
             }
-          ]
+          ],
+          "id": "left_bottom_triangle"
         },
         {
-          "target_query": "title_top_line",
           "animation_keyframes": [
             {
               "left": [
@@ -146,10 +145,10 @@
               "duration": 300,
               "endDelay": 3500
             }
-          ]
+          ],
+          "id": "title_top_line"
         },
         {
-          "target_query": "title_bottom_line",
           "animation_keyframes": [
             {
               "left": 720,
@@ -161,10 +160,10 @@
               "duration": 300,
               "endDelay": 3500
             }
-          ]
+          ],
+          "id": "title_bottom_line"
         },
         {
-          "target_query": "title",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -176,10 +175,10 @@
               "duration": 500,
               "endDelay": 3000
             }
-          ]
+          ],
+          "id": "title"
         },
         {
-          "target_query": "subtitle",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -191,10 +190,10 @@
               "duration": 500,
               "endDelay": 2700
             }
-          ]
+          ],
+          "id": "subtitle"
         },
         {
-          "target_query": "vs",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -206,10 +205,10 @@
               "duration": 500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "vs"
         },
         {
-          "target_query": "location",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -221,10 +220,10 @@
               "duration": 500,
               "endDelay": 2300
             }
-          ]
+          ],
+          "id": "location"
         },
         {
-          "target_query": "location_pin",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -236,10 +235,10 @@
               "duration": 500,
               "endDelay": 2300
             }
-          ]
+          ],
+          "id": "location_pin"
         },
         {
-          "target_query": "vs_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -251,10 +250,10 @@
               "duration": 500,
               "endDelay": 2500
             }
-          ]
+          ],
+          "id": "vs_line"
         },
         {
-          "target_query": "logo_first",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -266,10 +265,10 @@
               "duration": 500,
               "endDelay": 2600
             }
-          ]
+          ],
+          "id": "logo_first"
         },
         {
-          "target_query": "logo_second",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -281,10 +280,10 @@
               "duration": 500,
               "endDelay": 2400
             }
-          ]
+          ],
+          "id": "logo_second"
         },
         {
-          "target_query": "hashtag_container",
           "animation_keyframes": [
             {
               "left": [
@@ -300,10 +299,10 @@
               "endDelay": 2350,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "hashtag_container"
         },
         {
-          "target_query": "hashtag",
           "animation_keyframes": [
             {
               "left": [
@@ -319,7 +318,8 @@
               "endDelay": 2350,
               "easing": "easeOutCubic"
             }
-          ]
+          ],
+          "id": "hashtag"
         }
       ]
     }

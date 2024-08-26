@@ -5,7 +5,6 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
-          "target_query": "background_texture",
           "animation_keyframes": [
             {
               "originX": 0.5,
@@ -89,10 +88,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "background_texture"
         },
         {
-          "target_query": "headline_2_3",
           "animation_keyframes": [
             {
               "left": [
@@ -135,10 +134,10 @@
               "duration": 0,
               "endDelay": 7080
             }
-          ]
+          ],
+          "id": "headline_2_3"
         },
         {
-          "target_query": "headline_2_1",
           "animation_keyframes": [
             {
               "left": [
@@ -346,10 +345,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline_2_1"
         },
         {
-          "target_query": "headline_2_4",
           "animation_keyframes": [
             {
               "left": [
@@ -378,10 +377,10 @@
               "duration": 0,
               "endDelay": 7220
             }
-          ]
+          ],
+          "id": "headline_2_4"
         },
         {
-          "target_query": "headline_2_2",
           "animation_keyframes": [
             {
               "left": [
@@ -410,10 +409,10 @@
               "duration": 0,
               "endDelay": 7230
             }
-          ]
+          ],
+          "id": "headline_2_2"
         },
         {
-          "target_query": "headline_2_5",
           "animation_keyframes": [
             {
               "left": [
@@ -442,10 +441,10 @@
               "duration": 0,
               "endDelay": 7240
             }
-          ]
+          ],
+          "id": "headline_2_5"
         },
         {
-          "target_query": "headline_3_3",
           "animation_keyframes": [
             {
               "left": {},
@@ -485,10 +484,10 @@
               "duration": 0,
               "endDelay": 6650
             }
-          ]
+          ],
+          "id": "headline_3_3"
         },
         {
-          "target_query": "headline_3_1",
           "animation_keyframes": [
             {
               "top": {},
@@ -664,10 +663,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline_3_1"
         },
         {
-          "target_query": "headline_3_4",
           "animation_keyframes": [
             {
               "left": {},
@@ -693,10 +692,10 @@
               "duration": 0,
               "endDelay": 6770
             }
-          ]
+          ],
+          "id": "headline_3_4"
         },
         {
-          "target_query": "headline_3_2",
           "animation_keyframes": [
             {
               "left": {},
@@ -722,10 +721,10 @@
               "duration": 0,
               "endDelay": 6790
             }
-          ]
+          ],
+          "id": "headline_3_2"
         },
         {
-          "target_query": "headline_3_5",
           "animation_keyframes": [
             {
               "left": {},
@@ -751,13 +750,10 @@
               "duration": 0,
               "endDelay": 6800
             }
-          ]
+          ],
+          "id": "headline_3_5"
         },
         {
-          "target_query": {
-            "id": "headline",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": [
@@ -772,13 +768,34 @@
               "duration": 500,
               "endDelay": 6300
             }
-          ]
+          ],
+          "id": {
+            "id": "headline",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                434
+              ],
+              "duration": 0,
+              "endDelay": 1700
+            },
+            {
+              "left": {},
+              "duration": 300,
+              "endDelay": 6000
+            }
+          ],
+          "id": {
             "id": "name",
             "element": "clipPath"
-          },
+          }
+        },
+        {
           "animation_keyframes": [
             {
               "left": [
@@ -793,34 +810,13 @@
               "duration": 300,
               "endDelay": 6000
             }
-          ]
-        },
-        {
-          "target_query": {
+          ],
+          "id": {
             "id": "name_rect",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "left": [
-                "right",
-                434
-              ],
-              "duration": 0,
-              "endDelay": 1700
-            },
-            {
-              "left": {},
-              "duration": 300,
-              "endDelay": 6000
-            }
-          ]
+          }
         },
         {
-          "target_query": {
-            "id": "logo",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -453,
@@ -832,10 +828,13 @@
               "duration": 0,
               "endDelay": 6000
             }
-          ]
+          ],
+          "id": {
+            "id": "logo",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -908,7 +907,8 @@
               "duration": 0,
               "endDelay": 400
             }
-          ]
+          ],
+          "id": "logo"
         }
       ]
     }

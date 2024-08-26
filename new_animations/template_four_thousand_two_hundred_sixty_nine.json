@@ -5,7 +5,6 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
-          "target_query": "sunburst",
           "animation_keyframes": [
             {
               "angle": -360,
@@ -16,10 +15,10 @@
               "angle": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "sunburst"
         },
         {
-          "target_query": "rect_1",
           "animation_keyframes": [
             {
               "left": {},
@@ -30,38 +29,38 @@
               "left": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "rect_1"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "left": -817,
+              "duration": 0,
+              "endDelay": 150
+            },
+            {
+              "left": {},
+              "duration": 700,
+              "endDelay": 8100
+            },
+            {
+              "left": -817,
+              "duration": 700,
+              "endDelay": 350
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "rect_1",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "left": -817,
-              "duration": 0,
-              "endDelay": 150
-            },
-            {
-              "left": {},
-              "duration": 700,
-              "endDelay": 8100
-            },
-            {
-              "left": -817,
-              "duration": 700,
-              "endDelay": 350
-            },
-            {
-              "left": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "rect_2",
           "animation_keyframes": [
             {
               "left": {},
@@ -72,13 +71,10 @@
               "left": {},
               "duration": 0
             }
-          ]
+          ],
+          "id": "rect_2"
         },
         {
-          "target_query": {
-            "id": "rect_2",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": -817,
@@ -100,10 +96,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "rect_2",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "headline",
           "animation_keyframes": [
             {
               "left": {},
@@ -130,38 +129,38 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "headline"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "left": -665,
+              "duration": 0,
+              "endDelay": 410
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 9180
+            },
+            {
+              "left": -665,
+              "duration": 0,
+              "endDelay": 410
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "headline",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "left": -665,
-              "duration": 0,
-              "endDelay": 410
-            },
-            {
-              "left": {},
-              "duration": 0,
-              "endDelay": 9180
-            },
-            {
-              "left": -665,
-              "duration": 0,
-              "endDelay": 410
-            },
-            {
-              "left": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "score_1",
           "animation_keyframes": [
             {
               "left": {},
@@ -188,38 +187,38 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "score_1"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "left": 100,
+              "duration": 0,
+              "endDelay": 410
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 9180
+            },
+            {
+              "left": 100,
+              "duration": 0,
+              "endDelay": 400
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "score_1",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "left": 100,
-              "duration": 0,
-              "endDelay": 410
-            },
-            {
-              "left": {},
-              "duration": 0,
-              "endDelay": 9180
-            },
-            {
-              "left": 100,
-              "duration": 0,
-              "endDelay": 400
-            },
-            {
-              "left": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "name_1",
           "animation_keyframes": [
             {
               "top": {},
@@ -246,38 +245,38 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "name_1"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": 35,
+              "duration": 0,
+              "endDelay": 310
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9380
+            },
+            {
+              "top": 35,
+              "duration": 0,
+              "endDelay": 310
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "name_1",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": 35,
-              "duration": 0,
-              "endDelay": 310
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 9380
-            },
-            {
-              "top": 35,
-              "duration": 0,
-              "endDelay": 310
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "score_2",
           "animation_keyframes": [
             {
               "left": {},
@@ -304,13 +303,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "score_2"
         },
         {
-          "target_query": {
-            "id": "score_2",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "left": -690,
@@ -332,10 +328,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "score_2",
+            "element": "clipPath"
+          }
         },
         {
-          "target_query": "name_2",
           "animation_keyframes": [
             {
               "top": {},
@@ -362,38 +361,38 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "name_2"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": -32,
+              "duration": 0,
+              "endDelay": 310
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9380
+            },
+            {
+              "top": -32,
+              "duration": 0,
+              "endDelay": 310
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "name_2",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": -32,
-              "duration": 0,
-              "endDelay": 310
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 9380
-            },
-            {
-              "top": -32,
-              "duration": 0,
-              "endDelay": 310
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "logo_1",
           "animation_keyframes": [
             {
               "top": -45,
@@ -504,38 +503,38 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo_1"
         },
         {
-          "target_query": {
+          "animation_keyframes": [
+            {
+              "top": 153,
+              "duration": 0,
+              "endDelay": 310
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9380
+            },
+            {
+              "top": 153,
+              "duration": 0,
+              "endDelay": 310
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ],
+          "id": {
             "id": "logo_1",
             "element": "clipPath"
-          },
-          "animation_keyframes": [
-            {
-              "top": 153,
-              "duration": 0,
-              "endDelay": 310
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 9380
-            },
-            {
-              "top": 153,
-              "duration": 0,
-              "endDelay": 310
-            },
-            {
-              "top": {},
-              "duration": 0,
-              "endDelay": 0
-            }
-          ]
+          }
         },
         {
-          "target_query": "logo_2",
           "animation_keyframes": [
             {
               "top": 550,
@@ -646,13 +645,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": "logo_2"
         },
         {
-          "target_query": {
-            "id": "logo_2",
-            "element": "clipPath"
-          },
           "animation_keyframes": [
             {
               "top": -155,
@@ -674,7 +670,11 @@
               "duration": 0,
               "endDelay": 0
             }
-          ]
+          ],
+          "id": {
+            "id": "logo_2",
+            "element": "clipPath"
+          }
         }
       ]
     }
