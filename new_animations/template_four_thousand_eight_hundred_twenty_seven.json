@@ -121,7 +121,7 @@
         },
         {
           "target_query": {
-            "index": "main_shape_bg",
+            "id": "main_shape_bg",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -142,7 +142,7 @@
         },
         {
           "target_query": {
-            "index": "headline",
+            "id": "headline",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -232,7 +232,7 @@
         },
         {
           "target_query": {
-            "index": "school_name",
+            "id": "school_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -253,7 +253,7 @@
         },
         {
           "target_query": {
-            "index": "arrow_set_1",
+            "id": "arrow_set_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -474,7 +474,7 @@
         },
         {
           "target_query": {
-            "index": "arrow_set_2",
+            "id": "arrow_set_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -695,7 +695,7 @@
         },
         {
           "target_query": {
-            "index": "information",
+            "id": "information",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -736,7 +736,7 @@
         },
         {
           "target_query": {
-            "index": "logo",
+            "id": "logo",
             "element": "clipPath"
           },
           "animation_keyframes": [

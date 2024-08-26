@@ -3,34 +3,29 @@ const path = require('path');
 
 async function processFiles(animatedDir, templateDir, outputDir) {
   try {
-    // Read all files in the animated and template directories
     const [animatedFiles, templateFiles] = await Promise.all([
       fs.readdir(animatedDir),
       fs.readdir(templateDir),
     ]);
 
-    // Filter for JSON files
     const jsonAnimatedFiles = animatedFiles.filter(
       (file) => path.extname(file).toLowerCase() === '.json'
     );
 
     for (const animatedFile of jsonAnimatedFiles) {
       const animatedPath = path.join(animatedDir, animatedFile);
-      const templatePath = path.join(templateDir, animatedFile); // Assuming matching names
+      const templatePath = path.join(templateDir, animatedFile);
 
-      // Check if corresponding template file exists
       if (!templateFiles.includes(animatedFile)) {
         console.warn(`No matching template found for ${animatedFile}`);
         continue;
       }
 
-      // Read both animated and template files
       const [animatedContent, templateContent] = await Promise.all([
         fs.readFile(animatedPath, 'utf8').then(JSON.parse),
         fs.readFile(templatePath, 'utf8').then(JSON.parse),
       ]);
 
-      // Create a map of indices to ids and a map of special identifiers
       const idMap = {};
       const specialMap = {};
       templateContent.body.objects.forEach((obj, index) => {
@@ -39,14 +34,12 @@ async function processFiles(animatedDir, templateDir, outputDir) {
         if (obj.conrolTitle) specialMap[obj.conrolTitle.toLowerCase()] = obj.id;
       });
 
-      // Transform the animated content
       const transformedContent = transformContent(
         animatedContent,
         idMap,
         specialMap
       );
 
-      // Write the transformed content to the output directory
       const outputPath = path.join(outputDir, animatedFile);
       await fs.writeFile(
         outputPath,
@@ -71,23 +64,29 @@ function transformContent(content, idMap, specialMap) {
           ) {
             obj.target_query = idMap[obj.target_query];
           } else if (typeof obj.target_query === 'string') {
-            // Check if it's a special identifier
             if (specialMap[obj.target_query.toLowerCase()]) {
               obj.target_query = specialMap[obj.target_query.toLowerCase()];
             }
-            // If not found in specialMap, keep the original string
-          } else if (
-            typeof obj.target_query === 'object' &&
-            obj.target_query.index !== undefined
-          ) {
-            if (idMap[obj.target_query.index] !== undefined) {
-              obj.target_query.index = idMap[obj.target_query.index];
-            } else if (
-              typeof obj.target_query.index === 'string' &&
-              specialMap[obj.target_query.index.toLowerCase()]
-            ) {
-              obj.target_query.index =
-                specialMap[obj.target_query.index.toLowerCase()];
+          } else if (typeof obj.target_query === 'object') {
+            if (obj.target_query.index !== undefined) {
+              let newId;
+              if (
+                typeof obj.target_query.index === 'number' &&
+                idMap[obj.target_query.index] !== undefined
+              ) {
+                newId = idMap[obj.target_query.index];
+              } else if (
+                typeof obj.target_query.index === 'string' &&
+                specialMap[obj.target_query.index.toLowerCase()]
+              ) {
+                newId = specialMap[obj.target_query.index.toLowerCase()];
+              } else {
+                newId = obj.target_query.index; // Keep original if no mapping found
+              }
+              obj.target_query = {
+                id: newId,
+                element: obj.target_query.element,
+              };
             }
           }
           return obj;
@@ -102,7 +101,6 @@ const animatedDir = './old_animations';
 const templateDir = './default_presets';
 const outputDir = './new_animations';
 
-// Ensure output directory exists
 fs.mkdir(outputDir, { recursive: true })
   .then(() => processFiles(animatedDir, templateDir, outputDir))
   .catch((error) => console.error('Error creating output directory:', error));

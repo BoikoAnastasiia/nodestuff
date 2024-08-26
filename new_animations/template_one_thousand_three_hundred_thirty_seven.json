@@ -6,7 +6,7 @@
       "animation_objects": [
         {
           "target_query": {
-            "index": "template_image",
+            "id": "template_image",
             "element": "clipPath"
           },
           "animation_keyframes": [

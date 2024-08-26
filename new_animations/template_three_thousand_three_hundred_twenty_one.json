@@ -52,7 +52,7 @@
         },
         {
           "target_query": {
-            "index": "grid_1",
+            "id": "grid_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -77,7 +77,7 @@
         },
         {
           "target_query": {
-            "index": "grid_2",
+            "id": "grid_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -448,7 +448,7 @@
         },
         {
           "target_query": {
-            "index": "rect_team_1",
+            "id": "rect_team_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -485,7 +485,7 @@
         },
         {
           "target_query": {
-            "index": "rect_team_2",
+            "id": "rect_team_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -518,7 +518,7 @@
         },
         {
           "target_query": {
-            "index": "team_1_name",
+            "id": "team_1_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -551,7 +551,7 @@
         },
         {
           "target_query": {
-            "index": "team_2_name",
+            "id": "team_2_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -569,7 +569,7 @@
         },
         {
           "target_query": {
-            "index": "rect_final",
+            "id": "rect_final",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -587,7 +587,7 @@
         },
         {
           "target_query": {
-            "index": "circle_hd",
+            "id": "circle_hd",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -605,7 +605,7 @@
         },
         {
           "target_query": {
-            "index": "time_indicator",
+            "id": "time_indicator",
             "element": "clipPath"
           },
           "animation_keyframes": [

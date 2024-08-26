@@ -1044,7 +1044,7 @@
         },
         {
           "target_query": {
-            "index": "team_logo",
+            "id": "team_logo",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1130,7 +1130,7 @@
         },
         {
           "target_query": {
-            "index": "school_name",
+            "id": "school_name",
             "element": "clipPath"
           },
           "animation_keyframes": [

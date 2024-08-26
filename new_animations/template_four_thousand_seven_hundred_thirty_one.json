@@ -6,7 +6,7 @@
       "animation_objects": [
         {
           "target_query": {
-            "index": "group_logo",
+            "id": "group_logo",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -28,7 +28,7 @@
         },
         {
           "target_query": {
-            "index": "school_name",
+            "id": "school_name",
             "element": "clipPath"
           },
           "animation_keyframes": [

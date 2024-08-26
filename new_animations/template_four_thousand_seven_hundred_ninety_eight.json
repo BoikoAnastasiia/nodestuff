@@ -851,7 +851,7 @@
         },
         {
           "target_query": {
-            "index": "gradient_bg_1",
+            "id": "gradient_bg_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -955,7 +955,7 @@
         },
         {
           "target_query": {
-            "index": "headline",
+            "id": "headline",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1003,7 +1003,7 @@
         },
         {
           "target_query": {
-            "index": "school_name",
+            "id": "school_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1086,7 +1086,7 @@
         },
         {
           "target_query": {
-            "index": "logo",
+            "id": "logo",
             "element": "clipPath"
           },
           "animation_keyframes": [

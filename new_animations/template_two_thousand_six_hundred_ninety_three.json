@@ -1110,7 +1110,7 @@
         },
         {
           "target_query": {
-            "index": "title_1",
+            "id": "title_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1127,7 +1127,7 @@
         },
         {
           "target_query": {
-            "index": "title_2",
+            "id": "title_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1164,7 +1164,7 @@
         },
         {
           "target_query": {
-            "index": "first_name",
+            "id": "first_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1201,7 +1201,7 @@
         },
         {
           "target_query": {
-            "index": "last_name",
+            "id": "last_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1238,7 +1238,7 @@
         },
         {
           "target_query": {
-            "index": "triangle",
+            "id": "triangle",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1275,7 +1275,7 @@
         },
         {
           "target_query": {
-            "index": "number",
+            "id": "number",
             "element": "clipPath"
           },
           "animation_keyframes": [

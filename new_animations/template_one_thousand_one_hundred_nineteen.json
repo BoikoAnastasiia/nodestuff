@@ -36,7 +36,7 @@
         },
         {
           "target_query": {
-            "index": "top_paper_texture",
+            "id": "top_paper_texture",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -84,7 +84,7 @@
         },
         {
           "target_query": {
-            "index": "bottom_paper_texture",
+            "id": "bottom_paper_texture",
             "element": "clipPath"
           },
           "animation_keyframes": [

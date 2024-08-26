@@ -342,7 +342,7 @@
         },
         {
           "target_query": {
-            "index": "team_name_1",
+            "id": "team_name_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -395,7 +395,7 @@
         },
         {
           "target_query": {
-            "index": "team_name_2",
+            "id": "team_name_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -448,7 +448,7 @@
         },
         {
           "target_query": {
-            "index": "logo_rect_left",
+            "id": "logo_rect_left",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -554,7 +554,7 @@
         },
         {
           "target_query": {
-            "index": "score_rect_left",
+            "id": "score_rect_left",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -649,7 +649,7 @@
         },
         {
           "target_query": {
-            "index": "logo_1",
+            "id": "logo_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -744,7 +744,7 @@
         },
         {
           "target_query": {
-            "index": "score_1",
+            "id": "score_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -839,7 +839,7 @@
         },
         {
           "target_query": {
-            "index": "logo_rect_right",
+            "id": "logo_rect_right",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -945,7 +945,7 @@
         },
         {
           "target_query": {
-            "index": "score_rect_right",
+            "id": "score_rect_right",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1040,7 +1040,7 @@
         },
         {
           "target_query": {
-            "index": "logo_2",
+            "id": "logo_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1135,7 +1135,7 @@
         },
         {
           "target_query": {
-            "index": "score_2",
+            "id": "score_2",
             "element": "clipPath"
           },
           "animation_keyframes": [

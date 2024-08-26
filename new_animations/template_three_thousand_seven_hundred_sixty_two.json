@@ -755,7 +755,7 @@
         },
         {
           "target_query": {
-            "index": "headline",
+            "id": "headline",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -776,7 +776,7 @@
         },
         {
           "target_query": {
-            "index": "name",
+            "id": "name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -797,7 +797,7 @@
         },
         {
           "target_query": {
-            "index": "name_rect",
+            "id": "name_rect",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -818,7 +818,7 @@
         },
         {
           "target_query": {
-            "index": "logo",
+            "id": "logo",
             "element": "clipPath"
           },
           "animation_keyframes": [

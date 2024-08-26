@@ -401,7 +401,7 @@
         },
         {
           "target_query": {
-            "index": "team_score_1",
+            "id": "team_score_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -419,7 +419,7 @@
         },
         {
           "target_query": {
-            "index": "team_score_2",
+            "id": "team_score_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -437,7 +437,7 @@
         },
         {
           "target_query": {
-            "index": "team_name_1",
+            "id": "team_name_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -455,7 +455,7 @@
         },
         {
           "target_query": {
-            "index": "team_name_2",
+            "id": "team_name_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -619,7 +619,7 @@
         },
         {
           "target_query": {
-            "index": "background_image",
+            "id": "background_image",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -685,7 +685,7 @@
         },
         {
           "target_query": {
-            "index": "texture",
+            "id": "texture",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1376,7 +1376,7 @@
         },
         {
           "target_query": {
-            "index": "sea_bubbles_1",
+            "id": "sea_bubbles_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1430,7 +1430,7 @@
         },
         {
           "target_query": {
-            "index": "sea_bubbles_2",
+            "id": "sea_bubbles_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1484,7 +1484,7 @@
         },
         {
           "target_query": {
-            "index": "sea_bubbles_3",
+            "id": "sea_bubbles_3",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1538,7 +1538,7 @@
         },
         {
           "target_query": {
-            "index": "sea_bubbles_4",
+            "id": "sea_bubbles_4",
             "element": "clipPath"
           },
           "animation_keyframes": [

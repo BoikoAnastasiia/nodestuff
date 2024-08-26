@@ -103,7 +103,7 @@
         },
         {
           "target_query": {
-            "index": "school_name_tf",
+            "id": "school_name_tf",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -156,7 +156,7 @@
         },
         {
           "target_query": {
-            "index": "date_time_tf",
+            "id": "date_time_tf",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -209,7 +209,7 @@
         },
         {
           "target_query": {
-            "index": "location_tf",
+            "id": "location_tf",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -267,7 +267,7 @@
         },
         {
           "target_query": {
-            "index": "headline_2_tf",
+            "id": "headline_2_tf",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -320,7 +320,7 @@
         },
         {
           "target_query": {
-            "index": "opponent_name_tf",
+            "id": "opponent_name_tf",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -433,7 +433,7 @@
         },
         {
           "target_query": {
-            "index": "team_1_logo",
+            "id": "team_1_logo",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -546,7 +546,7 @@
         },
         {
           "target_query": {
-            "index": "team_2_logo",
+            "id": "team_2_logo",
             "element": "clipPath"
           },
           "animation_keyframes": [

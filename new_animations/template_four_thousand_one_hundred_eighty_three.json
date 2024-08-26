@@ -74,7 +74,7 @@
         },
         {
           "target_query": {
-            "index": "group_2",
+            "id": "group_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -95,7 +95,7 @@
         },
         {
           "target_query": {
-            "index": "group_1",
+            "id": "group_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -202,7 +202,7 @@
         },
         {
           "target_query": {
-            "index": "team_1_name_bg",
+            "id": "team_1_name_bg",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -223,7 +223,7 @@
         },
         {
           "target_query": {
-            "index": "team_2_name_bg",
+            "id": "team_2_name_bg",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -244,7 +244,7 @@
         },
         {
           "target_query": {
-            "index": "team_1_name",
+            "id": "team_1_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -265,7 +265,7 @@
         },
         {
           "target_query": {
-            "index": "team_2_name",
+            "id": "team_2_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -286,7 +286,7 @@
         },
         {
           "target_query": {
-            "index": "group_logo_1",
+            "id": "group_logo_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -307,7 +307,7 @@
         },
         {
           "target_query": {
-            "index": "group_logo_2",
+            "id": "group_logo_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -328,7 +328,7 @@
         },
         {
           "target_query": {
-            "index": "headline",
+            "id": "headline",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -372,7 +372,7 @@
         },
         {
           "target_query": {
-            "index": "team_1_score_bg",
+            "id": "team_1_score_bg",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -393,7 +393,7 @@
         },
         {
           "target_query": {
-            "index": "team_2_score_bg",
+            "id": "team_2_score_bg",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -414,7 +414,7 @@
         },
         {
           "target_query": {
-            "index": "team_1_score",
+            "id": "team_1_score",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -435,7 +435,7 @@
         },
         {
           "target_query": {
-            "index": "team_2_score",
+            "id": "team_2_score",
             "element": "clipPath"
           },
           "animation_keyframes": [

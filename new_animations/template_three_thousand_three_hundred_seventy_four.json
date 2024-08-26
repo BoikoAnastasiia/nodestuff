@@ -218,7 +218,7 @@
         },
         {
           "target_query": {
-            "index": "media",
+            "id": "media",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -246,7 +246,7 @@
         },
         {
           "target_query": {
-            "index": "right_rect",
+            "id": "right_rect",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -274,7 +274,7 @@
         },
         {
           "target_query": {
-            "index": "add_info",
+            "id": "add_info",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -327,7 +327,7 @@
         },
         {
           "target_query": {
-            "index": "accent_logo",
+            "id": "accent_logo",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -496,7 +496,7 @@
         },
         {
           "target_query": {
-            "index": "logo_group_1",
+            "id": "logo_group_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -630,7 +630,7 @@
         },
         {
           "target_query": {
-            "index": "logo_group_2",
+            "id": "logo_group_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -658,7 +658,7 @@
         },
         {
           "target_query": {
-            "index": "rect_vs",
+            "id": "rect_vs",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -686,7 +686,7 @@
         },
         {
           "target_query": {
-            "index": "vs",
+            "id": "vs",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -714,7 +714,7 @@
         },
         {
           "target_query": {
-            "index": "subtitle",
+            "id": "subtitle",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -742,7 +742,7 @@
         },
         {
           "target_query": {
-            "index": "rect_time",
+            "id": "rect_time",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -770,7 +770,7 @@
         },
         {
           "target_query": {
-            "index": "gen_info_1",
+            "id": "gen_info_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -798,7 +798,7 @@
         },
         {
           "target_query": {
-            "index": "gen_info_2",
+            "id": "gen_info_2",
             "element": "clipPath"
           },
           "animation_keyframes": [

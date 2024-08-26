@@ -144,7 +144,7 @@
         },
         {
           "target_query": {
-            "index": "headline_1",
+            "id": "headline_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -186,7 +186,7 @@
         },
         {
           "target_query": {
-            "index": "headline_3",
+            "id": "headline_3",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -228,7 +228,7 @@
         },
         {
           "target_query": {
-            "index": "school_name",
+            "id": "school_name",
             "element": "clipPath"
           },
           "animation_keyframes": [

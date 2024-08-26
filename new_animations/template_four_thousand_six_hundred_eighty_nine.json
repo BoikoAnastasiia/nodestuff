@@ -6,7 +6,7 @@
       "animation_objects": [
         {
           "target_query": {
-            "index": "headline_tf",
+            "id": "headline_tf",
             "element": "clipPath"
           },
           "animation_keyframes": [

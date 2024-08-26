@@ -502,7 +502,7 @@
         },
         {
           "target_query": {
-            "index": "media",
+            "id": "media",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -800,7 +800,7 @@
         },
         {
           "target_query": {
-            "index": "cutout",
+            "id": "cutout",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1508,7 +1508,7 @@
         },
         {
           "target_query": {
-            "index": "tape",
+            "id": "tape",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1535,7 +1535,7 @@
         },
         {
           "target_query": {
-            "index": "arrow",
+            "id": "arrow",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1563,7 +1563,7 @@
         },
         {
           "target_query": {
-            "index": "circle_1",
+            "id": "circle_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -1902,7 +1902,7 @@
         },
         {
           "target_query": {
-            "index": "drawn_circle_2",
+            "id": "drawn_circle_2",
             "element": "clipPath"
           },
           "animation_keyframes": [

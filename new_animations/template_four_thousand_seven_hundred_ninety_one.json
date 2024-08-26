@@ -82,7 +82,7 @@
         },
         {
           "target_query": {
-            "index": "school_name_tf",
+            "id": "school_name_tf",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -100,7 +100,7 @@
         },
         {
           "target_query": {
-            "index": "info_tf",
+            "id": "info_tf",
             "element": "clipPath"
           },
           "animation_keyframes": [

@@ -16,7 +16,7 @@
         },
         {
           "target_query": {
-            "index": "group_logo",
+            "id": "group_logo",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -88,7 +88,7 @@
         },
         {
           "target_query": {
-            "index": "headline",
+            "id": "headline",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -167,7 +167,7 @@
         },
         {
           "target_query": {
-            "index": "headline_2",
+            "id": "headline_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -207,7 +207,7 @@
         },
         {
           "target_query": {
-            "index": "school",
+            "id": "school",
             "element": "clipPath"
           },
           "animation_keyframes": [

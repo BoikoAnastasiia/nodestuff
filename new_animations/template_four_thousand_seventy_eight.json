@@ -339,7 +339,7 @@
         },
         {
           "target_query": {
-            "index": "rect_1",
+            "id": "rect_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -378,7 +378,7 @@
         },
         {
           "target_query": {
-            "index": "school_name",
+            "id": "school_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -436,7 +436,7 @@
         },
         {
           "target_query": {
-            "index": "location",
+            "id": "location",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -483,7 +483,7 @@
         },
         {
           "target_query": {
-            "index": "time",
+            "id": "time",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -530,7 +530,7 @@
         },
         {
           "target_query": {
-            "index": "rect_2",
+            "id": "rect_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -618,7 +618,7 @@
         },
         {
           "target_query": {
-            "index": "logo_1",
+            "id": "logo_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -706,7 +706,7 @@
         },
         {
           "target_query": {
-            "index": "rect_3",
+            "id": "rect_3",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -794,7 +794,7 @@
         },
         {
           "target_query": {
-            "index": "logo_2",
+            "id": "logo_2",
             "element": "clipPath"
           },
           "animation_keyframes": [

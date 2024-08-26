@@ -378,7 +378,7 @@
         },
         {
           "target_query": {
-            "index": "title_1",
+            "id": "title_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -417,7 +417,7 @@
         },
         {
           "target_query": {
-            "index": "title_2",
+            "id": "title_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -456,7 +456,7 @@
         },
         {
           "target_query": {
-            "index": "headline",
+            "id": "headline",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -498,7 +498,7 @@
         },
         {
           "target_query": {
-            "index": "team_1",
+            "id": "team_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -540,7 +540,7 @@
         },
         {
           "target_query": {
-            "index": "team_2",
+            "id": "team_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -675,7 +675,7 @@
         },
         {
           "target_query": {
-            "index": "player_number",
+            "id": "player_number",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -714,7 +714,7 @@
         },
         {
           "target_query": {
-            "index": "name",
+            "id": "name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -753,7 +753,7 @@
         },
         {
           "target_query": {
-            "index": "second_name",
+            "id": "second_name",
             "element": "clipPath"
           },
           "animation_keyframes": [

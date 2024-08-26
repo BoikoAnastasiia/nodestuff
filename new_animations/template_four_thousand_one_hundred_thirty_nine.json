@@ -74,7 +74,7 @@
         },
         {
           "target_query": {
-            "index": "group_2",
+            "id": "group_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -95,7 +95,7 @@
         },
         {
           "target_query": {
-            "index": "group_1",
+            "id": "group_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -214,7 +214,7 @@
         },
         {
           "target_query": {
-            "index": "group_3",
+            "id": "group_3",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -235,7 +235,7 @@
         },
         {
           "target_query": {
-            "index": "group_4",
+            "id": "group_4",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -256,7 +256,7 @@
         },
         {
           "target_query": {
-            "index": "vs_background",
+            "id": "vs_background",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -277,7 +277,7 @@
         },
         {
           "target_query": {
-            "index": "headline_1",
+            "id": "headline_1",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -321,7 +321,7 @@
         },
         {
           "target_query": {
-            "index": "headline_2",
+            "id": "headline_2",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -342,7 +342,7 @@
         },
         {
           "target_query": {
-            "index": "school_name",
+            "id": "school_name",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -363,7 +363,7 @@
         },
         {
           "target_query": {
-            "index": "date_time",
+            "id": "date_time",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -407,7 +407,7 @@
         },
         {
           "target_query": {
-            "index": "location",
+            "id": "location",
             "element": "clipPath"
           },
           "animation_keyframes": [

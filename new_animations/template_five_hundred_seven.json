@@ -116,7 +116,7 @@
         },
         {
           "target_query": {
-            "index": "template_textura",
+            "id": "template_textura",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -141,7 +141,7 @@
         },
         {
           "target_query": {
-            "index": "template_background_photo",
+            "id": "template_background_photo",
             "element": "clipPath"
           },
           "animation_keyframes": [

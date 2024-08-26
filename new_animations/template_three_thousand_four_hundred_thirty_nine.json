@@ -56,7 +56,7 @@
         },
         {
           "target_query": {
-            "index": "add_info",
+            "id": "add_info",
             "element": "clipPath"
           },
           "animation_keyframes": [
@@ -180,7 +180,7 @@
         },
         {
           "target_query": {
-            "index": "accent_logo",
+            "id": "accent_logo",
             "element": "clipPath"
           },
           "animation_keyframes": [
