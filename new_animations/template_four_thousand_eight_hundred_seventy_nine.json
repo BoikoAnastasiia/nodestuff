@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "group_circle_foreground",
           "animation_keyframes": [
             {
               "left": [
@@ -51,10 +52,10 @@
               "duration": 1400,
               "endDelay": 0
             }
-          ],
-          "id": "group_circle_foreground"
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -138,10 +139,10 @@
               "endDelay": 0,
               "easing": "easeOutSine"
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -153,10 +154,13 @@
               "duration": 900,
               "endDelay": 8900
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name"
+          },
           "animation_keyframes": [
             {
               "scaleX": 0.242,
@@ -180,13 +184,10 @@
               "duration": 0,
               "endDelay": 9000
             }
-          ],
-          "id": {
-            "id": "school_name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "group_circle_1",
           "animation_keyframes": [
             {
               "top": [
@@ -203,10 +204,10 @@
               "duration": 3000,
               "endDelay": 6400
             }
-          ],
-          "id": "group_circle_1"
+          ]
         },
         {
+          "id": "group_circle_3",
           "animation_keyframes": [
             {
               "top": [
@@ -229,10 +230,10 @@
               "duration": 5600,
               "endDelay": 0
             }
-          ],
-          "id": "group_circle_3"
+          ]
         },
         {
+          "id": "group_circle_2",
           "animation_keyframes": [
             {
               "top": [
@@ -257,10 +258,10 @@
               "duration": 6300,
               "endDelay": 0
             }
-          ],
-          "id": "group_circle_2"
+          ]
         },
         {
+          "id": "headline_1",
           "animation_keyframes": [
             {
               "left": [
@@ -285,10 +286,10 @@
               "duration": 100,
               "endDelay": 0
             }
-          ],
-          "id": "headline_1"
+          ]
         },
         {
+          "id": "headline_2",
           "animation_keyframes": [
             {
               "left": [
@@ -313,10 +314,10 @@
               "duration": 100,
               "endDelay": 0
             }
-          ],
-          "id": "headline_2"
+          ]
         },
         {
+          "id": "headline_4",
           "animation_keyframes": [
             {
               "left": [
@@ -341,10 +342,10 @@
               "duration": 100,
               "endDelay": 0
             }
-          ],
-          "id": "headline_4"
+          ]
         },
         {
+          "id": "headline_5",
           "animation_keyframes": [
             {
               "left": [
@@ -369,10 +370,10 @@
               "duration": 100,
               "endDelay": 0
             }
-          ],
-          "id": "headline_5"
+          ]
         },
         {
+          "id": "headline_3",
           "animation_keyframes": [
             {
               "left": [
@@ -392,8 +393,7 @@
               "duration": 7600,
               "endDelay": 0
             }
-          ],
-          "id": "headline_3"
+          ]
         }
       ]
     }

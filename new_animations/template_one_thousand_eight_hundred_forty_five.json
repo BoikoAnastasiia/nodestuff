@@ -5,6 +5,7 @@
       "animation_duration": 7000,
       "animation_objects": [
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -16,10 +17,10 @@
               "duration": 0,
               "endDelay": 6750
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -31,10 +32,10 @@
               "duration": 0,
               "endDelay": 6750
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "id": "vs_at",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -46,10 +47,10 @@
               "duration": 0,
               "endDelay": 6750
             }
-          ],
-          "id": "vs_at"
+          ]
         },
         {
+          "id": "logo_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -61,10 +62,10 @@
               "duration": 0,
               "endDelay": 6750
             }
-          ],
-          "id": "logo_1"
+          ]
         },
         {
+          "id": "logo_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -76,10 +77,10 @@
               "duration": 0,
               "endDelay": 6750
             }
-          ],
-          "id": "logo_2"
+          ]
         },
         {
+          "id": "hashtag",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -91,10 +92,10 @@
               "duration": 0,
               "endDelay": 6750
             }
-          ],
-          "id": "hashtag"
+          ]
         },
         {
+          "id": "left_stroke",
           "animation_keyframes": [
             {
               "left": [
@@ -110,10 +111,10 @@
               "endDelay": 5500,
               "easing": "cubicBezier(0,1.04,1,.99)"
             }
-          ],
-          "id": "left_stroke"
+          ]
         },
         {
+          "id": "right_stroke",
           "animation_keyframes": [
             {
               "left": [
@@ -129,10 +130,10 @@
               "endDelay": 5500,
               "easing": "cubicBezier(0,1.04,1,.99)"
             }
-          ],
-          "id": "right_stroke"
+          ]
         },
         {
+          "id": "figure",
           "animation_keyframes": [
             {
               "left": [
@@ -148,10 +149,10 @@
               "endDelay": 5500,
               "easing": "cubicBezier(0,1.04,1,.99)"
             }
-          ],
-          "id": "figure"
+          ]
         },
         {
+          "id": "score_group_1",
           "animation_keyframes": [
             {
               "left": [
@@ -167,10 +168,10 @@
               "endDelay": 5500,
               "easing": "cubicBezier(0,1.04,1,.99)"
             }
-          ],
-          "id": "score_group_1"
+          ]
         },
         {
+          "id": "score_group_2",
           "animation_keyframes": [
             {
               "left": [
@@ -186,10 +187,10 @@
               "endDelay": 5500,
               "easing": "cubicBezier(0,1.04,1,.99)"
             }
-          ],
-          "id": "score_group_2"
+          ]
         },
         {
+          "id": "team_1",
           "animation_keyframes": [
             {
               "charSpacing": 1000,
@@ -218,10 +219,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "team_1"
+          ]
         },
         {
+          "id": "team_2",
           "animation_keyframes": [
             {
               "charSpacing": 1000,
@@ -249,10 +250,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "team_2"
+          ]
         },
         {
+          "id": "score_1",
           "animation_keyframes": [
             {
               "top": 540,
@@ -275,10 +276,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "score_1"
+          ]
         },
         {
+          "id": "score_2",
           "animation_keyframes": [
             {
               "top": [
@@ -307,8 +308,7 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "score_2"
+          ]
         }
       ]
     }

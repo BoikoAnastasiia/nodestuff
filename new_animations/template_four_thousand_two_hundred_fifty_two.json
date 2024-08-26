@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "sunburst_color",
           "animation_keyframes": [
             {
               "angle": -360,
@@ -15,10 +16,10 @@
               "angle": {},
               "duration": 0
             }
-          ],
-          "id": "sunburst_color"
+          ]
         },
         {
+          "id": "headline_bg_color",
           "animation_keyframes": [
             {
               "left": -500,
@@ -44,10 +45,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "headline_bg_color"
+          ]
         },
         {
+          "id": "headline_1",
           "animation_keyframes": [
             {
               "left": -500,
@@ -73,10 +74,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "headline_1"
+          ]
         },
         {
+          "id": "school_name_tf",
           "animation_keyframes": [
             {
               "top": 320,
@@ -98,10 +99,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "school_name_tf"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name_tf"
+          },
           "animation_keyframes": [
             {
               "top": 347,
@@ -123,13 +127,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "school_name_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "date_time_tf",
           "animation_keyframes": [
             {
               "left": 700,
@@ -151,10 +152,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "date_time_tf"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "date_time_tf"
+          },
           "animation_keyframes": [
             {
               "left": -700,
@@ -176,13 +180,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "date_time_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "location_tf",
           "animation_keyframes": [
             {
               "left": 700,
@@ -204,10 +205,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "location_tf"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "location_tf"
+          },
           "animation_keyframes": [
             {
               "left": -700,
@@ -229,13 +233,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "location_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline_2_tf",
           "animation_keyframes": [
             {
               "left": {},
@@ -262,10 +263,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "headline_2_tf"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_2_tf"
+          },
           "animation_keyframes": [
             {
               "left": 55,
@@ -287,13 +291,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "headline_2_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "opponent_name_tf",
           "animation_keyframes": [
             {
               "top": 462,
@@ -315,10 +316,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "opponent_name_tf"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "opponent_name_tf"
+          },
           "animation_keyframes": [
             {
               "top": -82,
@@ -340,13 +344,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "opponent_name_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "team_1_logo",
           "animation_keyframes": [
             {
               "top": 260,
@@ -428,10 +429,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "team_1_logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "team_1_logo"
+          },
           "animation_keyframes": [
             {
               "top": 330,
@@ -453,13 +457,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "team_1_logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "team_2_logo",
           "animation_keyframes": [
             {
               "top": 490,
@@ -541,10 +542,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "team_2_logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "team_2_logo"
+          },
           "animation_keyframes": [
             {
               "top": -67,
@@ -566,11 +570,7 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "team_2_logo",
-            "element": "clipPath"
-          }
+          ]
         }
       ]
     }

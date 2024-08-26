@@ -5,6 +5,7 @@
       "animation_duration": 4000,
       "animation_objects": [
         {
+          "id": "wave_line",
           "animation_keyframes": [
             {
               "scaleY": {},
@@ -30,10 +31,10 @@
               "duration": 0,
               "top": {}
             }
-          ],
-          "id": "wave_line"
+          ]
         },
         {
+          "id": "background_paper",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -51,10 +52,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "background_paper"
+          ]
         },
         {
+          "id": "group_paper",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -72,10 +73,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "group_paper"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_paper"
+          },
           "animation_keyframes": [
             {
               "top": -300,
@@ -86,13 +90,10 @@
               "duration": 4000,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "group_paper",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "group_wave",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -110,10 +111,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "group_wave"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_wave"
+          },
           "animation_keyframes": [
             {
               "top": -300,
@@ -124,13 +128,10 @@
               "duration": 4000,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "group_wave",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "smoke_pr",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -169,10 +170,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "smoke_pr"
+          ]
         },
         {
+          "id": "smoke_sec",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -211,10 +212,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "smoke_sec"
+          ]
         },
         {
+          "id": "cutout_photo",
           "animation_keyframes": [
             {
               "top": 800,
@@ -232,10 +233,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "cutout_photo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "cutout_photo"
+          },
           "animation_keyframes": [
             {
               "top": -300,
@@ -246,13 +250,10 @@
               "duration": 4000,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "cutout_photo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "cir_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -274,10 +275,10 @@
               "duration": 1000,
               "endDelay": 0
             }
-          ],
-          "id": "cir_line"
+          ]
         },
         {
+          "id": "template_texture",
           "animation_keyframes": [
             {
               "angle": 90,
@@ -319,8 +320,7 @@
               "duration": 0,
               "endDelay": 500
             }
-          ],
-          "id": "template_texture"
+          ]
         }
       ]
     }

@@ -5,6 +5,7 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
+          "id": "hashtag",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -23,10 +24,10 @@
               "opacity": {},
               "duration": 0
             }
-          ],
-          "id": "hashtag"
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -45,10 +46,10 @@
               "opacity": {},
               "duration": 0
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "id": "shadow_paper",
           "animation_keyframes": [
             {
               "top": 960,
@@ -67,10 +68,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "shadow_paper"
+          ]
         },
         {
+          "id": "ripped_paper",
           "animation_keyframes": [
             {
               "top": 960,
@@ -89,10 +90,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "ripped_paper"
+          ]
         },
         {
+          "id": "bottom_background",
           "animation_keyframes": [
             {
               "top": 960,
@@ -111,10 +112,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "bottom_background"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "template_textura"
+          },
           "animation_keyframes": [
             {
               "top": 960,
@@ -133,13 +137,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "template_textura",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "template_background_photo"
+          },
           "animation_keyframes": [
             {
               "top": 960,
@@ -158,13 +162,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "template_background_photo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "top": 960,
@@ -183,10 +184,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "top": 960,
@@ -205,10 +206,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "id": "additional_information",
           "animation_keyframes": [
             {
               "top": 960,
@@ -227,10 +228,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "additional_information"
+          ]
         },
         {
+          "id": "photo_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -251,10 +252,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "photo_1"
+          ]
         },
         {
+          "id": "first_name_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -275,10 +276,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "first_name_1"
+          ]
         },
         {
+          "id": "number_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -299,10 +300,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "number_1"
+          ]
         },
         {
+          "id": "last_name_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -323,10 +324,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "last_name_1"
+          ]
         },
         {
+          "id": "photo_2",
           "animation_keyframes": [
             {
               "top": 960,
@@ -347,10 +348,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "photo_2"
+          ]
         },
         {
+          "id": "number_2",
           "animation_keyframes": [
             {
               "top": 960,
@@ -371,10 +372,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "number_2"
+          ]
         },
         {
+          "id": "first_name_2",
           "animation_keyframes": [
             {
               "top": 960,
@@ -395,10 +396,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "first_name_2"
+          ]
         },
         {
+          "id": "last_name_2",
           "animation_keyframes": [
             {
               "top": 960,
@@ -419,10 +420,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "last_name_2"
+          ]
         },
         {
+          "id": "triangle_under_photo_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -443,10 +444,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "triangle_under_photo_1"
+          ]
         },
         {
+          "id": "photo_3",
           "animation_keyframes": [
             {
               "top": 960,
@@ -467,10 +468,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "photo_3"
+          ]
         },
         {
+          "id": "number_3",
           "animation_keyframes": [
             {
               "top": 960,
@@ -491,10 +492,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "number_3"
+          ]
         },
         {
+          "id": "first_name_3",
           "animation_keyframes": [
             {
               "top": 960,
@@ -515,10 +516,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "first_name_3"
+          ]
         },
         {
+          "id": "last_name_3",
           "animation_keyframes": [
             {
               "top": 960,
@@ -539,10 +540,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "last_name_3"
+          ]
         },
         {
+          "id": "photo_4",
           "animation_keyframes": [
             {
               "top": 960,
@@ -563,10 +564,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "photo_4"
+          ]
         },
         {
+          "id": "number_4",
           "animation_keyframes": [
             {
               "top": 960,
@@ -587,10 +588,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "number_4"
+          ]
         },
         {
+          "id": "first_name_4",
           "animation_keyframes": [
             {
               "top": 960,
@@ -611,10 +612,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "first_name_4"
+          ]
         },
         {
+          "id": "last_name_4",
           "animation_keyframes": [
             {
               "top": 960,
@@ -635,10 +636,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "last_name_4"
+          ]
         },
         {
+          "id": "photo_5",
           "animation_keyframes": [
             {
               "top": 960,
@@ -659,10 +660,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "photo_5"
+          ]
         },
         {
+          "id": "number_5",
           "animation_keyframes": [
             {
               "top": 960,
@@ -683,10 +684,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "number_5"
+          ]
         },
         {
+          "id": "first_name_5",
           "animation_keyframes": [
             {
               "top": 960,
@@ -707,10 +708,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "first_name_5"
+          ]
         },
         {
+          "id": "last_name_5",
           "animation_keyframes": [
             {
               "top": 960,
@@ -731,8 +732,7 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "last_name_5"
+          ]
         }
       ]
     }

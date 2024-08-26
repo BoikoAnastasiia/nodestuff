@@ -5,6 +5,10 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "background_logo"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -19,13 +23,10 @@
               "duration": 0,
               "endDelay": 9300
             }
-          ],
-          "id": {
-            "id": "background_logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "background_logo",
           "animation_keyframes": [
             {
               "top": [
@@ -40,10 +41,13 @@
               "duration": 500,
               "endDelay": 9300
             }
-          ],
-          "id": "background_logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "logo"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -58,13 +62,10 @@
               "duration": 0,
               "endDelay": 9300
             }
-          ],
-          "id": {
-            "id": "logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -79,10 +80,13 @@
               "duration": 500,
               "endDelay": 9300
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -97,13 +101,10 @@
               "duration": 0,
               "endDelay": 9300
             }
-          ],
-          "id": {
-            "id": "headline",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "top": [
@@ -118,10 +119,13 @@
               "duration": 300,
               "endDelay": 9300
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -136,13 +140,10 @@
               "duration": 0,
               "endDelay": 9100
             }
-          ],
-          "id": {
-            "id": "school_name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "school_name",
           "animation_keyframes": [
             {
               "left": [
@@ -157,10 +158,10 @@
               "duration": 500,
               "endDelay": 9100
             }
-          ],
-          "id": "school_name"
+          ]
         },
         {
+          "id": "shape_4",
           "animation_keyframes": [
             {
               "left": [
@@ -188,10 +189,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "shape_4"
+          ]
         },
         {
+          "id": "shape_3",
           "animation_keyframes": [
             {
               "left": [
@@ -216,10 +217,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "shape_3"
+          ]
         },
         {
+          "id": "shape_2",
           "animation_keyframes": [
             {
               "left": [
@@ -247,10 +248,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "shape_2"
+          ]
         },
         {
+          "id": "shape_1",
           "animation_keyframes": [
             {
               "left": [
@@ -275,8 +276,7 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "shape_1"
+          ]
         }
       ]
     }

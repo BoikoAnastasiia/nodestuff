@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "team_1_logo_outline",
           "animation_keyframes": [
             {
               "top": {},
@@ -123,10 +124,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "team_1_logo_outline"
+          ]
         },
         {
+          "id": "school_name",
           "animation_keyframes": [
             {
               "top": 300,
@@ -138,10 +139,13 @@
               "duration": 500,
               "endDelay": 9000
             }
-          ],
-          "id": "school_name"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name"
+          },
           "animation_keyframes": [
             {
               "top": 425,
@@ -153,13 +157,10 @@
               "duration": 0,
               "endDelay": 9000
             }
-          ],
-          "id": {
-            "id": "school_name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "info",
           "animation_keyframes": [
             {
               "top": 300,
@@ -171,10 +172,13 @@
               "duration": 500,
               "endDelay": 9200
             }
-          ],
-          "id": "info"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "info"
+          },
           "animation_keyframes": [
             {
               "top": 425,
@@ -186,13 +190,10 @@
               "duration": 0,
               "endDelay": 9000
             }
-          ],
-          "id": {
-            "id": "info",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "left": -500,
@@ -204,10 +205,10 @@
               "duration": 700,
               "endDelay": 9300
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "headline_1",
           "animation_keyframes": [
             {
               "left": -500,
@@ -219,10 +220,10 @@
               "duration": 700,
               "endDelay": 8750
             }
-          ],
-          "id": "headline_1"
+          ]
         },
         {
+          "id": "headline_2",
           "animation_keyframes": [
             {
               "left": -500,
@@ -234,10 +235,10 @@
               "duration": 700,
               "endDelay": 9050
             }
-          ],
-          "id": "headline_2"
+          ]
         },
         {
+          "id": "headline_3",
           "animation_keyframes": [
             {
               "left": -500,
@@ -249,10 +250,10 @@
               "duration": 700,
               "endDelay": 9050
             }
-          ],
-          "id": "headline_3"
+          ]
         },
         {
+          "id": "headline_4",
           "animation_keyframes": [
             {
               "left": -500,
@@ -264,10 +265,10 @@
               "duration": 700,
               "endDelay": 8750
             }
-          ],
-          "id": "headline_4"
+          ]
         },
         {
+          "id": "headline_5",
           "animation_keyframes": [
             {
               "left": -500,
@@ -279,10 +280,10 @@
               "duration": 700,
               "endDelay": 8700
             }
-          ],
-          "id": "headline_5"
+          ]
         },
         {
+          "id": "headline_6",
           "animation_keyframes": [
             {
               "left": -500,
@@ -294,10 +295,10 @@
               "duration": 700,
               "endDelay": 8550
             }
-          ],
-          "id": "headline_6"
+          ]
         },
         {
+          "id": "headline_7",
           "animation_keyframes": [
             {
               "left": -500,
@@ -309,10 +310,10 @@
               "duration": 700,
               "endDelay": 8300
             }
-          ],
-          "id": "headline_7"
+          ]
         },
         {
+          "id": "texture_for",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -344,10 +345,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "texture_for"
+          ]
         },
         {
+          "id": "team_logo_1",
           "animation_keyframes": [
             {
               "top": {},
@@ -466,8 +467,7 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "team_logo_1"
+          ]
         }
       ]
     }

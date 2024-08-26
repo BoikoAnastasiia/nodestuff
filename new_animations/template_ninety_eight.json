@@ -5,6 +5,7 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
+          "id": "top_left_photo_frame",
           "animation_keyframes": [
             {
               "top": -260,
@@ -16,10 +17,10 @@
               "duration": 1400,
               "endDelay": 3600
             }
-          ],
-          "id": "top_left_photo_frame"
+          ]
         },
         {
+          "id": "bottom_right_photo_frame",
           "animation_keyframes": [
             {
               "top": 690,
@@ -31,10 +32,10 @@
               "duration": 1400,
               "endDelay": 3600
             }
-          ],
-          "id": "bottom_right_photo_frame"
+          ]
         },
         {
+          "id": "left_bottom_first_part_cross_element",
           "animation_keyframes": [
             {
               "top": 545,
@@ -46,10 +47,10 @@
               "duration": 1400,
               "endDelay": 3600
             }
-          ],
-          "id": "left_bottom_first_part_cross_element"
+          ]
         },
         {
+          "id": "left_bottom_second_part_cross_element",
           "animation_keyframes": [
             {
               "top": 545,
@@ -61,10 +62,10 @@
               "duration": 1400,
               "endDelay": 3600
             }
-          ],
-          "id": "left_bottom_second_part_cross_element"
+          ]
         },
         {
+          "id": 2,
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -79,6 +80,7 @@
           ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -90,10 +92,10 @@
               "duration": 2000,
               "endDelay": 0
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "id": "title_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -105,10 +107,10 @@
               "duration": 2000,
               "endDelay": 0
             }
-          ],
-          "id": "title_text"
+          ]
         },
         {
+          "id": "horizontal_stripe",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -120,10 +122,10 @@
               "duration": 2000,
               "endDelay": 0
             }
-          ],
-          "id": "horizontal_stripe"
+          ]
         },
         {
+          "id": "event_info",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -135,8 +137,7 @@
               "duration": 2000,
               "endDelay": 0
             }
-          ],
-          "id": "event_info"
+          ]
         }
       ]
     }

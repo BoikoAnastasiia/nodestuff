@@ -5,6 +5,7 @@
       "animation_duration": 9000,
       "animation_objects": [
         {
+          "id": "corner_wave",
           "animation_keyframes": [
             {
               "top": -411,
@@ -27,10 +28,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "corner_wave"
+          ]
         },
         {
+          "id": "wave_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -48,10 +49,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "wave_logo"
+          ]
         },
         {
+          "id": "adidas_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -69,10 +70,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "adidas_logo"
+          ]
         },
         {
+          "id": "separator",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -90,10 +91,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "separator"
+          ]
         },
         {
+          "id": "photo",
           "animation_keyframes": [
             {
               "scaleY": "*=1.1",
@@ -105,10 +106,10 @@
               "scaleX": {},
               "duration": 0
             }
-          ],
-          "id": "photo"
+          ]
         },
         {
+          "id": "photo_background",
           "animation_keyframes": [
             {
               "top": 600,
@@ -168,10 +169,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "photo_background"
+          ]
         },
         {
+          "id": "hide_photo_background",
           "animation_keyframes": [
             {
               "top": 600,
@@ -231,10 +232,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "hide_photo_background"
+          ]
         },
         {
+          "id": "labreakers_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -255,10 +256,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ],
-          "id": "labreakers_logo"
+          ]
         },
         {
+          "id": "opponent_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -279,10 +280,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ],
-          "id": "opponent_logo"
+          ]
         },
         {
+          "id": "team_score_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -303,10 +304,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ],
-          "id": "team_score_1"
+          ]
         },
         {
+          "id": "team_name_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -327,10 +328,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ],
-          "id": "team_name_1"
+          ]
         },
         {
+          "id": "team_score_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -351,10 +352,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ],
-          "id": "team_score_2"
+          ]
         },
         {
+          "id": "team_name_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -375,10 +376,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ],
-          "id": "team_name_2"
+          ]
         },
         {
+          "id": "score_dash",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -396,10 +397,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "score_dash"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "team_score_1"
+          },
           "animation_keyframes": [
             {
               "top": -150,
@@ -411,13 +415,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "team_score_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "team_score_2"
+          },
           "animation_keyframes": [
             {
               "top": -150,
@@ -429,13 +433,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "team_score_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "team_name_1"
+          },
           "animation_keyframes": [
             {
               "top": -100,
@@ -447,13 +451,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "team_name_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "team_name_2"
+          },
           "animation_keyframes": [
             {
               "top": -100,
@@ -465,13 +469,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "team_name_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "corner_wave_bottom",
           "animation_keyframes": [
             {
               "top": 1000,
@@ -488,10 +489,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "corner_wave_bottom"
+          ]
         },
         {
+          "id": "background_image",
           "animation_keyframes": [
             {
               "top": 305,
@@ -551,10 +552,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "background_image"
+          ]
         },
         {
+          "id": "texture",
           "animation_keyframes": [
             {
               "top": 600,
@@ -614,10 +615,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "texture"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "background_image"
+          },
           "animation_keyframes": [
             {
               "top": 600,
@@ -677,13 +681,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "background_image",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "texture"
+          },
           "animation_keyframes": [
             {
               "top": 600,
@@ -743,13 +747,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "texture",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "sea_bubbles_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -911,10 +912,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "sea_bubbles_1"
+          ]
         },
         {
+          "id": "sea_bubbles_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1071,10 +1072,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "sea_bubbles_2"
+          ]
         },
         {
+          "id": "sea_bubbles_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1221,10 +1222,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "sea_bubbles_3"
+          ]
         },
         {
+          "id": "sea_bubbles_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1371,10 +1372,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "sea_bubbles_4"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "sea_bubbles_1"
+          },
           "animation_keyframes": [
             {
               "top": 600,
@@ -1422,13 +1426,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "sea_bubbles_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "sea_bubbles_2"
+          },
           "animation_keyframes": [
             {
               "top": 600,
@@ -1476,13 +1480,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "sea_bubbles_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "sea_bubbles_3"
+          },
           "animation_keyframes": [
             {
               "top": 600,
@@ -1530,13 +1534,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "sea_bubbles_3",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "sea_bubbles_4"
+          },
           "animation_keyframes": [
             {
               "top": 600,
@@ -1584,11 +1588,7 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "sea_bubbles_4",
-            "element": "clipPath"
-          }
+          ]
         }
       ]
     }

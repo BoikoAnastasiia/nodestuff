@@ -5,6 +5,7 @@
       "animation_duration": 6000,
       "animation_objects": [
         {
+          "id": "vertical_line",
           "animation_keyframes": [
             {
               "scaleY": 0.1,
@@ -16,10 +17,10 @@
               "endDelay": 5370,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "vertical_line"
+          ]
         },
         {
+          "id": "horizontal_line_top",
           "animation_keyframes": [
             {
               "scaleX": 0.1,
@@ -32,10 +33,10 @@
               "endDelay": 3587,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "horizontal_line_top"
+          ]
         },
         {
+          "id": "photo_5",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -48,10 +49,10 @@
               "endDelay": 3610,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "photo_5"
+          ]
         },
         {
+          "id": "rect_for_photo_5",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -64,10 +65,10 @@
               "endDelay": 3610,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "rect_for_photo_5"
+          ]
         },
         {
+          "id": "outer_stroke",
           "animation_keyframes": [
             {
               "scaleX": 0.1,
@@ -80,10 +81,10 @@
               "endDelay": 3587,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "outer_stroke"
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "left": 831,
@@ -96,10 +97,10 @@
               "endDelay": 4500,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -115,10 +116,10 @@
               "endDelay": 4570,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "first_name_1",
           "animation_keyframes": [
             {
               "left": [
@@ -134,10 +135,10 @@
               "endDelay": 4370,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "first_name_1"
+          ]
         },
         {
+          "id": "second_name_1",
           "animation_keyframes": [
             {
               "left": [
@@ -153,10 +154,10 @@
               "endDelay": 4035,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "second_name_1"
+          ]
         },
         {
+          "id": "photo_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -169,10 +170,10 @@
               "endDelay": 2850,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "photo_4"
+          ]
         },
         {
+          "id": "rect_for_photo_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -185,10 +186,10 @@
               "endDelay": 2850,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "rect_for_photo_4"
+          ]
         },
         {
+          "id": "hashtag",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -201,10 +202,10 @@
               "endDelay": 3120,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "hashtag"
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -217,10 +218,10 @@
               "endDelay": 3120,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "id": "first_name_2",
           "animation_keyframes": [
             {
               "left": [
@@ -236,10 +237,10 @@
               "endDelay": 3610,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "first_name_2"
+          ]
         },
         {
+          "id": "second_name_2",
           "animation_keyframes": [
             {
               "left": [
@@ -255,10 +256,10 @@
               "endDelay": 3275,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "second_name_2"
+          ]
         },
         {
+          "id": "photo_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -271,10 +272,10 @@
               "endDelay": 2090,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "photo_3"
+          ]
         },
         {
+          "id": "rect_for_photo_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -287,10 +288,10 @@
               "endDelay": 2090,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "rect_for_photo_3"
+          ]
         },
         {
+          "id": "first_name_3",
           "animation_keyframes": [
             {
               "left": [
@@ -306,10 +307,10 @@
               "endDelay": 2850,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "first_name_3"
+          ]
         },
         {
+          "id": "second_name_3",
           "animation_keyframes": [
             {
               "left": [
@@ -325,10 +326,10 @@
               "endDelay": 2515,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "second_name_3"
+          ]
         },
         {
+          "id": "photo_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -341,10 +342,10 @@
               "endDelay": 1330,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "photo_2"
+          ]
         },
         {
+          "id": "rect_for_photo_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -357,10 +358,10 @@
               "endDelay": 1330,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "rect_for_photo_2"
+          ]
         },
         {
+          "id": "first_name_4",
           "animation_keyframes": [
             {
               "left": [
@@ -376,10 +377,10 @@
               "endDelay": 2090,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "first_name_4"
+          ]
         },
         {
+          "id": "second_name_4",
           "animation_keyframes": [
             {
               "left": [
@@ -395,10 +396,10 @@
               "endDelay": 1835,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "second_name_4"
+          ]
         },
         {
+          "id": "photo_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -411,10 +412,10 @@
               "endDelay": 660,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "photo_1"
+          ]
         },
         {
+          "id": "rect_for_photo_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -427,10 +428,10 @@
               "endDelay": 660,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "rect_for_photo_1"
+          ]
         },
         {
+          "id": "first_name_5",
           "animation_keyframes": [
             {
               "left": [
@@ -446,10 +447,10 @@
               "endDelay": 1420,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "first_name_5"
+          ]
         },
         {
+          "id": "second_name_5",
           "animation_keyframes": [
             {
               "left": [
@@ -465,8 +466,7 @@
               "endDelay": 1155,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "second_name_5"
+          ]
         }
       ]
     }

@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "paint_splatter_bg",
           "animation_keyframes": [
             {
               "scaleX": 0.768,
@@ -104,10 +105,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "paint_splatter_bg"
+          ]
         },
         {
+          "id": "bolt_5",
           "animation_keyframes": [
             {
               "top": 910,
@@ -262,10 +263,10 @@
               "endDelay": 25,
               "easing": "easeInOutSine"
             }
-          ],
-          "id": "bolt_5"
+          ]
         },
         {
+          "id": "bolt_2",
           "animation_keyframes": [
             {
               "top": [
@@ -423,10 +424,10 @@
               "endDelay": 25,
               "easing": "easeInOutSine"
             }
-          ],
-          "id": "bolt_2"
+          ]
         },
         {
+          "id": "bolt_1",
           "animation_keyframes": [
             {
               "top": [
@@ -584,10 +585,10 @@
               "endDelay": 25,
               "easing": "easeInOutSine"
             }
-          ],
-          "id": "bolt_1"
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -603,10 +604,10 @@
               "duration": 1000,
               "endDelay": 9000
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "school_name",
           "animation_keyframes": [
             {
               "top": 620,
@@ -618,10 +619,13 @@
               "duration": 370,
               "endDelay": 9000
             }
-          ],
-          "id": "school_name"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name"
+          },
           "animation_keyframes": [
             {
               "top": -297,
@@ -633,13 +637,10 @@
               "duration": 0,
               "endDelay": 8900
             }
-          ],
-          "id": {
-            "id": "school_name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "bolt_6",
           "animation_keyframes": [
             {
               "top": 910,
@@ -794,10 +795,10 @@
               "endDelay": 25,
               "easing": "easeInOutSine"
             }
-          ],
-          "id": "bolt_6"
+          ]
         },
         {
+          "id": "bolt_4",
           "animation_keyframes": [
             {
               "top": 910,
@@ -930,10 +931,10 @@
               "endDelay": 25,
               "easing": "easeInOutSine"
             }
-          ],
-          "id": "bolt_4"
+          ]
         },
         {
+          "id": "bolt_3",
           "animation_keyframes": [
             {
               "top": [
@@ -1069,10 +1070,10 @@
               "endDelay": 25,
               "easing": "easeInOutSine"
             }
-          ],
-          "id": "bolt_3"
+          ]
         },
         {
+          "id": "logo_line",
           "animation_keyframes": [
             {
               "scaleX": 0.001,
@@ -1087,10 +1088,10 @@
               "duration": 700,
               "endDelay": 9100
             }
-          ],
-          "id": "logo_line"
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "scaleX": 0.001,
@@ -1161,8 +1162,7 @@
               "top": {},
               "duration": 650
             }
-          ],
-          "id": "logo"
+          ]
         }
       ]
     }

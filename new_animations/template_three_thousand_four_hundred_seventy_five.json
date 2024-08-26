@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "team_1_logo",
           "animation_keyframes": [
             {
               "angle": -360,
@@ -142,10 +143,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "team_1_logo"
+          ]
         },
         {
+          "id": "paint_1",
           "animation_keyframes": [
             {
               "scaleX": "*=1.02",
@@ -283,10 +284,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "paint_1"
+          ]
         },
         {
+          "id": "stroke",
           "animation_keyframes": [
             {
               "scaleX": 0,
@@ -311,10 +312,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "stroke"
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "left": {},
@@ -387,10 +388,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline"
+          },
           "animation_keyframes": [
             {
               "top": -540,
@@ -412,13 +416,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "headline",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "top": 155,
@@ -445,10 +446,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "subtitle"
+          },
           "animation_keyframes": [
             {
               "top": -500,
@@ -470,13 +474,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "subtitle",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "subtitle",
           "animation_keyframes": [
             {
               "top": 500,
@@ -503,8 +504,7 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "subtitle"
+          ]
         }
       ]
     }

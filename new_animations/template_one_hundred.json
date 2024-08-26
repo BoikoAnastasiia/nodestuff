@@ -5,6 +5,7 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
+          "id": "template_image",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -33,10 +34,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "template_image"
+          ]
         },
         {
+          "id": "right_trapezoid",
           "animation_keyframes": [
             {
               "top": 1536,
@@ -47,10 +48,10 @@
               "duration": 700,
               "endDelay": 4300
             }
-          ],
-          "id": "right_trapezoid"
+          ]
         },
         {
+          "id": "left_trapezoid",
           "animation_keyframes": [
             {
               "top": 1050,
@@ -62,10 +63,10 @@
               "duration": 700,
               "endDelay": 3600
             }
-          ],
-          "id": "left_trapezoid"
+          ]
         },
         {
+          "id": "dotted_texture_100 dotted_texture_wrapper",
           "animation_keyframes": [
             {
               "top": 1050,
@@ -77,10 +78,10 @@
               "duration": 700,
               "endDelay": 3600
             }
-          ],
-          "id": "dotted_texture_100 dotted_texture_wrapper"
+          ]
         },
         {
+          "id": "title_wrapper",
           "animation_keyframes": [
             {
               "top": 820,
@@ -92,10 +93,10 @@
               "duration": 600,
               "endDelay": 2600
             }
-          ],
-          "id": "title_wrapper"
+          ]
         },
         {
+          "id": "score_line",
           "animation_keyframes": [
             {
               "top": 770,
@@ -107,10 +108,10 @@
               "duration": 600,
               "endDelay": 2600
             }
-          ],
-          "id": "score_line"
+          ]
         },
         {
+          "id": "title_text",
           "animation_keyframes": [
             {
               "top": 820,
@@ -122,10 +123,10 @@
               "duration": 600,
               "endDelay": 2600
             }
-          ],
-          "id": "title_text"
+          ]
         },
         {
+          "id": "first_logo",
           "animation_keyframes": [
             {
               "left": [
@@ -140,10 +141,10 @@
               "duration": 700,
               "endDelay": 2700
             }
-          ],
-          "id": "first_logo"
+          ]
         },
         {
+          "id": "second_logo",
           "animation_keyframes": [
             {
               "left": 432,
@@ -155,10 +156,10 @@
               "duration": 700,
               "endDelay": 2700
             }
-          ],
-          "id": "second_logo"
+          ]
         },
         {
+          "id": "first_team_score_text",
           "animation_keyframes": [
             {
               "text": "0",
@@ -175,10 +176,10 @@
               "duration": 2000,
               "round": 1
             }
-          ],
-          "id": "first_team_score_text"
+          ]
         },
         {
+          "id": "second_team_score_text",
           "animation_keyframes": [
             {
               "text": "0",
@@ -195,8 +196,7 @@
               "duration": 2000,
               "round": 1
             }
-          ],
-          "id": "second_team_score_text"
+          ]
         }
       ]
     }

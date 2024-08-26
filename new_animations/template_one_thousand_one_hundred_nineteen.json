@@ -5,6 +5,7 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
+          "id": "top_shadow",
           "animation_keyframes": [
             {
               "top": 108,
@@ -16,10 +17,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "top_shadow"
+          ]
         },
         {
+          "id": "top_background",
           "animation_keyframes": [
             {
               "top": -35,
@@ -31,10 +32,13 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "top_background"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "top_paper_texture"
+          },
           "animation_keyframes": [
             {
               "top": -18,
@@ -46,13 +50,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": {
-            "id": "top_paper_texture",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "top_ripped_edge",
           "animation_keyframes": [
             {
               "top": 110,
@@ -64,10 +65,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "top_ripped_edge"
+          ]
         },
         {
+          "id": "bottom_background",
           "animation_keyframes": [
             {
               "top": 305,
@@ -79,10 +80,13 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "bottom_background"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "bottom_paper_texture"
+          },
           "animation_keyframes": [
             {
               "top": 309,
@@ -94,13 +98,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": {
-            "id": "bottom_paper_texture",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "bottom_ripped_edge",
           "animation_keyframes": [
             {
               "top": -140,
@@ -112,10 +113,10 @@
               "endDelay": 6640,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "bottom_ripped_edge"
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -131,10 +132,10 @@
               "endDelay": 6340,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "id": "last_name",
           "animation_keyframes": [
             {
               "left": [
@@ -150,10 +151,10 @@
               "endDelay": 6060,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "last_name"
+          ]
         },
         {
+          "id": "first_name",
           "animation_keyframes": [
             {
               "left": [
@@ -169,10 +170,10 @@
               "endDelay": 5860,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "first_name"
+          ]
         },
         {
+          "id": "position",
           "animation_keyframes": [
             {
               "left": [
@@ -188,10 +189,10 @@
               "endDelay": 5860,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "position"
+          ]
         },
         {
+          "id": "number",
           "animation_keyframes": [
             {
               "top": [
@@ -207,10 +208,10 @@
               "endDelay": 6880,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "number"
+          ]
         },
         {
+          "id": "hometown_background",
           "animation_keyframes": [
             {
               "top": 562.9183225472027,
@@ -223,10 +224,10 @@
               "endDelay": 6880,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "hometown_background"
+          ]
         },
         {
+          "id": "hometown",
           "animation_keyframes": [
             {
               "top": 570.9183225472027,
@@ -239,10 +240,10 @@
               "endDelay": 6880,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "hometown"
+          ]
         },
         {
+          "id": "hashtag",
           "animation_keyframes": [
             {
               "top": 560,
@@ -255,10 +256,10 @@
               "endDelay": 6340,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "hashtag"
+          ]
         },
         {
+          "id": "cutout",
           "animation_keyframes": [
             {
               "scaleY": {},
@@ -283,8 +284,7 @@
               "duration": 0,
               "top": {}
             }
-          ],
-          "id": "cutout"
+          ]
         }
       ]
     }

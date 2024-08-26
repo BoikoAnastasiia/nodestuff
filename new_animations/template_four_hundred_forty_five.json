@@ -5,24 +5,10 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
-          "animation_keyframes": [
-            {
-              "left": 720,
-              "duration": 0,
-              "endDelay": 500
-            },
-            {
-              "left": {},
-              "duration": 700,
-              "endDelay": 3700
-            }
-          ],
-          "id": {
-            "id": "template_image",
-            "element": "clipPath"
-          }
-        },
-        {
+          "target_query": {
+            "element": "clipPath",
+            "id": "template_image"
+          },
           "animation_keyframes": [
             {
               "left": 720,
@@ -37,6 +23,22 @@
           ]
         },
         {
+          "id": 3,
+          "animation_keyframes": [
+            {
+              "left": 720,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "left": {},
+              "duration": 700,
+              "endDelay": 3700
+            }
+          ]
+        },
+        {
+          "id": "paper",
           "animation_keyframes": [
             {
               "left": 985,
@@ -48,10 +50,10 @@
               "duration": 700,
               "endDelay": 3700
             }
-          ],
-          "id": "paper"
+          ]
         },
         {
+          "id": "hashtag",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -63,10 +65,10 @@
               "duration": 700,
               "endDelay": 3700
             }
-          ],
-          "id": "hashtag"
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -78,10 +80,10 @@
               "duration": 700,
               "endDelay": 3700
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "id": "paint_splatter_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -93,10 +95,10 @@
               "duration": 700,
               "endDelay": 3100
             }
-          ],
-          "id": "paint_splatter_2"
+          ]
         },
         {
+          "id": "paint_splatter_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -108,10 +110,10 @@
               "duration": 700,
               "endDelay": 3100
             }
-          ],
-          "id": "paint_splatter_1"
+          ]
         },
         {
+          "id": "quote_top",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -123,10 +125,10 @@
               "duration": 700,
               "endDelay": 3100
             }
-          ],
-          "id": "quote_top"
+          ]
         },
         {
+          "id": "quote",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -138,10 +140,10 @@
               "duration": 700,
               "endDelay": 2900
             }
-          ],
-          "id": "quote"
+          ]
         },
         {
+          "id": "name",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -153,10 +155,10 @@
               "duration": 700,
               "endDelay": 2700
             }
-          ],
-          "id": "name"
+          ]
         },
         {
+          "id": "quote_bottom",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -168,8 +170,7 @@
               "duration": 700,
               "endDelay": 2500
             }
-          ],
-          "id": "quote_bottom"
+          ]
         }
       ]
     }

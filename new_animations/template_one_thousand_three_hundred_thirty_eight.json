@@ -5,6 +5,10 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "template_image"
+          },
           "animation_keyframes": [
             {
               "left": 960,
@@ -16,13 +20,10 @@
               "endDelay": 3800,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": {
-            "id": "template_image",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "template_image",
           "animation_keyframes": [
             {
               "left": 780,
@@ -34,10 +35,10 @@
               "endDelay": 3800,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "template_image"
+          ]
         },
         {
+          "id": "bottom_left_rect",
           "animation_keyframes": [
             {
               "left": 1000,
@@ -49,10 +50,10 @@
               "endDelay": 3800,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "bottom_left_rect"
+          ]
         },
         {
+          "id": "top_left_rect",
           "animation_keyframes": [
             {
               "left": 960,
@@ -64,10 +65,10 @@
               "endDelay": 3800,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "top_left_rect"
+          ]
         },
         {
+          "id": "right_triangle",
           "animation_keyframes": [
             {
               "left": 960,
@@ -79,10 +80,10 @@
               "duration": 300,
               "endDelay": 3700
             }
-          ],
-          "id": "right_triangle"
+          ]
         },
         {
+          "id": "gradient_top_left",
           "animation_keyframes": [
             {
               "left": 960,
@@ -94,10 +95,10 @@
               "duration": 300,
               "endDelay": 3700
             }
-          ],
-          "id": "gradient_top_left"
+          ]
         },
         {
+          "id": "top_right_rect",
           "animation_keyframes": [
             {
               "left": 960,
@@ -109,10 +110,10 @@
               "duration": 300,
               "endDelay": 3700
             }
-          ],
-          "id": "top_right_rect"
+          ]
         },
         {
+          "id": "left_bottom_triangle",
           "animation_keyframes": [
             {
               "left": [
@@ -127,10 +128,10 @@
               "duration": 150,
               "endDelay": 3650
             }
-          ],
-          "id": "left_bottom_triangle"
+          ]
         },
         {
+          "id": "title_top_line",
           "animation_keyframes": [
             {
               "left": [
@@ -145,10 +146,10 @@
               "duration": 300,
               "endDelay": 3500
             }
-          ],
-          "id": "title_top_line"
+          ]
         },
         {
+          "id": "title_bottom_line",
           "animation_keyframes": [
             {
               "left": 960,
@@ -160,10 +161,10 @@
               "duration": 300,
               "endDelay": 3500
             }
-          ],
-          "id": "title_bottom_line"
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -175,10 +176,10 @@
               "duration": 500,
               "endDelay": 3000
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "id": "subtitle",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -190,10 +191,10 @@
               "duration": 500,
               "endDelay": 2700
             }
-          ],
-          "id": "subtitle"
+          ]
         },
         {
+          "id": "vs",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -205,10 +206,10 @@
               "duration": 500,
               "endDelay": 2500
             }
-          ],
-          "id": "vs"
+          ]
         },
         {
+          "id": "location",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -220,10 +221,10 @@
               "duration": 500,
               "endDelay": 2300
             }
-          ],
-          "id": "location"
+          ]
         },
         {
+          "id": "location_pin",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -235,10 +236,10 @@
               "duration": 500,
               "endDelay": 2300
             }
-          ],
-          "id": "location_pin"
+          ]
         },
         {
+          "id": "vs_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -250,10 +251,10 @@
               "duration": 500,
               "endDelay": 2500
             }
-          ],
-          "id": "vs_line"
+          ]
         },
         {
+          "id": "logo_first",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -265,10 +266,10 @@
               "duration": 500,
               "endDelay": 2600
             }
-          ],
-          "id": "logo_first"
+          ]
         },
         {
+          "id": "logo_second",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -280,10 +281,10 @@
               "duration": 500,
               "endDelay": 2400
             }
-          ],
-          "id": "logo_second"
+          ]
         },
         {
+          "id": "hashtag_container",
           "animation_keyframes": [
             {
               "left": [
@@ -299,10 +300,10 @@
               "endDelay": 2350,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "hashtag_container"
+          ]
         },
         {
+          "id": "hashtag",
           "animation_keyframes": [
             {
               "left": [
@@ -318,8 +319,7 @@
               "endDelay": 2350,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "hashtag"
+          ]
         }
       ]
     }

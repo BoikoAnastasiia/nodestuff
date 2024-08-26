@@ -5,6 +5,7 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
+          "id": "bg_texture",
           "animation_keyframes": [
             {
               "scaleX": {},
@@ -24,10 +25,10 @@
               "duration": 7400,
               "endDelay": 0
             }
-          ],
-          "id": "bg_texture"
+          ]
         },
         {
+          "id": "foreground_texture",
           "animation_keyframes": [
             {
               "angle": {},
@@ -69,10 +70,13 @@
               "duration": 200,
               "endDelay": 0
             }
-          ],
-          "id": "foreground_texture"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_2"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -87,13 +91,13 @@
               "duration": 200,
               "endDelay": 7300
             }
-          ],
-          "id": {
-            "id": "group_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_1"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -108,13 +112,10 @@
               "duration": 200,
               "endDelay": 7300
             }
-          ],
-          "id": {
-            "id": "group_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "border_logo_background",
           "animation_keyframes": [
             {
               "top": [
@@ -129,10 +130,10 @@
               "duration": 400,
               "endDelay": 6800
             }
-          ],
-          "id": "border_logo_background"
+          ]
         },
         {
+          "id": "border_logo",
           "animation_keyframes": [
             {
               "top": [
@@ -197,10 +198,13 @@
               "duration": 500,
               "endDelay": 0
             }
-          ],
-          "id": "border_logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_3"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -215,13 +219,13 @@
               "duration": 350,
               "endDelay": 6650
             }
-          ],
-          "id": {
-            "id": "group_3",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_4"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -236,13 +240,13 @@
               "duration": 350,
               "endDelay": 6550
             }
-          ],
-          "id": {
-            "id": "group_4",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "vs_background"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -257,13 +261,13 @@
               "duration": 350,
               "endDelay": 6300
             }
-          ],
-          "id": {
-            "id": "vs_background",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_1"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -278,13 +282,10 @@
               "duration": 0,
               "endDelay": 6400
             }
-          ],
-          "id": {
-            "id": "headline_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline_1",
           "animation_keyframes": [
             {
               "left": {},
@@ -304,10 +305,13 @@
               "duration": 300,
               "endDelay": 6600
             }
-          ],
-          "id": "headline_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_2"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -322,13 +326,13 @@
               "duration": 350,
               "endDelay": 6300
             }
-          ],
-          "id": {
-            "id": "headline_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -343,13 +347,13 @@
               "duration": 350,
               "endDelay": 6300
             }
-          ],
-          "id": {
-            "id": "school_name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "date_time"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -364,13 +368,10 @@
               "duration": 0,
               "endDelay": 6400
             }
-          ],
-          "id": {
-            "id": "date_time",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "date_time",
           "animation_keyframes": [
             {
               "top": {},
@@ -390,10 +391,13 @@
               "duration": 200,
               "endDelay": 6700
             }
-          ],
-          "id": "date_time"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "location"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -408,13 +412,10 @@
               "duration": 0,
               "endDelay": 6400
             }
-          ],
-          "id": {
-            "id": "location",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "location",
           "animation_keyframes": [
             {
               "top": {},
@@ -434,8 +435,7 @@
               "duration": 200,
               "endDelay": 6700
             }
-          ],
-          "id": "location"
+          ]
         }
       ]
     }

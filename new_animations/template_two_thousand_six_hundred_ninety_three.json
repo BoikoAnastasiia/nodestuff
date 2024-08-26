@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "photo",
           "animation_keyframes": [
             {
               "scaleY": "*=1.15",
@@ -18,10 +19,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "photo"
+          ]
         },
         {
+          "id": "top_accent",
           "animation_keyframes": [
             {
               "top": -500,
@@ -70,10 +71,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "top_accent"
+          ]
         },
         {
+          "id": "texture_wave",
           "animation_keyframes": [
             {
               "top": -500,
@@ -122,10 +123,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "texture_wave"
+          ]
         },
         {
+          "id": "bottom_accent",
           "animation_keyframes": [
             {
               "top": 500,
@@ -174,10 +175,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "bottom_accent"
+          ]
         },
         {
+          "id": "bottom_street_pn",
           "animation_keyframes": [
             {
               "top": 500,
@@ -226,10 +227,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "bottom_street_pn"
+          ]
         },
         {
+          "id": "foreground_accent",
           "animation_keyframes": [
             {
               "top": 600,
@@ -278,10 +279,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "foreground_accent"
+          ]
         },
         {
+          "id": "divider",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -299,10 +300,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "divider"
+          ]
         },
         {
+          "id": "wave_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -320,10 +321,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "wave_logo"
+          ]
         },
         {
+          "id": "adidas_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -341,10 +342,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "adidas_logo"
+          ]
         },
         {
+          "id": "labreakers_logo",
           "animation_keyframes": [
             {
               "top": 500,
@@ -365,10 +366,10 @@
               "endDelay": 0,
               "top": {}
             }
-          ],
-          "id": "labreakers_logo"
+          ]
         },
         {
+          "id": "sea_bubbles_1",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -545,10 +546,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "sea_bubbles_1"
+          ]
         },
         {
+          "id": "sea_bubbles_2",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -720,10 +721,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "sea_bubbles_2"
+          ]
         },
         {
+          "id": "sea_bubbles_3",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -885,10 +886,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "sea_bubbles_3"
+          ]
         },
         {
+          "id": "sea_bubbles_4",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -1050,10 +1051,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "sea_bubbles_4"
+          ]
         },
         {
+          "id": "cutout",
           "animation_keyframes": [
             {
               "scaleY": "*=1.1",
@@ -1065,10 +1066,10 @@
               "scaleX": {},
               "duration": 0
             }
-          ],
-          "id": "cutout"
+          ]
         },
         {
+          "id": "title_1",
           "animation_keyframes": [
             {
               "left": -300,
@@ -1085,10 +1086,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "title_1"
+          ]
         },
         {
+          "id": "title_2",
           "animation_keyframes": [
             {
               "left": 550,
@@ -1105,10 +1106,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "title_2"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_1"
+          },
           "animation_keyframes": [
             {
               "left": 100,
@@ -1119,13 +1123,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_2"
+          },
           "animation_keyframes": [
             {
               "left": -435,
@@ -1136,13 +1140,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "first_name",
           "animation_keyframes": [
             {
               "left": -300,
@@ -1159,10 +1160,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "first_name"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "first_name"
+          },
           "animation_keyframes": [
             {
               "left": 180,
@@ -1173,13 +1177,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "first_name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "last_name",
           "animation_keyframes": [
             {
               "left": -300,
@@ -1196,10 +1197,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "last_name"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "last_name"
+          },
           "animation_keyframes": [
             {
               "left": 180,
@@ -1210,13 +1214,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "last_name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "triangle",
           "animation_keyframes": [
             {
               "left": -300,
@@ -1233,10 +1234,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "triangle"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "triangle"
+          },
           "animation_keyframes": [
             {
               "left": 180,
@@ -1247,13 +1251,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "triangle",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "number",
           "animation_keyframes": [
             {
               "left": -300,
@@ -1270,10 +1271,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "number"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "number"
+          },
           "animation_keyframes": [
             {
               "left": 100,
@@ -1284,11 +1288,7 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "number",
-            "element": "clipPath"
-          }
+          ]
         }
       ]
     }

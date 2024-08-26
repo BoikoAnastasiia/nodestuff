@@ -5,6 +5,7 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
+          "id": "first_team_background_container",
           "animation_keyframes": [
             {
               "left": -470,
@@ -15,10 +16,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ],
-          "id": "first_team_background_container"
+          ]
         },
         {
+          "id": "second_team_background_container",
           "animation_keyframes": [
             {
               "left": -493,
@@ -29,10 +30,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ],
-          "id": "second_team_background_container"
+          ]
         },
         {
+          "id": "event_title",
           "animation_keyframes": [
             {
               "left": [
@@ -46,10 +47,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ],
-          "id": "event_title"
+          ]
         },
         {
+          "id": "event_info",
           "animation_keyframes": [
             {
               "left": [
@@ -63,10 +64,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ],
-          "id": "event_info"
+          ]
         },
         {
+          "id": "thin_event_line",
           "animation_keyframes": [
             {
               "left": -385,
@@ -77,10 +78,10 @@
               "duration": 2500,
               "endDelay": 2500
             }
-          ],
-          "id": "thin_event_line"
+          ]
         },
         {
+          "id": "first_team_name",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -91,10 +92,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "first_team_name"
+          ]
         },
         {
+          "id": "first_team_record",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -105,10 +106,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "first_team_record"
+          ]
         },
         {
+          "id": "second_team_name",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -119,10 +120,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "second_team_name"
+          ]
         },
         {
+          "id": "second_team_record",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -133,10 +134,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "second_team_record"
+          ]
         },
         {
+          "id": "first_logo_team",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -147,10 +148,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "first_logo_team"
+          ]
         },
         {
+          "id": "second_logo_team",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -161,10 +162,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "second_logo_team"
+          ]
         },
         {
+          "id": "background_logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -175,10 +176,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "background_logo"
+          ]
         },
         {
+          "id": "second_background_left_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -189,10 +190,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "second_background_left_line"
+          ]
         },
         {
+          "id": "second_background_right_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -203,10 +204,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "second_background_right_line"
+          ]
         },
         {
+          "id": "main_background_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -217,10 +218,10 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "main_background_line"
+          ]
         },
         {
+          "id": "dashed_line",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -231,8 +232,7 @@
               "opacity": {},
               "duration": 2500
             }
-          ],
-          "id": "dashed_line"
+          ]
         }
       ]
     }

@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "logo_1",
           "animation_keyframes": [
             {
               "top": {},
@@ -82,10 +83,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "logo_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline"
+          },
           "animation_keyframes": [
             {
               "left": 250,
@@ -99,13 +103,10 @@
               "duration": 0,
               "endDelay": 9500
             }
-          ],
-          "id": {
-            "id": "headline",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -190,10 +191,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "bg_texture",
           "animation_keyframes": [
             {
               "top": 270,
@@ -306,10 +307,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "bg_texture"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name"
+          },
           "animation_keyframes": [
             {
               "left": 200,
@@ -323,13 +327,10 @@
               "duration": 0,
               "endDelay": 9000
             }
-          ],
-          "id": {
-            "id": "school_name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "school_name",
           "animation_keyframes": [
             {
               "top": 170,
@@ -346,8 +347,7 @@
               "duration": 400,
               "endDelay": 9000
             }
-          ],
-          "id": "school_name"
+          ]
         }
       ]
     }

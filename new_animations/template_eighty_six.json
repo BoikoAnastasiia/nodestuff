@@ -5,6 +5,7 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
+          "id": "rectangle_center",
           "animation_keyframes": [
             {
               "left": 1270,
@@ -15,10 +16,10 @@
               "duration": 1500,
               "endDelay": 3500
             }
-          ],
-          "id": "rectangle_center"
+          ]
         },
         {
+          "id": "rectangle_center_little",
           "animation_keyframes": [
             {
               "left": 1228,
@@ -29,10 +30,10 @@
               "duration": 1500,
               "endDelay": 3500
             }
-          ],
-          "id": "rectangle_center_little"
+          ]
         },
         {
+          "id": "center_triangle",
           "animation_keyframes": [
             {
               "left": 146.64870322655906,
@@ -43,10 +44,10 @@
               "duration": 1500,
               "endDelay": 3500
             }
-          ],
-          "id": "center_triangle"
+          ]
         },
         {
+          "id": "left_bottom_triangle",
           "animation_keyframes": [
             {
               "left": -200,
@@ -58,10 +59,10 @@
               "duration": 1500,
               "endDelay": 3000
             }
-          ],
-          "id": "left_bottom_triangle"
+          ]
         },
         {
+          "id": "top_right_triangle_second",
           "animation_keyframes": [
             {
               "left": 1154,
@@ -73,10 +74,10 @@
               "duration": 1500,
               "endDelay": 3000
             }
-          ],
-          "id": "top_right_triangle_second"
+          ]
         },
         {
+          "id": "top_right_triangle_first",
           "animation_keyframes": [
             {
               "left": 1170,
@@ -88,10 +89,10 @@
               "duration": 1500,
               "endDelay": 3000
             }
-          ],
-          "id": "top_right_triangle_first"
+          ]
         },
         {
+          "id": "gradient_top_line",
           "animation_keyframes": [
             {
               "left": [
@@ -106,10 +107,10 @@
               "duration": 500,
               "endDelay": 2500
             }
-          ],
-          "id": "gradient_top_line"
+          ]
         },
         {
+          "id": "gradient_bottom_line",
           "animation_keyframes": [
             {
               "left": 1024,
@@ -121,10 +122,10 @@
               "duration": 500,
               "endDelay": 2500
             }
-          ],
-          "id": "gradient_bottom_line"
+          ]
         },
         {
+          "id": "main_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -136,10 +137,10 @@
               "duration": 500,
               "endDelay": 2000
             }
-          ],
-          "id": "main_text"
+          ]
         },
         {
+          "id": "date_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -151,10 +152,10 @@
               "duration": 500,
               "endDelay": 1500
             }
-          ],
-          "id": "date_text"
+          ]
         },
         {
+          "id": "logo_team_first",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -166,10 +167,10 @@
               "duration": 250,
               "endDelay": 1500
             }
-          ],
-          "id": "logo_team_first"
+          ]
         },
         {
+          "id": "vs_icon",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -181,10 +182,10 @@
               "duration": 250,
               "endDelay": 1250
             }
-          ],
-          "id": "vs_icon"
+          ]
         },
         {
+          "id": "logo_team_second",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -196,10 +197,10 @@
               "duration": 250,
               "endDelay": 1000
             }
-          ],
-          "id": "logo_team_second"
+          ]
         },
         {
+          "id": "location_text",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -211,10 +212,10 @@
               "duration": 250,
               "endDelay": 750
             }
-          ],
-          "id": "location_text"
+          ]
         },
         {
+          "id": "location_pin",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -226,10 +227,10 @@
               "duration": 250,
               "endDelay": 750
             }
-          ],
-          "id": "location_pin"
+          ]
         },
         {
+          "id": "hashtag_container",
           "animation_keyframes": [
             {
               "left": [
@@ -244,10 +245,10 @@
               "duration": 1000,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "hashtag_container"
+          ]
         },
         {
+          "id": "hashtag_text",
           "animation_keyframes": [
             {
               "left": [
@@ -262,8 +263,7 @@
               "duration": 1000,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "hashtag_text"
+          ]
         }
       ]
     }

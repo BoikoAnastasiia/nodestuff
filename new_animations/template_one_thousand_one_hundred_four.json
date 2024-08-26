@@ -5,6 +5,7 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "left": [
@@ -20,10 +21,10 @@
               "endDelay": 6280,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -39,10 +40,10 @@
               "endDelay": 6216,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "additional_info",
           "animation_keyframes": [
             {
               "left": 970,
@@ -55,10 +56,10 @@
               "endDelay": 6280,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "additional_info"
+          ]
         },
         {
+          "id": "gen_info",
           "animation_keyframes": [
             {
               "left": 970,
@@ -71,10 +72,10 @@
               "endDelay": 6216,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "gen_info"
+          ]
         },
         {
+          "id": "cutout",
           "animation_keyframes": [
             {
               "top": 836,
@@ -99,10 +100,10 @@
               "duration": 0,
               "top": {}
             }
-          ],
-          "id": "cutout"
+          ]
         },
         {
+          "id": "bottom_right_rect",
           "animation_keyframes": [
             {
               "left": [
@@ -118,10 +119,10 @@
               "endDelay": 1760,
               "easing": "cubicBezier(0,.89,.68,1.07)"
             }
-          ],
-          "id": "bottom_right_rect"
+          ]
         },
         {
+          "id": "top_right_rect",
           "animation_keyframes": [
             {
               "left": [
@@ -137,10 +138,10 @@
               "endDelay": 1760,
               "easing": "cubicBezier(0,.89,.68,1.07)"
             }
-          ],
-          "id": "top_right_rect"
+          ]
         },
         {
+          "id": "bottom_left_rect",
           "animation_keyframes": [
             {
               "left": [
@@ -156,10 +157,10 @@
               "endDelay": 1760,
               "easing": "cubicBezier(0,.89,.68,1.07)"
             }
-          ],
-          "id": "bottom_left_rect"
+          ]
         },
         {
+          "id": "top_left_rect",
           "animation_keyframes": [
             {
               "left": [
@@ -175,8 +176,7 @@
               "endDelay": 1760,
               "easing": "cubicBezier(0,.89,.68,1.07)"
             }
-          ],
-          "id": "top_left_rect"
+          ]
         }
       ]
     }

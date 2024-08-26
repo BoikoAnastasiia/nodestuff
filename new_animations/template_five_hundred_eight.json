@@ -5,6 +5,7 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
+          "id": "hashtag",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -23,10 +24,10 @@
               "opacity": {},
               "duration": 0
             }
-          ],
-          "id": "hashtag"
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -45,10 +46,10 @@
               "opacity": {},
               "duration": 0
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "id": 2,
           "animation_keyframes": [
             {
               "top": 960,
@@ -70,6 +71,7 @@
           ]
         },
         {
+          "id": 12,
           "animation_keyframes": [
             {
               "top": 960,
@@ -91,6 +93,7 @@
           ]
         },
         {
+          "id": "bottom_background",
           "animation_keyframes": [
             {
               "top": 960,
@@ -109,10 +112,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "bottom_background"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "template_textura"
+          },
           "animation_keyframes": [
             {
               "top": 960,
@@ -131,13 +137,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "template_textura",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "template_background_photo"
+          },
           "animation_keyframes": [
             {
               "top": 960,
@@ -156,13 +162,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "template_background_photo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "top": 960,
@@ -181,10 +184,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "top": 960,
@@ -203,10 +206,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "id": "additional_information",
           "animation_keyframes": [
             {
               "top": 960,
@@ -225,10 +228,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "additional_information"
+          ]
         },
         {
+          "id": "photo_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -249,10 +252,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "photo_1"
+          ]
         },
         {
+          "id": "first_name_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -273,10 +276,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "first_name_1"
+          ]
         },
         {
+          "id": "number_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -297,10 +300,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "number_1"
+          ]
         },
         {
+          "id": "last_name_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -321,10 +324,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "last_name_1"
+          ]
         },
         {
+          "id": "triangle_under_photo_1",
           "animation_keyframes": [
             {
               "top": 960,
@@ -345,8 +348,7 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "triangle_under_photo_1"
+          ]
         }
       ]
     }

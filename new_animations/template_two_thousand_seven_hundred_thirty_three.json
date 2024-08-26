@@ -5,6 +5,7 @@
       "animation_duration": 7000,
       "animation_objects": [
         {
+          "id": "main_logo",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -16,10 +17,13 @@
               "duration": 0,
               "endDelay": 3500
             }
-          ],
-          "id": "main_logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "main_logo"
+          },
           "animation_keyframes": [
             {
               "top": {},
@@ -36,13 +40,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "main_logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -79,10 +80,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "id": "title_1",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -119,10 +120,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_1"
+          ]
         },
         {
+          "id": "title_2",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -159,10 +160,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_2"
+          ]
         },
         {
+          "id": "title_3",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -199,10 +200,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_3"
+          ]
         },
         {
+          "id": "title_4",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -239,10 +240,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_4"
+          ]
         },
         {
+          "id": "title_5",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -279,10 +280,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_5"
+          ]
         },
         {
+          "id": "title_6",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -319,10 +320,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_6"
+          ]
         },
         {
+          "id": "title_7",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -359,10 +360,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_7"
+          ]
         },
         {
+          "id": "title_8",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -399,10 +400,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_8"
+          ]
         },
         {
+          "id": "title_9",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -439,10 +440,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_9"
+          ]
         },
         {
+          "id": "title_10",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -479,10 +480,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_10"
+          ]
         },
         {
+          "id": "title_11",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -519,10 +520,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_11"
+          ]
         },
         {
+          "id": "title_12",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -559,10 +560,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_12"
+          ]
         },
         {
+          "id": "title_13",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -599,10 +600,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_13"
+          ]
         },
         {
+          "id": "title_14",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -639,10 +640,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "title_14"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -664,13 +668,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_1"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -692,13 +696,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_2"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -720,13 +724,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_3"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -748,13 +752,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_3",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_4"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -776,13 +780,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_4",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_5"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -804,13 +808,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_5",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_6"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -832,13 +836,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_6",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_7"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -860,13 +864,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_7",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_8"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -888,13 +892,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_8",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_9"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -916,13 +920,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_9",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_10"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -944,13 +948,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_10",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_11"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -972,13 +976,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_11",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_12"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -1000,13 +1004,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_12",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_13"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -1028,13 +1032,13 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_13",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "title_14"
+          },
           "animation_keyframes": [
             {
               "top": -542,
@@ -1056,13 +1060,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "title_14",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "cutout",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -1091,10 +1092,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "cutout"
+          ]
         },
         {
+          "id": "name_rect",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -1123,10 +1124,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "name_rect"
+          ]
         },
         {
+          "id": "pl_name",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -1155,10 +1156,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "pl_name"
+          ]
         },
         {
+          "id": "score_rect",
           "animation_keyframes": [
             {
               "visible": {},
@@ -1176,10 +1177,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "score_rect"
+          ]
         },
         {
+          "id": "score_info",
           "animation_keyframes": [
             {
               "visible": {},
@@ -1197,10 +1198,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "score_info"
+          ]
         },
         {
+          "id": "hw_score",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -1220,10 +1221,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "hw_score"
+          ]
         },
         {
+          "id": "op_score",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -1243,10 +1244,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "op_score"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "hw_score"
+          },
           "animation_keyframes": [
             {
               "left": -520,
@@ -1257,13 +1261,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "hw_score",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "op_score"
+          },
           "animation_keyframes": [
             {
               "left": 520,
@@ -1274,13 +1278,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "op_score",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "hw_logo",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -1300,10 +1301,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "hw_logo"
+          ]
         },
         {
+          "id": "op_logo",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -1323,10 +1324,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "op_logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "hw_logo"
+          },
           "animation_keyframes": [
             {
               "left": -550,
@@ -1337,13 +1341,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "hw_logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "op_logo"
+          },
           "animation_keyframes": [
             {
               "left": 550,
@@ -1354,13 +1358,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": {
-            "id": "op_logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "circle",
           "animation_keyframes": [
             {
               "visible": "true",
@@ -1410,8 +1411,7 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "circle"
+          ]
         }
       ]
     }

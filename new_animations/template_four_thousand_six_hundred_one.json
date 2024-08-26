@@ -5,6 +5,10 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "main_panel_color"
+          },
           "animation_keyframes": [
             {
               "top": -722,
@@ -16,13 +20,13 @@
               "duration": 110,
               "endDelay": 9860
             }
-          ],
-          "id": {
-            "id": "main_panel_color",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_main"
+          },
           "animation_keyframes": [
             {
               "top": -722,
@@ -34,13 +38,13 @@
               "duration": 110,
               "endDelay": 9860
             }
-          ],
-          "id": {
-            "id": "group_main",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_logo"
+          },
           "animation_keyframes": [
             {
               "top": -722,
@@ -52,13 +56,13 @@
               "duration": 110,
               "endDelay": 9860
             }
-          ],
-          "id": {
-            "id": "group_logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "top_slitch"
+          },
           "animation_keyframes": [
             {
               "top": -722,
@@ -70,13 +74,13 @@
               "duration": 110,
               "endDelay": 9860
             }
-          ],
-          "id": {
-            "id": "top_slitch",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "bottom_slitch"
+          },
           "animation_keyframes": [
             {
               "top": -722,
@@ -88,13 +92,13 @@
               "duration": 110,
               "endDelay": 9860
             }
-          ],
-          "id": {
-            "id": "bottom_slitch",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline"
+          },
           "animation_keyframes": [
             {
               "left": 135,
@@ -106,13 +110,10 @@
               "duration": 0,
               "endDelay": 9310
             }
-          ],
-          "id": {
-            "id": "headline",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -212,10 +213,13 @@
               "easing": "easeInOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name_tf"
+          },
           "animation_keyframes": [
             {
               "top": -40,
@@ -227,13 +231,10 @@
               "duration": 0,
               "endDelay": 8000
             }
-          ],
-          "id": {
-            "id": "school_name_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "school_name_tf",
           "animation_keyframes": [
             {
               "top": 520,
@@ -246,10 +247,10 @@
               "easing": "easeOutSine",
               "endDelay": 7950
             }
-          ],
-          "id": "school_name_tf"
+          ]
         },
         {
+          "id": "group_logo",
           "animation_keyframes": [
             {
               "duration": 0,
@@ -325,10 +326,10 @@
               "easing": "easeInOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "group_logo"
+          ]
         },
         {
+          "id": "main_panel_color",
           "animation_keyframes": [
             {
               "duration": 0,
@@ -404,10 +405,10 @@
               "easing": "easeInOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "main_panel_color"
+          ]
         },
         {
+          "id": "group_main",
           "animation_keyframes": [
             {
               "duration": 0,
@@ -483,10 +484,10 @@
               "easing": "easeInOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "group_main"
+          ]
         },
         {
+          "id": "top_slitch",
           "animation_keyframes": [
             {
               "duration": 0,
@@ -562,10 +563,10 @@
               "easing": "easeInOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "top_slitch"
+          ]
         },
         {
+          "id": "bottom_slitch",
           "animation_keyframes": [
             {
               "duration": 0,
@@ -641,8 +642,7 @@
               "easing": "easeInOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "bottom_slitch"
+          ]
         }
       ]
     }

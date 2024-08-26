@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "sunburst",
           "animation_keyframes": [
             {
               "angle": -360,
@@ -15,10 +16,10 @@
               "angle": {},
               "duration": 0
             }
-          ],
-          "id": "sunburst"
+          ]
         },
         {
+          "id": "rect_1",
           "animation_keyframes": [
             {
               "left": {},
@@ -29,10 +30,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "rect_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "rect_1"
+          },
           "animation_keyframes": [
             {
               "left": -670,
@@ -54,13 +58,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "rect_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "rect_2",
           "animation_keyframes": [
             {
               "left": {},
@@ -71,10 +72,13 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "rect_2"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "rect_2"
+          },
           "animation_keyframes": [
             {
               "left": -185,
@@ -96,13 +100,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "rect_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "left": {},
@@ -129,10 +130,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline"
+          },
           "animation_keyframes": [
             {
               "left": 185,
@@ -154,13 +158,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "headline",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "score_1",
           "animation_keyframes": [
             {
               "top": {},
@@ -187,10 +188,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "score_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "score_1"
+          },
           "animation_keyframes": [
             {
               "top": -100,
@@ -212,13 +216,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "score_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "name_1",
           "animation_keyframes": [
             {
               "left": {},
@@ -245,10 +246,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "name_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "name_1"
+          },
           "animation_keyframes": [
             {
               "left": 190,
@@ -270,13 +274,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "name_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "score_2",
           "animation_keyframes": [
             {
               "top": {},
@@ -303,10 +304,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "score_2"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "score_2"
+          },
           "animation_keyframes": [
             {
               "top": 655,
@@ -328,13 +332,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "score_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "name_2",
           "animation_keyframes": [
             {
               "left": {},
@@ -361,10 +362,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "name_2"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "name_2"
+          },
           "animation_keyframes": [
             {
               "left": -175,
@@ -386,13 +390,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "name_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "logo_1",
           "animation_keyframes": [
             {
               "top": 600,
@@ -503,10 +504,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "logo_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "logo_1"
+          },
           "animation_keyframes": [
             {
               "top": 655,
@@ -528,13 +532,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "logo_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "logo_2",
           "animation_keyframes": [
             {
               "top": 860,
@@ -645,10 +646,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "logo_2"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "logo_2"
+          },
           "animation_keyframes": [
             {
               "top": -110,
@@ -670,11 +674,7 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "logo_2",
-            "element": "clipPath"
-          }
+          ]
         }
       ]
     }

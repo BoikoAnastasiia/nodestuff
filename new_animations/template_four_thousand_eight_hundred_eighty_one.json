@@ -5,6 +5,10 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline"
+          },
           "animation_keyframes": [
             {
               "top": 321,
@@ -18,13 +22,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": {
-            "id": "headline",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "top": [
@@ -234,10 +235,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "footer_logo",
           "animation_keyframes": [
             {
               "top": 703,
@@ -322,10 +323,10 @@
               "easing": "easeOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "footer_logo"
+          ]
         },
         {
+          "id": "logo_section_group",
           "animation_keyframes": [
             {
               "top": 703,
@@ -350,10 +351,10 @@
               "easing": "easeOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "logo_section_group"
+          ]
         },
         {
+          "id": "top_section_group",
           "animation_keyframes": [
             {
               "top": -55,
@@ -378,10 +379,10 @@
               "easing": "easeOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "top_section_group"
+          ]
         },
         {
+          "id": "background_texture",
           "animation_keyframes": [
             {
               "opacity": "*=0.5",
@@ -503,8 +504,7 @@
               "easing": "easeOutQuad",
               "endDelay": 0
             }
-          ],
-          "id": "background_texture"
+          ]
         }
       ]
     }

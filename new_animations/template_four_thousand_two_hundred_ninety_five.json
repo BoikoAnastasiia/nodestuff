@@ -5,6 +5,7 @@
       "animation_duration": 10000,
       "animation_objects": [
         {
+          "id": "dots_color",
           "animation_keyframes": [
             {
               "opacity": 0.7,
@@ -66,10 +67,10 @@
               "duration": 100,
               "endDelay": 0
             }
-          ],
-          "id": "dots_color"
+          ]
         },
         {
+          "id": "fg_gradient_color_2",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -126,10 +127,10 @@
               "duration": 100,
               "endDelay": 0
             }
-          ],
-          "id": "fg_gradient_color_2"
+          ]
         },
         {
+          "id": "fg_gradient_color_1",
           "animation_keyframes": [
             {
               "opacity": 1,
@@ -186,10 +187,13 @@
               "duration": 100,
               "endDelay": 0
             }
-          ],
-          "id": "fg_gradient_color_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_media"
+          },
           "animation_keyframes": [
             {
               "scaleX": "*=0.0001",
@@ -203,13 +207,10 @@
               "duration": 600,
               "endDelay": 9300
             }
-          ],
-          "id": {
-            "id": "group_media",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "fg_leaf_1",
           "animation_keyframes": [
             {
               "left": [
@@ -229,10 +230,10 @@
               "duration": 400,
               "endDelay": 9300
             }
-          ],
-          "id": "fg_leaf_1"
+          ]
         },
         {
+          "id": "fg_leaf_2",
           "animation_keyframes": [
             {
               "left": [
@@ -252,10 +253,10 @@
               "duration": 400,
               "endDelay": 9300
             }
-          ],
-          "id": "fg_leaf_2"
+          ]
         },
         {
+          "id": "matchup_bg",
           "animation_keyframes": [
             {
               "scaleX": "*=0.0001",
@@ -269,10 +270,13 @@
               "duration": 300,
               "endDelay": 9000
             }
-          ],
-          "id": "matchup_bg"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "location_tf"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -287,13 +291,10 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ],
-          "id": {
-            "id": "location_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "location_tf",
           "animation_keyframes": [
             {
               "left": [
@@ -310,10 +311,13 @@
               "duration": 200,
               "endDelay": 9000
             }
-          ],
-          "id": "location_tf"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "date_tf"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -328,13 +332,10 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ],
-          "id": {
-            "id": "date_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "date_tf",
           "animation_keyframes": [
             {
               "left": [
@@ -351,10 +352,13 @@
               "duration": 200,
               "endDelay": 9000
             }
-          ],
-          "id": "date_tf"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_1"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -369,13 +373,10 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ],
-          "id": {
-            "id": "headline_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline_1",
           "animation_keyframes": [
             {
               "left": [
@@ -392,10 +393,13 @@
               "duration": 250,
               "endDelay": 8800
             }
-          ],
-          "id": "headline_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_2"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -410,13 +414,10 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ],
-          "id": {
-            "id": "headline_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline_2",
           "animation_keyframes": [
             {
               "left": [
@@ -433,10 +434,13 @@
               "duration": 250,
               "endDelay": 8800
             }
-          ],
-          "id": "headline_2"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "school_name_tf"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -451,13 +455,10 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ],
-          "id": {
-            "id": "school_name_tf",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "school_name_tf",
           "animation_keyframes": [
             {
               "top": [
@@ -472,10 +473,13 @@
               "duration": 250,
               "endDelay": 8800
             }
-          ],
-          "id": "school_name_tf"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_3"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -490,13 +494,10 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ],
-          "id": {
-            "id": "headline_3",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline_3",
           "animation_keyframes": [
             {
               "top": [
@@ -511,10 +512,13 @@
               "duration": 200,
               "endDelay": 9000
             }
-          ],
-          "id": "headline_3"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "team_1_logo"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -529,13 +533,10 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ],
-          "id": {
-            "id": "team_1_logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "team_1_logo",
           "animation_keyframes": [
             {
               "top": [
@@ -602,10 +603,13 @@
               "duration": 1000,
               "endDelay": 0
             }
-          ],
-          "id": "team_1_logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "team_2_logo"
+          },
           "animation_keyframes": [
             {
               "top": [
@@ -620,13 +624,10 @@
               "duration": 0,
               "endDelay": 8800
             }
-          ],
-          "id": {
-            "id": "team_2_logo",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "team_2_logo",
           "animation_keyframes": [
             {
               "top": [
@@ -693,8 +694,7 @@
               "duration": 1000,
               "endDelay": 500
             }
-          ],
-          "id": "team_2_logo"
+          ]
         }
       ]
     }

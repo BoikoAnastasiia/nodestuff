@@ -5,6 +5,7 @@
       "animation_duration": 8000,
       "animation_objects": [
         {
+          "id": "background_logo",
           "animation_keyframes": [
             {
               "left": 1000,
@@ -26,10 +27,13 @@
               "duration": 3745,
               "endDelay": 0
             }
-          ],
-          "id": "background_logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "group_media"
+          },
           "animation_keyframes": [
             {
               "left": -962,
@@ -46,13 +50,13 @@
               "duration": 0,
               "endDelay": 7500
             }
-          ],
-          "id": {
-            "id": "group_media",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "subt_rect"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -67,13 +71,10 @@
               "duration": 1000,
               "endDelay": 5000
             }
-          ],
-          "id": {
-            "id": "subt_rect",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline_2",
           "animation_keyframes": [
             {
               "top": [
@@ -88,10 +89,13 @@
               "duration": 500,
               "endDelay": 5600
             }
-          ],
-          "id": "headline_2"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_2"
+          },
           "animation_keyframes": [
             {
               "top": -170,
@@ -103,13 +107,10 @@
               "duration": 0,
               "endDelay": 5000
             }
-          ],
-          "id": {
-            "id": "headline_2",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline_1",
           "animation_keyframes": [
             {
               "left": -1,
@@ -121,10 +122,13 @@
               "duration": 700,
               "endDelay": 4000
             }
-          ],
-          "id": "headline_1"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_1"
+          },
           "animation_keyframes": [
             {
               "left": 100,
@@ -136,13 +140,10 @@
               "duration": 0,
               "endDelay": 5000
             }
-          ],
-          "id": {
-            "id": "headline_1",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "headline_3",
           "animation_keyframes": [
             {
               "left": 500,
@@ -154,10 +155,13 @@
               "duration": 700,
               "endDelay": 4000
             }
-          ],
-          "id": "headline_3"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "headline_3"
+          },
           "animation_keyframes": [
             {
               "left": -510,
@@ -169,13 +173,10 @@
               "duration": 0,
               "endDelay": 4500
             }
-          ],
-          "id": {
-            "id": "headline_3",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "name_school",
           "animation_keyframes": [
             {
               "top": 245,
@@ -188,10 +189,13 @@
               "endDelay": 7600,
               "easing": "easeInQuad"
             }
-          ],
-          "id": "name_school"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "name_school"
+          },
           "animation_keyframes": [
             {
               "top": -340,
@@ -203,13 +207,13 @@
               "duration": 400,
               "endDelay": 7400
             }
-          ],
-          "id": {
-            "id": "name_school",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "name"
+          },
           "animation_keyframes": [
             {
               "left": [
@@ -224,13 +228,10 @@
               "duration": 1000,
               "endDelay": 5000
             }
-          ],
-          "id": {
-            "id": "name",
-            "element": "clipPath"
-          }
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "top": [
@@ -303,10 +304,13 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "target_query": {
+            "element": "clipPath",
+            "id": "logo"
+          },
           "animation_keyframes": [
             {
               "top": -302,
@@ -318,11 +322,7 @@
               "duration": 0,
               "endDelay": 6000
             }
-          ],
-          "id": {
-            "id": "logo",
-            "element": "clipPath"
-          }
+          ]
         }
       ]
     }

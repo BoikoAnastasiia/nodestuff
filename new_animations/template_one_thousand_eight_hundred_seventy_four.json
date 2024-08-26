@@ -6,6 +6,7 @@
       "animation_duration": 3000,
       "animation_objects": [
         {
+          "id": "gradient_left",
           "animation_keyframes": [
             {
               "left": 600,
@@ -17,10 +18,10 @@
               "endDelay": 2000,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "gradient_left"
+          ]
         },
         {
+          "id": "gradient_right",
           "animation_keyframes": [
             {
               "left": [
@@ -35,10 +36,10 @@
               "endDelay": 2000,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "gradient_right"
+          ]
         },
         {
+          "id": "rect_left",
           "animation_keyframes": [
             {
               "left": 1,
@@ -50,10 +51,10 @@
               "endDelay": 2000,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "rect_left"
+          ]
         },
         {
+          "id": "rect_right",
           "animation_keyframes": [
             {
               "left": [
@@ -68,10 +69,10 @@
               "endDelay": 2000,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "rect_right"
+          ]
         },
         {
+          "id": "left_background_dots",
           "animation_keyframes": [
             {
               "left": -250,
@@ -84,10 +85,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "left_background_dots"
+          ]
         },
         {
+          "id": "right_background_dots",
           "animation_keyframes": [
             {
               "left": [
@@ -103,10 +104,10 @@
               "endDelay": 0,
               "easing": "easeOutCubic"
             }
-          ],
-          "id": "right_background_dots"
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -118,10 +119,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -133,10 +134,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ],
-          "id": "title"
+          ]
         },
         {
+          "id": "subtitle",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -148,10 +149,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ],
-          "id": "subtitle"
+          ]
         },
         {
+          "id": "hashtag",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -163,10 +164,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ],
-          "id": "hashtag"
+          ]
         },
         {
+          "id": "logo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -178,10 +179,10 @@
               "duration": 1000,
               "endDelay": 1500
             }
-          ],
-          "id": "logo"
+          ]
         },
         {
+          "id": "main_photo",
           "animation_keyframes": [
             {
               "scaleX": "*=1.02",
@@ -196,10 +197,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "main_photo"
+          ]
         },
         {
+          "id": "logo_l",
           "animation_keyframes": [
             {
               "left": 500,
@@ -217,10 +218,10 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "logo_l"
+          ]
         },
         {
+          "id": "logo_r",
           "animation_keyframes": [
             {
               "left": 500,
@@ -237,8 +238,7 @@
               "duration": 0,
               "endDelay": 0
             }
-          ],
-          "id": "logo_r"
+          ]
         }
       ]
     }

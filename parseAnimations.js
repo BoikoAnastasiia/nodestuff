@@ -58,40 +58,46 @@ function transformContent(content, idMap, specialMap) {
     if (item.animation_params && item.animation_params.animation_objects) {
       item.animation_params.animation_objects =
         item.animation_params.animation_objects.map((obj) => {
-          let newObj = { ...obj };
+          let newObj = {};
           if (
-            typeof obj.target_query === 'number' &&
-            idMap[obj.target_query] !== undefined
+            typeof obj.target_query === 'number' ||
+            typeof obj.target_query === 'string'
           ) {
-            newObj.id = idMap[obj.target_query];
-          } else if (typeof obj.target_query === 'string') {
-            newObj.id =
-              specialMap[obj.target_query.toLowerCase()] || obj.target_query;
+            let newId = obj.target_query;
+            if (
+              typeof obj.target_query === 'number' &&
+              idMap[obj.target_query] !== undefined
+            ) {
+              newId = idMap[obj.target_query];
+            } else if (
+              typeof obj.target_query === 'string' &&
+              specialMap[obj.target_query.toLowerCase()]
+            ) {
+              newId = specialMap[obj.target_query.toLowerCase()];
+            }
+            newObj.id = newId;
           } else if (typeof obj.target_query === 'object') {
-            if (obj.target_query.index !== undefined) {
-              let newId;
-              if (
-                typeof obj.target_query.index === 'number' &&
-                idMap[obj.target_query.index] !== undefined
-              ) {
-                newId = idMap[obj.target_query.index];
-              } else if (
-                typeof obj.target_query.index === 'string' &&
-                specialMap[obj.target_query.index.toLowerCase()]
-              ) {
-                newId = specialMap[obj.target_query.index.toLowerCase()];
-              } else {
-                newId = obj.target_query.index;
-              }
-              newObj.id = {
-                id: newId,
-                element: obj.target_query.element,
-              };
-            } else {
-              newObj.id = obj.target_query;
+            newObj.target_query = {
+              ...obj.target_query,
+              id:
+                obj.target_query.index !== undefined
+                  ? idMap[obj.target_query.index] ||
+                    specialMap[obj.target_query.index.toLowerCase()] ||
+                    obj.target_query.index
+                  : obj.target_query.id,
+            };
+            delete newObj.target_query.index;
+          } else {
+            newObj.id = obj.target_query;
+          }
+
+          // Add all other properties
+          for (let key in obj) {
+            if (key !== 'target_query') {
+              newObj[key] = obj[key];
             }
           }
-          delete newObj.target_query;
+
           return newObj;
         });
     }

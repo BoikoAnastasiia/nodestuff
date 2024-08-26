@@ -5,6 +5,7 @@
       "animation_duration": 5000,
       "animation_objects": [
         {
+          "id": "background_bottom",
           "animation_keyframes": [
             {
               "top": -720,
@@ -25,10 +26,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "background_bottom"
+          ]
         },
         {
+          "id": "main_background",
           "animation_keyframes": [
             {
               "top": -720,
@@ -49,10 +50,10 @@
               "top": {},
               "duration": 0
             }
-          ],
-          "id": "main_background"
+          ]
         },
         {
+          "id": "background_photo",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -73,10 +74,10 @@
               "opacity": {},
               "duration": 0
             }
-          ],
-          "id": "background_photo"
+          ]
         },
         {
+          "id": "overlay",
           "animation_keyframes": [
             {
               "opacity": 0,
@@ -87,10 +88,10 @@
               "opacity": {},
               "duration": 50
             }
-          ],
-          "id": "overlay"
+          ]
         },
         {
+          "id": "outer_stroke",
           "animation_keyframes": [
             {
               "scaleX": 0,
@@ -115,10 +116,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "outer_stroke"
+          ]
         },
         {
+          "id": "inner_stroke",
           "animation_keyframes": [
             {
               "scaleX": 0,
@@ -143,10 +144,10 @@
               "scaleY": {},
               "duration": 0
             }
-          ],
-          "id": "inner_stroke"
+          ]
         },
         {
+          "id": "headline",
           "animation_keyframes": [
             {
               "left": [
@@ -174,10 +175,10 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "headline"
+          ]
         },
         {
+          "id": "title",
           "animation_keyframes": [
             {
               "left": [
@@ -205,8 +206,7 @@
               "left": {},
               "duration": 0
             }
-          ],
-          "id": "title"
+          ]
         }
       ]
     }
