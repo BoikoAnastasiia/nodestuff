@@ -1,0 +1,214 @@
+[
+  {
+    "animation_name": "First Animation",
+    "animation_params": {
+      "animation_duration": 5000,
+      "animation_objects": [
+        {
+          "target_query": "background_bottom",
+          "animation_keyframes": [
+            {
+              "top": -540,
+              "duration": 0,
+              "endDelay": 100
+            },
+            {
+              "top": 0,
+              "duration": 550,
+              "endDelay": 3350
+            },
+            {
+              "top": -540,
+              "duration": 600,
+              "endDelay": 400
+            },
+            {
+              "top": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "main_background",
+          "animation_keyframes": [
+            {
+              "top": -540,
+              "duration": 0,
+              "endDelay": 650
+            },
+            {
+              "top": 0,
+              "duration": 550,
+              "endDelay": 2200
+            },
+            {
+              "top": -540,
+              "duration": 600,
+              "endDelay": 1000
+            },
+            {
+              "top": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "background_photo",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 1000
+            },
+            {
+              "opacity": 1,
+              "duration": 1000,
+              "endDelay": 1250
+            },
+            {
+              "opacity": 0,
+              "duration": 800,
+              "endDelay": 950
+            },
+            {
+              "opacity": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "overlay",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 4950
+            },
+            {
+              "opacity": {},
+              "duration": 50
+            }
+          ]
+        },
+        {
+          "target_query": "outer_stroke",
+          "animation_keyframes": [
+            {
+              "scaleX": 0,
+              "scaleY": 0,
+              "duration": 0,
+              "endDelay": 850
+            },
+            {
+              "scaleX": 1,
+              "scaleY": 1,
+              "duration": 600,
+              "endDelay": 2350
+            },
+            {
+              "scaleX": 0,
+              "scaleY": 0,
+              "duration": 600,
+              "endDelay": 600
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "inner_stroke",
+          "animation_keyframes": [
+            {
+              "scaleX": 0,
+              "scaleY": 0,
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "scaleX": 1,
+              "scaleY": 1,
+              "duration": 600,
+              "endDelay": 2300
+            },
+            {
+              "scaleX": 0,
+              "scaleY": 0,
+              "duration": 600,
+              "endDelay": 800
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 1280
+            },
+            {
+              "left": {},
+              "duration": 1240,
+              "endDelay": 680,
+              "easing": "easeOutCubic"
+            },
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 750,
+              "endDelay": 1050
+            },
+            {
+              "left": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "title",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 1280
+            },
+            {
+              "left": {},
+              "duration": 1240,
+              "endDelay": 730,
+              "easing": "easeOutCubic"
+            },
+            {
+              "left": [
+                "left",
+                960
+              ],
+              "duration": 1000,
+              "endDelay": 750
+            },
+            {
+              "left": {},
+              "duration": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

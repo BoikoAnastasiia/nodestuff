@@ -1,0 +1,512 @@
+[
+  {
+    "animation_name": "",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": "team_1_logo",
+          "animation_keyframes": [
+            {
+              "angle": -360,
+              "scaleX": 0,
+              "scaleY": 0,
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeOutQuad"
+            },
+            {
+              "angle": 0,
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 1000,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "angle": 0,
+              "scaleX": "*=1.05",
+              "scaleY": "*=1.05",
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 25
+            },
+            {
+              "scaleX": "*=0.95",
+              "scaleY": "*=0.95",
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 25
+            },
+            {
+              "scaleX": "*=1.05",
+              "scaleY": "*=1.05",
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 25
+            },
+            {
+              "scaleX": "*=0.95",
+              "scaleY": "*=0.95",
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 25
+            },
+            {
+              "scaleX": "*=1.05",
+              "scaleY": "*=1.05",
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 25
+            },
+            {
+              "scaleX": "*=0.95",
+              "scaleY": "*=0.95",
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 25
+            },
+            {
+              "scaleX": "*=1.05",
+              "scaleY": "*=1.05",
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 25
+            },
+            {
+              "scaleX": "*=0.95",
+              "scaleY": "*=0.95",
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 25
+            },
+            {
+              "angle": 360,
+              "scaleX": 0,
+              "scaleY": 0,
+              "duration": 500,
+              "endDelay": 30,
+              "easing": "easeOutQuad"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "paint_1",
+          "animation_keyframes": [
+            {
+              "scaleX": "*=1.02",
+              "scaleY": "*=1.02",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=0.98",
+              "scaleY": "*=0.98",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.02",
+              "scaleY": "*=1.02",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=0.98",
+              "scaleY": "*=0.98",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.02",
+              "scaleY": "*=1.02",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=0.98",
+              "scaleY": "*=0.98",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.02",
+              "scaleY": "*=1.02",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=0.98",
+              "scaleY": "*=0.98",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.02",
+              "scaleY": "*=1.02",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=0.98",
+              "scaleY": "*=0.98",
+              "duration": 500,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "stroke",
+          "animation_keyframes": [
+            {
+              "scaleX": 0,
+              "scaleY": 0,
+              "duration": 0,
+              "endDelay": 150
+            },
+            {
+              "scaleX": 1,
+              "scaleY": 1,
+              "duration": 425,
+              "endDelay": 9000
+            },
+            {
+              "scaleX": 0,
+              "scaleY": 0,
+              "duration": 350,
+              "endDelay": 75
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "title",
+          "animation_keyframes": [
+            {
+              "left": {},
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "left": {},
+              "opacity": 1,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "left": -243,
+              "opacity": 1,
+              "duration": 1640,
+              "endDelay": 0
+            },
+            {
+              "left": 1030,
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": -243,
+              "duration": 1640,
+              "endDelay": 0
+            },
+            {
+              "left": 1030,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": -243,
+              "duration": 1640,
+              "endDelay": 0
+            },
+            {
+              "left": 1030,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": -243,
+              "duration": 1640,
+              "endDelay": 0
+            },
+            {
+              "left": 1030,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 1340,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0,
+              "duration": 800,
+              "endDelay": 300
+            },
+            {
+              "left": {},
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": -540,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "top": {},
+              "duration": 500,
+              "endDelay": 8200
+            },
+            {
+              "top": -540,
+              "duration": 500,
+              "endDelay": 300
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "top": 155,
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 8200,
+              "easing": "easeInQuad"
+            },
+            {
+              "top": 155,
+              "opacity": 0,
+              "duration": 500,
+              "endDelay": 300
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "subtitle",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": -500,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "top": {},
+              "duration": 500,
+              "endDelay": 8200
+            },
+            {
+              "top": -500,
+              "duration": 500,
+              "endDelay": 300
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "subtitle",
+          "animation_keyframes": [
+            {
+              "top": 500,
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 8200,
+              "easing": "easeInQuad"
+            },
+            {
+              "top": 500,
+              "opacity": 0,
+              "duration": 500,
+              "endDelay": 300
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

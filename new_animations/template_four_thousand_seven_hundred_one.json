@@ -1,0 +1,314 @@
+[
+  {
+    "animation_name": "Scribble",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": {
+            "index": "school_name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                76
+              ],
+              "duration": 0,
+              "endDelay": 900
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9100
+            }
+          ]
+        },
+        {
+          "target_query": "school_name",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                550
+              ],
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "top": {},
+              "duration": 400,
+              "endDelay": 9100
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                76
+              ],
+              "duration": 0,
+              "endDelay": 900
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9100
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                550
+              ],
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "top": {},
+              "duration": 400,
+              "endDelay": 100
+            },
+            {
+              "scaleX": "*=1.03",
+              "scaleY": "*=1.03",
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.03",
+              "scaleY": "*=1.03",
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.03",
+              "scaleY": "*=1.03",
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.03",
+              "scaleY": "*=1.03",
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.03",
+              "scaleY": "*=1.03",
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "border_logo_background",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                930
+              ],
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "duration": 700,
+              "endDelay": 8600
+            }
+          ]
+        },
+        {
+          "target_query": "border_logo",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                930
+              ],
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "top": "-=10",
+              "duration": 1000,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "duration": 1000,
+              "endDelay": 100
+            },
+            {
+              "top": "-=10",
+              "duration": 1000,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "duration": 1000,
+              "endDelay": 100
+            },
+            {
+              "top": "-=10",
+              "duration": 1000,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "duration": 1000,
+              "endDelay": 100
+            },
+            {
+              "top": "-=10",
+              "duration": 1000,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "foreground_texture",
+          "animation_keyframes": [
+            {
+              "originX": 0.5,
+              "originY": 0.5,
+              "top": 269.54,
+              "left": 480,
+              "angle": {},
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "angle": "+=4",
+              "duration": 1000,
+              "endDelay": 200
+            },
+            {
+              "angle": {},
+              "duration": 1200,
+              "endDelay": 200
+            },
+            {
+              "angle": "+=4",
+              "duration": 1000,
+              "endDelay": 200
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 200
+            },
+            {
+              "angle": "+=4",
+              "duration": 1000,
+              "endDelay": 200
+            },
+            {
+              "angle": {},
+              "duration": 1200,
+              "endDelay": 200
+            },
+            {
+              "angle": "+=4",
+              "duration": 1000,
+              "endDelay": 200
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "left": {},
+              "originX": 0,
+              "originY": 0,
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "group_2",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                962
+              ],
+              "duration": 0,
+              "endDelay": 100
+            },
+            {
+              "left": {},
+              "duration": 200,
+              "endDelay": 9700
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

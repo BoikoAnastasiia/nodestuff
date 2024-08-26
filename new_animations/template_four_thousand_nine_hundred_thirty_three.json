@@ -1,0 +1,635 @@
+[
+  {
+    "animation_name": "Dragon",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": "dots_color",
+          "animation_keyframes": [
+            {
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "angle": 5,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "angle": 5,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "angle": 5,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "angle": 5,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "angle": 5,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 900,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "foreground_grad_2",
+          "animation_keyframes": [
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "foreground_grad_1",
+          "animation_keyframes": [
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline_rect",
+          "animation_keyframes": [
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.7,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "duration": 900,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline_rect",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                -432
+              ],
+              "duration": 0,
+              "endDelay": 300
+            },
+            {
+              "left": {},
+              "duration": 400,
+              "endDelay": 9300
+            }
+          ]
+        },
+        {
+          "target_query": "fg_leaf_1",
+          "animation_keyframes": [
+            {
+              "left": 213,
+              "top": 691,
+              "duration": 0,
+              "endDelay": 300
+            },
+            {
+              "left": 128,
+              "top": 483,
+              "duration": 800,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": 128,
+              "top": 483,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": 128,
+              "top": 483,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": 128,
+              "top": 483,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": 128,
+              "top": 483,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 700,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "fg_leaf_2",
+          "animation_keyframes": [
+            {
+              "left": 230,
+              "top": -561,
+              "duration": 0,
+              "endDelay": 300
+            },
+            {
+              "left": 298,
+              "top": -315,
+              "duration": 800,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": 298,
+              "top": -315,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": 298,
+              "top": -315,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": 298,
+              "top": -315,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": 298,
+              "top": -315,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 700,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "left": {},
+              "top": {},
+              "scaleX": {},
+              "scaleY": {},
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 30
+            },
+            {
+              "left": {},
+              "top": {},
+              "scaleX": "*=1.15",
+              "scaleY": "*=1.15",
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 120
+            },
+            {
+              "left": {},
+              "top": [
+                "top",
+                180
+              ],
+              "duration": 0,
+              "endDelay": 185
+            },
+            {
+              "left": {},
+              "top": [
+                "bottom",
+                180
+              ],
+              "duration": 0,
+              "endDelay": 170
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 0,
+              "endDelay": 170
+            },
+            {
+              "left": {},
+              "top": {},
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 0,
+              "endDelay": 9300
+            }
+          ]
+        },
+        {
+          "target_query": "school_name",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                768
+              ],
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "duration": 300,
+              "endDelay": 9000
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "school_name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                190
+              ],
+              "duration": 0,
+              "endDelay": 1200
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 8800
+            }
+          ]
+        },
+        {
+          "target_query": "info",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                432
+              ],
+              "duration": 0,
+              "endDelay": 550
+            },
+            {
+              "left": {},
+              "duration": 450,
+              "endDelay": 9000
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "info",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                70
+              ],
+              "duration": 0,
+              "endDelay": 1200
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 8800
+            }
+          ]
+        },
+        {
+          "target_query": "logo",
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                768
+              ],
+              "duration": 0,
+              "endDelay": 550
+            },
+            {
+              "top": {},
+              "duration": 450,
+              "endDelay": 100
+            },
+            {
+              "top": 424,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "top": 424,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "top": 424,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "top": 424,
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "top": 424,
+              "duration": 700,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "logo",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                300
+              ],
+              "duration": 0,
+              "endDelay": 1200
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 8800
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "animation_name": "First Animation",
+    "animation_params": {
+      "animation_duration": 5000,
+      "animation_objects": [
+        {
+          "target_query": "first_team_background_container",
+          "animation_keyframes": [
+            {
+              "left": -470,
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 2500,
+              "endDelay": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "second_team_background_container",
+          "animation_keyframes": [
+            {
+              "left": -493,
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 2500,
+              "endDelay": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "event_title",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                800
+              ],
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 2500,
+              "endDelay": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "event_info",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                800
+              ],
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 2500,
+              "endDelay": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "thin_event_line",
+          "animation_keyframes": [
+            {
+              "left": -385,
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 2500,
+              "endDelay": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "first_team_name",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "first_team_record",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "second_team_name",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "second_team_record",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "first_logo_team",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "second_logo_team",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "background_logo",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "second_background_left_line",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "second_background_right_line",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "main_background_line",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        },
+        {
+          "target_query": "dashed_line",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 2500
+            },
+            {
+              "opacity": {},
+              "duration": 2500
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1426 @@
+[
+  {
+    "animation_name": "",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": "background_photo",
+          "animation_keyframes": [
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "background_wave",
+          "animation_keyframes": [
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": -2,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "blue_wave",
+          "animation_keyframes": [
+            {
+              "top": 721,
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 100,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 2500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 2500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 2300,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "blue_wave_texture",
+          "animation_keyframes": [
+            {
+              "top": 721,
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 100,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 2500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 2500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 2300,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "white_wave",
+          "animation_keyframes": [
+            {
+              "top": 721,
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 580,
+              "duration": 0,
+              "endDelay": 100,
+              "easing": "easeInOutExpo"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 580,
+              "duration": 2500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 100,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 580,
+              "duration": 2500,
+              "endDelay": 0,
+              "easing": "easeInBack"
+            },
+            {
+              "top": 721,
+              "duration": 800,
+              "endDelay": 2300,
+              "easing": "easeInBack"
+            },
+            {
+              "top": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bottom_wave_group",
+          "animation_keyframes": [
+            {
+              "top": 1200,
+              "left": -100,
+              "duration": 0,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "left": {},
+              "duration": 1000,
+              "endDelay": 8900,
+              "easing": "easeOutQuad"
+            }
+          ]
+        },
+        {
+          "target_query": "top_wave_group",
+          "animation_keyframes": [
+            {
+              "top": -400,
+              "left": 900,
+              "duration": 0,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "left": {},
+              "duration": 1000,
+              "endDelay": 8900,
+              "easing": "easeOutQuad"
+            }
+          ]
+        },
+        {
+          "target_query": "wave_logo",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "opacity": {},
+              "duration": 1200,
+              "endDelay": 8500,
+              "easing": "easeInQuad"
+            },
+            {
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "adidas_logo",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "opacity": {},
+              "duration": 1200,
+              "endDelay": 8500,
+              "easing": "easeInQuad"
+            },
+            {
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "separator",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "opacity": {},
+              "duration": 1200,
+              "endDelay": 8500,
+              "easing": "easeInQuad"
+            },
+            {
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "title_1",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": 328,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "title_1",
+          "animation_keyframes": [
+            {
+              "left": 0,
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "duration": 1400,
+              "endDelay": 8400,
+              "easing": "easeInOutQuart"
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "title_2",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": -28,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "title_2",
+          "animation_keyframes": [
+            {
+              "left": 889,
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "duration": 1400,
+              "endDelay": 8400,
+              "easing": "easeInOutQuart"
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": -712,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "top": 194,
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 8800,
+              "easing": "easeInQuad"
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "team_1",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": -460,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "team_1",
+          "animation_keyframes": [
+            {
+              "top": 470,
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 8800,
+              "easing": "easeInQuad"
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "team_2",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": -460,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "team_2",
+          "animation_keyframes": [
+            {
+              "top": 470,
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 8800,
+              "easing": "easeInQuad"
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "labreakers_logo",
+          "animation_keyframes": [
+            {
+              "top": 490,
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 8800,
+              "easing": "easeInQuad"
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "opponent_logo",
+          "animation_keyframes": [
+            {
+              "top": 490,
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 8800,
+              "easing": "easeInQuad"
+            },
+            {
+              "top": {},
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "vs",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "opacity": {},
+              "duration": 1500,
+              "endDelay": 7800,
+              "easing": "easeInQuad"
+            },
+            {
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "triangle",
+          "animation_keyframes": [
+            {
+              "left": 682,
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 800
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 800,
+              "endDelay": 8400,
+              "easing": "easeInQuad"
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "player_number",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": 376,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "player_number",
+          "animation_keyframes": [
+            {
+              "left": 370,
+              "duration": 0,
+              "endDelay": 1250
+            },
+            {
+              "left": {},
+              "duration": 500,
+              "endDelay": 8250,
+              "easing": "easeInQuad"
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": 462,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "name",
+          "animation_keyframes": [
+            {
+              "left": 300,
+              "duration": 0,
+              "endDelay": 1300
+            },
+            {
+              "left": {},
+              "duration": 600,
+              "endDelay": 8100,
+              "easing": "easeInQuad"
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "second_name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": 462,
+              "duration": 0,
+              "endDelay": 10000
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "second_name",
+          "animation_keyframes": [
+            {
+              "left": 300,
+              "duration": 0,
+              "endDelay": 1300
+            },
+            {
+              "left": {},
+              "duration": 700,
+              "endDelay": 8000,
+              "easing": "easeInQuad"
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "additional_logo",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 1
+            }
+          ]
+        },
+        {
+          "target_query": "texture_dots_2",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 1
+            }
+          ]
+        },
+        {
+          "target_query": "texture_dots_3",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 666
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 1
+            }
+          ]
+        },
+        {
+          "target_query": "texture_dots_4",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 999
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": 0.4,
+              "duration": 0,
+              "endDelay": 333
+            },
+            {
+              "opacity": {},
+              "duration": 0,
+              "endDelay": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

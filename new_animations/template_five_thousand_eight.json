@@ -1,0 +1,353 @@
+[
+  {
+    "animation_name": "",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "top": 550,
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "easing": "easeInQuad",
+              "duration": 800,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.6,
+              "top": {},
+              "duration": 265,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 255,
+              "endDelay": 0
+            },
+            {
+              "opacity": 1,
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": -50.5,
+              "duration": 0,
+              "endDelay": 1100
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 8900
+            }
+          ]
+        },
+        {
+          "target_query": "school_name",
+          "animation_keyframes": [
+            {
+              "top": 550,
+              "duration": 0,
+              "endDelay": 530
+            },
+            {
+              "top": {},
+              "duration": 470,
+              "endDelay": 9000
+            }
+          ]
+        },
+        {
+          "target_query": "bottom_diamond_group",
+          "animation_keyframes": [
+            {
+              "top": 550,
+              "duration": 0,
+              "endDelay": 530
+            },
+            {
+              "top": {},
+              "duration": 470,
+              "endDelay": 9000
+            }
+          ]
+        },
+        {
+          "target_query": "logo_group",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                550
+              ],
+              "duration": 0,
+              "endDelay": 330
+            },
+            {
+              "top": {},
+              "duration": 370,
+              "endDelay": 1000
+            },
+            {
+              "top": "+=-7",
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": "+=-7",
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": "+=-7",
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": "+=-7",
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": "+=-7",
+              "duration": 830,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 830,
+              "endDelay": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

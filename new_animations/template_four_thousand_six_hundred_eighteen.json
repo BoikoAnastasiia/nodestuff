@@ -1,0 +1,284 @@
+[
+  {
+    "animation_name": "Scribble",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": {
+            "index": "background_logo",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                120
+              ],
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9300
+            }
+          ]
+        },
+        {
+          "target_query": "background_logo",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                450
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "duration": 500,
+              "endDelay": 9300
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "logo",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                120
+              ],
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9300
+            }
+          ]
+        },
+        {
+          "target_query": "logo",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                450
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "duration": 500,
+              "endDelay": 9300
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                175
+              ],
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9300
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                400
+              ],
+              "duration": 0,
+              "endDelay": 400
+            },
+            {
+              "top": {},
+              "duration": 300,
+              "endDelay": 9300
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "school_name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                180
+              ],
+              "duration": 0,
+              "endDelay": 900
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 9100
+            }
+          ]
+        },
+        {
+          "target_query": "school_name",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                750
+              ],
+              "duration": 0,
+              "endDelay": 400
+            },
+            {
+              "left": {},
+              "duration": 500,
+              "endDelay": 9100
+            }
+          ]
+        },
+        {
+          "target_query": "shape_4",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                950
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": [
+                "left",
+                840
+              ],
+              "duration": 600,
+              "endDelay": 200
+            },
+            {
+              "left": 807,
+              "duration": 9000,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "shape_3",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                970
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": "+=90",
+              "duration": 600,
+              "endDelay": 200
+            },
+            {
+              "left": -56,
+              "duration": 9000,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "shape_2",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                1210
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": [
+                "left",
+                1100
+              ],
+              "duration": 600,
+              "endDelay": 200
+            },
+            {
+              "left": 1030,
+              "duration": 9000,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "shape_1",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                730
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": "+=90",
+              "duration": 600,
+              "endDelay": 200
+            },
+            {
+              "left": 201.5,
+              "duration": 9000,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,455 @@
+[
+  {
+    "animation_name": "Street",
+    "animation_params": {
+      "animation_duration": 8000,
+      "animation_objects": [
+        {
+          "target_query": "bg_texture",
+          "animation_keyframes": [
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "scaleX": "*=1.2",
+              "scaleY": "*=1.2",
+              "duration": 0,
+              "endDelay": 600
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 7400,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "foreground_texture",
+          "animation_keyframes": [
+            {
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "angle": 110,
+              "duration": 1300,
+              "endDelay": 0
+            },
+            {
+              "angle": 70,
+              "duration": 1300,
+              "endDelay": 0
+            },
+            {
+              "angle": 110,
+              "duration": 1300,
+              "endDelay": 0
+            },
+            {
+              "angle": 70,
+              "duration": 1300,
+              "endDelay": 0
+            },
+            {
+              "angle": 110,
+              "duration": 1300,
+              "endDelay": 0
+            },
+            {
+              "angle": 70,
+              "duration": 1300,
+              "endDelay": 0
+            },
+            {
+              "angle": {},
+              "duration": 200,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "group_2",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                -962
+              ],
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "left": {},
+              "duration": 200,
+              "endDelay": 7300
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "group_1",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                -962
+              ],
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "left": {},
+              "duration": 200,
+              "endDelay": 7300
+            }
+          ]
+        },
+        {
+          "target_query": "border_logo_background",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                -962
+              ],
+              "duration": 0,
+              "endDelay": 800
+            },
+            {
+              "left": {},
+              "duration": 400,
+              "endDelay": 6800
+            }
+          ]
+        },
+        {
+          "target_query": "border_logo",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                -962
+              ],
+              "top": {},
+              "duration": 0,
+              "endDelay": 800
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 400,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 253,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 257,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 253,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 257,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 253,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 257,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 253,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 257,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": 253,
+              "duration": 700,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 500,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "group_3",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                -542
+              ],
+              "duration": 0,
+              "endDelay": 1000
+            },
+            {
+              "top": {},
+              "duration": 350,
+              "endDelay": 6650
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "group_4",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                542
+              ],
+              "duration": 0,
+              "endDelay": 1000
+            },
+            {
+              "top": {},
+              "duration": 350,
+              "endDelay": 6650
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "vs_background",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                -962
+              ],
+              "duration": 0,
+              "endDelay": 1350
+            },
+            {
+              "left": {},
+              "duration": 350,
+              "endDelay": 6300
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline_1",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                672
+              ],
+              "duration": 0,
+              "endDelay": 1600
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 6400
+            }
+          ]
+        },
+        {
+          "target_query": "headline_1",
+          "animation_keyframes": [
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": [
+                "right",
+                962
+              ],
+              "duration": 0,
+              "endDelay": 1100
+            },
+            {
+              "left": {},
+              "duration": 300,
+              "endDelay": 6600
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline_2",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                -962
+              ],
+              "duration": 0,
+              "endDelay": 1350
+            },
+            {
+              "left": {},
+              "duration": 350,
+              "endDelay": 6300
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "school_name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                -962
+              ],
+              "duration": 0,
+              "endDelay": 1000
+            },
+            {
+              "left": {},
+              "duration": 350,
+              "endDelay": 6300
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "date_time",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                -307
+              ],
+              "duration": 0,
+              "endDelay": 1600
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 6400
+            }
+          ]
+        },
+        {
+          "target_query": "date_time",
+          "animation_keyframes": [
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "top": [
+                "top",
+                240
+              ],
+              "duration": 0,
+              "endDelay": 1100
+            },
+            {
+              "top": {},
+              "duration": 200,
+              "endDelay": 6700
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "location",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                -307
+              ],
+              "duration": 0,
+              "endDelay": 1600
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 6400
+            }
+          ]
+        },
+        {
+          "target_query": "location",
+          "animation_keyframes": [
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "top": [
+                "top",
+                240
+              ],
+              "duration": 0,
+              "endDelay": 1100
+            },
+            {
+              "top": {},
+              "duration": 200,
+              "endDelay": 6700
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

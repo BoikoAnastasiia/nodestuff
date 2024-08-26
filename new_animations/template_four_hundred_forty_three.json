@@ -1,0 +1,47 @@
+[
+  {
+    "animation_name": "Snow",
+    "animation_params": {
+      "animation_duration": 5000,
+      "animation_objects": [
+        {
+          "prepared_animation": "animation_sprite",
+          "animation_options": {
+            "sprite_name": "snow",
+            "sprite_lenght": 125
+          }
+        }
+      ]
+    }
+  },
+  {
+    "animation_name": "Fireworks",
+    "animation_params": {
+      "animation_duration": 5000,
+      "animation_objects": [
+        {
+          "prepared_animation": "animation_sprite",
+          "animation_options": {
+            "sprite_name": "fire",
+            "sprite_lenght": 125
+          }
+        }
+      ]
+    }
+  },
+  {
+    "animation_name": "Leaves",
+    "animation_params": {
+      "animation_duration": 5000,
+      "animation_objects": [
+        {
+          "prepared_animation": "animation_sprite",
+          "animation_options": {
+            "sprite_name": "leaf",
+            "sprite_lenght": 125
+          }
+        }
+      ]
+    }
+  }
+]

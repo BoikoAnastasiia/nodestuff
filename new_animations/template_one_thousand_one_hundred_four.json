@@ -1,0 +1,184 @@
+[
+  {
+    "animation_name": "First Animation",
+    "animation_params": {
+      "animation_duration": 8000,
+      "animation_objects": [
+        {
+          "target_query": "title",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 240
+            },
+            {
+              "left": {},
+              "duration": 1480,
+              "endDelay": 6280,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 280
+            },
+            {
+              "left": {},
+              "duration": 1504,
+              "endDelay": 6216,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "additional_info",
+          "animation_keyframes": [
+            {
+              "left": 970,
+              "duration": 0,
+              "endDelay": 240
+            },
+            {
+              "left": {},
+              "duration": 1480,
+              "endDelay": 6280,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "gen_info",
+          "animation_keyframes": [
+            {
+              "left": 970,
+              "duration": 0,
+              "endDelay": 280
+            },
+            {
+              "left": {},
+              "duration": 1504,
+              "endDelay": 6216,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "cutout",
+          "animation_keyframes": [
+            {
+              "top": 836,
+              "scaleY": {},
+              "scaleX": {},
+              "duration": 0,
+              "endDelay": 2000
+            },
+            {
+              "top": {},
+              "duration": 800,
+              "easing": "easeOutCubic"
+            },
+            {
+              "scaleY": "*=1.1",
+              "scaleX": "*=1.1",
+              "duration": 5200
+            },
+            {
+              "scaleY": {},
+              "scaleX": {},
+              "duration": 0,
+              "top": {}
+            }
+          ]
+        },
+        {
+          "target_query": "bottom_right_rect",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 1040
+            },
+            {
+              "left": {},
+              "duration": 5200,
+              "endDelay": 1760,
+              "easing": "cubicBezier(0,.89,.68,1.07)"
+            }
+          ]
+        },
+        {
+          "target_query": "top_right_rect",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 1040
+            },
+            {
+              "left": {},
+              "duration": 5200,
+              "endDelay": 1760,
+              "easing": "cubicBezier(0,.89,.68,1.07)"
+            }
+          ]
+        },
+        {
+          "target_query": "bottom_left_rect",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 1040
+            },
+            {
+              "left": {},
+              "duration": 5200,
+              "endDelay": 1760,
+              "easing": "cubicBezier(0,.89,.68,1.07)"
+            }
+          ]
+        },
+        {
+          "target_query": "top_left_rect",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 1040
+            },
+            {
+              "left": {},
+              "duration": 5200,
+              "endDelay": 1760,
+              "easing": "cubicBezier(0,.89,.68,1.07)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

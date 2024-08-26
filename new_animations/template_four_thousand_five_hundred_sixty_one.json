@@ -1,0 +1,353 @@
+[
+  {
+    "animation_name": "Scribble",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": "logo_1",
+          "animation_keyframes": [
+            {
+              "top": {},
+              "scaleX": "*=0.0001",
+              "scaleY": "*=0.0001",
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 700,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "angle": 355,
+              "duration": 900,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "angle": 340,
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "angle": 355,
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "angle": 340,
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "angle": 355,
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "angle": 340,
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "angle": 355,
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "angle": 340,
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "angle": 355,
+              "duration": 1000,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "headline",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": 8,
+              "angle": 348.5,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "left": {},
+              "angle": {},
+              "duration": 0,
+              "endDelay": 9500
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                720
+              ],
+              "top": 613,
+              "scaleX": "*=0.95",
+              "scaleY": "*=0.95",
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "top": {},
+              "scaleX": "*=0.95",
+              "scaleY": "*=0.95",
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 400,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "scaleX": "*=0.8",
+              "scaleY": "*=0.8",
+              "duration": 1700,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 1000,
+              "endDelay": 100
+            },
+            {
+              "left": {},
+              "scaleX": "*=0.9",
+              "scaleY": "*=0.9",
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 600,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "scaleX": "*=0.85",
+              "scaleY": "*=0.85",
+              "duration": 1700,
+              "endDelay": 100
+            },
+            {
+              "left": {},
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 1100,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "scaleX": "*=0.9",
+              "scaleY": "*=0.9",
+              "duration": 900,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "top": {},
+              "scaleX": {},
+              "scaleY": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bg_texture",
+          "animation_keyframes": [
+            {
+              "top": 450,
+              "left": 360,
+              "originX": 0.5,
+              "originY": 0.5,
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "originX": 0.5,
+              "originY": 0.5,
+              "angle": "+=2",
+              "duration": 400,
+              "endDelay": 0
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "-=4",
+              "duration": 400,
+              "endDelay": 100
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "+=4",
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "-=3",
+              "duration": 400,
+              "endDelay": 200
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "-=1",
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "+=4",
+              "duration": 900,
+              "endDelay": 200
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "-=5",
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "+=7",
+              "duration": 1000,
+              "endDelay": 200
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "-=5",
+              "duration": 700,
+              "endDelay": 100
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "+=4",
+              "duration": 700,
+              "endDelay": 200
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "-=4",
+              "duration": 800,
+              "endDelay": 100
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "+=6",
+              "duration": 900,
+              "endDelay": 100
+            },
+            {
+              "top": 450,
+              "left": 360,
+              "angle": "-=4",
+              "duration": 400,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "left": {},
+              "originX": 0,
+              "originY": 0,
+              "angle": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "school_name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "left": 78,
+              "angle": 348.5,
+              "duration": 0,
+              "endDelay": 1000
+            },
+            {
+              "left": {},
+              "angle": {},
+              "duration": 0,
+              "endDelay": 9000
+            }
+          ]
+        },
+        {
+          "target_query": "school_name",
+          "animation_keyframes": [
+            {
+              "top": 250,
+              "left": [
+                "right",
+                720
+              ],
+              "duration": 0,
+              "endDelay": 600
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 400,
+              "endDelay": 9000
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

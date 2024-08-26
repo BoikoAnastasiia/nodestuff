@@ -1,0 +1,316 @@
+[
+  {
+    "animation_name": "First Animation",
+    "animation_params": {
+      "animation_duration": 7000,
+      "animation_objects": [
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 250
+            },
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 6750
+            }
+          ]
+        },
+        {
+          "target_query": "title",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 250
+            },
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 6750
+            }
+          ]
+        },
+        {
+          "target_query": "vs_at",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 250
+            },
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 6750
+            }
+          ]
+        },
+        {
+          "target_query": "logo_1",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 250
+            },
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 6750
+            }
+          ]
+        },
+        {
+          "target_query": "logo_2",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 250
+            },
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 6750
+            }
+          ]
+        },
+        {
+          "target_query": "hashtag",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 250
+            },
+            {
+              "opacity": 1,
+              "duration": 0,
+              "endDelay": 6750
+            }
+          ]
+        },
+        {
+          "target_query": "left_stroke",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 1500,
+              "endDelay": 5500,
+              "easing": "cubicBezier(0,1.04,1,.99)"
+            }
+          ]
+        },
+        {
+          "target_query": "right_stroke",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 1500,
+              "endDelay": 5500,
+              "easing": "cubicBezier(0,1.04,1,.99)"
+            }
+          ]
+        },
+        {
+          "target_query": "figure",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 1500,
+              "endDelay": 5500,
+              "easing": "cubicBezier(0,1.04,1,.99)"
+            }
+          ]
+        },
+        {
+          "target_query": "score_group_1",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 1500,
+              "endDelay": 5500,
+              "easing": "cubicBezier(0,1.04,1,.99)"
+            }
+          ]
+        },
+        {
+          "target_query": "score_group_2",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                960
+              ],
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 1500,
+              "endDelay": 5500,
+              "easing": "cubicBezier(0,1.04,1,.99)"
+            }
+          ]
+        },
+        {
+          "target_query": "team_1",
+          "animation_keyframes": [
+            {
+              "charSpacing": 1000,
+              "left": 960,
+              "duration": 0,
+              "endDelay": 1000,
+              "textAlign": "left"
+            },
+            {
+              "charSpacing": {},
+              "left": {},
+              "duration": 1200,
+              "endDelay": 3000
+            },
+            {
+              "charSpacing": 1000,
+              "left": 0,
+              "textAlign": "right",
+              "duration": 1000,
+              "endDelay": 800,
+              "easing": "cubicBezier(1,.1,.83,.86)"
+            },
+            {
+              "charSpacing": {},
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "team_2",
+          "animation_keyframes": [
+            {
+              "charSpacing": 1000,
+              "left": 960,
+              "duration": 0,
+              "endDelay": 1200
+            },
+            {
+              "charSpacing": {},
+              "left": {},
+              "duration": 1200,
+              "endDelay": 2800
+            },
+            {
+              "charSpacing": 1000,
+              "left": 0,
+              "textAlign": "right",
+              "duration": 1000,
+              "endDelay": 800,
+              "easing": "cubicBezier(1,.1,.83,.86)"
+            },
+            {
+              "charSpacing": {},
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "score_1",
+          "animation_keyframes": [
+            {
+              "top": 540,
+              "duration": 0,
+              "endDelay": 2000
+            },
+            {
+              "top": {},
+              "duration": 900,
+              "endDelay": 3000,
+              "easing": "easeOutCubic"
+            },
+            {
+              "top": 540,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "score_2",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                540
+              ],
+              "duration": 0,
+              "endDelay": 2200
+            },
+            {
+              "top": {},
+              "duration": 900,
+              "endDelay": 2800,
+              "easing": "easeOutCubic"
+            },
+            {
+              "top": [
+                "bottom",
+                540
+              ],
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

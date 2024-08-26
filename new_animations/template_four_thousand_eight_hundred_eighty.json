@@ -1,0 +1,401 @@
+[
+  {
+    "animation_name": "Scribble",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": "group_circle_foreground",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                722
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "duration": 800,
+              "endDelay": 0
+            },
+            {
+              "top": "-=24",
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "top": "-=20",
+              "duration": 800,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 800,
+              "endDelay": 2400
+            },
+            {
+              "top": "-=24",
+              "left": "+=20",
+              "duration": 1300,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "left": {},
+              "duration": 1400,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "logo",
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                902
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "top": 650,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "top": {},
+              "duration": 300,
+              "endDelay": 100,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": "+=15",
+              "top": "+=15",
+              "duration": 1000,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": {},
+              "top": "+=15",
+              "duration": 1000,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": "-=15",
+              "top": "-=15",
+              "duration": 1000,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": {},
+              "top": "-=15",
+              "duration": 1000,
+              "endDelay": 200,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": "+=15",
+              "top": "+=15",
+              "duration": 1000,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": {},
+              "top": "+=15",
+              "duration": 1000,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": "-=15",
+              "top": "-=15",
+              "duration": 1000,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": {},
+              "top": "-=15",
+              "duration": 1000,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 700,
+              "endDelay": 0,
+              "easing": "easeOutSine"
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "opacity": {},
+              "duration": 900,
+              "endDelay": 8900
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "school_name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "scaleX": 0.329,
+              "scaleY": 0.329,
+              "left": [
+                "right",
+                722
+              ],
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "left": {},
+              "duration": 800,
+              "endDelay": 0
+            },
+            {
+              "scaleX": {},
+              "scaleY": {},
+              "left": {},
+              "duration": 0,
+              "endDelay": 9000
+            }
+          ]
+        },
+        {
+          "target_query": "group_circle_1",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                720
+              ],
+              "left": 720,
+              "duration": 0,
+              "endDelay": 600
+            },
+            {
+              "top": {},
+              "left": {},
+              "duration": 3000,
+              "endDelay": 6400
+            }
+          ]
+        },
+        {
+          "target_query": "group_circle_3",
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                720
+              ],
+              "left": 720,
+              "duration": 0,
+              "endDelay": 2000
+            },
+            {
+              "top": 560,
+              "left": {},
+              "duration": 2000,
+              "endDelay": 400
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 5600,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "group_circle_2",
+          "animation_keyframes": [
+            {
+              "top": [
+                "top",
+                270
+              ],
+              "left": [
+                "right",
+                720
+              ],
+              "duration": 0,
+              "endDelay": 1300
+            },
+            {
+              "left": {},
+              "duration": 2000,
+              "endDelay": 400
+            },
+            {
+              "left": {},
+              "top": {},
+              "duration": 6300,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline_1",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                720
+              ],
+              "duration": 0,
+              "endDelay": 900
+            },
+            {
+              "left": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": 1000,
+              "duration": 7900,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 100,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline_2",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                720
+              ],
+              "duration": 0,
+              "endDelay": 900
+            },
+            {
+              "left": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": 0,
+              "duration": 7900,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 100,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline_4",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                720
+              ],
+              "duration": 0,
+              "endDelay": 700
+            },
+            {
+              "left": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": 1000,
+              "duration": 8100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 100,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline_5",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                720
+              ],
+              "duration": 0,
+              "endDelay": 1000
+            },
+            {
+              "left": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": -130,
+              "duration": 7800,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 100,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline_3",
+          "animation_keyframes": [
+            {
+              "left": [
+                "left",
+                720
+              ],
+              "duration": 0,
+              "endDelay": 1300
+            },
+            {
+              "left": 390,
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "duration": 7600,
+              "endDelay": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

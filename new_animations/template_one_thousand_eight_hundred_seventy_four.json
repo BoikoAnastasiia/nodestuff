@@ -1,0 +1,246 @@
+[
+  {
+    "animation_name": "First Animation",
+    "selected": true,
+    "animation_params": {
+      "animation_duration": 3000,
+      "animation_objects": [
+        {
+          "target_query": "gradient_left",
+          "animation_keyframes": [
+            {
+              "left": 600,
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 1000,
+              "endDelay": 2000,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "gradient_right",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                600
+              ],
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 1000,
+              "endDelay": 2000,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "rect_left",
+          "animation_keyframes": [
+            {
+              "left": 1,
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 1000,
+              "endDelay": 2000,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "rect_right",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                1
+              ],
+              "duration": 0
+            },
+            {
+              "left": {},
+              "duration": 1000,
+              "endDelay": 2000,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "left_background_dots",
+          "animation_keyframes": [
+            {
+              "left": -250,
+              "duration": 800,
+              "endDelay": 2200
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "right_background_dots",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                -782
+              ],
+              "duration": 800,
+              "endDelay": 2200
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0,
+              "easing": "easeOutCubic"
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "opacity": {},
+              "duration": 1000,
+              "endDelay": 1500
+            }
+          ]
+        },
+        {
+          "target_query": "title",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "opacity": {},
+              "duration": 1000,
+              "endDelay": 1500
+            }
+          ]
+        },
+        {
+          "target_query": "subtitle",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "opacity": {},
+              "duration": 1000,
+              "endDelay": 1500
+            }
+          ]
+        },
+        {
+          "target_query": "hashtag",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "opacity": {},
+              "duration": 1000,
+              "endDelay": 1500
+            }
+          ]
+        },
+        {
+          "target_query": "logo",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "opacity": {},
+              "duration": 1000,
+              "endDelay": 1500
+            }
+          ]
+        },
+        {
+          "target_query": "main_photo",
+          "animation_keyframes": [
+            {
+              "scaleX": "*=1.02",
+              "scaleY": "*=1.02",
+              "duration": 3000,
+              "easing": "easeOutCubic"
+            },
+            {
+              "scaleX": {},
+              "left": {},
+              "top": {},
+              "scaleY": {},
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "target_query": "logo_l",
+          "animation_keyframes": [
+            {
+              "left": 500,
+              "duration": 0,
+              "endDelay": 100
+            },
+            {
+              "left": 246,
+              "duration": 1000,
+              "endDelay": 1900,
+              "easing": "easeOutCubic"
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "logo_r",
+          "animation_keyframes": [
+            {
+              "left": 500,
+              "duration": 0
+            },
+            {
+              "left": 889,
+              "duration": 1000,
+              "endDelay": 1900,
+              "easing": "easeOutCubic"
+            },
+            {
+              "left": {},
+              "duration": 0,
+              "endDelay": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

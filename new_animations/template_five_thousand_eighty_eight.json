@@ -1,0 +1,1170 @@
+[
+  {
+    "animation_name": "Scribble",
+    "animation_params": {
+      "animation_duration": 10000,
+      "animation_objects": [
+        {
+          "target_query": "bg_curcuit_line_1",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "opacity": {},
+              "duration": 100,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bg_curcuit_line_2",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 500
+            },
+            {
+              "opacity": {},
+              "duration": 100,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bg_digital_line_6",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 100
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 200,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 200,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bg_digital_line_5",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 300
+            },
+            {
+              "opacity": {},
+              "duration": 1100,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 250,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 50,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bg_digital_line_2",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 800,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 600,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bg_digital_line_3",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 800,
+              "endDelay": 100
+            },
+            {
+              "opacity": 0.5,
+              "duration": 600,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bg_digital_line_1",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 300
+            },
+            {
+              "opacity": {},
+              "duration": 600,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 600,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "bg_digital_line_4",
+          "animation_keyframes": [
+            {
+              "opacity": 0,
+              "duration": 0,
+              "endDelay": 200
+            },
+            {
+              "opacity": {},
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "opacity": {},
+              "duration": 600,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": "headline",
+          "animation_keyframes": [
+            {
+              "left": [
+                "right",
+                720
+              ],
+              "opacity": 0.5,
+              "duration": 0,
+              "endDelay": 100
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 600,
+              "endDelay": 100
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 500,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 50
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": 0.5,
+              "duration": 300,
+              "endDelay": 0
+            },
+            {
+              "left": {},
+              "opacity": {},
+              "duration": 300,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "team_logo",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": 420,
+              "duration": 0,
+              "endDelay": 800
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9200
+            }
+          ]
+        },
+        {
+          "target_query": "team_logo",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                450
+              ],
+              "duration": 0,
+              "endDelay": 400
+            },
+            {
+              "top": {},
+              "duration": 400,
+              "endDelay": 200
+            },
+            {
+              "top": "-=10",
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": "-=10",
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": "-=10",
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": "-=10",
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": {},
+              "duration": 800,
+              "endDelay": 200
+            },
+            {
+              "top": "-=10",
+              "duration": 800,
+              "endDelay": 150
+            },
+            {
+              "top": {},
+              "duration": 50,
+              "endDelay": 0
+            }
+          ]
+        },
+        {
+          "target_query": {
+            "index": "school_name",
+            "element": "clipPath"
+          },
+          "animation_keyframes": [
+            {
+              "top": 420,
+              "duration": 0,
+              "endDelay": 800
+            },
+            {
+              "top": {},
+              "duration": 0,
+              "endDelay": 9200
+            }
+          ]
+        },
+        {
+          "target_query": "school_name",
+          "animation_keyframes": [
+            {
+              "top": [
+                "bottom",
+                450
+              ],
+              "duration": 0,
+              "endDelay": 100
+            },
+            {
+              "top": {},
+              "duration": 700,
+              "endDelay": 9200
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
