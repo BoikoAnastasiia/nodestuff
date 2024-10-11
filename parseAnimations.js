@@ -58,7 +58,35 @@ function transformContent(content, idMap, specialMap) {
     if (item.animation_params && item.animation_params.animation_objects) {
       item.animation_params.animation_objects =
         item.animation_params.animation_objects.map((obj) => {
-          let newObj = {};
+          let newObj = { ...obj };
+
+          if (obj.animation_options) {
+            if (obj.animation_options.index_targets) {
+              newObj.animation_options = {
+                ...obj.animation_options,
+                ids: obj.animation_options.index_targets.map(
+                  (index) =>
+                    idMap[index] ||
+                    specialMap[index.toString().toLowerCase()] ||
+                    index
+                ),
+              };
+              delete newObj.animation_options.index_targets;
+            }
+
+            if (obj.animation_options.indexTarget !== undefined) {
+              const index = obj.animation_options.indexTarget;
+              newObj.animation_options = {
+                ...obj.animation_options,
+                id:
+                  idMap[index] ||
+                  specialMap[index.toString().toLowerCase()] ||
+                  index,
+              };
+              delete newObj.animation_options.indexTarget;
+            }
+          }
+
           if (
             typeof obj.target_query === 'number' ||
             typeof obj.target_query === 'string'
@@ -76,26 +104,20 @@ function transformContent(content, idMap, specialMap) {
               newId = specialMap[obj.target_query.toLowerCase()];
             }
             newObj.id = newId;
+            delete newObj.target_query;
           } else if (typeof obj.target_query === 'object') {
             newObj.target_query = {
               ...obj.target_query,
               id:
                 obj.target_query.index !== undefined
                   ? idMap[obj.target_query.index] ||
-                    specialMap[obj.target_query.index.toLowerCase()] ||
+                    specialMap[
+                      obj.target_query.index.toString().toLowerCase()
+                    ] ||
                     obj.target_query.index
                   : obj.target_query.id,
             };
             delete newObj.target_query.index;
-          } else {
-            newObj.id = obj.target_query;
-          }
-
-          // Add all other properties
-          for (let key in obj) {
-            if (key !== 'target_query') {
-              newObj[key] = obj[key];
-            }
           }
 
           return newObj;
