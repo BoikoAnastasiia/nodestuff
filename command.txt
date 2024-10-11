@@ -1,1 +1,2 @@
 aws s3 sync s3://gipper-static-assets/default_presets_update default_presets
+aws s3 sync s3://gipper-static-assets/animated_templates old_animations
